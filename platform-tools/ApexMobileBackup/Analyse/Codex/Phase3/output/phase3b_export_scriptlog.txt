@@ -1,0 +1,12 @@
+2026-08-13 08:10:21 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_xrefs.json
+2026-08-13 08:13:15 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_metadata.json
+2026-08-13 08:14:32 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\avatar_event_xrefs.json
+2026-08-13 08:17:26 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\loginmgr_callgraph.json
+2026-08-13 08:19:28 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\gameserver_backup_xrefs.json
+2026-08-13 08:22:44 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\syncpayload_callgraph.json
+2026-08-13 08:29:10 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_xrefs.json
+2026-08-13 08:30:04 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_metadata.json
+2026-08-13 08:31:19 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\avatar_event_xrefs.json
+2026-08-13 08:32:13 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\loginmgr_callgraph.json
+2026-08-13 08:34:12 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\gameserver_backup_xrefs.json
+2026-08-13 08:37:16 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\syncpayload_callgraph.json

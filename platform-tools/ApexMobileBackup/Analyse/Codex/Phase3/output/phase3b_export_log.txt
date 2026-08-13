@@ -1,0 +1,467 @@
+2026-08-13 08:04:30 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Tools/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml
+2026-08-13 08:04:30 INFO  (LoggingInitialization) Using log file: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\output\phase3b_export_log.txt
+2026-08-13 08:04:31 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter
+2026-08-13 08:04:31 INFO  (Preferences) Loading user preferences: C:\Users\blouc\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences
+2026-08-13 08:04:31 INFO  (ClassSearcher) Searching for classes...
+2026-08-13 08:04:33 INFO  (ClassSearcher) Class search complete (2741 ms)
+2026-08-13 08:04:34 INFO  (DefaultSSLContextInitializer) Initializing SSL Context
+2026-08-13 08:04:34 INFO  (SecureRandomFactory) Initializing Random Number Generator...
+2026-08-13 08:04:34 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG
+2026-08-13 08:04:34 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set
+2026-08-13 08:04:36 INFO  (AnalyzeHeadless) Headless startup complete (8199 ms)
+2026-08-13 08:04:36 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)
+2026-08-13 08:04:36 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+2026-08-13 08:04:36 INFO  (HeadlessAnalyzer) HEADLESS: execution starts
+2026-08-13 08:04:36 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 08:04:37 INFO  (HeadlessProject) Opening project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 08:04:45 INFO  (HeadlessAnalyzer) REPORT: Processing read-only project file: /libUE4.so
+2026-08-13 08:04:46 INFO  (HeadlessAnalyzer) REPORT: Execute script: ApexPhase3TargetExport.java 'C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output'
+2026-08-13 08:04:53 INFO  (HeadlessAnalyzer) SCRIPT: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts\ApexPhase3TargetExport.java
+2026-08-13 08:07:22 WARN  (DecompileCallback) Decompiling 07891be4, pcode error at 0496c598: Unable to resolve constructor at 0496c598
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb0c4: Unable to resolve constructor at 05edb0c4
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb000: Unable to resolve constructor at 05edb000
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb024: Unable to resolve constructor at 05edb024
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb06c: Unable to resolve constructor at 05edb06c
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb14c: Unable to resolve constructor at 05edb14c
+2026-08-13 08:07:31 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb088: Unable to resolve constructor at 05edb088
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b588: Unable to resolve constructor at 0512b588
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b0d0: Unable to resolve constructor at 0512b0d0
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b6f4: Unable to resolve constructor at 0512b6f4
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b684: Unable to resolve constructor at 0512b684
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b740: Unable to resolve constructor at 0512b740
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b330: Unable to resolve constructor at 0512b330
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b804: Unable to resolve constructor at 0512b804
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b778: Unable to resolve constructor at 0512b778
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5b0: Unable to resolve constructor at 0512b5b0
+2026-08-13 08:07:39 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b3bc: Unable to resolve constructor at 0512b3bc
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b9b8: Unable to resolve constructor at 0512b9b8
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512ed80: Unable to resolve constructor at 0512ed80
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b664: Unable to resolve constructor at 0512b664
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b64c: Unable to resolve constructor at 0512b64c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b674: Unable to resolve constructor at 0512b674
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b628: Unable to resolve constructor at 0512b628
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b618: Unable to resolve constructor at 0512b618
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5a0: Unable to resolve constructor at 0512b5a0
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b36c: Unable to resolve constructor at 0512b36c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b87c: Unable to resolve constructor at 0512b87c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b208: Unable to resolve constructor at 0512b208
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b7f8: Unable to resolve constructor at 0512b7f8
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b570: Unable to resolve constructor at 0512b570
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b250: Unable to resolve constructor at 0512b250
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b76c: Unable to resolve constructor at 0512b76c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b764: Unable to resolve constructor at 0512b764
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b000: Unable to resolve constructor at 0512b000
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b16c: Unable to resolve constructor at 0512b16c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b608: Unable to resolve constructor at 0512b608
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b1a0: Unable to resolve constructor at 0512b1a0
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b15c: Unable to resolve constructor at 0512b15c
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b148: Unable to resolve constructor at 0512b148
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0505ee48: Unable to resolve constructor at 0505ee48
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512c758: Unable to resolve constructor at 0512c758
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b440: Unable to resolve constructor at 0512b440
+2026-08-13 08:07:40 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b35c: Unable to resolve constructor at 0512b35c
+2026-08-13 08:07:46 WARN  (DecompileCallback) Decompiling 09547960, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:07:46 WARN  (DecompileCallback) Decompiling 072591cc, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0dc: Unable to resolve constructor at 0604b0dc
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b730: Unable to resolve constructor at 0604b730
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b064: Unable to resolve constructor at 0604b064
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b010: Unable to resolve constructor at 0604b010
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b71c: Unable to resolve constructor at 0604b71c
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b714: Unable to resolve constructor at 0604b714
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b70c: Unable to resolve constructor at 0604b70c
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b704: Unable to resolve constructor at 0604b704
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6fc: Unable to resolve constructor at 0604b6fc
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6f0: Unable to resolve constructor at 0604b6f0
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7b8: Unable to resolve constructor at 0604b7b8
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b678: Unable to resolve constructor at 0604b678
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b5ec: Unable to resolve constructor at 0604b5ec
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604ea64: Unable to resolve constructor at 0604ea64
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7ac: Unable to resolve constructor at 0604b7ac
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b568: Unable to resolve constructor at 0604b568
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b4e8: Unable to resolve constructor at 0604b4e8
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7a0: Unable to resolve constructor at 0604b7a0
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b474: Unable to resolve constructor at 0604b474
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b3ec: Unable to resolve constructor at 0604b3ec
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b368: Unable to resolve constructor at 0604b368
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b2f4: Unable to resolve constructor at 0604b2f4
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b770: Unable to resolve constructor at 0604b770
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7d0c8: Unable to resolve constructor at 05f7d0c8
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7efb4: Unable to resolve constructor at 05f7efb4
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f8b5a8: Unable to resolve constructor at 05f8b5a8
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b270: Unable to resolve constructor at 0604b270
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b1f0: Unable to resolve constructor at 0604b1f0
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05ffcebc: Unable to resolve constructor at 05ffcebc
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b74c: Unable to resolve constructor at 0604b74c
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b734: Unable to resolve constructor at 0604b734
+2026-08-13 08:07:47 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b740: Unable to resolve constructor at 0604b740
+2026-08-13 08:07:48 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b16c: Unable to resolve constructor at 0604b16c
+2026-08-13 08:07:48 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0e8: Unable to resolve constructor at 0604b0e8
+2026-08-13 08:08:42 WARN  (DecompileCallback) Decompiling 04ec7d90, pcode error at 050fdb1c: Unable to resolve constructor at 050fdb1c
+2026-08-13 08:08:43 WARN  (DecompileCallback) Decompiling 04f22e8c, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:08:55 WARN  (DecompileCallback) Decompiling 068ff048, pcode error at 068fd3bc: Unable to resolve constructor at 068fd3bc
+2026-08-13 08:08:55 WARN  (DecompileCallback) Decompiling 05008308, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:08:58 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0774c368: Unable to resolve constructor at 0774c368
+2026-08-13 08:08:58 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0768bdb8: Unable to resolve constructor at 0768bdb8
+2026-08-13 08:09:00 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:09:00 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:09:01 WARN  (DecompileCallback) Decompiling 078bf7f4, pcode error at 0496c338: Unable to resolve constructor at 0496c338
+2026-08-13 08:09:04 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:09:04 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:09:06 WARN  (DecompileCallback) Decompiling 0734f854, pcode error at 0734ef54: Unable to resolve constructor at 0734ef54
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b000: Unable to resolve constructor at 0478b000
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b038: Unable to resolve constructor at 0478b038
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b064: Unable to resolve constructor at 0478b064
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b074: Unable to resolve constructor at 0478b074
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b044: Unable to resolve constructor at 0478b044
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b0d8: Unable to resolve constructor at 0478b0d8
+2026-08-13 08:09:10 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b010: Unable to resolve constructor at 0478b010
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b968: Unable to resolve constructor at 0508b968
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b940: Unable to resolve constructor at 0508b940
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b934: Unable to resolve constructor at 0508b934
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b91c: Unable to resolve constructor at 0508b91c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b840: Unable to resolve constructor at 0508b840
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b184: Unable to resolve constructor at 0508b184
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b918: Unable to resolve constructor at 0508b918
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b910: Unable to resolve constructor at 0508b910
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508ba10: Unable to resolve constructor at 0508ba10
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b038: Unable to resolve constructor at 0508b038
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b858: Unable to resolve constructor at 0508b858
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b078: Unable to resolve constructor at 0508b078
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0c1232a8: Could not follow disassembly flow into non-existing memory at 0c1232a8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508ba1c: Unable to resolve constructor at 0508ba1c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b550: Unable to resolve constructor at 0508b550
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b244: Unable to resolve constructor at 0508b244
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b888: Unable to resolve constructor at 0508b888
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b214: Unable to resolve constructor at 0508b214
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b35c: Unable to resolve constructor at 0508b35c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508ba04: Unable to resolve constructor at 0508ba04
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508ba00: Unable to resolve constructor at 0508ba00
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b9ec: Unable to resolve constructor at 0508b9ec
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b9e0: Unable to resolve constructor at 0508b9e0
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508ba28: Unable to resolve constructor at 0508ba28
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b5b0: Unable to resolve constructor at 0508b5b0
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b2d8: Unable to resolve constructor at 0508b2d8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0513ef9c: Unable to resolve constructor at 0513ef9c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b2c8: Unable to resolve constructor at 0508b2c8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0504b000: Unable to resolve constructor at 0504b000
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508e690: Unable to resolve constructor at 0508e690
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b7cc: Unable to resolve constructor at 0508b7cc
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b000: Unable to resolve constructor at 0508b000
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b3e8: Unable to resolve constructor at 0508b3e8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b870: Unable to resolve constructor at 0508b870
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b09c: Unable to resolve constructor at 0508b09c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508e464: Unable to resolve constructor at 0508e464
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b98c: Unable to resolve constructor at 0508b98c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b0b8: Unable to resolve constructor at 0508b0b8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b0c0: Unable to resolve constructor at 0508b0c0
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b100: Unable to resolve constructor at 0508b100
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508e4c8: Unable to resolve constructor at 0508e4c8
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b200: Unable to resolve constructor at 0508b200
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b1c0: Unable to resolve constructor at 0508b1c0
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b164: Unable to resolve constructor at 0508b164
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b144: Unable to resolve constructor at 0508b144
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b97c: Unable to resolve constructor at 0508b97c
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b970: Unable to resolve constructor at 0508b970
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b2b4: Unable to resolve constructor at 0508b2b4
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b750: Unable to resolve constructor at 0508b750
+2026-08-13 08:09:11 WARN  (DecompileCallback) Decompiling 05088358, pcode error at 0508b738: Unable to resolve constructor at 0508b738
+2026-08-13 08:10:11 WARN  (DecompileCallback) Decompiling 07421ef0, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:10:12 WARN  (DecompileCallback) Decompiling 07421d40, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:10:17 WARN  (DecompileCallback) Decompiling 06b071bc, pcode error at 04addcc0: Unable to resolve constructor at 04addcc0
+2026-08-13 08:10:19 WARN  (DecompileCallback) Decompiling 07719708, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:10:19 WARN  (DecompileCallback) Decompiling 07712e00, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:10:19 WARN  (DecompileCallback) Decompiling 07712e00, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:10:21 WARN  (DecompileCallback) Decompiling 06a1f30c, pcode error at 069eb87c: Unable to resolve constructor at 069eb87c
+2026-08-13 08:10:21 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_xrefs.json
+2026-08-13 08:11:25 WARN  (DecompileCallback) Decompiling 07891be4, pcode error at 0496c598: Unable to resolve constructor at 0496c598
+2026-08-13 08:11:27 WARN  (DecompileCallback) Decompiling 073e8084, pcode error at 060dd1dc: Unable to resolve constructor at 060dd1dc
+2026-08-13 08:11:27 WARN  (DecompileCallback) Decompiling 073e8084, pcode error at 060dc598: Unable to resolve constructor at 060dc598
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb0c4: Unable to resolve constructor at 05edb0c4
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb000: Unable to resolve constructor at 05edb000
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb024: Unable to resolve constructor at 05edb024
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb06c: Unable to resolve constructor at 05edb06c
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb14c: Unable to resolve constructor at 05edb14c
+2026-08-13 08:11:35 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb088: Unable to resolve constructor at 05edb088
+2026-08-13 08:11:36 WARN  (DecompileCallback) Decompiling 0610a640, pcode error at 079bd15c: Unable to resolve constructor at 079bd15c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b588: Unable to resolve constructor at 0512b588
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b0d0: Unable to resolve constructor at 0512b0d0
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b6f4: Unable to resolve constructor at 0512b6f4
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b684: Unable to resolve constructor at 0512b684
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b740: Unable to resolve constructor at 0512b740
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b330: Unable to resolve constructor at 0512b330
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b804: Unable to resolve constructor at 0512b804
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b778: Unable to resolve constructor at 0512b778
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5b0: Unable to resolve constructor at 0512b5b0
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b3bc: Unable to resolve constructor at 0512b3bc
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b9b8: Unable to resolve constructor at 0512b9b8
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512ed80: Unable to resolve constructor at 0512ed80
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b664: Unable to resolve constructor at 0512b664
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b64c: Unable to resolve constructor at 0512b64c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b674: Unable to resolve constructor at 0512b674
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b628: Unable to resolve constructor at 0512b628
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b618: Unable to resolve constructor at 0512b618
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5a0: Unable to resolve constructor at 0512b5a0
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b36c: Unable to resolve constructor at 0512b36c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b87c: Unable to resolve constructor at 0512b87c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b208: Unable to resolve constructor at 0512b208
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b7f8: Unable to resolve constructor at 0512b7f8
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b570: Unable to resolve constructor at 0512b570
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b250: Unable to resolve constructor at 0512b250
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b76c: Unable to resolve constructor at 0512b76c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b764: Unable to resolve constructor at 0512b764
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b000: Unable to resolve constructor at 0512b000
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b16c: Unable to resolve constructor at 0512b16c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b608: Unable to resolve constructor at 0512b608
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b1a0: Unable to resolve constructor at 0512b1a0
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b15c: Unable to resolve constructor at 0512b15c
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b148: Unable to resolve constructor at 0512b148
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0505ee48: Unable to resolve constructor at 0505ee48
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512c758: Unable to resolve constructor at 0512c758
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b440: Unable to resolve constructor at 0512b440
+2026-08-13 08:11:44 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b35c: Unable to resolve constructor at 0512b35c
+2026-08-13 08:11:50 WARN  (DecompileCallback) Decompiling 09547960, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 072591cc, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 078b2dc4, pcode error at 0496c598: Unable to resolve constructor at 0496c598
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0dc: Unable to resolve constructor at 0604b0dc
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b730: Unable to resolve constructor at 0604b730
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b064: Unable to resolve constructor at 0604b064
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b010: Unable to resolve constructor at 0604b010
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b71c: Unable to resolve constructor at 0604b71c
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b714: Unable to resolve constructor at 0604b714
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b70c: Unable to resolve constructor at 0604b70c
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b704: Unable to resolve constructor at 0604b704
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6fc: Unable to resolve constructor at 0604b6fc
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6f0: Unable to resolve constructor at 0604b6f0
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7b8: Unable to resolve constructor at 0604b7b8
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b678: Unable to resolve constructor at 0604b678
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b5ec: Unable to resolve constructor at 0604b5ec
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604ea64: Unable to resolve constructor at 0604ea64
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7ac: Unable to resolve constructor at 0604b7ac
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b568: Unable to resolve constructor at 0604b568
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b4e8: Unable to resolve constructor at 0604b4e8
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7a0: Unable to resolve constructor at 0604b7a0
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b474: Unable to resolve constructor at 0604b474
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b3ec: Unable to resolve constructor at 0604b3ec
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b368: Unable to resolve constructor at 0604b368
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b2f4: Unable to resolve constructor at 0604b2f4
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b770: Unable to resolve constructor at 0604b770
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7d0c8: Unable to resolve constructor at 05f7d0c8
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7efb4: Unable to resolve constructor at 05f7efb4
+2026-08-13 08:11:51 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f8b5a8: Unable to resolve constructor at 05f8b5a8
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b270: Unable to resolve constructor at 0604b270
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b1f0: Unable to resolve constructor at 0604b1f0
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05ffcebc: Unable to resolve constructor at 05ffcebc
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b74c: Unable to resolve constructor at 0604b74c
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b734: Unable to resolve constructor at 0604b734
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b740: Unable to resolve constructor at 0604b740
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b16c: Unable to resolve constructor at 0604b16c
+2026-08-13 08:11:52 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0e8: Unable to resolve constructor at 0604b0e8
+2026-08-13 08:12:45 WARN  (DecompileCallback) Decompiling 04ec7d90, pcode error at 050fdb1c: Unable to resolve constructor at 050fdb1c
+2026-08-13 08:12:46 WARN  (DecompileCallback) Decompiling 04f22e8c, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:12:59 WARN  (DecompileCallback) Decompiling 068ff048, pcode error at 068fd3bc: Unable to resolve constructor at 068fd3bc
+2026-08-13 08:12:59 WARN  (DecompileCallback) Decompiling 05008308, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:13:02 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0774c368: Unable to resolve constructor at 0774c368
+2026-08-13 08:13:02 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0768bdb8: Unable to resolve constructor at 0768bdb8
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b000: Unable to resolve constructor at 0478b000
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b038: Unable to resolve constructor at 0478b038
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b064: Unable to resolve constructor at 0478b064
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b074: Unable to resolve constructor at 0478b074
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b044: Unable to resolve constructor at 0478b044
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b0d8: Unable to resolve constructor at 0478b0d8
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b010: Unable to resolve constructor at 0478b010
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:13:04 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:13:05 WARN  (DecompileCallback) Decompiling 078bf7f4, pcode error at 0496c338: Unable to resolve constructor at 0496c338
+2026-08-13 08:13:08 WARN  (DecompileCallback) Decompiling 07421c5c, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:13:08 WARN  (DecompileCallback) Decompiling 07259fb0, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:13:08 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:13:08 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:13:11 WARN  (DecompileCallback) Decompiling 0734f854, pcode error at 0734ef54: Unable to resolve constructor at 0734ef54
+2026-08-13 08:13:13 WARN  (DecompileCallback) Decompiling 061e9820, pcode error at 050fbaec: Unable to resolve constructor at 050fbaec
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b000: Unable to resolve constructor at 0478b000
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b038: Unable to resolve constructor at 0478b038
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b064: Unable to resolve constructor at 0478b064
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b074: Unable to resolve constructor at 0478b074
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b044: Unable to resolve constructor at 0478b044
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b0d8: Unable to resolve constructor at 0478b0d8
+2026-08-13 08:13:15 WARN  (DecompileCallback) Decompiling 07974a98, pcode error at 0478b010: Unable to resolve constructor at 0478b010
+2026-08-13 08:13:15 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_metadata.json
+2026-08-13 08:14:32 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\avatar_event_xrefs.json
+2026-08-13 08:15:35 WARN  (DecompileCallback) Decompiling 073e8084, pcode error at 060dd1dc: Unable to resolve constructor at 060dd1dc
+2026-08-13 08:15:35 WARN  (DecompileCallback) Decompiling 073e8084, pcode error at 060dc598: Unable to resolve constructor at 060dc598
+2026-08-13 08:15:37 WARN  (DecompileCallback) Decompiling 07891be4, pcode error at 0496c598: Unable to resolve constructor at 0496c598
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05d37f50, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb0c4: Unable to resolve constructor at 05edb0c4
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb000: Unable to resolve constructor at 05edb000
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb024: Unable to resolve constructor at 05edb024
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb06c: Unable to resolve constructor at 05edb06c
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb14c: Unable to resolve constructor at 05edb14c
+2026-08-13 08:15:46 WARN  (DecompileCallback) Decompiling 05eda784, pcode error at 05edb088: Unable to resolve constructor at 05edb088
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b588: Unable to resolve constructor at 0512b588
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b0d0: Unable to resolve constructor at 0512b0d0
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b6f4: Unable to resolve constructor at 0512b6f4
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b684: Unable to resolve constructor at 0512b684
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b740: Unable to resolve constructor at 0512b740
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b330: Unable to resolve constructor at 0512b330
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b804: Unable to resolve constructor at 0512b804
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b778: Unable to resolve constructor at 0512b778
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5b0: Unable to resolve constructor at 0512b5b0
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b3bc: Unable to resolve constructor at 0512b3bc
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b9b8: Unable to resolve constructor at 0512b9b8
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512ed80: Unable to resolve constructor at 0512ed80
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b664: Unable to resolve constructor at 0512b664
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b64c: Unable to resolve constructor at 0512b64c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b674: Unable to resolve constructor at 0512b674
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b628: Unable to resolve constructor at 0512b628
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b618: Unable to resolve constructor at 0512b618
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b5a0: Unable to resolve constructor at 0512b5a0
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b36c: Unable to resolve constructor at 0512b36c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b87c: Unable to resolve constructor at 0512b87c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b208: Unable to resolve constructor at 0512b208
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b7f8: Unable to resolve constructor at 0512b7f8
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b570: Unable to resolve constructor at 0512b570
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b250: Unable to resolve constructor at 0512b250
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b76c: Unable to resolve constructor at 0512b76c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b764: Unable to resolve constructor at 0512b764
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b000: Unable to resolve constructor at 0512b000
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b16c: Unable to resolve constructor at 0512b16c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b608: Unable to resolve constructor at 0512b608
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b1a0: Unable to resolve constructor at 0512b1a0
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b15c: Unable to resolve constructor at 0512b15c
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b148: Unable to resolve constructor at 0512b148
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0505ee48: Unable to resolve constructor at 0505ee48
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512c758: Unable to resolve constructor at 0512c758
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b440: Unable to resolve constructor at 0512b440
+2026-08-13 08:15:54 WARN  (DecompileCallback) Decompiling 0512a450, pcode error at 0512b35c: Unable to resolve constructor at 0512b35c
+2026-08-13 08:16:00 WARN  (DecompileCallback) Decompiling 09547960, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:16:01 WARN  (DecompileCallback) Decompiling 072591cc, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0dc: Unable to resolve constructor at 0604b0dc
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b730: Unable to resolve constructor at 0604b730
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b064: Unable to resolve constructor at 0604b064
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b010: Unable to resolve constructor at 0604b010
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b71c: Unable to resolve constructor at 0604b71c
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b714: Unable to resolve constructor at 0604b714
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b70c: Unable to resolve constructor at 0604b70c
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b704: Unable to resolve constructor at 0604b704
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6fc: Unable to resolve constructor at 0604b6fc
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b6f0: Unable to resolve constructor at 0604b6f0
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7b8: Unable to resolve constructor at 0604b7b8
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b678: Unable to resolve constructor at 0604b678
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b5ec: Unable to resolve constructor at 0604b5ec
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604ea64: Unable to resolve constructor at 0604ea64
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7ac: Unable to resolve constructor at 0604b7ac
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b568: Unable to resolve constructor at 0604b568
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b4e8: Unable to resolve constructor at 0604b4e8
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b7a0: Unable to resolve constructor at 0604b7a0
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b474: Unable to resolve constructor at 0604b474
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b3ec: Unable to resolve constructor at 0604b3ec
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b368: Unable to resolve constructor at 0604b368
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b2f4: Unable to resolve constructor at 0604b2f4
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b770: Unable to resolve constructor at 0604b770
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7d0c8: Unable to resolve constructor at 05f7d0c8
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f7efb4: Unable to resolve constructor at 05f7efb4
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05f8b5a8: Unable to resolve constructor at 05f8b5a8
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b270: Unable to resolve constructor at 0604b270
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b1f0: Unable to resolve constructor at 0604b1f0
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 05ffcebc: Unable to resolve constructor at 05ffcebc
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b74c: Unable to resolve constructor at 0604b74c
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b734: Unable to resolve constructor at 0604b734
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b740: Unable to resolve constructor at 0604b740
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b16c: Unable to resolve constructor at 0604b16c
+2026-08-13 08:16:02 WARN  (DecompileCallback) Decompiling 06049328, pcode error at 0604b0e8: Unable to resolve constructor at 0604b0e8
+2026-08-13 08:16:55 WARN  (DecompileCallback) Decompiling 04ec7d90, pcode error at 050fdb1c: Unable to resolve constructor at 050fdb1c
+2026-08-13 08:16:57 WARN  (DecompileCallback) Decompiling 04f22e8c, pcode error at 04bec9bc: Unable to resolve constructor at 04bec9bc
+2026-08-13 08:17:09 WARN  (DecompileCallback) Decompiling 068ff048, pcode error at 068fd3bc: Unable to resolve constructor at 068fd3bc
+2026-08-13 08:17:09 WARN  (DecompileCallback) Decompiling 05008308, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:17:13 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0774c368: Unable to resolve constructor at 0774c368
+2026-08-13 08:17:13 WARN  (DecompileCallback) Decompiling 0774c364, pcode error at 0768bdb8: Unable to resolve constructor at 0768bdb8
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b000: Unable to resolve constructor at 0478b000
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b038: Unable to resolve constructor at 0478b038
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b064: Unable to resolve constructor at 0478b064
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b074: Unable to resolve constructor at 0478b074
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b044: Unable to resolve constructor at 0478b044
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b0d8: Unable to resolve constructor at 0478b0d8
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07975c70, pcode error at 0478b010: Unable to resolve constructor at 0478b010
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 0708921c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:17:15 WARN  (DecompileCallback) Decompiling 07259fb0, pcode error at 043bb21c: Unable to resolve constructor at 043bb21c
+2026-08-13 08:17:16 WARN  (DecompileCallback) Decompiling 078bf7f4, pcode error at 0496c338: Unable to resolve constructor at 0496c338
+2026-08-13 08:17:19 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0496c0f8: Unable to resolve constructor at 0496c0f8
+2026-08-13 08:17:19 WARN  (DecompileCallback) Decompiling 076f1b7c, pcode error at 0492ba40: Unable to resolve constructor at 0492ba40
+2026-08-13 08:17:22 WARN  (DecompileCallback) Decompiling 0734f854, pcode error at 0734ef54: Unable to resolve constructor at 0734ef54
+2026-08-13 08:17:26 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\loginmgr_callgraph.json
+2026-08-13 08:19:28 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\gameserver_backup_xrefs.json
+2026-08-13 08:22:34 WARN  (DecompileCallback) Decompiling 04ba8da8: Unable to read bytes at ram:0b81f5f0
+2026-08-13 08:22:44 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\syncpayload_callgraph.json
+2026-08-13 08:26:27 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Tools/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml
+2026-08-13 08:26:27 INFO  (LoggingInitialization) Using log file: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\output\phase3b_export_log.txt
+2026-08-13 08:26:28 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter
+2026-08-13 08:26:28 INFO  (Preferences) Loading user preferences: C:\Users\blouc\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences
+2026-08-13 08:26:28 INFO  (ClassSearcher) Searching for classes...
+2026-08-13 08:26:30 INFO  (ClassSearcher) Class search complete (2699 ms)
+2026-08-13 08:26:31 INFO  (DefaultSSLContextInitializer) Initializing SSL Context
+2026-08-13 08:26:31 INFO  (SecureRandomFactory) Initializing Random Number Generator...
+2026-08-13 08:26:31 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG
+2026-08-13 08:26:31 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set
+2026-08-13 08:26:33 INFO  (AnalyzeHeadless) Headless startup complete (8207 ms)
+2026-08-13 08:26:33 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)
+2026-08-13 08:26:33 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+2026-08-13 08:26:33 INFO  (HeadlessAnalyzer) HEADLESS: execution starts
+2026-08-13 08:26:33 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 08:26:34 INFO  (HeadlessProject) Opening project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 08:26:34 INFO  (LocalBufferFile) Removed old presave file: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4.rep\idata\00\~00000000.db\tmp2249043327319778760.ps
+2026-08-13 08:26:42 INFO  (HeadlessAnalyzer) REPORT: Processing read-only project file: /libUE4.so
+2026-08-13 08:26:43 INFO  (HeadlessAnalyzer) REPORT: Execute script: ApexPhase3TargetExport.java 'C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output'
+2026-08-13 08:26:50 INFO  (HeadlessAnalyzer) SCRIPT: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts\ApexPhase3TargetExport.java
+2026-08-13 08:29:10 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_xrefs.json
+2026-08-13 08:30:04 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\request_avatar_metadata.json
+2026-08-13 08:31:19 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\avatar_event_xrefs.json
+2026-08-13 08:32:13 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\loginmgr_callgraph.json
+2026-08-13 08:34:12 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\gameserver_backup_xrefs.json
+2026-08-13 08:37:16 INFO  (GhidraScript) ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\syncpayload_callgraph.json

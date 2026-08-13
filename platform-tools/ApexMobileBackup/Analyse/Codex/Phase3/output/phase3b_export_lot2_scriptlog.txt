@@ -1,0 +1,8 @@
+2026-08-13 08:53:11 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\reconnect_callgraph.json
+2026-08-13 08:53:45 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\uedstoolkit_callgraph.json
+2026-08-13 08:53:45 INFO  ApexPhase3TargetExport.java> PHASE3B_EXPORT_OK
+2026-08-13 08:53:45 INFO  ApexPhase3TargetExport.java> C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output
+2026-08-13 09:00:24 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\reconnect_callgraph.json
+2026-08-13 09:00:58 INFO  ApexPhase3TargetExport.java> WROTE C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output\uedstoolkit_callgraph.json
+2026-08-13 09:00:58 INFO  ApexPhase3TargetExport.java> PHASE3B_EXPORT_OK
+2026-08-13 09:00:58 INFO  ApexPhase3TargetExport.java> C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\Phase3B\output

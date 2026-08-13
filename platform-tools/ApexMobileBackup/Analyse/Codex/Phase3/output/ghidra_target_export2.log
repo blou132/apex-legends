@@ -1,0 +1,56 @@
+2026-08-13 07:03:18 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Tools/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml
+2026-08-13 07:03:18 INFO  (LoggingInitialization) Using log file: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\output\ghidra_target_export2.log
+2026-08-13 07:03:18 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter
+2026-08-13 07:03:18 INFO  (Preferences) Loading user preferences: C:\Users\blouc\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences
+2026-08-13 07:03:18 INFO  (ClassSearcher) Searching for classes...
+2026-08-13 07:03:21 INFO  (ClassSearcher) Class search complete (2751 ms)
+2026-08-13 07:03:22 INFO  (DefaultSSLContextInitializer) Initializing SSL Context
+2026-08-13 07:03:22 INFO  (SecureRandomFactory) Initializing Random Number Generator...
+2026-08-13 07:03:22 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG
+2026-08-13 07:03:22 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set
+2026-08-13 07:03:24 INFO  (AnalyzeHeadless) Headless startup complete (8348 ms)
+2026-08-13 07:03:24 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)
+2026-08-13 07:03:24 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Tools\ghidra_12.1.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+2026-08-13 07:03:24 INFO  (HeadlessAnalyzer) HEADLESS: execution starts
+2026-08-13 07:03:24 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 07:03:25 INFO  (HeadlessProject) Opening project: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_project\ApexMobileUE4
+2026-08-13 07:03:33 INFO  (HeadlessAnalyzer) REPORT: Processing read-only project file: /libUE4.so
+2026-08-13 07:03:35 INFO  (HeadlessAnalyzer) REPORT: Execute script: Phase3TargetExport.java 'C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\output\phase3_target_export.json'
+2026-08-13 07:03:39 ERROR (HeadlessAnalyzer) REPORT SCRIPT ERROR: Phase3TargetExport.java : The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts\Phase3TargetExport.java ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts\Phase3TargetExport.java
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:927)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1097)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileNoImport(HeadlessAnalyzer.java:1195)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFolderNoImport(HeadlessAnalyzer.java:1367)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processNoImport(HeadlessAnalyzer.java:1396)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:461)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: Failed to get OSGi bundle containing script: C:\Users\blouc\Downloads\platform-tools-latest-windows\platform-tools\ApexMobileBackup\Analyse\Codex\Phase3\ghidra_scripts\Phase3TargetExport.java
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:163)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 9 more

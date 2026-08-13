@@ -1,0 +1,3 @@
+2026-08-13 07:56:05 INFO  TestPhase3Script.java> PHASE3_SCRIPT_OK
+2026-08-13 07:56:05 INFO  TestPhase3Script.java> libUE4.so
+2026-08-13 07:56:05 INFO  TestPhase3Script.java> AARCH64:LE:64:v8A

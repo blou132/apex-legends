@@ -4,6 +4,8 @@
 *
 !.gitignore
 !README.md
+!AGENTS.md
+!CHATGPT_CONTEXT.md
 !platform-tools/
 platform-tools/*
 !platform-tools/ApexMobileBackup/
@@ -29,7 +31,12 @@ platform-tools/ApexMobileBackup/Analyse/*
 *.txt
 *.pid
 
+# Keep textual Ghidra evidence available to remote AI assistants.
+!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.log
+!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.txt
+!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functions.json
+
 # Local Ghidra and compilation artifacts.
 platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/ghidra_project/
 platform-tools/ApexMobileBackup/Analyse/Codex/**/javac_probe/
-platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functions.json
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.pid
