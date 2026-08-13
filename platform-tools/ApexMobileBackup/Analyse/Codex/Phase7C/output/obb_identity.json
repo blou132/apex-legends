@@ -1,0 +1,41 @@
+{
+  "phase": "7C",
+  "generated": "2026-08-13",
+  "status": "NOT_RUN_DEVICE_NOT_DETECTED",
+  "adb": {
+    "available": true,
+    "version": "1.0.41",
+    "platform_tools_version": "36.0.2-14143358",
+    "devices_command_exit_code": 0,
+    "device_count": 0,
+    "device_status": "NOT_DETECTED",
+    "serial_retained": false
+  },
+  "package_query_performed": false,
+  "phone_obb_inventory_performed": false,
+  "obb_pull_performed": false,
+  "obbs": [
+    {
+      "role": "main",
+      "filename": null,
+      "historical_expected_size": 1942013346,
+      "historical_sha256": null,
+      "historical_sha256_partial_prefix": "104B",
+      "historical_sha256_partial_suffix": "44E0",
+      "observed_size": null,
+      "observed_sha256": null,
+      "status": "UNKNOWN"
+    },
+    {
+      "role": "patch",
+      "filename": null,
+      "historical_expected_size": 1837582506,
+      "historical_sha256": null,
+      "historical_sha256_partial_prefix": "BFE8",
+      "historical_sha256_partial_suffix": "973D",
+      "observed_size": null,
+      "observed_sha256": null,
+      "status": "UNKNOWN"
+    }
+  ]
+}
