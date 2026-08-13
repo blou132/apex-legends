@@ -1,0 +1,75 @@
+{
+  "phase": "7C_resume",
+  "generated": "2026-08-13",
+  "status": "TARGETS_NOT_FOUND_BUILD_WITNESSES_CONFIRMED",
+  "scan": {
+    "read_only": true,
+    "pak_count": 4,
+    "encodings": ["ASCII", "UTF-8", "UTF-16LE"],
+    "decrypt_attempted": false,
+    "decompress_attempted": false,
+    "brute_force_attempted": false
+  },
+  "term_results": [
+    {"term": "Script/Tools/EventSystem/EventSystem.lua", "hit_count": 0},
+    {"term": "Tools/EventSystem/EventSystem.lua", "hit_count": 0},
+    {"term": "EventSystem.lua", "hit_count": 0},
+    {"term": "EventSystem.PostCppEvent", "hit_count": 0},
+    {"term": "PostCppEvent", "hit_count": 0},
+    {"term": "EVENTID_AVATARSERVERLIST_RETURN", "hit_count": 0},
+    {"term": "ELuaCppEventType::EVENTID_AVATARSERVERLIST_RETURN", "hit_count": 0},
+    {"term": "AvatarServerList", "hit_count": 0},
+    {"term": "RequestAvatarServerList", "hit_count": 0},
+    {"term": "OpenServerList", "hit_count": 0},
+    {"term": "ServerListName", "hit_count": 0}
+  ],
+  "target_hits": [],
+  "witness_hits": [
+    {
+      "pak": "launch.pak",
+      "term": "Client/Launch/ClientLaunch.lua",
+      "offset": 2426135,
+      "offset_hex": "0x250517",
+      "encoding": "ASCII/UTF-8",
+      "bytes_before_64_hex": "44 89 f1 ad 76 bc 93 2e 4d 56 a0 6f a1 68 02 aa 0c e5 35 7d df 74 84 8a 79 19 a9 98 ca 85 a8 fc 92 39 7a 9b 8d d0 a5 b1 f5 1a 78 5a 84 7b 16 f9 1d 32 3a 8e 88 96 65 99 a2 1f 34 0e 80 8d 17 1f",
+      "bytes_after_64_hex": "00 1f 4e 65 77 4c 61 75 6e 63 68 46 72 6f 6d 4c 61 75 6e 63 68 4d 61 70 00 1f 00 1f 00 1f 00 1f af a7 97 8d cc 0d d6 42 bf 16 70 0f 16 47 80 a6 4a 75 6e 72 65 61 6c 2f 47 61 6d 65 2f 50 72 6f",
+      "local_entropy_bits_per_byte": 7.755451,
+      "nearby_readable_strings": ["Client/Launch/ClientLaunch.lua", "NewLaunchFromLaunchMap", "Junreal/Game/Program/Level/Login/Editor_Loginf"],
+      "confidence": "CONFIRMED_RAW_HIT"
+    },
+    {
+      "pak": "pakchunk3-Android_ASTC.pak",
+      "term": "Client/UMG/SelectLegend/BP_Screen.lua",
+      "offset": 1745357611,
+      "offset_hex": "0x68080b2b",
+      "encoding": "ASCII/UTF-8",
+      "bytes_before_64_hex": "02 4b 02 00 02 02 02 02 02 02 02 02 54 1c d6 93 1e 00 00 80 3f 4b 02 04 0b 53 01 80 7e 94 24 30 64 00 01 02 46 01 18 02 0c 00 12 0e 67 00 01 5c 1a 1e 45 ad 04 02 66 5e ff 00 e7 ff ff ff 17 1f",
+      "bytes_after_64_hex": "00 1f 4f 70 65 6e 43 75 72 74 61 69 6e 00 1f 00 1f 00 1f 00 1f 05 a5 00 00 00 00 f5 01 9d 02 06 a7 06 01 00 06 06 06 06 06 06 06 06 54 00 a7 01 03 c7 00 07 01 07 07 07 07 07 07 c4 10 a2 24 04",
+      "local_entropy_bits_per_byte": 7.605587,
+      "nearby_readable_strings": ["Client/UMG/SelectLegend/BP_Screen.lua", "OpenCurtain"],
+      "confidence": "CONFIRMED_RAW_HIT"
+    },
+    {
+      "pak": "pakchunk3-Android_ASTC.pak",
+      "term": "RatingSeasonArchivesLogic.lua",
+      "offset": 1798569983,
+      "offset_hex": "0x6b33ffff",
+      "encoding": "ASCII/UTF-8",
+      "bytes_before_64_hex": "08 02 05 08 02 07 08 02 03 08 03 1d 07 06 08 0b 0b 02 06 00 01 3c 00 85 85 19 20 ff ff ff ff 6c 1c f1 01 01 3b 00 04 1f 43 6c 69 65 6e 74 2f 55 4d 47 2f 4c 6f 62 62 79 2f 52 61 74 69 6e 67 2f",
+      "bytes_after_64_hex": "00 1f 49 6e 69 74 00 1f 00 1f 00 1f 00 1f 00 16 04 0b 53 00 00 02 0c 05 29 34 01 01 80 01 37 0e 08 08 f3 31 e4 0c 32 01 0d 00 df 5b 01 00 00 5f 00 01 02 19 0a 1c ee 16 0f 31 2e e4 32 38 47 07",
+      "local_entropy_bits_per_byte": 7.734324,
+      "nearby_readable_strings": ["Client/UMG/Lobby/Rating/RatingSeasonArchivesLogic.lua", "Init"],
+      "confidence": "CONFIRMED_RAW_HIT"
+    }
+  ],
+  "build_witness_match": true,
+  "decision": {
+    "eventsystem_found_in_raw": false,
+    "postcppevent_found_in_raw": false,
+    "event_id_found_in_raw": false,
+    "container": "UNKNOWN",
+    "offset": "UNKNOWN",
+    "entry_boundary": "UNKNOWN",
+    "subscriber_recoverable_without_bypass": "UNKNOWN"
+  }
+}

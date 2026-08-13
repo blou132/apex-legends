@@ -1,0 +1,44 @@
+{
+  "phase": "7C_resume",
+  "generated": "2026-08-13",
+  "status": "RECOVERED_4_OF_4",
+  "extraction_source": "Local OBB copies only",
+  "paks": [
+    {
+      "name": "launch.pak",
+      "source_obb": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size": 140867491,
+      "sha256": "555FDC85BCF0F8DE88A9722F7E2B3EFC40D0E987F34B54037FF4891630BFB85E",
+      "historical_expected_size": 140867491,
+      "size_match": true,
+      "local_path": "Analyse/LocalInputs/Extracted/MAIN/AClient/Content/Paks/launch.pak"
+    },
+    {
+      "name": "pakchunk2-Android_ASTC.pak",
+      "source_obb": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size": 367571213,
+      "sha256": "F74548A3C43F4631E73139F685290DD31EAF6309E410F6C73C86CA9F6C627143",
+      "historical_expected_size": 367571213,
+      "size_match": true,
+      "local_path": "Analyse/LocalInputs/Extracted/MAIN/AClient/Content/Paks/pakchunk2-Android_ASTC.pak"
+    },
+    {
+      "name": "pakchunk3-Android_ASTC.pak",
+      "source_obb": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size": 1837582232,
+      "sha256": "16332BCC7FE9EB41AA8DED2ECB3EC7DB4E968A2A74CF3E98824DD29969ECD77E",
+      "historical_expected_size": 1837582232,
+      "size_match": true,
+      "local_path": "Analyse/LocalInputs/Extracted/PATCH/AClient/Content/Paks/pakchunk3-Android_ASTC.pak"
+    },
+    {
+      "name": "pakchunk4-Android_ASTC.pak",
+      "source_obb": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size": 1253209707,
+      "sha256": "568ED18831B039FCA0F61F196E7FF0C8A04A0F85998EF8CCC637E44C593D74A8",
+      "historical_expected_size": 1253209707,
+      "size_match": true,
+      "local_path": "Analyse/LocalInputs/Extracted/MAIN/AClient/Content/Paks/pakchunk4-Android_ASTC.pak"
+    }
+  ]
+}
