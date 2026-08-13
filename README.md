@@ -30,4 +30,4 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase9 is the current investigation boundary. It records that no complete base APK or configured ARM64-compatible isolated Android lab was available, so no dynamic client launch or instrumentation was attempted. It also preserves corrected ELF offsets and the exact prerequisites for a future offline runtime observation. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.
+Phase9 is the current investigation boundary. The exact base APK was recovered read-only into ignored local storage and confirmed as ARM64-only, but no configured ARM64-compatible isolated Android lab was available, so no dynamic client launch or instrumentation was attempted. Phase9 also preserves corrected ELF offsets and the exact prerequisites for a future offline runtime observation. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.

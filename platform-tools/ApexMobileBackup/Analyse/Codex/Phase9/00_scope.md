@@ -21,14 +21,15 @@ The priority targets were `ClientLaunch`, `EventSystem`, the event `0x138` subsc
 
 - The original phone was not used as a runtime laboratory.
 - A read-only APK recovery was attempted only after the local APK search returned no candidate.
-- ADB reported no authorized device, so `pm path` and `adb pull` were not executed and no phone data was accessed.
+- The first ADB attempt found no device. After the preserved phone was explicitly reconnected, one authorized physical device was used only for `pm path` and `adb pull` of `base.apk`.
+- No further phone command was issued after the APK copy completed.
 - No application was installed or launched.
 - No network request, DNS lookup, proxy, hook, patch, root operation, or bypass was attempted.
 - No proprietary APK, OBB, PAK, Lua content, memory dump, or raw runtime log is published.
 
 ## Result
 
-The required isolated environment was unavailable. Phase9 therefore stops at:
+The base APK is now available locally and ignored by Git, but the required isolated ARM64 environment remains unavailable. Phase9 therefore stops at:
 
 ```text
 E DYNAMIC_LAB_UNAVAILABLE

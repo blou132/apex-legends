@@ -8,14 +8,18 @@
   "dynamic_lab_available": false,
   "client_launched": false,
   "base_apk": {
-    "available": false,
+    "available": true,
     "local_candidates": 0,
-    "adb_authorized_devices": 0,
-    "pulled": false,
-    "size": "UNKNOWN",
-    "sha256": "UNKNOWN",
-    "abi_set_phase9": "UNKNOWN",
-    "prior_native_architecture_evidence": "arm64-v8a/AArch64"
+    "adb_authorized_devices_on_successful_retry": 1,
+    "pulled": true,
+    "pull_mode": "READ_ONLY_BASE_APK_ONLY",
+    "phone_used_after_pull": false,
+    "size": 96228800,
+    "sha256": "2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0",
+    "zip_entry_count": 978,
+    "abi_set_phase9": ["arm64-v8a"],
+    "native_library_count": 17,
+    "libue4_uncompressed_size": 190192944
   },
   "obb": [
     {

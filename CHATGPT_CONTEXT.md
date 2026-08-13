@@ -58,11 +58,11 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `UNKNOWN`: the Lua package searcher between extensionless module lookup and `FUN_049a8b54`, the effective runtime prefix, and the final file candidate.
 - `INVALIDATED`: treating raw `Client/Launch/ClientLaunch.lua` at `0x250517` as validation of a virtual path or entry. It is a body witness, not readable index metadata.
 - `CONFIRMED`: Phase8 decision gate is `E`, `VIRTUAL_PATH_MAPPING_STILL_UNKNOWN = YES`.
-- `CONFIRMED`: Phase9 found no complete local `base.apk`; ADB reported zero authorized devices, so no APK was pulled and the original phone was not accessed.
+- `CONFIRMED`: Phase9 initially found no complete local `base.apk`. After the preserved phone was explicitly reconnected, only `base.apk` was recovered by read-only `adb pull`; no further phone command was issued.
+- `CONFIRMED`: the recovered APK is 96,228,800 bytes with SHA256 `2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0`, contains 978 ZIP entries, and has only the `arm64-v8a` ABI across 17 native libraries.
 - `CONFIRMED`: the host has the Android Emulator executable but zero configured AVDs, zero Android endpoints, and only an x86_64 system image; no installed ARM64-compatible isolated lab was available.
 - `CONFIRMED`: Phase9 did not launch or instrument the client, contact an external service, or produce runtime logs. Its decision gate is `E`, `DYNAMIC_LAB_UNAVAILABLE`.
 - `CONFIRMED`: the requested runtime targets were converted with `ELF_VIRTUAL_OFFSET = GHIDRA_ADDRESS - 0x100000`; no process load base was available, so no runtime address was used.
-- `UNKNOWN`: the complete base APK size, SHA256, and Phase9 ABI inventory. Prior artifact evidence still establishes an `arm64-v8a`/AArch64 native client requirement.
 - `UNKNOWN`: all Phase9 runtime values, including the Lua search sequence, effective provider, final open path, ClientLaunch/EventSystem chunk metadata, event `0x138` subscriber, response parser, and URL producer.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
@@ -131,4 +131,4 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 6. Validate the Lua search/provider chain against `ClientLaunch` before applying it to EventSystem.
 7. If EventSystem is legitimately readable, identify the exact event `0x138` subscriber, parser, fields, and local URL construction without contacting the URL.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9 could not cross that boundary because the base APK and an ARM64-compatible isolated lab were unavailable; decision gate `E DYNAMIC_LAB_UNAVAILABLE` is authoritative for the attempted runtime phase.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9 recovered and identified the ARM64-only base APK but could not cross the runtime boundary because no compatible isolated lab was available; decision gate `E DYNAMIC_LAB_UNAVAILABLE` is authoritative for the attempted runtime phase.

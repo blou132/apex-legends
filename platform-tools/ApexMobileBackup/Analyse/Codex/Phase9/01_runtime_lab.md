@@ -2,16 +2,17 @@
 
 ## Client artifacts
 
-The recursive search of ignored `LocalInputs` and historical backup directories found no complete `base.apk`. ADB then reported zero authorized devices, so the fallback read-only APK pull could not start.
+The recursive search of ignored `LocalInputs` and historical backup directories initially found no complete `base.apk`. The first ADB attempt also found no device. After the preserved phone was explicitly reconnected, the allowed read-only fallback recovered only `base.apk` into ignored local storage. No further phone command was issued.
 
 Consequences:
 
-- APK size: `UNKNOWN`
-- APK SHA256: `UNKNOWN`
-- complete APK ABI set in Phase9: `UNKNOWN`
-- prior architecture evidence: `arm64-v8a`, from the previously analyzed `lib/arm64-v8a/libUE4.so` artifact and AArch64 Ghidra program
+- APK size: `96,228,800` bytes
+- APK SHA256: `2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0`
+- ZIP entries: `978`
+- complete APK native ABI set: `arm64-v8a` only
+- native libraries: `17`, including one `lib/arm64-v8a/libUE4.so` entry of `190,192,944` uncompressed bytes
 
-The prior evidence establishes that an ARM64-capable lab is required, but it does not replace a fresh inventory of every ABI in the unavailable APK.
+The APK inventory independently confirms the prior AArch64 analysis and establishes that an ARM64-capable lab is required.
 
 The existing OBB copies were rehashed without modification:
 
