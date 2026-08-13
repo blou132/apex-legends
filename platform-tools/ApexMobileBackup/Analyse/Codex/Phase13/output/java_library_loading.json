@@ -1,0 +1,34 @@
+{
+  "phase": "Phase13",
+  "dex": "classes.dex",
+  "gameactivity": {
+    "class": "com.epicgames.ue4.GameActivity",
+    "method": "<clinit>()V",
+    "code_item": "0x59209c",
+    "ordered_loads": [
+      {"instruction":"0x592206","mechanism":"loadPluginByReflection","library":"TDataMaster","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x592210","mechanism":"loadPluginByReflection","library":"anogs","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x59221a","mechanism":"loadPluginByReflection","library":"GVoice","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x592224","mechanism":"loadPluginByReflection","library":"MSDKCore","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x59222e","mechanism":"loadPluginByReflection","library":"GPM","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x592238","mechanism":"loadPluginByReflection","library":"tgpa","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x592242","mechanism":"loadPluginByReflection","library":"gcloud","conditional":"REFLECTION_WITH_SYSTEM_FALLBACK"},
+      {"instruction":"0x592406","mechanism":"System.loadLibrary","library":"gnustl_shared","conditional":"NO_LOCAL_CATCH"},
+      {"instruction":"0x59240c","mechanism":"System.loadLibrary","library":"gcloud","conditional":"CAUGHT_IF_UNAVAILABLE"},
+      {"instruction":"0x59243c","mechanism":"System.loadLibrary","library":"gcloudcore","conditional":"CAUGHT_IF_UNAVAILABLE"},
+      {"instruction":"0x592466","mechanism":"System.loadLibrary","library":"GVoice","conditional":"CAUGHT_IF_UNAVAILABLE"},
+      {"instruction":"0x592492","mechanism":"System.loadLibrary","library":"UE4","conditional":"FINAL_DIRECT_LOAD"}
+    ]
+  },
+  "manifest_main_library": "UE4",
+  "java_native_libraries_loaded": [
+    "anort", "TDataMaster", "anogs", "GVoice", "MSDKCore", "GPM",
+    "tgpa", "gcloud", "gnustl_shared", "gcloudcore", "UE4",
+    "transceiver", "mmkv", "INTLTAB", "CrashSight"
+  ],
+  "classes2_additional_static_loads": [],
+  "dynamic_library_load_path": {
+    "java": "CONFIRMED",
+    "native_startup_dlopen": "UNKNOWN"
+  }
+}

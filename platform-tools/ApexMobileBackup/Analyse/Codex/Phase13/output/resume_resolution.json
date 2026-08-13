@@ -1,0 +1,17 @@
+{
+  "phase": "Phase13",
+  "native_library_count": {"status":"CONFIRMED","value":17},
+  "gameactivity_main_library": {"status":"CONFIRMED","value":"UE4"},
+  "owner_library": {"status":"UNKNOWN","value":null},
+  "register_natives_found": {
+    "status":"CONFIRMED",
+    "value":"GENERIC_SDK_ONLY",
+    "target_row":"UNKNOWN"
+  },
+  "native_resume_main_init_function": {"status":"UNKNOWN","value":null},
+  "jni_entry_confirmed": {"status":"UNKNOWN","value":null},
+  "libue4_loaded": {"status":"PROBABLE","value":true},
+  "libue4_load_base": {"status":"UNKNOWN","value":null},
+  "static_library_ownership_exhausted": {"status":"CONFIRMED","value":true},
+  "final_gate": "E_STATIC_LIBRARY_OWNERSHIP_EXHAUSTED"
+}

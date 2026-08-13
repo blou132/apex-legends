@@ -1,0 +1,30 @@
+{
+  "phase": "Phase13",
+  "target": "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit",
+  "short_name": "nativeResumeMainInit",
+  "libraries_with_jni_onload": [
+    {"library":"libCrashSight.so","index":248,"elf_value":"0x29920","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libGPM.so","index":937,"elf_value":"0xb4a8c","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libGVoice.so","index":1216,"elf_value":"0x115174","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libINTLTAB.so","index":77,"elf_value":"0xfe18","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libMSDKCore.so","index":577,"elf_value":"0xffb90","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libTDataMaster.so","index":178,"elf_value":"0x6af00","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libanogs.so","index":272,"elf_value":"0x3e4784","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libanort.so","index":127,"elf_value":"0xa7788","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libgcloud.so","index":482,"elf_value":"0x22104c","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libgcloudcore.so","index":1365,"elf_value":"0x89e74","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libmmkv.so","index":266,"elf_value":"0xf7e0","bind":"GLOBAL","type":"FUNC"},
+    {"library":"libtgpa.so","index":94,"elf_value":"0x83b8","bind":"GLOBAL","type":"FUNC"}
+  ],
+  "libraries_with_full_jni_export": [],
+  "libraries_with_short_name_export": [],
+  "libue4_witnesses": [
+    {"value":"Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit","file_offset":"0x20dcc9d","section":".dynstr","status":"STRING_ONLY"},
+    {"value":"nativeResumeMainInit","file_offset":"0x20dccc1","section":".dynstr","status":"STRING_ONLY"},
+    {"value":"com/epicgames/ue4/GameActivity","file_offset":"0x21b2f21","section":".rodata","status":"STRING_ONLY"},
+    {"value":"()V","file_offset":"0x21c1087","section":".rodata","status":"STRING_ONLY"}
+  ],
+  "dotted_gameactivity_string_libraries": [],
+  "exact_register_natives_string_libraries": [],
+  "conclusion": "NO_EXACT_TARGET_EXPORT"
+}

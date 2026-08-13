@@ -1,0 +1,1149 @@
+{
+  "phase": "Phase13",
+  "apk": {
+    "size": 96228800,
+    "sha256": "2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0"
+  },
+  "native_library_count": 17,
+  "libraries": [
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libCrashSight.so",
+      "needed": [
+        "liblog.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 571,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 248,
+            "value": "0x29920",
+            "size": 388,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x4e34",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x6d2c8",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x95350",
+        "dt_init_array_size": 40,
+        "dt_strtab": "0x4890",
+        "dt_symtab": "0x1308",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libCrashSight.so",
+      "zip_path": "lib/arm64-v8a/libCrashSight.so",
+      "compressed_size": 217605,
+      "uncompressed_size": 555936,
+      "sha256": "CAC410A9F3C07070295D744476155D72EF4507837F3612278ED576F77EB8483F"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libGPM.so",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 2259,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 937,
+            "value": "0xb4a8c",
+            "size": 528,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x12c6e",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x1abeaa",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x22f050",
+        "dt_init_array_size": 168,
+        "dt_strtab": "0x11958",
+        "dt_symtab": "0x4590",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libGPM.so",
+      "zip_path": "lib/arm64-v8a/libGPM.so",
+      "compressed_size": 636030,
+      "uncompressed_size": 2300336,
+      "sha256": "A349E23848CE7E18525F2C8F922A9DB541F94426DB16F00939BDECA8C8DB876A"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libGVoice.so",
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 5097,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 1216,
+            "value": "0x115174",
+            "size": 416,
+            "bind": 1,
+            "type": 2,
+            "section_index": 7
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 2,
+          "occurrences": [
+            {
+              "file_offset": "0x2c3df",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x642580",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x64099a",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x8bd5b8",
+        "dt_init_array_size": 2008,
+        "dt_strtab": "0x26f20",
+        "dt_symtab": "0x9148",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libGVoice.so",
+      "zip_path": "lib/arm64-v8a/libGVoice.so",
+      "compressed_size": 4403400,
+      "uncompressed_size": 9387968,
+      "sha256": "3E57D5D5F6B922E0CB931160347DEA288C40A6359068D6CD687976B2D38E5C61"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libINTLTAB.so",
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libTDataMaster.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 154,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 77,
+            "value": "0xfe18",
+            "size": 84,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x187c",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x7727a",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0xaaff8",
+        "dt_init_array_size": 72,
+        "dt_strtab": "0x1518",
+        "dt_symtab": "0x6a8",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libINTLTAB.so",
+      "zip_path": "lib/arm64-v8a/libINTLTAB.so",
+      "compressed_size": 218921,
+      "uncompressed_size": 657664,
+      "sha256": "358D73952C571FA0FADF36A437228E5F4E1F8CB898A462DE58C104DB4F0FCB95"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libMSDKCore.so",
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libTDataMaster.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 1006,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 577,
+            "value": "0xffb90",
+            "size": 720,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 2,
+          "occurrences": [
+            {
+              "file_offset": "0x10d94",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x40f171",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x412fd9",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x5258e8",
+        "dt_init_array_size": 1304,
+        "dt_strtab": "0x7860",
+        "dt_symtab": "0x1a10",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libMSDKCore.so",
+      "zip_path": "lib/arm64-v8a/libMSDKCore.so",
+      "compressed_size": 1760593,
+      "uncompressed_size": 5545328,
+      "sha256": "F6B5A7D87521EFE09B030BDAE112D9C1063839001FD4C55BCB88FF326A7D0C66"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libTDataMaster.so",
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 311,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 178,
+            "value": "0x6af00",
+            "size": 484,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x3454",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x2dc0a1",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x3b7918",
+        "dt_init_array_size": 264,
+        "dt_strtab": "0x2850",
+        "dt_symtab": "0xb28",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libTDataMaster.so",
+      "zip_path": "lib/arm64-v8a/libTDataMaster.so",
+      "compressed_size": 1297437,
+      "uncompressed_size": 4037336,
+      "sha256": "F90B59A4448D725D6B61DFA005214D80BB8BF599879C3D3ED0617A6FE269009B"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libUE4.so",
+      "needed": [
+        "libGLESv2.so",
+        "libEGL.so",
+        "libandroid.so",
+        "libOpenSLES.so",
+        "libgnustl_shared.so",
+        "libc.so",
+        "libm.so",
+        "liblog.so",
+        "libdl.so",
+        "libanogs.so",
+        "libgcloudcore.so",
+        "libgcloud.so",
+        "libGPM.so",
+        "libGVoice.so",
+        "libINTLTAB.so",
+        "libMSDKCore.so",
+        "libzip.so",
+        "libzlib.so",
+        "libTDataMaster.so",
+        "libstdc++.so",
+        "libanort.so"
+      ],
+      "dynamic_symbol_count": 824,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 5,
+          "occurrences": [
+            {
+              "file_offset": "0x20dc8b6",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x20e176e",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x20e1852",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0xb559966",
+              "section": "PT_LOAD_OR_UNKNOWN",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0xb559a4a",
+              "section": "PT_LOAD_OR_UNKNOWN",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x20dcc9d",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "nativeResumeMainInit",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x20dccc1",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "com/epicgames/ue4/GameActivity",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x21b2f21",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x21c1087",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": "0xb8c503c",
+        "dt_init_array": null,
+        "dt_init_array_size": 0,
+        "dt_strtab": "0x20dc658",
+        "dt_symtab": "0xb8cc5b8",
+        "has_dt_hash": true,
+        "has_gnu_hash": true
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libUE4.so",
+      "zip_path": "lib/arm64-v8a/libUE4.so",
+      "compressed_size": 63723391,
+      "uncompressed_size": 190192944,
+      "sha256": "0D45F92C5D0D2805DA35F223B8E3D352041943C9C2B2B5C914F0E1A1C1EC2977"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libanogs.so",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 284,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 272,
+            "value": "0x3e4784",
+            "size": 700,
+            "bind": 1,
+            "type": 2,
+            "section_index": 12
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x27a2",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x597450",
+        "dt_init_array_size": 384,
+        "dt_strtab": "0x2610",
+        "dt_symtab": "0xb70",
+        "has_dt_hash": true,
+        "has_gnu_hash": true
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libanogs.so",
+      "zip_path": "lib/arm64-v8a/libanogs.so",
+      "compressed_size": 2346541,
+      "uncompressed_size": 6212024,
+      "sha256": "E5641ED457E8FA9CF2CC9EA11927440488D8313B42756C8FF3383F0982598F1F"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libanort.so",
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 129,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 127,
+            "value": "0xa7788",
+            "size": 1964,
+            "bind": 1,
+            "type": 2,
+            "section_index": 12
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x1225",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x1d7ba4",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x1f1690",
+        "dt_init_array_size": 24,
+        "dt_strtab": "0x1208",
+        "dt_symtab": "0x5f0",
+        "has_dt_hash": true,
+        "has_gnu_hash": true
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libanort.so",
+      "zip_path": "lib/arm64-v8a/libanort.so",
+      "compressed_size": 735767,
+      "uncompressed_size": 2266440,
+      "sha256": "E3E3CA3D34A7ACA177A5AC18297F7D8FABC084667DEEFB142FBFEF0556D88B48"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libgcloud.so",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 2038,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 482,
+            "value": "0x22104c",
+            "size": 956,
+            "bind": 1,
+            "type": 2,
+            "section_index": 7
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 2,
+          "occurrences": [
+            {
+              "file_offset": "0x16e94",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x63b5d0",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x6234c2",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x85e050",
+        "dt_init_array_size": 2872,
+        "dt_strtab": "0xf0a0",
+        "dt_symtab": "0x3190",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libgcloud.so",
+      "zip_path": "lib/arm64-v8a/libgcloud.so",
+      "compressed_size": 3413781,
+      "uncompressed_size": 9041528,
+      "sha256": "2EDF04E3A50BEEAE3E653BE99ECAFD0AB916AF665B72B653742D4B7CBF7D1C7E"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libgcloudcore.so",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 3201,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 1365,
+            "value": "0x89e74",
+            "size": 896,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 2,
+          "occurrences": [
+            {
+              "file_offset": "0x2a472",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x117c90",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x112d8f",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x1718e0",
+        "dt_init_array_size": 224,
+        "dt_strtab": "0x18028",
+        "dt_symtab": "0x5410",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libgcloudcore.so",
+      "zip_path": "lib/arm64-v8a/libgcloudcore.so",
+      "compressed_size": 503783,
+      "uncompressed_size": 1493792,
+      "sha256": "D9952600D53E92390CCA105DA9A113BAFD589CF5BB754E2C1C23D2262FB24CA9"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libgnustl_shared.so",
+      "needed": [
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 4240,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x1162f8",
+        "dt_init_array_size": 72,
+        "dt_strtab": "0x1f198",
+        "dt_symtab": "0x6418",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libgnustl_shared.so",
+      "zip_path": "lib/arm64-v8a/libgnustl_shared.so",
+      "compressed_size": 327099,
+      "uncompressed_size": 1104416,
+      "sha256": "5B5DD68AADD3CCE9B493A9D07A3F60EF5941CA19408092C7798BF59F70EC954C"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libmmkv.so",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 657,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 266,
+            "value": "0xf7e0",
+            "size": 1164,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 2,
+          "occurrences": [
+            {
+              "file_offset": "0x524d",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            },
+            {
+              "file_offset": "0x68c31",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x68edf",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x94700",
+        "dt_init_array_size": 16,
+        "dt_strtab": "0x5230",
+        "dt_symtab": "0x1498",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": true,
+        "android_dlopen_ext": false
+      },
+      "filename": "libmmkv.so",
+      "zip_path": "lib/arm64-v8a/libmmkv.so",
+      "compressed_size": 198322,
+      "uncompressed_size": 552264,
+      "sha256": "5E55BA720BF456C686CF251CB9F4D4B7925570C119F35CD5AF8167A00E5FA7D4"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libtgpa.so",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 245,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [
+          {
+            "index": 94,
+            "value": "0x83b8",
+            "size": 336,
+            "bind": 1,
+            "type": 2,
+            "section_index": 10
+          }
+        ],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [
+        {
+          "value": "JNI_OnLoad",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x1ff5",
+              "section": ".dynstr",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        },
+        {
+          "value": "()V",
+          "count": 1,
+          "occurrences": [
+            {
+              "file_offset": "0x4c3e3",
+              "section": ".rodata",
+              "occurrence_type": "NULL_TERMINATED_EXACT_STRING"
+            }
+          ]
+        }
+      ],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x68230",
+        "dt_init_array_size": 80,
+        "dt_strtab": "0x1fd8",
+        "dt_symtab": "0x8e0",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libtgpa.so",
+      "zip_path": "lib/arm64-v8a/libtgpa.so",
+      "compressed_size": 179300,
+      "uncompressed_size": 375880,
+      "sha256": "A223F4D829C01696C1CB4271E436E5AD47043979E6804802B836B7D7F90DFA7C"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libtransceiver.so",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "dynamic_symbol_count": 254,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x42220",
+        "dt_init_array_size": 32,
+        "dt_strtab": "0x2110",
+        "dt_symtab": "0x940",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libtransceiver.so",
+      "zip_path": "lib/arm64-v8a/libtransceiver.so",
+      "compressed_size": 82264,
+      "uncompressed_size": 215272,
+      "sha256": "E9EC7E793FD14CD2C103EB40D172ABEC1AEA4CDB2DE5CEF7B8A4731A2C56866A"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libzip.so",
+      "needed": [
+        "libz.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 261,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x226a0",
+        "dt_init_array_size": 8,
+        "dt_strtab": "0x2198",
+        "dt_symtab": "0x920",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libzip.so",
+      "zip_path": "lib/arm64-v8a/libzip.so",
+      "compressed_size": 34573,
+      "uncompressed_size": 79640,
+      "sha256": "1A4F064ABE0B0E93813ECB9E48C29A9827D27338ED6CD1B9CF8DD9CB4D93929A"
+    },
+    {
+      "elf_class": "ELF64",
+      "machine": 183,
+      "machine_name": "AARCH64",
+      "soname": "libzlib.so",
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "dynamic_symbol_count": 121,
+      "dynamic_symbol_matches": {
+        "JNI_OnLoad": [],
+        "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit": [],
+        "nativeResumeMainInit": []
+      },
+      "string_witnesses": [],
+      "loader_metadata": {
+        "dt_init": null,
+        "dt_init_array": "0x23b30",
+        "dt_init_array_size": 8,
+        "dt_strtab": "0x10b8",
+        "dt_symtab": "0x560",
+        "has_dt_hash": true,
+        "has_gnu_hash": false
+      },
+      "dynamic_loader_symbols": {
+        "dlopen": false,
+        "android_dlopen_ext": false
+      },
+      "filename": "libzlib.so",
+      "zip_path": "lib/arm64-v8a/libzlib.so",
+      "compressed_size": 44497,
+      "uncompressed_size": 83808,
+      "sha256": "7648FE5C75C60D40E6AE325038D55D648A2C5FBE9D0ABFA2D6CF9CBA9F516AD4"
+    }
+  ]
+}

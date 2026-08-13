@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-13 (Phase12)
+Updated: 2026-08-13 (Phase13)
 
 ## Purpose
 
@@ -12,23 +12,24 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-16. The relevant topic report and matching JSON from the newest phase
-17. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+17. The relevant topic report and matching JSON from the newest phase
+18. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -102,6 +103,25 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `CONFIRMED`: Phase12 finds no exact Ghidra or loader-visible ELF dynamic symbol for `JNI_OnLoad` in the local `libUE4.so`; `DT_INIT_ARRAY` is absent and the full JavaVM `GetEnv(..., JNI_VERSION_1_6)` pattern produces zero candidates.
 - `UNKNOWN`: Phase12 cannot attribute GameActivity `FindClass`, `RegisterNatives`, a `JNINativeMethod` table, or the `nativeResumeMainInit` function pointer without a confirmed `JNI_OnLoad` root.
 - `CONFIRMED`: Phase12 decision gate is `F JNI_ONLOAD_NOT_RESOLVED`.
+- `CONFIRMED`: Phase13 inventories exactly 17 ELF64 AArch64 libraries from the
+  verified base APK and records each SHA256, SONAME, dependencies, loader
+  metadata, and authoritative dynamic symbol count.
+- `CONFIRMED`: 12 libraries export a global `JNI_OnLoad` function. None of the
+  17 exports the full GameActivity JNI name or the short
+  `nativeResumeMainInit` name.
+- `CONFIRMED`: all 12 exported roots were resolved individually in Ghidra with
+  `-noanalysis -readOnly`. Generic direct `RegisterNatives` paths exist in
+  `libanogs.so`, `libGPM.so`, `libmmkv.so`, and `libtgpa.so`, but none of the 12
+  libraries contains the target GameActivity class or method identity.
+- `CONFIRMED`: only `libUE4.so` contains the full JNI name, short name, slash
+  GameActivity class, and `()V`. These remain `STRING_ONLY`; no target export or
+  registration row connects them to a native function.
+- `CONFIRMED`: GameActivity's DEX initializer loads seven plugin libraries,
+  then `gnustl_shared`, `gcloud`, `gcloudcore`, `GVoice`, and finally `UE4`.
+  The manifest main library remains `UE4`; library ownership of the target is
+  still `UNKNOWN`.
+- `CONFIRMED`: Phase13 decision gate is `E STATIC_LIBRARY_OWNERSHIP_EXHAUSTED`.
+  No runtime work was performed and no arbitrary libUE4 function was selected.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -139,6 +159,10 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/`: TDM and GCloud failure paths, default/cache behavior, PlayCommon process attribution, OBB gate validation, ordered bootstrap graph, native startup boundary, and Login reachability.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/`: exact JNI-name resolution attempts, dynamic-table evidence, blocked local callgraph, lifecycle correlation, reachability limits, and the next static registration target.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/`: exact `JNI_OnLoad` resolution paths, loader metadata, conventional GetEnv-pattern result, blocked GameActivity registration path, and final gate.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/`: exact 17-library
+  APK inventory, dependency graph, JNI exports and strings, DEX library-loading
+  order, targeted JNI_OnLoad validation, candidate classification, unresolved
+  owner, and static-exhaustion gate.
 
 ## Machine-readable evidence
 
@@ -159,6 +183,9 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase10/output/*.json`: TDM/GCloud failure paths, default configuration sources, bootstrap graph, first unresolved stall region, and Login reachability.
 - `Phase11/output/*.json`: JNI resolution evidence, empty blocked callgraph, unresolved state/worker/wait sets, Lua/Login reachability limits, and final gate.
 - `Phase12/output/*.json`: `JNI_OnLoad` resolution evidence, unresolved GameActivity lookup/registration/table boundaries, resume target status, validation rows, and final gate.
+- `Phase13/output/*.json`: native library identity and loader metadata,
+  dependency edges, JNI symbol/string evidence, Java library-loading order,
+  candidate classes, resume status, and final gate.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -173,11 +200,16 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Inventory the other native libraries from the same exact APK for an exported `JNI_OnLoad` or exact full/short GameActivity native method name, without global function analysis.
-2. Prove which library owns `nativeResumeMainInit` before following any registration or startup callgraph.
-3. If no exact APK library exports or registers it statically, define a separate authorized local-only loader observation that records the resolved address without patching or hooking the APK.
-4. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK, emulate authentication, or build a backend.
-5. Keep the preserved Samsung excluded and use no real account or copied private state.
-6. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping or explicit loader event proves it.
+1. Do not repeat static ownership scans across the 17 exact APK libraries;
+   Phase13 exhausted that scope without proving an owner.
+2. If separately authorized, define one local-only loader observation that
+   records the library and resolved address for
+   `GameActivity.nativeResumeMainInit()V` without patching the APK/SO.
+3. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK,
+   emulate authentication, or build a backend.
+4. Keep the preserved Samsung excluded and use no real account or copied
+   private state.
+5. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
+   or explicit loader event proves it.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase12 cannot resolve `JNI_OnLoad` in the exact local `libUE4.so`, so GameActivity registration remains unavailable and gate `F JNI_ONLOAD_NOT_RESOLVED` is authoritative.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown and gate `E STATIC_LIBRARY_OWNERSHIP_EXHAUSTED` is authoritative.

@@ -1,0 +1,31 @@
+{
+  "phase": "Phase13",
+  "edge_type": "DT_NEEDED",
+  "internal_edges": [
+    {"from": "libINTLTAB.so", "to": "libTDataMaster.so"},
+    {"from": "libMSDKCore.so", "to": "libTDataMaster.so"},
+    {"from": "libUE4.so", "to": "libgnustl_shared.so"},
+    {"from": "libUE4.so", "to": "libanogs.so"},
+    {"from": "libUE4.so", "to": "libgcloudcore.so"},
+    {"from": "libUE4.so", "to": "libgcloud.so"},
+    {"from": "libUE4.so", "to": "libGPM.so"},
+    {"from": "libUE4.so", "to": "libGVoice.so"},
+    {"from": "libUE4.so", "to": "libINTLTAB.so"},
+    {"from": "libUE4.so", "to": "libMSDKCore.so"},
+    {"from": "libUE4.so", "to": "libzip.so"},
+    {"from": "libUE4.so", "to": "libzlib.so"},
+    {"from": "libUE4.so", "to": "libTDataMaster.so"},
+    {"from": "libUE4.so", "to": "libanort.so"}
+  ],
+  "libue4_internal_dependency_count": 12,
+  "libue4_internal_reverse_dependents": [],
+  "libue4_not_directly_needed": [
+    "libCrashSight.so", "libmmkv.so", "libtgpa.so", "libtransceiver.so"
+  ],
+  "native_dlopen_importers": [
+    "libCrashSight.so", "libGPM.so", "libGVoice.so", "libUE4.so",
+    "libanogs.so", "libanort.so", "libmmkv.so"
+  ],
+  "android_dlopen_ext_importers": [],
+  "runtime_dlopen_path": "UNKNOWN"
+}

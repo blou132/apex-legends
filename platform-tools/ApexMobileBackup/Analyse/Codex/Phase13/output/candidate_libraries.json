@@ -1,0 +1,25 @@
+{
+  "phase": "Phase13",
+  "classifications": {
+    "A_EXACT_FULL_JNI_EXPORT": [],
+    "B_SHORT_NATIVE_NAME_AND_REGISTRATION_EVIDENCE": [],
+    "C_JNI_ONLOAD_EXPORTED": [
+      "libCrashSight.so", "libGPM.so", "libGVoice.so", "libINTLTAB.so",
+      "libMSDKCore.so", "libTDataMaster.so", "libanogs.so", "libanort.so",
+      "libgcloud.so", "libgcloudcore.so", "libmmkv.so", "libtgpa.so"
+    ],
+    "D_GAMEACTIVITY_STRING_EVIDENCE_ONLY": ["libUE4.so"],
+    "E_NO_RELEVANT_EVIDENCE": [
+      "libgnustl_shared.so", "libtransceiver.so", "libzip.so", "libzlib.so"
+    ]
+  },
+  "generic_register_natives_confirmed": [
+    "libanogs.so", "libGPM.so", "libmmkv.so", "libtgpa.so"
+  ],
+  "target_register_natives_row": "UNKNOWN",
+  "owner_library": "UNKNOWN",
+  "strongest_contextual_candidate": {
+    "library": "libUE4.so",
+    "status": "STRING_ONLY"
+  }
+}
