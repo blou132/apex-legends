@@ -1,0 +1,259 @@
+{
+  "file": "C:\\Users\\blouc\\Downloads\\platform-tools-latest-windows\\platform-tools\\ApexMobileBackup\\Analyse\\APK\\lib\\arm64-v8a\\libUE4.so",
+  "interesting_count": 620,
+  "refs_count": 21,
+  "refs": [
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa8e7ab0",
+      "target": {
+        "term": "RequestAvatarServerList",
+        "kind": "near_metadata_minus_0xc0"
+      },
+      "adrp_va": "0x7941d2c",
+      "use_va": "0x7941d30",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa8e7b60",
+      "target": {
+        "term": "RequestAvatarServerList",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7941d6c",
+      "use_va": "0x7941d70",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa966000",
+      "target": {
+        "term": "ReconnectSyncData",
+        "kind": "near_metadata_minus_0x18"
+      },
+      "adrp_va": "0x79c3b80",
+      "use_va": "0x79c3b84",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa966048",
+      "target": {
+        "term": "ReconnectSyncData",
+        "kind": "near_metadata_plus_0x30"
+      },
+      "adrp_va": "0x79c3c40",
+      "use_va": "0x79c3c44",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa967170",
+      "target": {
+        "term": "OnPreReconnectOnServer",
+        "kind": "near_metadata_minus_0xa0"
+      },
+      "adrp_va": "0x79c9308",
+      "use_va": "0x79c930c",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa967200",
+      "target": {
+        "term": "OnPreReconnectOnServer",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x79c9388",
+      "use_va": "0x79c938c",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa967290",
+      "target": {
+        "term": "OnPreReconnectOnServer",
+        "kind": "near_metadata_plus_0x80"
+      },
+      "adrp_va": "0x79c9408",
+      "use_va": "0x79c940c",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xa9b0688",
+      "target": {
+        "term": "ClientNotifyReconnectedSuccessfully",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7a1acd8",
+      "use_va": "0x7a1acdc",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xab48910",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0xc0"
+      },
+      "adrp_va": "0x7c1472c",
+      "use_va": "0x7c14730",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xab48970",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0x60"
+      },
+      "adrp_va": "0x7c14920",
+      "use_va": "0x7c14924",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xab489c0",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7c14cec",
+      "use_va": "0x7c14cf0",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xab48ab8",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7c14e28",
+      "use_va": "0x7c14e2c",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xab48bb0",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0x70"
+      },
+      "adrp_va": "0x7c14ea8",
+      "use_va": "0x7c14eac",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad72b20",
+      "target": {
+        "term": "OnServerAboutToReconnect",
+        "kind": "near_metadata_minus_0x60"
+      },
+      "adrp_va": "0x7ea006c",
+      "use_va": "0x7ea0070",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad72b70",
+      "target": {
+        "term": "OnServerAboutToReconnect",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7ea0418",
+      "use_va": "0x7ea041c",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad72bc0",
+      "target": {
+        "term": "OnServerAboutToReconnect",
+        "kind": "near_metadata_plus_0x40"
+      },
+      "adrp_va": "0x7ea05c4",
+      "use_va": "0x7ea05c8",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad72c08",
+      "target": {
+        "term": "OnServerAboutToReconnect",
+        "kind": "near_metadata_minus_0x10"
+      },
+      "adrp_va": "0x7ea0604",
+      "use_va": "0x7ea0608",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad72dd0",
+      "target": {
+        "term": "OnServerAboutToReconnect",
+        "kind": "near_metadata_minus_0x70"
+      },
+      "adrp_va": "0x7ea06c4",
+      "use_va": "0x7ea06c8",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad87ba8",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_minus_0x50"
+      },
+      "adrp_va": "0x7eb815c",
+      "use_va": "0x7eb8160",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad87bf8",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "metadata_r_offset"
+      },
+      "adrp_va": "0x7eb8284",
+      "use_va": "0x7eb8288",
+      "section": ".text",
+      "reg": 1
+    },
+    {
+      "type": "ADRP+ADD",
+      "target_addr": "0xad87c08",
+      "target": {
+        "term": "SyncPayloadToGameServer",
+        "kind": "near_metadata_plus_0x10"
+      },
+      "adrp_va": "0x7eb83a4",
+      "use_va": "0x7eb83a8",
+      "section": ".text",
+      "reg": 1
+    }
+  ]
+}

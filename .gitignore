@@ -1,0 +1,35 @@
+# Keep the GitHub repository lightweight and focused on analysis notes.
+
+# Ignore everything by default, then re-include the Codex analysis tree.
+*
+!.gitignore
+!README.md
+!platform-tools/
+platform-tools/*
+!platform-tools/ApexMobileBackup/
+platform-tools/ApexMobileBackup/*
+!platform-tools/ApexMobileBackup/Analyse/
+platform-tools/ApexMobileBackup/Analyse/*
+!platform-tools/ApexMobileBackup/Analyse/Codex/
+!platform-tools/ApexMobileBackup/Analyse/Codex/**
+
+# Never publish heavy/proprietary game artifacts or local tool databases.
+*.apk
+*.obb
+*.pak
+*.ucas
+*.utoc
+*.so
+*.dll
+*.exe
+*.mp4
+*.gbf
+*.ps
+*.log
+*.txt
+*.pid
+
+# Local Ghidra and compilation artifacts.
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/ghidra_project/
+platform-tools/ApexMobileBackup/Analyse/Codex/**/javac_probe/
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functions.json

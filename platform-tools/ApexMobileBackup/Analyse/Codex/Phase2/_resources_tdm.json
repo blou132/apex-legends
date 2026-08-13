@@ -1,0 +1,36 @@
+{
+  "file": "C:\\Users\\blouc\\Downloads\\platform-tools-latest-windows\\platform-tools\\ApexMobileBackup\\Analyse\\APK\\resources.arsc",
+  "size": 838464,
+  "global_matches": [
+    {
+      "index": 351,
+      "text": "https://tdm.mgapex.com:8013/tdm/v1/route",
+      "abs_offset": 31474
+    }
+  ],
+  "packages": [
+    {
+      "package_id": 127,
+      "name": "com.ea.gp.apexlegendsmobilefps",
+      "matching_entries": [
+        {
+          "resource_id": "0x7f0e00b6",
+          "type": "string",
+          "entry_index": 182,
+          "key": "router_address_formal",
+          "entry_file_offset": "0x7830c",
+          "complex": false,
+          "values": [
+            {
+              "data_type": 3,
+              "data": 351,
+              "string": "https://tdm.mgapex.com:8013/tdm/v1/route"
+            }
+          ]
+        }
+      ],
+      "type_strings_count": 17,
+      "key_strings_count": 3171
+    }
+  ]
+}

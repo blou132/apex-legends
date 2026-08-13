@@ -1,0 +1,78 @@
+{
+  "file": "ApexMobileBackup\\Analyse\\APK\\lib\\arm64-v8a\\libUE4.so",
+  "size": 190192944,
+  "elf_class": "ELF64",
+  "endian": "little",
+  "e_type": 3,
+  "e_type_label": "ET_DYN",
+  "e_machine": 183,
+  "e_machine_label": "AArch64",
+  "e_entry": "0x395a3e0",
+  "program_header_count": 13,
+  "load_min_vaddr": "0x0",
+  "loads": [
+    {
+      "index": 1,
+      "offset": "0x0",
+      "vaddr": "0x0",
+      "filesz": "0x39593dc",
+      "memsz": "0x39593dc",
+      "flags": "0x4",
+      "align": "0x1000"
+    },
+    {
+      "index": 2,
+      "offset": "0x39593e0",
+      "vaddr": "0x395a3e0",
+      "filesz": "0x6a68040",
+      "memsz": "0x6a68040",
+      "flags": "0x5",
+      "align": "0x1000"
+    },
+    {
+      "index": 3,
+      "offset": "0xa3c1420",
+      "vaddr": "0xa3c3420",
+      "filesz": "0xfbba40",
+      "memsz": "0xfbba40",
+      "flags": "0x6",
+      "align": "0x1000"
+    },
+    {
+      "index": 4,
+      "offset": "0xb37ce60",
+      "vaddr": "0xb37fe60",
+      "filesz": "0x1db167",
+      "memsz": "0x541250",
+      "flags": "0x6",
+      "align": "0x1000"
+    },
+    {
+      "index": 10,
+      "offset": "0xb559000",
+      "vaddr": "0xb8c4000",
+      "filesz": "0x2700",
+      "memsz": "0x2700",
+      "flags": "0x5",
+      "align": "0x1000"
+    },
+    {
+      "index": 11,
+      "offset": "0xb55b000",
+      "vaddr": "0xb8c7000",
+      "filesz": "0x15b8",
+      "memsz": "0x15c8",
+      "flags": "0x6",
+      "align": "0x1000"
+    },
+    {
+      "index": 12,
+      "offset": "0xb55c000",
+      "vaddr": "0xb8cc000",
+      "filesz": "0x56f0",
+      "memsz": "0x56f0",
+      "flags": "0x6",
+      "align": "0x4000"
+    }
+  ]
+}

@@ -1,0 +1,2299 @@
+{
+  "file": "C:\\Users\\blouc\\Downloads\\platform-tools-latest-windows\\platform-tools\\ApexMobileBackup\\Analyse\\MAIN\\AClient\\Content\\Paks\\launch.pak",
+  "size": 140867491,
+  "windows": [
+    {
+      "target": "Client/Launch/ClientLaunch.lua",
+      "offset": 2426135,
+      "offset_hex": "0x250517",
+      "window_start": "0x24e517",
+      "window_end": "0x252517",
+      "entropy_4k_before": 7.69967490924395,
+      "entropy_4k_after": 7.287398850365669,
+      "hex_before64": "44 89 f1 ad 76 bc 93 2e 4d 56 a0 6f a1 68 02 aa 0c e5 35 7d df 74 84 8a 79 19 a9 98 ca 85 a8 fc 92 39 7a 9b 8d d0 a5 b1 f5 1a 78 5a 84 7b 16 f9 1d 32 3a 8e 88 96 65 99 a2 1f 34 0e 80 8d 17 1f",
+      "hex_after_name64": "43 6c 69 65 6e 74 2f 4c 61 75 6e 63 68 2f 43 6c 69 65 6e 74 4c 61 75 6e 63 68 2e 6c 75 61 00 1f 4e 65 77 4c 61 75 6e 63 68 46 72 6f 6d 4c 61 75 6e 63 68 4d 61 70 00 1f 00 1f 00 1f 00 1f af a7 97 8d cc 0d d6 42 bf 16 70 0f 16 47 80 a6 4a 75 6e 72 65 61 6c 2f 47 61 6d 65 2f 50 72 6f",
+      "markers_near": [
+        {
+          "marker": "zlib_789c",
+          "off": "0x2513f8",
+          "delta": 3809
+        }
+      ],
+      "strings_near_count": 276,
+      "strings_near": [
+        {
+          "off": 2417961,
+          "hex": "0x24e529",
+          "len": 4,
+          "text": "@Z46"
+        },
+        {
+          "off": 2417994,
+          "hex": "0x24e54a",
+          "len": 4,
+          "text": "[^H["
+        },
+        {
+          "off": 2418004,
+          "hex": "0x24e554",
+          "len": 6,
+          "text": "e1,\t(\n"
+        },
+        {
+          "off": 2418095,
+          "hex": "0x24e5af",
+          "len": 4,
+          "text": "\n02N"
+        },
+        {
+          "off": 2418135,
+          "hex": "0x24e5d7",
+          "len": 7,
+          "text": "@V98jvS"
+        },
+        {
+          "off": 2418224,
+          "hex": "0x24e630",
+          "len": 4,
+          "text": "+M#n"
+        },
+        {
+          "off": 2418311,
+          "hex": "0x24e687",
+          "len": 4,
+          "text": "njq+"
+        },
+        {
+          "off": 2418328,
+          "hex": "0x24e698",
+          "len": 5,
+          "text": "6mn_{"
+        },
+        {
+          "off": 2418453,
+          "hex": "0x24e715",
+          "len": 4,
+          "text": "1\nrD"
+        },
+        {
+          "off": 2418528,
+          "hex": "0x24e760",
+          "len": 4,
+          "text": "Fk`O"
+        },
+        {
+          "off": 2418587,
+          "hex": "0x24e79b",
+          "len": 5,
+          "text": "PV]jx"
+        },
+        {
+          "off": 2418653,
+          "hex": "0x24e7dd",
+          "len": 4,
+          "text": "WZG&"
+        },
+        {
+          "off": 2418719,
+          "hex": "0x24e81f",
+          "len": 4,
+          "text": "iq9("
+        },
+        {
+          "off": 2418749,
+          "hex": "0x24e83d",
+          "len": 4,
+          "text": "yvlj"
+        },
+        {
+          "off": 2418766,
+          "hex": "0x24e84e",
+          "len": 4,
+          "text": "8j`U"
+        },
+        {
+          "off": 2418782,
+          "hex": "0x24e85e",
+          "len": 4,
+          "text": "(jwu"
+        },
+        {
+          "off": 2418868,
+          "hex": "0x24e8b4",
+          "len": 4,
+          "text": "Fkbn"
+        },
+        {
+          "off": 2419035,
+          "hex": "0x24e95b",
+          "len": 4,
+          "text": "<,~`"
+        },
+        {
+          "off": 2419075,
+          "hex": "0x24e983",
+          "len": 4,
+          "text": "upnf"
+        },
+        {
+          "off": 2419091,
+          "hex": "0x24e993",
+          "len": 4,
+          "text": "wljd"
+        },
+        {
+          "off": 2419223,
+          "hex": "0x24ea17",
+          "len": 4,
+          "text": "{Vw("
+        },
+        {
+          "off": 2419336,
+          "hex": "0x24ea88",
+          "len": 4,
+          "text": "DZ~P"
+        },
+        {
+          "off": 2419400,
+          "hex": "0x24eac8",
+          "len": 4,
+          "text": "5V8U"
+        },
+        {
+          "off": 2419414,
+          "hex": "0x24ead6",
+          "len": 4,
+          "text": "qlld"
+        },
+        {
+          "off": 2419529,
+          "hex": "0x24eb49",
+          "len": 5,
+          "text": "}-_)J"
+        },
+        {
+          "off": 2419634,
+          "hex": "0x24ebb2",
+          "len": 8,
+          "text": " Z(CFy.o"
+        },
+        {
+          "off": 2419797,
+          "hex": "0x24ec55",
+          "len": 4,
+          "text": "T,3S"
+        },
+        {
+          "off": 2419929,
+          "hex": "0x24ecd9",
+          "len": 4,
+          "text": "jz7P"
+        },
+        {
+          "off": 2419945,
+          "hex": "0x24ece9",
+          "len": 6,
+          "text": "ttB\\Jk"
+        },
+        {
+          "off": 2420077,
+          "hex": "0x24ed6d",
+          "len": 4,
+          "text": "kdh^"
+        },
+        {
+          "off": 2420174,
+          "hex": "0x24edce",
+          "len": 4,
+          "text": "\t^G|"
+        },
+        {
+          "off": 2420212,
+          "hex": "0x24edf4",
+          "len": 5,
+          "text": "[h&$2"
+        },
+        {
+          "off": 2420332,
+          "hex": "0x24ee6c",
+          "len": 4,
+          "text": "rH'c"
+        },
+        {
+          "off": 2420398,
+          "hex": "0x24eeae",
+          "len": 4,
+          "text": "Mf1\""
+        },
+        {
+          "off": 2420423,
+          "hex": "0x24eec7",
+          "len": 4,
+          "text": "wfjf"
+        },
+        {
+          "off": 2420491,
+          "hex": "0x24ef0b",
+          "len": 5,
+          "text": " -h\n:"
+        },
+        {
+          "off": 2420599,
+          "hex": "0x24ef77",
+          "len": 4,
+          "text": "^(}i"
+        },
+        {
+          "off": 2420740,
+          "hex": "0x24f004",
+          "len": 4,
+          "text": "uhlj"
+        },
+        {
+          "off": 2420772,
+          "hex": "0x24f024",
+          "len": 4,
+          "text": "4F>%"
+        },
+        {
+          "off": 2420831,
+          "hex": "0x24f05f",
+          "len": 4,
+          "text": "e*V."
+        },
+        {
+          "off": 2420993,
+          "hex": "0x24f101",
+          "len": 4,
+          "text": "TFGr"
+        },
+        {
+          "off": 2421067,
+          "hex": "0x24f14b",
+          "len": 4,
+          "text": "wdnh"
+        },
+        {
+          "off": 2421101,
+          "hex": "0x24f16d",
+          "len": 4,
+          "text": "*39%"
+        },
+        {
+          "off": 2421135,
+          "hex": "0x24f18f",
+          "len": 5,
+          "text": "U^IV4"
+        },
+        {
+          "off": 2421143,
+          "hex": "0x24f197",
+          "len": 5,
+          "text": "iHAXx"
+        },
+        {
+          "off": 2421173,
+          "hex": "0x24f1b5",
+          "len": 4,
+          "text": "1\nR8"
+        },
+        {
+          "off": 2421221,
+          "hex": "0x24f1e5",
+          "len": 5,
+          "text": "%Y$PE"
+        },
+        {
+          "off": 2421343,
+          "hex": "0x24f25f",
+          "len": 4,
+          "text": "gbh\\"
+        },
+        {
+          "off": 2421359,
+          "hex": "0x24f26f",
+          "len": 4,
+          "text": "edjb"
+        },
+        {
+          "off": 2421365,
+          "hex": "0x24f275",
+          "len": 5,
+          "text": "PeUVe"
+        },
+        {
+          "off": 2421474,
+          "hex": "0x24f2e2",
+          "len": 5,
+          "text": "\"uR'I"
+        },
+        {
+          "off": 2421489,
+          "hex": "0x24f2f1",
+          "len": 4,
+          "text": "%q$K"
+        },
+        {
+          "off": 2421513,
+          "hex": "0x24f309",
+          "len": 4,
+          "text": "IgQj"
+        },
+        {
+          "off": 2421736,
+          "hex": "0x24f3e8",
+          "len": 4,
+          "text": "x #a"
+        },
+        {
+          "off": 2421834,
+          "hex": "0x24f44a",
+          "len": 4,
+          "text": "TJUV"
+        },
+        {
+          "off": 2421857,
+          "hex": "0x24f461",
+          "len": 4,
+          "text": "wtf^"
+        },
+        {
+          "off": 2421863,
+          "hex": "0x24f467",
+          "len": 4,
+          "text": "@rv{"
+        },
+        {
+          "off": 2421879,
+          "hex": "0x24f477",
+          "len": 5,
+          "text": "VvVV "
+        },
+        {
+          "off": 2421891,
+          "hex": "0x24f483",
+          "len": 5,
+          "text": "5EUTG"
+        },
+        {
+          "off": 2421903,
+          "hex": "0x24f48f",
+          "len": 4,
+          "text": "idhZ"
+        },
+        {
+          "off": 2421926,
+          "hex": "0x24f4a6",
+          "len": 5,
+          "text": "^g`dV"
+        },
+        {
+          "off": 2421943,
+          "hex": "0x24f4b7",
+          "len": 4,
+          "text": "ebfZ"
+        },
+        {
+          "off": 2421959,
+          "hex": "0x24f4c7",
+          "len": 4,
+          "text": "cbbX"
+        },
+        {
+          "off": 2421972,
+          "hex": "0x24f4d4",
+          "len": 4,
+          "text": "|?d\\"
+        },
+        {
+          "off": 2421986,
+          "hex": "0x24f4e2",
+          "len": 5,
+          "text": "c`dZP"
+        },
+        {
+          "off": 2422212,
+          "hex": "0x24f5c4",
+          "len": 4,
+          "text": "{`n^"
+        },
+        {
+          "off": 2422258,
+          "hex": "0x24f5f2",
+          "len": 4,
+          "text": "{bn^"
+        },
+        {
+          "off": 2422288,
+          "hex": "0x24f610",
+          "len": 4,
+          "text": "}\\p\\"
+        },
+        {
+          "off": 2422304,
+          "hex": "0x24f620",
+          "len": 4,
+          "text": "yfpb"
+        },
+        {
+          "off": 2422320,
+          "hex": "0x24f630",
+          "len": 4,
+          "text": "}XtX"
+        },
+        {
+          "off": 2422338,
+          "hex": "0x24f642",
+          "len": 5,
+          "text": "*3i+m"
+        },
+        {
+          "off": 2422455,
+          "hex": "0x24f6b7",
+          "len": 4,
+          "text": "-sL?"
+        },
+        {
+          "off": 2422499,
+          "hex": "0x24f6e3",
+          "len": 5,
+          "text": "sU!ZZ"
+        },
+        {
+          "off": 2422571,
+          "hex": "0x24f72b",
+          "len": 8,
+          "text": "*?52BD4C"
+        },
+        {
+          "off": 2422623,
+          "hex": "0x24f75f",
+          "len": 4,
+          "text": "$\r\r\r"
+        },
+        {
+          "off": 2422683,
+          "hex": "0x24f79b",
+          "len": 11,
+          "text": "PF_ASTC_6x6"
+        },
+        {
+          "off": 2422768,
+          "hex": "0x24f7f0",
+          "len": 5,
+          "text": "rUS00"
+        },
+        {
+          "off": 2422781,
+          "hex": "0x24f7fd",
+          "len": 4,
+          "text": "<fst"
+        },
+        {
+          "off": 2422805,
+          "hex": "0x24f815",
+          "len": 6,
+          "text": "RRCkir"
+        },
+        {
+          "off": 2422909,
+          "hex": "0x24f87d",
+          "len": 4,
+          "text": "X<Z2"
+        },
+        {
+          "off": 2422972,
+          "hex": "0x24f8bc",
+          "len": 4,
+          "text": "9+bD"
+        },
+        {
+          "off": 2423045,
+          "hex": "0x24f905",
+          "len": 6,
+          "text": "@S}'Jc"
+        },
+        {
+          "off": 2423094,
+          "hex": "0x24f936",
+          "len": 5,
+          "text": "JuJ,?"
+        },
+        {
+          "off": 2423111,
+          "hex": "0x24f947",
+          "len": 4,
+          "text": "mR)r"
+        },
+        {
+          "off": 2423259,
+          "hex": "0x24f9db",
+          "len": 4,
+          "text": "O5<@"
+        },
+        {
+          "off": 2423283,
+          "hex": "0x24f9f3",
+          "len": 4,
+          "text": "nh)\""
+        },
+        {
+          "off": 2423306,
+          "hex": "0x24fa0a",
+          "len": 4,
+          "text": "a>\nJ"
+        },
+        {
+          "off": 2423482,
+          "hex": "0x24faba",
+          "len": 4,
+          "text": "a>\ni"
+        },
+        {
+          "off": 2423512,
+          "hex": "0x24fad8",
+          "len": 5,
+          "text": "lb<7T"
+        },
+        {
+          "off": 2423692,
+          "hex": "0x24fb8c",
+          "len": 5,
+          "text": "U$:Dr"
+        },
+        {
+          "off": 2423791,
+          "hex": "0x24fbef",
+          "len": 4,
+          "text": "{plh"
+        },
+        {
+          "off": 2423814,
+          "hex": "0x24fc06",
+          "len": 5,
+          "text": "WIb*L"
+        },
+        {
+          "off": 2423907,
+          "hex": "0x24fc63",
+          "len": 4,
+          "text": " .Y^"
+        },
+        {
+          "off": 2423951,
+          "hex": "0x24fc8f",
+          "len": 5,
+          "text": ":RDVv"
+        },
+        {
+          "off": 2423963,
+          "hex": "0x24fc9b",
+          "len": 4,
+          "text": "sfjb"
+        },
+        {
+          "off": 2423996,
+          "hex": "0x24fcbc",
+          "len": 5,
+          "text": "\tb@\tI"
+        },
+        {
+          "off": 2424139,
+          "hex": "0x24fd4b",
+          "len": 4,
+          "text": "odhb"
+        },
+        {
+          "off": 2424195,
+          "hex": "0x24fd83",
+          "len": 4,
+          "text": "U`-Y"
+        },
+        {
+          "off": 2424204,
+          "hex": "0x24fd8c",
+          "len": 4,
+          "text": "ibR\r"
+        },
+        {
+          "off": 2424255,
+          "hex": "0x24fdbf",
+          "len": 4,
+          "text": "u IP"
+        },
+        {
+          "off": 2424281,
+          "hex": "0x24fdd9",
+          "len": 4,
+          "text": "w~`Z"
+        },
+        {
+          "off": 2424313,
+          "hex": "0x24fdf9",
+          "len": 4,
+          "text": "qdld"
+        },
+        {
+          "off": 2424361,
+          "hex": "0x24fe29",
+          "len": 4,
+          "text": "K$UJ"
+        },
+        {
+          "off": 2424566,
+          "hex": "0x24fef6",
+          "len": 4,
+          "text": "udf`"
+        },
+        {
+          "off": 2424582,
+          "hex": "0x24ff06",
+          "len": 4,
+          "text": "obj\\"
+        },
+        {
+          "off": 2424598,
+          "hex": "0x24ff16",
+          "len": 4,
+          "text": "o`h\\"
+        },
+        {
+          "off": 2424610,
+          "hex": "0x24ff22",
+          "len": 4,
+          "text": "+-m^"
+        },
+        {
+          "off": 2424626,
+          "hex": "0x24ff32",
+          "len": 4,
+          "text": "mblb"
+        },
+        {
+          "off": 2424646,
+          "hex": "0x24ff46",
+          "len": 5,
+          "text": "(3)+-"
+        },
+        {
+          "off": 2424677,
+          "hex": "0x24ff65",
+          "len": 4,
+          "text": "\n*L\""
+        },
+        {
+          "off": 2424694,
+          "hex": "0x24ff76",
+          "len": 4,
+          "text": "[UUY"
+        },
+        {
+          "off": 2424762,
+          "hex": "0x24ffba",
+          "len": 4,
+          "text": "Hy,b"
+        },
+        {
+          "off": 2424857,
+          "hex": "0x250019",
+          "len": 7,
+          "text": "z6,0\tJm"
+        },
+        {
+          "off": 2424953,
+          "hex": "0x250079",
+          "len": 5,
+          "text": "P|D\r."
+        },
+        {
+          "off": 2424972,
+          "hex": "0x25008c",
+          "len": 6,
+          "text": "imsiTa"
+        },
+        {
+          "off": 2425027,
+          "hex": "0x2500c3",
+          "len": 4,
+          "text": "qhjd"
+        },
+        {
+          "off": 2425043,
+          "hex": "0x2500d3",
+          "len": 4,
+          "text": "mfPi"
+        },
+        {
+          "off": 2425121,
+          "hex": "0x250121",
+          "len": 4,
+          "text": "kfhj"
+        },
+        {
+          "off": 2425205,
+          "hex": "0x250175",
+          "len": 5,
+          "text": "Zbbrf"
+        },
+        {
+          "off": 2425231,
+          "hex": "0x25018f",
+          "len": 6,
+          "text": ",bwU3b"
+        }
+      ],
+      "luaish_strings_near": []
+    },
+    {
+      "target": "sgaf_config.json",
+      "offset": 58684191,
+      "offset_hex": "0x37f731f",
+      "window_start": "0x37f531f",
+      "window_end": "0x37f931f",
+      "entropy_4k_before": 6.856256381228973,
+      "entropy_4k_after": 7.464398592094625,
+      "hex_before64": "33 f1 9d 44 ce 80 89 22 80 28 b7 23 d6 00 00 00 00 00 63 64 20 54 6f 6f 6c 73 0d 0a 53 47 41 46 54 65 6d 70 6c 61 74 65 47 65 6e 65 72 61 74 6f 72 2e 65 78 65 20 2e 2f 20 47 65 6e 52 65 73 20",
+      "hex_after_name64": "73 67 61 66 5f 63 6f 6e 66 69 67 2e 6a 73 6f 6e 20 43 70 70 0d 0a 70 61 75 73 65 0d 0a 00 00 00 00 00 00 00 00 45 02 00 00 00 00 00 00 c2 0f 00 00 00 00 00 00 01 00 00 00 a2 8f bc e4 f5 a7 98 3e e7 16 4b 66 c1 61 00 38 73 62 cc c9 01 00 00",
+      "markers_near": [
+        {
+          "marker": "zlib_7801",
+          "off": "0x37f7f04",
+          "delta": 3045
+        },
+        {
+          "marker": "zlib_789c",
+          "off": "0x37f8099",
+          "delta": 3450
+        }
+      ],
+      "strings_near_count": 244,
+      "strings_near": [
+        {
+          "off": 58676063,
+          "hex": "0x37f535f",
+          "len": 4,
+          "text": "o;CD"
+        },
+        {
+          "off": 58676165,
+          "hex": "0x37f53c5",
+          "len": 6,
+          "text": "5'ySJs"
+        },
+        {
+          "off": 58676191,
+          "hex": "0x37f53df",
+          "len": 5,
+          "text": "W@5oK"
+        },
+        {
+          "off": 58676223,
+          "hex": "0x37f53ff",
+          "len": 4,
+          "text": "3\"fA"
+        },
+        {
+          "off": 58676246,
+          "hex": "0x37f5416",
+          "len": 4,
+          "text": "wZqV"
+        },
+        {
+          "off": 58676413,
+          "hex": "0x37f54bd",
+          "len": 6,
+          "text": "qRb,PQ"
+        },
+        {
+          "off": 58676443,
+          "hex": "0x37f54db",
+          "len": 4,
+          "text": "F(0<"
+        },
+        {
+          "off": 58676469,
+          "hex": "0x37f54f5",
+          "len": 4,
+          "text": "?J(^"
+        },
+        {
+          "off": 58676673,
+          "hex": "0x37f55c1",
+          "len": 5,
+          "text": "sNKlt"
+        },
+        {
+          "off": 58676736,
+          "hex": "0x37f5600",
+          "len": 4,
+          "text": " !Q\n"
+        },
+        {
+          "off": 58676795,
+          "hex": "0x37f563b",
+          "len": 4,
+          "text": "$\tur"
+        },
+        {
+          "off": 58676875,
+          "hex": "0x37f568b",
+          "len": 4,
+          "text": ".m\"4"
+        },
+        {
+          "off": 58676885,
+          "hex": "0x37f5695",
+          "len": 4,
+          "text": "Z?y>"
+        },
+        {
+          "off": 58676924,
+          "hex": "0x37f56bc",
+          "len": 4,
+          "text": "%Ip\r"
+        },
+        {
+          "off": 58676934,
+          "hex": "0x37f56c6",
+          "len": 4,
+          "text": "^1hD"
+        },
+        {
+          "off": 58677159,
+          "hex": "0x37f57a7",
+          "len": 10,
+          "text": "J%@3ES@p `"
+        },
+        {
+          "off": 58677206,
+          "hex": "0x37f57d6",
+          "len": 4,
+          "text": "uYcS"
+        },
+        {
+          "off": 58677268,
+          "hex": "0x37f5814",
+          "len": 4,
+          "text": "kz\tK"
+        },
+        {
+          "off": 58677361,
+          "hex": "0x37f5871",
+          "len": 4,
+          "text": "b%kP"
+        },
+        {
+          "off": 58677367,
+          "hex": "0x37f5877",
+          "len": 5,
+          "text": "{:\rX?"
+        },
+        {
+          "off": 58677386,
+          "hex": "0x37f588a",
+          "len": 4,
+          "text": ">~MY"
+        },
+        {
+          "off": 58677489,
+          "hex": "0x37f58f1",
+          "len": 6,
+          "text": "8oryD,"
+        },
+        {
+          "off": 58677563,
+          "hex": "0x37f593b",
+          "len": 4,
+          "text": " AG_"
+        },
+        {
+          "off": 58677601,
+          "hex": "0x37f5961",
+          "len": 4,
+          "text": "|Jwv"
+        },
+        {
+          "off": 58677617,
+          "hex": "0x37f5971",
+          "len": 4,
+          "text": "tqh;"
+        },
+        {
+          "off": 58677640,
+          "hex": "0x37f5988",
+          "len": 5,
+          "text": "PB['I"
+        },
+        {
+          "off": 58677667,
+          "hex": "0x37f59a3",
+          "len": 4,
+          "text": "]x&h"
+        },
+        {
+          "off": 58677711,
+          "hex": "0x37f59cf",
+          "len": 4,
+          "text": "yzkr"
+        },
+        {
+          "off": 58677841,
+          "hex": "0x37f5a51",
+          "len": 6,
+          "text": "`&#H,8"
+        },
+        {
+          "off": 58677896,
+          "hex": "0x37f5a88",
+          "len": 4,
+          "text": "AA3q"
+        },
+        {
+          "off": 58678044,
+          "hex": "0x37f5b1c",
+          "len": 4,
+          "text": "xt:'"
+        },
+        {
+          "off": 58678056,
+          "hex": "0x37f5b28",
+          "len": 6,
+          "text": "@2Q8(a"
+        },
+        {
+          "off": 58678079,
+          "hex": "0x37f5b3f",
+          "len": 4,
+          "text": ":jc'"
+        },
+        {
+          "off": 58678102,
+          "hex": "0x37f5b56",
+          "len": 4,
+          "text": "\\l6R"
+        },
+        {
+          "off": 58678208,
+          "hex": "0x37f5bc0",
+          "len": 4,
+          "text": "&0\n:"
+        },
+        {
+          "off": 58678346,
+          "hex": "0x37f5c4a",
+          "len": 4,
+          "text": "A+wz"
+        },
+        {
+          "off": 58678413,
+          "hex": "0x37f5c8d",
+          "len": 4,
+          "text": "PH=@"
+        },
+        {
+          "off": 58678441,
+          "hex": "0x37f5ca9",
+          "len": 4,
+          "text": "$x8P"
+        },
+        {
+          "off": 58678449,
+          "hex": "0x37f5cb1",
+          "len": 4,
+          "text": "H2\n@"
+        },
+        {
+          "off": 58678487,
+          "hex": "0x37f5cd7",
+          "len": 4,
+          "text": "Ph+h"
+        },
+        {
+          "off": 58678587,
+          "hex": "0x37f5d3b",
+          "len": 5,
+          "text": "04b:*"
+        },
+        {
+          "off": 58678630,
+          "hex": "0x37f5d66",
+          "len": 7,
+          "text": "Bs8;pU\n"
+        },
+        {
+          "off": 58678892,
+          "hex": "0x37f5e6c",
+          "len": 4,
+          "text": "S91F"
+        },
+        {
+          "off": 58678918,
+          "hex": "0x37f5e86",
+          "len": 8,
+          "text": "jt<3-r!p"
+        },
+        {
+          "off": 58679223,
+          "hex": "0x37f5fb7",
+          "len": 6,
+          "text": "w\";Umn"
+        },
+        {
+          "off": 58679568,
+          "hex": "0x37f6110",
+          "len": 5,
+          "text": "n)@o]"
+        },
+        {
+          "off": 58679661,
+          "hex": "0x37f616d",
+          "len": 4,
+          "text": "s^%t"
+        },
+        {
+          "off": 58679728,
+          "hex": "0x37f61b0",
+          "len": 4,
+          "text": "8%5:"
+        },
+        {
+          "off": 58679752,
+          "hex": "0x37f61c8",
+          "len": 5,
+          "text": "jh|1\t"
+        },
+        {
+          "off": 58679806,
+          "hex": "0x37f61fe",
+          "len": 5,
+          "text": "#HIRC"
+        },
+        {
+          "off": 58679856,
+          "hex": "0x37f6230",
+          "len": 4,
+          "text": "B\tzD"
+        },
+        {
+          "off": 58679977,
+          "hex": "0x37f62a9",
+          "len": 7,
+          "text": "}?5I~&$"
+        },
+        {
+          "off": 58679999,
+          "hex": "0x37f62bf",
+          "len": 5,
+          "text": "8bYL)"
+        },
+        {
+          "off": 58680190,
+          "hex": "0x37f637e",
+          "len": 6,
+          "text": "c\r V\\."
+        },
+        {
+          "off": 58680247,
+          "hex": "0x37f63b7",
+          "len": 4,
+          "text": "0%86"
+        },
+        {
+          "off": 58680317,
+          "hex": "0x37f63fd",
+          "len": 4,
+          "text": "*?e#"
+        },
+        {
+          "off": 58680425,
+          "hex": "0x37f6469",
+          "len": 7,
+          "text": "i=y6B%V"
+        },
+        {
+          "off": 58680440,
+          "hex": "0x37f6478",
+          "len": 4,
+          "text": "O/S:"
+        },
+        {
+          "off": 58680459,
+          "hex": "0x37f648b",
+          "len": 6,
+          "text": "Hq )@\t"
+        },
+        {
+          "off": 58680544,
+          "hex": "0x37f64e0",
+          "len": 4,
+          "text": "xRcI"
+        },
+        {
+          "off": 58680551,
+          "hex": "0x37f64e7",
+          "len": 8,
+          "text": ",IU2aFz7"
+        },
+        {
+          "off": 58680638,
+          "hex": "0x37f653e",
+          "len": 4,
+          "text": "f5'+"
+        },
+        {
+          "off": 58680647,
+          "hex": "0x37f6547",
+          "len": 4,
+          "text": "5RK1"
+        },
+        {
+          "off": 58680811,
+          "hex": "0x37f65eb",
+          "len": 4,
+          "text": "OkkP"
+        },
+        {
+          "off": 58680824,
+          "hex": "0x37f65f8",
+          "len": 6,
+          "text": "*E(.0*"
+        },
+        {
+          "off": 58681002,
+          "hex": "0x37f66aa",
+          "len": 4,
+          "text": "None"
+        },
+        {
+          "off": 58681046,
+          "hex": "0x37f66d6",
+          "len": 49,
+          "text": "1/Game/Program/Audio/WwiseBank/Musics/Login_Sound"
+        },
+        {
+          "off": 58681101,
+          "hex": "0x37f670d",
+          "len": 9,
+          "text": "Script/Ak"
+        },
+        {
+          "off": 58681116,
+          "hex": "0x37f671c",
+          "len": 11,
+          "text": "CoreUObject"
+        },
+        {
+          "off": 58681145,
+          "hex": "0x37f6739",
+          "len": 5,
+          "text": "Class"
+        },
+        {
+          "off": 58681157,
+          "hex": "0x37f6745",
+          "len": 9,
+          "text": "Default__"
+        },
+        {
+          "off": 58681179,
+          "hex": "0x37f675b",
+          "len": 7,
+          "text": "Package"
+        },
+        {
+          "off": 58681191,
+          "hex": "0x37f6767",
+          "len": 7,
+          "text": "ShortID"
+        },
+        {
+          "off": 58681204,
+          "hex": "0x37f6774",
+          "len": 14,
+          "text": "UInt32Property"
+        },
+        {
+          "off": 58681583,
+          "hex": "0x37f68ef",
+          "len": 4,
+          "text": "None"
+        },
+        {
+          "off": 58681627,
+          "hex": "0x37f691b",
+          "len": 44,
+          "text": ",/Game/Program/Audio/WwiseBank/Musics/Musics"
+        },
+        {
+          "off": 58681672,
+          "hex": "0x37f6948",
+          "len": 4,
+          "text": "\tqMC"
+        },
+        {
+          "off": 58681677,
+          "hex": "0x37f694d",
+          "len": 10,
+          "text": "/Script/Ak"
+        },
+        {
+          "off": 58681693,
+          "hex": "0x37f695d",
+          "len": 11,
+          "text": "CoreUObject"
+        },
+        {
+          "off": 58681719,
+          "hex": "0x37f6977",
+          "len": 7,
+          "text": "Clastwx"
+        },
+        {
+          "off": 58681728,
+          "hex": "0x37f6980",
+          "len": 9,
+          "text": "Default__"
+        },
+        {
+          "off": 58681751,
+          "hex": "0x37f6997",
+          "len": 7,
+          "text": "Package"
+        },
+        {
+          "off": 58681763,
+          "hex": "0x37f69a3",
+          "len": 7,
+          "text": "ShortID"
+        },
+        {
+          "off": 58681776,
+          "hex": "0x37f69b0",
+          "len": 14,
+          "text": "UInt32Property"
+        },
+        {
+          "off": 58681927,
+          "hex": "0x37f6a47",
+          "len": 4,
+          "text": "3k#z"
+        },
+        {
+          "off": 58682161,
+          "hex": "0x37f6b31",
+          "len": 4,
+          "text": "None"
+        },
+        {
+          "off": 58682187,
+          "hex": "0x37f6b4b",
+          "len": 4,
+          "text": "YM@)"
+        },
+        {
+          "off": 58682205,
+          "hex": "0x37f6b5d",
+          "len": 49,
+          "text": "1/Game/Program/Audio/WwiseBank/Musics/Login_Sound"
+        },
+        {
+          "off": 58682259,
+          "hex": "0x37f6b93",
+          "len": 24,
+          "text": ">Event/Play_LogIn_Season"
+        },
+        {
+          "off": 58682289,
+          "hex": "0x37f6bb1",
+          "len": 10,
+          "text": "/Script/Ak"
+        },
+        {
+          "off": 58682305,
+          "hex": "0x37f6bc1",
+          "len": 11,
+          "text": "CoreUObject"
+        },
+        {
+          "off": 58682332,
+          "hex": "0x37f6bdc",
+          "len": 9,
+          "text": "Boolperty"
+        },
+        {
+          "off": 58682347,
+          "hex": "0x37f6beb",
+          "len": 5,
+          "text": "Class"
+        },
+        {
+          "off": 58682358,
+          "hex": "0x37f6bf6",
+          "len": 10,
+          "text": "Default__f"
+        },
+        {
+          "off": 58682372,
+          "hex": "0x37f6c04",
+          "len": 10,
+          "text": "IsInfinite"
+        },
+        {
+          "off": 58682403,
+          "hex": "0x37f6c23",
+          "len": 7,
+          "text": "Package"
+        },
+        {
+          "off": 58682420,
+          "hex": "0x37f6c34",
+          "len": 9,
+          "text": "\rRequired"
+        },
+        {
+          "off": 58682430,
+          "hex": "0x37f6c3e",
+          "len": 10,
+          "text": "pj&ShortID"
+        },
+        {
+          "off": 58682443,
+          "hex": "0x37f6c4b",
+          "len": 8,
+          "text": "NdUInt32"
+        },
+        {
+          "off": 58682498,
+          "hex": "0x37f6c82",
+          "len": 4,
+          "text": ":20N"
+        },
+        {
+          "off": 58682524,
+          "hex": "0x37f6c9c",
+          "len": 4,
+          "text": "0Q\rE"
+        },
+        {
+          "off": 58682564,
+          "hex": "0x37f6cc4",
+          "len": 4,
+          "text": "\r\t\r\r"
+        },
+        {
+          "off": 58682570,
+          "hex": "0x37f6cca",
+          "len": 4,
+          "text": "\t.'\r"
+        },
+        {
+          "off": 58682696,
+          "hex": "0x37f6d48",
+          "len": 8,
+          "text": ",Atm}5;e"
+        },
+        {
+          "off": 58682823,
+          "hex": "0x37f6dc7",
+          "len": 8,
+          "text": " ('. '$\n"
+        },
+        {
+          "off": 58682901,
+          "hex": "0x37f6e15",
+          "len": 4,
+          "text": "None"
+        },
+        {
+          "off": 58682943,
+          "hex": "0x37f6e3f",
+          "len": 49,
+          "text": "1/Game/Program/Audio/WwiseBank/Musics/Login_Sound"
+        },
+        {
+          "off": 58682997,
+          "hex": "0x37f6e75",
+          "len": 30,
+          "text": "DEvent/Play_LogIn_Season_Japan"
+        },
+        {
+          "off": 58683033,
+          "hex": "0x37f6e99",
+          "len": 9,
+          "text": "Script/Ak"
+        },
+        {
+          "off": 58683048,
+          "hex": "0x37f6ea8",
+          "len": 11,
+          "text": "CoreUObject"
+        },
+        {
+          "off": 58683081,
+          "hex": "0x37f6ec9",
+          "len": 5,
+          "text": "Class"
+        },
+        {
+          "off": 58683092,
+          "hex": "0x37f6ed4",
+          "len": 9,
+          "text": "efault__f"
+        },
+        {
+          "off": 58683114,
+          "hex": "0x37f6eea",
+          "len": 8,
+          "text": "Property"
+        },
+        {
+          "off": 58683127,
+          "hex": "0x37f6ef7",
+          "len": 7,
+          "text": "Package"
+        },
+        {
+          "off": 58683143,
+          "hex": "0x37f6f07",
+          "len": 10,
+          "text": "b\rRequired"
+        },
+        {
+          "off": 58683242,
+          "hex": "0x37f6f6a",
+          "len": 4,
+          "text": "\r\t\r\r"
+        },
+        {
+          "off": 58683318,
+          "hex": "0x37f6fb6",
+          "len": 4,
+          "text": "CwPr"
+        },
+        {
+          "off": 58683567,
+          "hex": "0x37f70af",
+          "len": 4,
+          "text": "None"
+        },
+        {
+          "off": 58683608,
+          "hex": "0x37f70d8",
+          "len": 44,
+          "text": ",/Game/Program/Audio/WwiseBank/Musics/Musics"
+        },
+        {
+          "off": 58683653,
+          "hex": "0x37f7105",
+          "len": 17,
+          "text": "\tqMC7Eventainlay_"
+        }
+      ],
+      "luaish_strings_near": []
+    },
+    {
+      "target": "sgaf_config.json",
+      "offset": 58746859,
+      "offset_hex": "0x38067eb",
+      "window_start": "0x38047eb",
+      "window_end": "0x38087eb",
+      "entropy_4k_before": 7.917727766857102,
+      "entropy_4k_after": 7.538486016497575,
+      "hex_before64": "8c 10 f0 54 cb 3b 75 d8 2e 00 00 00 00 00 63 64 20 2e 2e 2f 54 6f 6f 6c 73 0d 0a 53 47 41 46 54 65 6d 70 6c 61 74 65 47 65 6e 65 72 61 74 6f 72 2e 65 78 65 20 2e 2f 20 47 65 6e 43 6f 64 65 20",
+      "hex_after_name64": "73 67 61 66 5f 63 6f 6e 66 69 67 2e 6a 73 6f 6e 20 43 70 70 0d 0a 70 61 75 73 65 0d 0a 00 00 00 00 00 00 00 00 05 01 00 00 00 00 00 00 e1 01 00 00 00 00 00 00 01 00 00 00 b3 77 f8 b7 b0 69 95 97 33 19 9e 0a 81 d4 0b 53 25 25 27 7d 01 00 00",
+      "markers_near": [
+        {
+          "marker": "zlib_7801",
+          "off": "0x38072cd",
+          "delta": 2786
+        }
+      ],
+      "strings_near_count": 242,
+      "strings_near": [
+        {
+          "off": 58738784,
+          "hex": "0x3804860",
+          "len": 4,
+          "text": "7!M#"
+        },
+        {
+          "off": 58738805,
+          "hex": "0x3804875",
+          "len": 5,
+          "text": "&W4yE"
+        },
+        {
+          "off": 58738909,
+          "hex": "0x38048dd",
+          "len": 4,
+          "text": "W<06"
+        },
+        {
+          "off": 58738929,
+          "hex": "0x38048f1",
+          "len": 4,
+          "text": "}p{8"
+        },
+        {
+          "off": 58738961,
+          "hex": "0x3804911",
+          "len": 4,
+          "text": "B<!!"
+        },
+        {
+          "off": 58739044,
+          "hex": "0x3804964",
+          "len": 4,
+          "text": "ii/H"
+        },
+        {
+          "off": 58739182,
+          "hex": "0x38049ee",
+          "len": 8,
+          "text": "$Q_!6f=q"
+        },
+        {
+          "off": 58739191,
+          "hex": "0x38049f7",
+          "len": 4,
+          "text": "cg($"
+        },
+        {
+          "off": 58739285,
+          "hex": "0x3804a55",
+          "len": 11,
+          "text": " ) 0 ) ) ) "
+        },
+        {
+          "off": 58739491,
+          "hex": "0x3804b23",
+          "len": 7,
+          "text": "v*a8y<\\"
+        },
+        {
+          "off": 58739517,
+          "hex": "0x3804b3d",
+          "len": 4,
+          "text": "R|v!"
+        },
+        {
+          "off": 58739588,
+          "hex": "0x3804b84",
+          "len": 8,
+          "text": "&F\\.&9k."
+        },
+        {
+          "off": 58739671,
+          "hex": "0x3804bd7",
+          "len": 4,
+          "text": "@4H "
+        },
+        {
+          "off": 58739701,
+          "hex": "0x3804bf5",
+          "len": 4,
+          "text": "VETD"
+        },
+        {
+          "off": 58739706,
+          "hex": "0x3804bfa",
+          "len": 5,
+          "text": "+a-xG"
+        },
+        {
+          "off": 58739723,
+          "hex": "0x3804c0b",
+          "len": 4,
+          "text": "\"\"\"\t"
+        },
+        {
+          "off": 58739813,
+          "hex": "0x3804c65",
+          "len": 5,
+          "text": "b\"|F\""
+        },
+        {
+          "off": 58739856,
+          "hex": "0x3804c90",
+          "len": 4,
+          "text": "1&G@"
+        },
+        {
+          "off": 58739886,
+          "hex": "0x3804cae",
+          "len": 4,
+          "text": "\rMKn"
+        },
+        {
+          "off": 58739916,
+          "hex": "0x3804ccc",
+          "len": 4,
+          "text": "W}*M"
+        },
+        {
+          "off": 58739964,
+          "hex": "0x3804cfc",
+          "len": 4,
+          "text": "/LYm"
+        },
+        {
+          "off": 58739976,
+          "hex": "0x3804d08",
+          "len": 4,
+          "text": "Liu_"
+        },
+        {
+          "off": 58740067,
+          "hex": "0x3804d63",
+          "len": 8,
+          "text": "\"$K[\"\"\"\r"
+        },
+        {
+          "off": 58740240,
+          "hex": "0x3804e10",
+          "len": 4,
+          "text": "QbQr"
+        },
+        {
+          "off": 58740245,
+          "hex": "0x3804e15",
+          "len": 6,
+          "text": "DADqts"
+        },
+        {
+          "off": 58740334,
+          "hex": "0x3804e6e",
+          "len": 4,
+          "text": "HMDQ"
+        },
+        {
+          "off": 58740412,
+          "hex": "0x3804ebc",
+          "len": 4,
+          "text": "la;b"
+        },
+        {
+          "off": 58740431,
+          "hex": "0x3804ecf",
+          "len": 4,
+          "text": "6l@$"
+        },
+        {
+          "off": 58740489,
+          "hex": "0x3804f09",
+          "len": 4,
+          "text": "ZP\"b"
+        },
+        {
+          "off": 58740510,
+          "hex": "0x3804f1e",
+          "len": 5,
+          "text": "(h&C\t"
+        },
+        {
+          "off": 58740519,
+          "hex": "0x3804f27",
+          "len": 4,
+          "text": "H#XF"
+        },
+        {
+          "off": 58740527,
+          "hex": "0x3804f2f",
+          "len": 4,
+          "text": "\n'cA"
+        },
+        {
+          "off": 58740677,
+          "hex": "0x3804fc5",
+          "len": 4,
+          "text": "a-z\n"
+        },
+        {
+          "off": 58740858,
+          "hex": "0x380507a",
+          "len": 4,
+          "text": "a-Ia"
+        },
+        {
+          "off": 58740968,
+          "hex": "0x38050e8",
+          "len": 5,
+          "text": "'=(%q"
+        },
+        {
+          "off": 58740980,
+          "hex": "0x38050f4",
+          "len": 4,
+          "text": "62jU"
+        },
+        {
+          "off": 58740985,
+          "hex": "0x38050f9",
+          "len": 6,
+          "text": "?]PFb6"
+        },
+        {
+          "off": 58741069,
+          "hex": "0x380514d",
+          "len": 5,
+          "text": "HBpQ@"
+        },
+        {
+          "off": 58741162,
+          "hex": "0x38051aa",
+          "len": 4,
+          "text": "!CR!"
+        },
+        {
+          "off": 58741176,
+          "hex": "0x38051b8",
+          "len": 4,
+          "text": "\nLVm"
+        },
+        {
+          "off": 58741249,
+          "hex": "0x3805201",
+          "len": 4,
+          "text": "AX5b"
+        },
+        {
+          "off": 58741284,
+          "hex": "0x3805224",
+          "len": 4,
+          "text": "DwPV"
+        },
+        {
+          "off": 58741316,
+          "hex": "0x3805244",
+          "len": 4,
+          "text": "jpGp"
+        },
+        {
+          "off": 58741477,
+          "hex": "0x38052e5",
+          "len": 4,
+          "text": "\tVx="
+        },
+        {
+          "off": 58741522,
+          "hex": "0x3805312",
+          "len": 4,
+          "text": "Wc:4"
+        },
+        {
+          "off": 58741535,
+          "hex": "0x380531f",
+          "len": 4,
+          "text": "bHFV"
+        },
+        {
+          "off": 58741632,
+          "hex": "0x3805380",
+          "len": 4,
+          "text": "$TVV"
+        },
+        {
+          "off": 58741641,
+          "hex": "0x3805389",
+          "len": 7,
+          "text": "8!Ns,wu"
+        },
+        {
+          "off": 58741759,
+          "hex": "0x38053ff",
+          "len": 5,
+          "text": "5bs<g"
+        },
+        {
+          "off": 58741780,
+          "hex": "0x3805414",
+          "len": 5,
+          "text": "nQ*HL"
+        },
+        {
+          "off": 58742008,
+          "hex": "0x38054f8",
+          "len": 4,
+          "text": "|]_E"
+        },
+        {
+          "off": 58742227,
+          "hex": "0x38055d3",
+          "len": 4,
+          "text": "%2KH"
+        },
+        {
+          "off": 58742241,
+          "hex": "0x38055e1",
+          "len": 4,
+          "text": "sf\\d"
+        },
+        {
+          "off": 58742384,
+          "hex": "0x3805670",
+          "len": 4,
+          "text": "a,D`"
+        },
+        {
+          "off": 58742392,
+          "hex": "0x3805678",
+          "len": 4,
+          "text": "BC\nG"
+        },
+        {
+          "off": 58742417,
+          "hex": "0x3805691",
+          "len": 4,
+          "text": "6xR("
+        },
+        {
+          "off": 58742440,
+          "hex": "0x38056a8",
+          "len": 4,
+          "text": "A1\"|"
+        },
+        {
+          "off": 58742470,
+          "hex": "0x38056c6",
+          "len": 6,
+          "text": "^]V)!\""
+        },
+        {
+          "off": 58742497,
+          "hex": "0x38056e1",
+          "len": 4,
+          "text": "\tYM#"
+        },
+        {
+          "off": 58742520,
+          "hex": "0x38056f8",
+          "len": 4,
+          "text": "F2(m"
+        },
+        {
+          "off": 58742672,
+          "hex": "0x3805790",
+          "len": 4,
+          "text": "x07S"
+        },
+        {
+          "off": 58742702,
+          "hex": "0x38057ae",
+          "len": 5,
+          "text": "E\t.wL"
+        },
+        {
+          "off": 58742768,
+          "hex": "0x38057f0",
+          "len": 4,
+          "text": "=:+/"
+        },
+        {
+          "off": 58742883,
+          "hex": "0x3805863",
+          "len": 5,
+          "text": "\nqAa2"
+        },
+        {
+          "off": 58743027,
+          "hex": "0x38058f3",
+          "len": 5,
+          "text": "kBai="
+        },
+        {
+          "off": 58743074,
+          "hex": "0x3805922",
+          "len": 5,
+          "text": "vpC3\n"
+        },
+        {
+          "off": 58743118,
+          "hex": "0x380594e",
+          "len": 4,
+          "text": "\r9\t4"
+        },
+        {
+          "off": 58743129,
+          "hex": "0x3805959",
+          "len": 5,
+          "text": "RZ(5a"
+        },
+        {
+          "off": 58743190,
+          "hex": "0x3805996",
+          "len": 4,
+          "text": "HPm$"
+        },
+        {
+          "off": 58743229,
+          "hex": "0x38059bd",
+          "len": 4,
+          "text": "GU$\""
+        },
+        {
+          "off": 58743247,
+          "hex": "0x38059cf",
+          "len": 7,
+          "text": "I5_Ujup"
+        },
+        {
+          "off": 58743288,
+          "hex": "0x38059f8",
+          "len": 4,
+          "text": "TCe\n"
+        },
+        {
+          "off": 58743369,
+          "hex": "0x3805a49",
+          "len": 4,
+          "text": "5=@d"
+        },
+        {
+          "off": 58743520,
+          "hex": "0x3805ae0",
+          "len": 5,
+          "text": "EKdnq"
+        },
+        {
+          "off": 58743554,
+          "hex": "0x3805b02",
+          "len": 4,
+          "text": "_0Y~"
+        },
+        {
+          "off": 58743569,
+          "hex": "0x3805b11",
+          "len": 5,
+          "text": "vwV\nW"
+        },
+        {
+          "off": 58743613,
+          "hex": "0x3805b3d",
+          "len": 4,
+          "text": "dDGT"
+        },
+        {
+          "off": 58743633,
+          "hex": "0x3805b51",
+          "len": 4,
+          "text": "xDTQ"
+        },
+        {
+          "off": 58743688,
+          "hex": "0x3805b88",
+          "len": 5,
+          "text": "\tm#jM"
+        },
+        {
+          "off": 58743726,
+          "hex": "0x3805bae",
+          "len": 4,
+          "text": "EUM<"
+        },
+        {
+          "off": 58743779,
+          "hex": "0x3805be3",
+          "len": 4,
+          "text": "SjZo"
+        },
+        {
+          "off": 58743903,
+          "hex": "0x3805c5f",
+          "len": 4,
+          "text": "k+24"
+        },
+        {
+          "off": 58743929,
+          "hex": "0x3805c79",
+          "len": 5,
+          "text": "tJo0q"
+        },
+        {
+          "off": 58744087,
+          "hex": "0x3805d17",
+          "len": 6,
+          "text": "2|\\<qw"
+        },
+        {
+          "off": 58744100,
+          "hex": "0x3805d24",
+          "len": 5,
+          "text": "})OU1"
+        },
+        {
+          "off": 58744136,
+          "hex": "0x3805d48",
+          "len": 4,
+          "text": "VUjY"
+        },
+        {
+          "off": 58744335,
+          "hex": "0x3805e0f",
+          "len": 4,
+          "text": "c5m_"
+        },
+        {
+          "off": 58744389,
+          "hex": "0x3805e45",
+          "len": 4,
+          "text": "$`@="
+        },
+        {
+          "off": 58744548,
+          "hex": "0x3805ee4",
+          "len": 4,
+          "text": "I\r)\t"
+        },
+        {
+          "off": 58744698,
+          "hex": "0x3805f7a",
+          "len": 5,
+          "text": "^kN!]"
+        },
+        {
+          "off": 58744807,
+          "hex": "0x3805fe7",
+          "len": 4,
+          "text": "oe\r "
+        },
+        {
+          "off": 58744988,
+          "hex": "0x380609c",
+          "len": 4,
+          "text": " n;^"
+        },
+        {
+          "off": 58745180,
+          "hex": "0x380615c",
+          "len": 6,
+          "text": "Qkkbal"
+        },
+        {
+          "off": 58745298,
+          "hex": "0x38061d2",
+          "len": 4,
+          "text": "3_L\n"
+        },
+        {
+          "off": 58745411,
+          "hex": "0x3806243",
+          "len": 4,
+          "text": ">jm\r"
+        },
+        {
+          "off": 58745450,
+          "hex": "0x380626a",
+          "len": 4,
+          "text": "i]Wb"
+        },
+        {
+          "off": 58745770,
+          "hex": "0x38063aa",
+          "len": 4,
+          "text": "9a&g"
+        },
+        {
+          "off": 58745779,
+          "hex": "0x38063b3",
+          "len": 4,
+          "text": "MGiI"
+        },
+        {
+          "off": 58745784,
+          "hex": "0x38063b8",
+          "len": 5,
+          "text": "wn>Jj"
+        },
+        {
+          "off": 58745850,
+          "hex": "0x38063fa",
+          "len": 4,
+          "text": "#.zf"
+        },
+        {
+          "off": 58745864,
+          "hex": "0x3806408",
+          "len": 4,
+          "text": "+o*7"
+        },
+        {
+          "off": 58746022,
+          "hex": "0x38064a6",
+          "len": 4,
+          "text": "=G;("
+        },
+        {
+          "off": 58746069,
+          "hex": "0x38064d5",
+          "len": 4,
+          "text": "Z!b/"
+        },
+        {
+          "off": 58746092,
+          "hex": "0x38064ec",
+          "len": 4,
+          "text": "K2J|"
+        },
+        {
+          "off": 58746136,
+          "hex": "0x3806518",
+          "len": 4,
+          "text": "d9P2"
+        },
+        {
+          "off": 58746166,
+          "hex": "0x3806536",
+          "len": 5,
+          "text": "vyI4?"
+        },
+        {
+          "off": 58746321,
+          "hex": "0x38065d1",
+          "len": 5,
+          "text": "0uX:f"
+        },
+        {
+          "off": 58746631,
+          "hex": "0x3806707",
+          "len": 4,
+          "text": "F^ N"
+        },
+        {
+          "off": 58746659,
+          "hex": "0x3806723",
+          "len": 6,
+          "text": "!UnaC$"
+        },
+        {
+          "off": 58746787,
+          "hex": "0x38067a3",
+          "len": 5,
+          "text": "Y*Aj-"
+        },
+        {
+          "off": 58746809,
+          "hex": "0x38067b9",
+          "len": 79,
+          "text": "cd ../Tools\r\nSGAFTemplateGenerator.exe ./ GenCode sgaf_config.json Cpp\r\npause\r\n"
+        },
+        {
+          "off": 58746931,
+          "hex": "0x3806833",
+          "len": 5,
+          "text": "S%%'}"
+        },
+        {
+          "off": 58746969,
+          "hex": "0x3806859",
+          "len": 8,
+          "text": "[\r\n// --"
+        },
+        {
+          "off": 58746987,
+          "hex": "0x380686b",
+          "len": 5,
+          "text": "%#%%%"
+        },
+        {
+          "off": 58747025,
+          "hex": "0x3806891",
+          "len": 110,
+          "text": "------\r\n{\r\n    \"Enum\" : \"EActorTag\",Fields[Controller\t\t\"Authority\",Simulator\"]\r\n},\r\n\r\nBit\"CampRelationSame // "
+        },
+        {
+          "off": 58747147,
+          "hex": "0x380690b",
+          "len": 4,
+          "text": "Ally"
+        },
+        {
+          "off": 58747166,
+          "hex": "0x380691e",
+          "len": 8,
+          "text": "Neutral\""
+        },
+        {
+          "off": 58747180,
+          "hex": "0x380692c",
+          "len": 11,
+          "text": "]\r\n}\r\n\r\n]\r\n"
+        },
+        {
+          "off": 58747303,
+          "hex": "0x38069a7",
+          "len": 8,
+          "text": "[\r\n    \r"
+        },
+        {
+          "off": 58747364,
+          "hex": "0x38069e4",
+          "len": 5,
+          "text": ";ya\rN"
+        }
+      ],
+      "luaish_strings_near": []
+    }
+  ],
+  "targeted_counts": {
+    "ClientLaunch": {
+      "count_at_least": 1,
+      "sample_offsets": [
+        "0x250525"
+      ]
+    },
+    "sgaf_config": {
+      "count_at_least": 2,
+      "sample_offsets": [
+        "0x37f731f",
+        "0x38067eb"
+      ]
+    },
+    "function ": {
+      "count_at_least": 7,
+      "sample_offsets": [
+        "0x79d9c02",
+        "0x79decc1",
+        "0x79dedc7",
+        "0x79deecd",
+        "0x79df0b8",
+        "0x79df223",
+        "0x79e0226"
+      ]
+    },
+    "local ": {
+      "count_at_least": 0,
+      "sample_offsets": []
+    },
+    "require(": {
+      "count_at_least": 0,
+      "sample_offsets": []
+    },
+    "require ": {
+      "count_at_least": 0,
+      "sample_offsets": []
+    },
+    "return ": {
+      "count_at_least": 0,
+      "sample_offsets": []
+    },
+    "Launch.lua": {
+      "count_at_least": 1,
+      "sample_offsets": [
+        "0x25052b"
+      ]
+    },
+    ".lua": {
+      "count_at_least": 1,
+      "sample_offsets": [
+        "0x250531"
+      ]
+    },
+    ".json": {
+      "count_at_least": 2,
+      "sample_offsets": [
+        "0x37f732a",
+        "0x38067f6"
+      ]
+    }
+  }
+}

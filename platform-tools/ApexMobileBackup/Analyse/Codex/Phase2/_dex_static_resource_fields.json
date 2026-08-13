@@ -1,0 +1,30 @@
+[
+  {
+    "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+    "class": "Lcom/ea/gp/apexlegendsmobilefps/R$string;",
+    "field_index": 14207,
+    "field": {
+      "class": "Lcom/ea/gp/apexlegendsmobilefps/R$string;",
+      "type": "I",
+      "name": "router_address_formal"
+    },
+    "static_values_off": "0x3a5db8",
+    "value_offset": "0x3a60e9",
+    "encoded_type": 4,
+    "value": "0x7f0e00b6"
+  },
+  {
+    "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+    "class": "Lcom/gcore/tmgp/gcloudcore/R$string;",
+    "field_index": 27157,
+    "field": {
+      "class": "Lcom/gcore/tmgp/gcloudcore/R$string;",
+      "type": "I",
+      "name": "router_address_formal"
+    },
+    "static_values_off": "0x3ac4bf",
+    "value_offset": "0x3ac4d4",
+    "encoded_type": 4,
+    "value": "0x7f0e00b6"
+  }
+]

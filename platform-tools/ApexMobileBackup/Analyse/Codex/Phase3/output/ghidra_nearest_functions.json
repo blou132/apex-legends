@@ -1,0 +1,341 @@
+{
+  "function_count": 467079,
+  "targets": [
+    {
+      "group": "request_avatar_server_list",
+      "target": "RequestAvatarServerList_code_candidate_1",
+      "address": "0x7941d2c",
+      "nearest_preceding_function": {
+        "name": "FUN_07941d10",
+        "entry": "0x7941d10",
+        "delta": 28
+      },
+      "next_function": {
+        "name": "FUN_07941e84",
+        "entry": "0x7941e84",
+        "delta": 344
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "request_avatar_server_list",
+      "target": "RequestAvatarServerList_code_candidate_2",
+      "address": "0x7941d6c",
+      "nearest_preceding_function": {
+        "name": "FUN_07941d10",
+        "entry": "0x7941d10",
+        "delta": 92
+      },
+      "next_function": {
+        "name": "FUN_07941e84",
+        "entry": "0x7941e84",
+        "delta": 280
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_1",
+      "address": "0x7c1472c",
+      "nearest_preceding_function": {
+        "name": "FUN_07c14710",
+        "entry": "0x7c14710",
+        "delta": 28
+      },
+      "next_function": {
+        "name": "FUN_07c14740",
+        "entry": "0x7c14740",
+        "delta": 20
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_2",
+      "address": "0x7c14920",
+      "nearest_preceding_function": {
+        "name": "FUN_07c148b0",
+        "entry": "0x7c148b0",
+        "delta": 112
+      },
+      "next_function": {
+        "name": "FUN_07c14928",
+        "entry": "0x7c14928",
+        "delta": 8
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_3",
+      "address": "0x7c14cec",
+      "nearest_preceding_function": {
+        "name": "FUN_07c14cac",
+        "entry": "0x7c14cac",
+        "delta": 64
+      },
+      "next_function": {
+        "name": "FUN_07c14e44",
+        "entry": "0x7c14e44",
+        "delta": 344
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_4",
+      "address": "0x7c14e28",
+      "nearest_preceding_function": {
+        "name": "FUN_07c14cac",
+        "entry": "0x7c14cac",
+        "delta": 380
+      },
+      "next_function": {
+        "name": "FUN_07c14e44",
+        "entry": "0x7c14e44",
+        "delta": 28
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_5",
+      "address": "0x7c14ea8",
+      "nearest_preceding_function": {
+        "name": "FUN_07c14e44",
+        "entry": "0x7c14e44",
+        "delta": 100
+      },
+      "next_function": {
+        "name": "FUN_07c14f60",
+        "entry": "0x7c14f60",
+        "delta": 184
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_6",
+      "address": "0x7eb815c",
+      "nearest_preceding_function": {
+        "name": "FUN_07eb80dc",
+        "entry": "0x7eb80dc",
+        "delta": 128
+      },
+      "next_function": {
+        "name": "FUN_07eb8224",
+        "entry": "0x7eb8224",
+        "delta": 200
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_7",
+      "address": "0x7eb8284",
+      "nearest_preceding_function": {
+        "name": "FUN_07eb8224",
+        "entry": "0x7eb8224",
+        "delta": 96
+      },
+      "next_function": {
+        "name": "FUN_07eb8364",
+        "entry": "0x7eb8364",
+        "delta": 224
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "sync_payload",
+      "target": "SyncPayloadToGameServer_code_8",
+      "address": "0x7eb83a4",
+      "nearest_preceding_function": {
+        "name": "FUN_07eb8364",
+        "entry": "0x7eb8364",
+        "delta": 64
+      },
+      "next_function": {
+        "name": "FUN_07eb862c",
+        "entry": "0x7eb862c",
+        "delta": 648
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "ReconnectSyncData_code_1",
+      "address": "0x79c3b84",
+      "nearest_preceding_function": {
+        "name": "FUN_079c3420",
+        "entry": "0x79c3420",
+        "delta": 1892
+      },
+      "next_function": {
+        "name": "FUN_079c40c4",
+        "entry": "0x79c40c4",
+        "delta": 1344
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "ReconnectSyncData_code_2",
+      "address": "0x79c3c44",
+      "nearest_preceding_function": {
+        "name": "FUN_079c3420",
+        "entry": "0x79c3420",
+        "delta": 2084
+      },
+      "next_function": {
+        "name": "FUN_079c40c4",
+        "entry": "0x79c40c4",
+        "delta": 1152
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnServerAboutToReconnect_code_1",
+      "address": "0x7ea006c",
+      "nearest_preceding_function": {
+        "name": "FUN_07e9ffe4",
+        "entry": "0x7e9ffe4",
+        "delta": 136
+      },
+      "next_function": {
+        "name": "FUN_07ea008c",
+        "entry": "0x7ea008c",
+        "delta": 32
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnServerAboutToReconnect_code_2",
+      "address": "0x7ea0418",
+      "nearest_preceding_function": {
+        "name": "FUN_07ea03fc",
+        "entry": "0x7ea03fc",
+        "delta": 28
+      },
+      "next_function": {
+        "name": "FUN_07ea043c",
+        "entry": "0x7ea043c",
+        "delta": 36
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnServerAboutToReconnect_code_3",
+      "address": "0x7ea05c4",
+      "nearest_preceding_function": {
+        "name": "FUN_07ea059c",
+        "entry": "0x7ea059c",
+        "delta": 40
+      },
+      "next_function": {
+        "name": "FUN_07ea05dc",
+        "entry": "0x7ea05dc",
+        "delta": 24
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnServerAboutToReconnect_code_4",
+      "address": "0x7ea0604",
+      "nearest_preceding_function": {
+        "name": "FUN_07ea05dc",
+        "entry": "0x7ea05dc",
+        "delta": 40
+      },
+      "next_function": {
+        "name": "FUN_07ea0694",
+        "entry": "0x7ea0694",
+        "delta": 144
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnServerAboutToReconnect_code_5",
+      "address": "0x7ea06c4",
+      "nearest_preceding_function": {
+        "name": "FUN_07ea0694",
+        "entry": "0x7ea0694",
+        "delta": 48
+      },
+      "next_function": {
+        "name": "FUN_07ea073c",
+        "entry": "0x7ea073c",
+        "delta": 120
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnPreReconnectOnServer_code_1",
+      "address": "0x79c9308",
+      "nearest_preceding_function": {
+        "name": "FUN_079c90bc",
+        "entry": "0x79c90bc",
+        "delta": 588
+      },
+      "next_function": {
+        "name": "FUN_079c96d4",
+        "entry": "0x79c96d4",
+        "delta": 972
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnPreReconnectOnServer_code_2",
+      "address": "0x79c9388",
+      "nearest_preceding_function": {
+        "name": "FUN_079c90bc",
+        "entry": "0x79c90bc",
+        "delta": 716
+      },
+      "next_function": {
+        "name": "FUN_079c96d4",
+        "entry": "0x79c96d4",
+        "delta": 844
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "OnPreReconnectOnServer_code_3",
+      "address": "0x79c9408",
+      "nearest_preceding_function": {
+        "name": "FUN_079c90bc",
+        "entry": "0x79c90bc",
+        "delta": 844
+      },
+      "next_function": {
+        "name": "FUN_079c96d4",
+        "entry": "0x79c96d4",
+        "delta": 716
+      },
+      "inside_linear_entry_interval": true
+    },
+    {
+      "group": "reconnect",
+      "target": "ClientNotifyReconnectedSuccessfully_code_1",
+      "address": "0x7a1acd8",
+      "nearest_preceding_function": {
+        "name": "FUN_07a1a7c8",
+        "entry": "0x7a1a7c8",
+        "delta": 1296
+      },
+      "next_function": {
+        "name": "FUN_07a1b780",
+        "entry": "0x7a1b780",
+        "delta": 2728
+      },
+      "inside_linear_entry_interval": true
+    }
+  ]
+}

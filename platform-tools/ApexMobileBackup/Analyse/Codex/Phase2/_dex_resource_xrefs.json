@@ -1,0 +1,1949 @@
+[
+  {
+    "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+    "raw_hits": [
+      "0x3a60ea",
+      "0x3ac4d5"
+    ],
+    "raw_map": [
+      {
+        "raw_hit": "0x3a60ea",
+        "owners": []
+      },
+      {
+        "raw_hit": "0x3ac4d5",
+        "owners": []
+      }
+    ],
+    "xrefs": [
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 49815,
+        "descriptor": "Lcom/ihoc/tgpatask/transceivertool/report/ReportBase;->init()V",
+        "kind": "virtual",
+        "code_off": "0x7cceac",
+        "insns_range": [
+          "0x7ccebc",
+          "0x7cd0fc"
+        ],
+        "hits": [
+          {
+            "offset": "0x7cd01e",
+            "opcode": "const-string",
+            "string_idx": 46727,
+            "string": "getTDMUID"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 50755,
+        "descriptor": "Lcom/itop/gcloud/msdk/core/policy/MSDKPolicyActivity;->initTDM()V",
+        "kind": "direct",
+        "code_off": "0x7da254",
+        "insns_range": [
+          "0x7da264",
+          "0x7da2c4"
+        ],
+        "hits": [
+          {
+            "offset": "0x7da26c",
+            "opcode": "const-string",
+            "string_idx": 24104,
+            "string": "MSDK_POLICY_TDM_REPORT_DISABLE"
+          },
+          {
+            "offset": "0x7da282",
+            "opcode": "const-string",
+            "string_idx": 24105,
+            "string": "MSDK_POLICY_TDM_REPORT_DISABLE : "
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 50811,
+        "descriptor": "Lcom/itop/gcloud/msdk/core/policy/MSDKPolicyTDMHelper;->initTDM(Landroid/content/Context;,Z)V",
+        "kind": "direct",
+        "code_off": "0x7db57c",
+        "insns_range": [
+          "0x7db58c",
+          "0x7db606"
+        ],
+        "hits": [
+          {
+            "offset": "0x7db59a",
+            "opcode": "const-string",
+            "string_idx": 48795,
+            "string": "initTDM start"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 50949,
+        "descriptor": "Lcom/itop/gcloud/msdk/extend/TDMExtend;-><init>(Ljava/lang/String;)V",
+        "kind": "direct",
+        "code_off": "0x7df4c0",
+        "insns_range": [
+          "0x7df4d0",
+          "0x7df50a"
+        ],
+        "hits": [
+          {
+            "offset": "0x7df4f0",
+            "opcode": "const-string",
+            "string_idx": 33249,
+            "string": "] TDM Extend initialize"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 50950,
+        "descriptor": "Lcom/itop/gcloud/msdk/extend/TDMExtend;->enableDeviceInfo(Ljava/lang/String;,Ljava/lang/String;)Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x7df50c",
+        "insns_range": [
+          "0x7df51c",
+          "0x7df5f2"
+        ],
+        "hits": [
+          {
+            "offset": "0x7df520",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 51495,
+        "descriptor": "Lcom/itop/gcloud/msdk/report/TDMReport;-><init>()V",
+        "kind": "direct",
+        "code_off": "0x7f35f4",
+        "insns_range": [
+          "0x7f3604",
+          "0x7f3620"
+        ],
+        "hits": [
+          {
+            "offset": "0x7f360a",
+            "opcode": "const-string",
+            "string_idx": 28714,
+            "string": "TDM_SRC_ID"
+          },
+          {
+            "offset": "0x7f3612",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 51496,
+        "descriptor": "Lcom/itop/gcloud/msdk/report/TDMReport;->getSrcId()I",
+        "kind": "direct",
+        "code_off": "0x7f3620",
+        "insns_range": [
+          "0x7f3630",
+          "0x7f364e"
+        ],
+        "hits": [
+          {
+            "offset": "0x7f3630",
+            "opcode": "const-string",
+            "string_idx": 28714,
+            "string": "TDM_SRC_ID"
+          },
+          {
+            "offset": "0x7f3642",
+            "opcode": "const-string",
+            "string_idx": 28671,
+            "string": "TDM SRC_ID is null"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 51497,
+        "descriptor": "Lcom/itop/gcloud/msdk/report/TDMReport;->init()V",
+        "kind": "virtual",
+        "code_off": "0x7f38a4",
+        "insns_range": [
+          "0x7f38b4",
+          "0x7f3918"
+        ],
+        "hits": [
+          {
+            "offset": "0x7f38b4",
+            "opcode": "const-string",
+            "string_idx": 28672,
+            "string": "TDM init start"
+          },
+          {
+            "offset": "0x7f38d4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 51502,
+        "descriptor": "Lcom/itop/gcloud/msdk/report/TDMReport;->setPushToken(Ljava/lang/String;,Ljava/lang/String;)V",
+        "kind": "virtual",
+        "code_off": "0x7f3a24",
+        "insns_range": [
+          "0x7f3a34",
+          "0x7f3a68"
+        ],
+        "hits": [
+          {
+            "offset": "0x7f3a4e",
+            "opcode": "const-string",
+            "string_idx": 410,
+            "string": " ] TDMReport push token, not need"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 54131,
+        "descriptor": "Lcom/perfsight/gpm/gem/base/utils/AppInfoHelper;->getTdmChannelId(Landroid/content/Context;)Ljava/lang/String;",
+        "kind": "direct",
+        "code_off": "0x823e50",
+        "insns_range": [
+          "0x823e60",
+          "0x823ebe"
+        ],
+        "hits": [
+          {
+            "offset": "0x823e84",
+            "opcode": "const-string",
+            "string_idx": 9596,
+            "string": "GCloud.TDM.AppChannel"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56169,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->getApplication()Landroid/app/Application;",
+        "kind": "direct",
+        "code_off": "0x84c534",
+        "insns_range": [
+          "0x84c544",
+          "0x84c6a4"
+        ],
+        "hits": [
+          {
+            "offset": "0x84c544",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56168,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->enableReport(Z)V",
+        "kind": "virtual",
+        "code_off": "0x84c7c8",
+        "insns_range": [
+          "0x84c7d8",
+          "0x84c810"
+        ],
+        "hits": [
+          {
+            "offset": "0x84c7fe",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56175,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->getTDMSDKVersion()Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x84c87c",
+        "insns_range": [
+          "0x84c88c",
+          "0x84c8a4"
+        ],
+        "hits": [
+          {
+            "offset": "0x84c88c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84c890",
+            "opcode": "const-string",
+            "string_idx": 46726,
+            "string": "getTDMSDKVersion"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56176,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->getTDMUID()Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x84c8a4",
+        "insns_range": [
+          "0x84c8b4",
+          "0x84c8cc"
+        ],
+        "hits": [
+          {
+            "offset": "0x84c8b4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84c8b8",
+            "opcode": "const-string",
+            "string_idx": 46727,
+            "string": "getTDMUID"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56178,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->initialize(Landroid/content/Context;)Z",
+        "kind": "virtual",
+        "code_off": "0x84c8f0",
+        "insns_range": [
+          "0x84c900",
+          "0x84ca08"
+        ],
+        "hits": [
+          {
+            "offset": "0x84c93a",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56179,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onActivityResult(I,I,Landroid/content/Intent;)V",
+        "kind": "virtual",
+        "code_off": "0x84ca08",
+        "insns_range": [
+          "0x84ca18",
+          "0x84ca56"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ca4a",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56180,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onDestroy()V",
+        "kind": "virtual",
+        "code_off": "0x84ca58",
+        "insns_range": [
+          "0x84ca68",
+          "0x84ca8e"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ca68",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56181,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onPause()V",
+        "kind": "virtual",
+        "code_off": "0x84ca90",
+        "insns_range": [
+          "0x84caa0",
+          "0x84cac6"
+        ],
+        "hits": [
+          {
+            "offset": "0x84caa0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56182,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onRestart()V",
+        "kind": "virtual",
+        "code_off": "0x84cac8",
+        "insns_range": [
+          "0x84cad8",
+          "0x84caf0"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cad8",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56183,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onResume()V",
+        "kind": "virtual",
+        "code_off": "0x84caf0",
+        "insns_range": [
+          "0x84cb00",
+          "0x84cb24"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cb00",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56184,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onStart()V",
+        "kind": "virtual",
+        "code_off": "0x84cb24",
+        "insns_range": [
+          "0x84cb34",
+          "0x84cb4a"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cb34",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56185,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->onStop()V",
+        "kind": "virtual",
+        "code_off": "0x84cb4c",
+        "insns_range": [
+          "0x84cb5c",
+          "0x84cb74"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cb5c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56186,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->prepareFileDir(Landroid/content/Context;)V",
+        "kind": "virtual",
+        "code_off": "0x84cb74",
+        "insns_range": [
+          "0x84cb84",
+          "0x84cc42"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cb98",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56187,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->realTimeReportBinary(I,Ljava/lang/String;,[B,I,Z)I",
+        "kind": "virtual",
+        "code_off": "0x84cc44",
+        "insns_range": [
+          "0x84cc54",
+          "0x84cc80"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cc58",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56188,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->realTimeReportEvent(I,Ljava/lang/String;,Ljava/util/Map;,Z)I",
+        "kind": "virtual",
+        "code_off": "0x84cc80",
+        "insns_range": [
+          "0x84cc90",
+          "0x84ccdc"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ccb6",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56189,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->reportBinary(I,Ljava/lang/String;,[B,I)V",
+        "kind": "virtual",
+        "code_off": "0x84ccdc",
+        "insns_range": [
+          "0x84ccec",
+          "0x84cd34"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cd12",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56191,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->reportBinary(I,Ljava/lang/String;,[B,I,Ljava/lang/String;,Z)V",
+        "kind": "virtual",
+        "code_off": "0x84cd5c",
+        "insns_range": [
+          "0x84cd6c",
+          "0x84cdba"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cd98",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56193,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->reportEvent(I,Ljava/lang/String;,Ljava/util/Map;,I)V",
+        "kind": "virtual",
+        "code_off": "0x84cdd8",
+        "insns_range": [
+          "0x84cde8",
+          "0x84ce3e"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ce0e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56194,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->reportLogin(I,Ljava/lang/String;)V",
+        "kind": "virtual",
+        "code_off": "0x84ce40",
+        "insns_range": [
+          "0x84ce50",
+          "0x84ce94"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ce82",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56195,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->reportLogin(I,Ljava/lang/String;,Ljava/util/Map;)V",
+        "kind": "virtual",
+        "code_off": "0x84ce94",
+        "insns_range": [
+          "0x84cea4",
+          "0x84cee8"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ced6",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56197,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->setDeviceInfo(Ljava/lang/String;,J)I",
+        "kind": "virtual",
+        "code_off": "0x84cee8",
+        "insns_range": [
+          "0x84cef8",
+          "0x84cf2e"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cf1c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56198,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->setDeviceInfo(Ljava/lang/String;,Ljava/lang/String;)I",
+        "kind": "virtual",
+        "code_off": "0x84cf30",
+        "insns_range": [
+          "0x84cf40",
+          "0x84cf86"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cf74",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56199,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->setDeviceInfo(Ljava/lang/String;,Z)I",
+        "kind": "virtual",
+        "code_off": "0x84cf88",
+        "insns_range": [
+          "0x84cf98",
+          "0x84cfce"
+        ],
+        "hits": [
+          {
+            "offset": "0x84cfbc",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56200,
+        "descriptor": "Lcom/tdatamaster/tdm/TDataMaster;->setLogLevel(I)V",
+        "kind": "virtual",
+        "code_off": "0x84cfd0",
+        "insns_range": [
+          "0x84cfe0",
+          "0x84d022"
+        ],
+        "hits": [
+          {
+            "offset": "0x84d002",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56231,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect$1;->run()V",
+        "kind": "virtual",
+        "code_off": "0x84df18",
+        "insns_range": [
+          "0x84df28",
+          "0x84dfec"
+        ],
+        "hits": [
+          {
+            "offset": "0x84df28",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56236,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect$BridgeHandler;->invoke(Ljava/lang/Object;,Ljava/lang/reflect/Method;,[Ljava/lang/Object;)Ljava/lang/Object;",
+        "kind": "virtual",
+        "code_off": "0x84e0b0",
+        "insns_range": [
+          "0x84e0c0",
+          "0x84e32c"
+        ],
+        "hits": [
+          {
+            "offset": "0x84e12c",
+            "opcode": "const-string",
+            "string_idx": 28673,
+            "string": "TDMBridge"
+          },
+          {
+            "offset": "0x84e182",
+            "opcode": "const-string",
+            "string_idx": 28673,
+            "string": "TDMBridge"
+          },
+          {
+            "offset": "0x84e1be",
+            "opcode": "const-string",
+            "string_idx": 28692,
+            "string": "TDMTuring_GetTuringTicket"
+          },
+          {
+            "offset": "0x84e1d4",
+            "opcode": "const-string",
+            "string_idx": 28681,
+            "string": "TDMQimei_GetQimei"
+          },
+          {
+            "offset": "0x84e1e6",
+            "opcode": "const-string",
+            "string_idx": 28682,
+            "string": "TDMQimei_GetQimei36"
+          },
+          {
+            "offset": "0x84e288",
+            "opcode": "const-string",
+            "string_idx": 28673,
+            "string": "TDMBridge"
+          },
+          {
+            "offset": "0x84e2c0",
+            "opcode": "const-string",
+            "string_idx": 28673,
+            "string": "TDMBridge"
+          },
+          {
+            "offset": "0x84e2d0",
+            "opcode": "const-string",
+            "string_idx": 28673,
+            "string": "TDMBridge"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56250,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetMemoryInfo(Landroid/content/Context;)V",
+        "kind": "direct",
+        "code_off": "0x84e5b4",
+        "insns_range": [
+          "0x84e5c4",
+          "0x84e6cc"
+        ],
+        "hits": [
+          {
+            "offset": "0x84e660",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56254,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetQIMEIInfo(Landroid/content/Context;,Ljava/lang/String;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "direct",
+        "code_off": "0x84e6f4",
+        "insns_range": [
+          "0x84e704",
+          "0x84e940"
+        ],
+        "hits": [
+          {
+            "offset": "0x84e704",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84e710",
+            "opcode": "const-string",
+            "string_idx": 38428,
+            "string": "com.tdatamaster.qimei.TDMQimei"
+          },
+          {
+            "offset": "0x84e860",
+            "opcode": "const-string",
+            "string_idx": 38427,
+            "string": "com.tdatamaster.callback.TDMBridgeCallback"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56256,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetScreenSize(Landroid/content/Context;)V",
+        "kind": "direct",
+        "code_off": "0x84e97c",
+        "insns_range": [
+          "0x84e98c",
+          "0x84eace"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ea5e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56258,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetSpaceInfo()V",
+        "kind": "direct",
+        "code_off": "0x84eaf8",
+        "insns_range": [
+          "0x84eb08",
+          "0x84ec26"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ebb6",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56266,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->ParseFileForValue(Ljava/lang/String;,Ljava/io/FileInputStream;)I",
+        "kind": "direct",
+        "code_off": "0x84ec94",
+        "insns_range": [
+          "0x84eca4",
+          "0x84ed86"
+        ],
+        "hits": [
+          {
+            "offset": "0x84eca4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56240,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetAndroidID(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84eea0",
+        "insns_range": [
+          "0x84eeb0",
+          "0x84ef36"
+        ],
+        "hits": [
+          {
+            "offset": "0x84eef4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56241,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetAppVersion(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84ef58",
+        "insns_range": [
+          "0x84ef68",
+          "0x84f03c"
+        ],
+        "hits": [
+          {
+            "offset": "0x84efec",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56242,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetBrand()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f05c",
+        "insns_range": [
+          "0x84f06c",
+          "0x84f0f2"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f0a2",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56243,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetBundleId(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f114",
+        "insns_range": [
+          "0x84f124",
+          "0x84f1ae"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f15e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56244,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetCPUCores()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f1d0",
+        "insns_range": [
+          "0x84f1e0",
+          "0x84f300"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f264",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f2b0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56245,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetCPUMaxFreqKHz()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f328",
+        "insns_range": [
+          "0x84f338",
+          "0x84f60a"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f464",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f47e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f4bc",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f4d4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f4f0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f54e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f56e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f5ba",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56246,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetCPUName()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f6c8",
+        "insns_range": [
+          "0x84f6d8",
+          "0x84f902"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f710",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f772",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f854",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84f8b2",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56249,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetMacAddress(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f990",
+        "insns_range": [
+          "0x84f9a0",
+          "0x84f9b2"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f9a4",
+            "opcode": "const-string",
+            "string_idx": 28708,
+            "string": "TDM_NULL"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56251,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetModel()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84f9b4",
+        "insns_range": [
+          "0x84f9c4",
+          "0x84fa4a"
+        ],
+        "hits": [
+          {
+            "offset": "0x84f9fa",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56259,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetSysVersion()Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84fbcc",
+        "insns_range": [
+          "0x84fbdc",
+          "0x84fc62"
+        ],
+        "hits": [
+          {
+            "offset": "0x84fc16",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56260,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetTDataSign(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84fc84",
+        "insns_range": [
+          "0x84fc94",
+          "0x84fe06"
+        ],
+        "hits": [
+          {
+            "offset": "0x84fcf4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84fd96",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x84fdda",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56263,
+        "descriptor": "Lcom/tdatamaster/tdm/device/DeviceInfoCollect;->GetTuringTicket(Landroid/content/Context;)Lcom/tdatamaster/tdm/device/DeviceInfo;",
+        "kind": "virtual",
+        "code_off": "0x84ff00",
+        "insns_range": [
+          "0x84ff10",
+          "0x850120"
+        ],
+        "hits": [
+          {
+            "offset": "0x84ff38",
+            "opcode": "const-string",
+            "string_idx": 38432,
+            "string": "com.tdatamaster.turing.TDMTuring"
+          },
+          {
+            "offset": "0x84ffd6",
+            "opcode": "const-string",
+            "string_idx": 28173,
+            "string": "SetTDMDeviceInfo"
+          },
+          {
+            "offset": "0x85000c",
+            "opcode": "const-string",
+            "string_idx": 38427,
+            "string": "com.tdatamaster.callback.TDMBridgeCallback"
+          },
+          {
+            "offset": "0x85008c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x8500b0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x8500d4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x8500f8",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56379,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->DeleteSharePreference(Ljava/lang/String;,Z)V",
+        "kind": "virtual",
+        "code_off": "0x85212c",
+        "insns_range": [
+          "0x85213c",
+          "0x852188"
+        ],
+        "hits": [
+          {
+            "offset": "0x852140",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56380,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->DeleteSharePreference(Z)V",
+        "kind": "virtual",
+        "code_off": "0x852188",
+        "insns_range": [
+          "0x852198",
+          "0x8521bc"
+        ],
+        "hits": [
+          {
+            "offset": "0x8521a0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56381,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->DeleteSharePreferenceItem(Ljava/lang/String;,Ljava/lang/String;,Z)V",
+        "kind": "virtual",
+        "code_off": "0x8521bc",
+        "insns_range": [
+          "0x8521cc",
+          "0x852218"
+        ],
+        "hits": [
+          {
+            "offset": "0x8521d0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56382,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->DeleteSharePreferenceItem(Ljava/lang/String;,Z)V",
+        "kind": "virtual",
+        "code_off": "0x852218",
+        "insns_range": [
+          "0x852228",
+          "0x85224c"
+        ],
+        "hits": [
+          {
+            "offset": "0x852230",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56386,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->GetSharePreferenceByKey(Ljava/lang/String;,Ljava/lang/String;,Z)Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x85224c",
+        "insns_range": [
+          "0x85225c",
+          "0x8522a0"
+        ],
+        "hits": [
+          {
+            "offset": "0x852260",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56387,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->GetSharePreferenceByKey(Ljava/lang/String;,Z)Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x8522a0",
+        "insns_range": [
+          "0x8522b0",
+          "0x8522da"
+        ],
+        "hits": [
+          {
+            "offset": "0x8522b8",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56388,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->Initialize(Landroid/content/Context;)V",
+        "kind": "virtual",
+        "code_off": "0x8522dc",
+        "insns_range": [
+          "0x8522ec",
+          "0x85232c"
+        ],
+        "hits": [
+          {
+            "offset": "0x8522ec",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56389,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->SetSharePreference(Ljava/lang/String;,Ljava/lang/String;,Ljava/lang/String;,Z)Z",
+        "kind": "virtual",
+        "code_off": "0x852338",
+        "insns_range": [
+          "0x852348",
+          "0x852396"
+        ],
+        "hits": [
+          {
+            "offset": "0x85234c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56390,
+        "descriptor": "Lcom/tdatamaster/tdm/system/FileUtils;->SetSharePreference(Ljava/lang/String;,Ljava/lang/String;,Z)Z",
+        "kind": "virtual",
+        "code_off": "0x852398",
+        "insns_range": [
+          "0x8523a8",
+          "0x8523d0"
+        ],
+        "hits": [
+          {
+            "offset": "0x8523b0",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56396,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMHttp;->GetHttpUrlConnection(Ljava/lang/String;,Ljava/lang/String;,Ljava/lang/String;,Ljava/lang/String;)Ljava/net/HttpURLConnection;",
+        "kind": "direct",
+        "code_off": "0x852548",
+        "insns_range": [
+          "0x852558",
+          "0x8526b8"
+        ],
+        "hits": [
+          {
+            "offset": "0x852558",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56397,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMHttp;->HttpGet(Ljava/lang/String;,Ljava/lang/String;,Ljava/lang/String;)Ljava/lang/String;",
+        "kind": "direct",
+        "code_off": "0x8526d4",
+        "insns_range": [
+          "0x8526e4",
+          "0x85280e"
+        ],
+        "hits": [
+          {
+            "offset": "0x8526e4",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56398,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMHttp;->HttpPost(Ljava/lang/String;,[B,Ljava/lang/String;,Ljava/lang/String;)Ljava/lang/String;",
+        "kind": "direct",
+        "code_off": "0x85285c",
+        "insns_range": [
+          "0x85286c",
+          "0x8529ec"
+        ],
+        "hits": [
+          {
+            "offset": "0x85286c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56402,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMLog;->Debug(Ljava/lang/String;,Ljava/lang/String;)V",
+        "kind": "direct",
+        "code_off": "0x852ad8",
+        "insns_range": [
+          "0x852ae8",
+          "0x852b1a"
+        ],
+        "hits": [
+          {
+            "offset": "0x852afa",
+            "opcode": "const-string",
+            "string_idx": 32838,
+            "string": "[TDM][D]"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56403,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMLog;->Error(Ljava/lang/String;,Ljava/lang/String;)V",
+        "kind": "direct",
+        "code_off": "0x852b1c",
+        "insns_range": [
+          "0x852b2c",
+          "0x852b60"
+        ],
+        "hits": [
+          {
+            "offset": "0x852b40",
+            "opcode": "const-string",
+            "string_idx": 32839,
+            "string": "[TDM][E]"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56405,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMLog;->Info(Ljava/lang/String;,Ljava/lang/String;)V",
+        "kind": "direct",
+        "code_off": "0x852b78",
+        "insns_range": [
+          "0x852b88",
+          "0x852bbc"
+        ],
+        "hits": [
+          {
+            "offset": "0x852b9c",
+            "opcode": "const-string",
+            "string_idx": 32840,
+            "string": "[TDM][I]"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56407,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMLog;->Warning(Ljava/lang/String;,Ljava/lang/String;)V",
+        "kind": "direct",
+        "code_off": "0x852bd4",
+        "insns_range": [
+          "0x852be4",
+          "0x852c18"
+        ],
+        "hits": [
+          {
+            "offset": "0x852bf8",
+            "opcode": "const-string",
+            "string_idx": 32841,
+            "string": "[TDM][W]"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56409,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMNetworkReceiver;->onReceive(Landroid/content/Context;,Landroid/content/Intent;)V",
+        "kind": "virtual",
+        "code_off": "0x852c38",
+        "insns_range": [
+          "0x852c48",
+          "0x852caa"
+        ],
+        "hits": [
+          {
+            "offset": "0x852c82",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56416,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetMemoryInfo(Landroid/content/Context;)V",
+        "kind": "direct",
+        "code_off": "0x852db4",
+        "insns_range": [
+          "0x852dc4",
+          "0x852e32"
+        ],
+        "hits": [
+          {
+            "offset": "0x852e26",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56423,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetSpaceInfo()V",
+        "kind": "direct",
+        "code_off": "0x852e44",
+        "insns_range": [
+          "0x852e54",
+          "0x852eee"
+        ],
+        "hits": [
+          {
+            "offset": "0x852ee2",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56417,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetMetaBool(Landroid/content/Context;,Ljava/lang/String;)Z",
+        "kind": "virtual",
+        "code_off": "0x852f38",
+        "insns_range": [
+          "0x852f48",
+          "0x852fac"
+        ],
+        "hits": [
+          {
+            "offset": "0x852f9e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56418,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetMetaInt(Landroid/content/Context;,Ljava/lang/String;,I)I",
+        "kind": "virtual",
+        "code_off": "0x852fbc",
+        "insns_range": [
+          "0x852fcc",
+          "0x85302e"
+        ],
+        "hits": [
+          {
+            "offset": "0x853022",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56419,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetMetaLong(Landroid/content/Context;,Ljava/lang/String;)J",
+        "kind": "virtual",
+        "code_off": "0x853040",
+        "insns_range": [
+          "0x853050",
+          "0x8530b6"
+        ],
+        "hits": [
+          {
+            "offset": "0x8530a6",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56420,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetMetaString(Landroid/content/Context;,Ljava/lang/String;)Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x8530c8",
+        "insns_range": [
+          "0x8530d8",
+          "0x85313c"
+        ],
+        "hits": [
+          {
+            "offset": "0x85312e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56421,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMSystem;->GetNetworkType(Landroid/content/Context;)Lcom/tdatamaster/tdm/system/NetworkType;",
+        "kind": "virtual",
+        "code_off": "0x85314c",
+        "insns_range": [
+          "0x85315c",
+          "0x85329c"
+        ],
+        "hits": [
+          {
+            "offset": "0x85315c",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56437,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->GetDiskCheckCritical()I",
+        "kind": "virtual",
+        "code_off": "0x853528",
+        "insns_range": [
+          "0x853538",
+          "0x85355e"
+        ],
+        "hits": [
+          {
+            "offset": "0x853550",
+            "opcode": "const-string",
+            "string_idx": 9601,
+            "string": "GCloud.TDM.DiskCheckCritical"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56438,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->GetDiskCheckInterval()I",
+        "kind": "virtual",
+        "code_off": "0x853560",
+        "insns_range": [
+          "0x853570",
+          "0x853596"
+        ],
+        "hits": [
+          {
+            "offset": "0x853588",
+            "opcode": "const-string",
+            "string_idx": 9602,
+            "string": "GCloud.TDM.DiskCheckInterval"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56441,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->GetFyChannelId()Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x8535c8",
+        "insns_range": [
+          "0x8535d8",
+          "0x853622"
+        ],
+        "hits": [
+          {
+            "offset": "0x8535dc",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56443,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->GetInternalAvailSpace()J",
+        "kind": "virtual",
+        "code_off": "0x853634",
+        "insns_range": [
+          "0x853644",
+          "0x8536c6"
+        ],
+        "hits": [
+          {
+            "offset": "0x8536b6",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56445,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->GetProxy()Ljava/lang/String;",
+        "kind": "virtual",
+        "code_off": "0x8536f0",
+        "insns_range": [
+          "0x853700",
+          "0x8537ee"
+        ],
+        "hits": [
+          {
+            "offset": "0x853704",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56448,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->Initialize(Landroid/content/Context;)V",
+        "kind": "virtual",
+        "code_off": "0x853834",
+        "insns_range": [
+          "0x853844",
+          "0x853872"
+        ],
+        "hits": [
+          {
+            "offset": "0x853848",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56454,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->RegisterReceiver()V",
+        "kind": "virtual",
+        "code_off": "0x8538f0",
+        "insns_range": [
+          "0x853900",
+          "0x85397a"
+        ],
+        "hits": [
+          {
+            "offset": "0x85396e",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56455,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->SaveConfigInfo(Landroid/content/Context;)V",
+        "kind": "virtual",
+        "code_off": "0x85398c",
+        "insns_range": [
+          "0x85399c",
+          "0x853bdc"
+        ],
+        "hits": [
+          {
+            "offset": "0x853a00",
+            "opcode": "const-string",
+            "string_idx": 9597,
+            "string": "GCloud.TDM.AppId"
+          },
+          {
+            "offset": "0x853a14",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          },
+          {
+            "offset": "0x853a34",
+            "opcode": "const-string",
+            "string_idx": 9598,
+            "string": "GCloud.TDM.AppKey"
+          },
+          {
+            "offset": "0x853a4c",
+            "opcode": "const-string",
+            "string_idx": 9596,
+            "string": "GCloud.TDM.AppChannel"
+          },
+          {
+            "offset": "0x853a64",
+            "opcode": "const-string",
+            "string_idx": 9608,
+            "string": "GCloud.TDM.Test"
+          },
+          {
+            "offset": "0x853a7c",
+            "opcode": "const-string",
+            "string_idx": 9603,
+            "string": "GCloud.TDM.EnableProxy"
+          },
+          {
+            "offset": "0x853a94",
+            "opcode": "const-string",
+            "string_idx": 9595,
+            "string": "GCloud.TDM.Abroad"
+          },
+          {
+            "offset": "0x853ab0",
+            "opcode": "const-string",
+            "string_idx": 9605,
+            "string": "GCloud.TDM.LogLevel"
+          },
+          {
+            "offset": "0x853ace",
+            "opcode": "const-string",
+            "string_idx": 9606,
+            "string": "GCloud.TDM.TGEMIT_ROUTER_ADDRESS_FORMAL"
+          },
+          {
+            "offset": "0x853ae6",
+            "opcode": "const-string",
+            "string_idx": 9607,
+            "string": "GCloud.TDM.TGEMIT_ROUTER_ADDRESS_TEST"
+          },
+          {
+            "offset": "0x853b00",
+            "opcode": "const-string",
+            "string_idx": 60051,
+            "string": "routerAddressFormal = "
+          },
+          {
+            "offset": "0x853b2c",
+            "opcode": "const-string",
+            "string_idx": 60052,
+            "string": "routerAddressTest = "
+          },
+          {
+            "offset": "0x853b56",
+            "opcode": "const-string",
+            "string_idx": 9599,
+            "string": "GCloud.TDM.BeaconAppId"
+          },
+          {
+            "offset": "0x853ba6",
+            "opcode": "const-string",
+            "string_idx": 9600,
+            "string": "GCloud.TDM.DisableDeviceInfo"
+          },
+          {
+            "offset": "0x853bbe",
+            "opcode": "const-string",
+            "string_idx": 9604,
+            "string": "GCloud.TDM.EncryptDeviceInfo"
+          }
+        ]
+      },
+      {
+        "file": "ApexMobileBackup\\Analyse\\APK\\classes.dex",
+        "method_idx": 56459,
+        "descriptor": "Lcom/tdatamaster/tdm/system/TDMUtils;->UnRegisterReceiver()V",
+        "kind": "virtual",
+        "code_off": "0x853bf4",
+        "insns_range": [
+          "0x853c04",
+          "0x853c54"
+        ],
+        "hits": [
+          {
+            "offset": "0x853c48",
+            "opcode": "const-string",
+            "string_idx": 28670,
+            "string": "TDM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ApexMobileBackup\\Analyse\\APK\\classes2.dex",
+    "raw_hits": [],
+    "raw_map": [],
+    "xrefs": []
+  }
+]
