@@ -1,0 +1,18 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_OBSERVED",
+  "observed": false,
+  "logical_module_name": "UNKNOWN",
+  "candidate_path": "UNKNOWN",
+  "final_path": "UNKNOWN",
+  "final_extension": "UNKNOWN",
+  "provider": "UNKNOWN",
+  "lookup_result": "UNKNOWN",
+  "chunk_name": "UNKNOWN",
+  "chunk_size": "UNKNOWN",
+  "phase6_probable_values": [
+    "Script/Tools/EventSystem/EventSystem.lua",
+    "EventSystem.PostCppEvent"
+  ],
+  "phase6_values_runtime_confirmed": false
+}

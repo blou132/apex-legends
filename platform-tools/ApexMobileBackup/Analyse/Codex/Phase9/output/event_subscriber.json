@@ -1,0 +1,14 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_FOUND_NO_RUNTIME_CHUNK",
+  "event": {
+    "hex": "0x138",
+    "decimal": 312,
+    "name": "EVENTID_AVATARSERVERLIST_RETURN"
+  },
+  "subscriber_found": false,
+  "registration": "UNKNOWN",
+  "handler": "UNKNOWN",
+  "lua_content_searched": false,
+  "reason": "EventSystem or related Lua content was not available in an isolated runtime lab"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_FOUND_NO_HANDLER",
+  "parser_found": false,
+  "response_format": "UNKNOWN",
+  "fields_read": [],
+  "destination": "UNKNOWN",
+  "gameserver_backup_ip_list_runtime_link": "UNKNOWN",
+  "login_offset": "0x150",
+  "login_offset_status": "STATIC_EVIDENCE_ONLY",
+  "json_assumed": false
+}

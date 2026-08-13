@@ -1,0 +1,43 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_OBSERVED",
+  "optional_provider_active": "UNKNOWN",
+  "effective_provider": "UNKNOWN",
+  "final_open_path": "UNKNOWN",
+  "open_result": "UNKNOWN",
+  "returned_size": "UNKNOWN",
+  "targets": [
+    {
+      "role": "fallback_factory",
+      "ghidra_address": "0x46355e8",
+      "elf_virtual_offset": "0x45355e8"
+    },
+    {
+      "role": "facade_open",
+      "ghidra_address": "0x48415b8",
+      "elf_virtual_offset": "0x47415b8"
+    },
+    {
+      "role": "open_read_thunk",
+      "ghidra_address": "0x49825b8",
+      "elf_virtual_offset": "0x48825b8"
+    },
+    {
+      "role": "open_read_body",
+      "ghidra_address": "0x49825bc",
+      "elf_virtual_offset": "0x48825bc"
+    },
+    {
+      "role": "resolver",
+      "ghidra_address": "0x82693bc",
+      "elf_virtual_offset": "0x81693bc"
+    },
+    {
+      "role": "optional_provider_global",
+      "ghidra_address": "0xb697528",
+      "elf_virtual_offset": "0xb597528"
+    }
+  ],
+  "phase8_static_fallback": "PROBABLE_ANDROID_ASSET_AND_PHYSICAL_FILE",
+  "runtime_confirmation": false
+}

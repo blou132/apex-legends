@@ -1,0 +1,15 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_FOUND",
+  "request_function": "RequestAvatarServerList",
+  "url_source_found": false,
+  "url_value": "UNKNOWN",
+  "url_representation": "caller-supplied FString",
+  "native_request_path": [
+    "FUN_07a31858",
+    "FUN_06bc68e8"
+  ],
+  "scripts_observed": false,
+  "network_contacted": false,
+  "dns_resolved": false
+}

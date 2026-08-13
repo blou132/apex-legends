@@ -1,0 +1,18 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_OBSERVED",
+  "observed": false,
+  "logical_name": "UNKNOWN",
+  "package_search_chain": [],
+  "final_path": "UNKNOWN",
+  "provider": "UNKNOWN",
+  "open_result": "UNKNOWN",
+  "chunk_name": "UNKNOWN",
+  "chunk_size": "UNKNOWN",
+  "prior_static_witness": {
+    "text": "Client/Launch/ClientLaunch.lua",
+    "container": "launch.pak",
+    "raw_offset": "0x250517",
+    "classification": "PAK_BODY_WITNESS_NOT_INDEX_ENTRY"
+  }
+}

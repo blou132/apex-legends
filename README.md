@@ -17,6 +17,7 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 Current focus:
 
 - `CHATGPT_CONTEXT.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
@@ -29,4 +30,4 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase8 is the current investigation boundary. It documents the OBB metadata inventory, public-cache search, native file backend, partial path transforms, and why the exact EventSystem virtual entry remains unresolved without an authorized readable index or manifest.
+Phase9 is the current investigation boundary. It records that no complete base APK or configured ARM64-compatible isolated Android lab was available, so no dynamic client launch or instrumentation was attempted. It also preserves corrected ELF offsets and the exact prerequisites for a future offline runtime observation. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.

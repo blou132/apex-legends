@@ -1,0 +1,28 @@
+{
+  "phase": "Phase9",
+  "status": "NOT_OBSERVED",
+  "client_launched": false,
+  "package_searcher_observed": false,
+  "input_module": "UNKNOWN",
+  "transformed_candidates": [],
+  "final_candidate": "UNKNOWN",
+  "targets": [
+    {
+      "function": "FUN_049a8b54",
+      "ghidra_address": "0x49a8b54",
+      "elf_virtual_offset": "0x48a8b54"
+    },
+    {
+      "function": "FUN_049a9694",
+      "ghidra_address": "0x49a9694",
+      "elf_virtual_offset": "0x48a9694"
+    },
+    {
+      "function": "FUN_048ab4d0",
+      "ghidra_address": "0x48ab4d0",
+      "elf_virtual_offset": "0x47ab4d0"
+    }
+  ],
+  "runtime_address_formula": "libUE4_load_base + (ghidra_address - 0x100000)",
+  "runtime_addresses_resolved": false
+}
