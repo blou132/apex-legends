@@ -1,0 +1,22 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "status": "CONFIRMED_NO_USEFUL_MAPPING",
+  "phone_public_data_access": "ALLOWED",
+  "public_file_count": 94,
+  "buckets": {
+    "program_binary_cache": {"count": 82, "bytes": 54819948, "classification": "graphics_program_binary_cache", "copied": false},
+    "sdk_logs": {"count": 8, "copied": false, "searched": false},
+    "small_candidates": {"count": 4, "copied_read_only_to_ignored_storage": true}
+  },
+  "small_candidates": [
+    {"name": "cacheFile.txt", "size": 127, "sha256": "8f212980d325734e943a3c97a648c78caf0222efe3caca7a85dbfa7da27efcbe", "type": "text", "entropy": 4.566, "finding": "two OBB references with timestamps only"},
+    {"name": ".tgpacloud", "size": 226, "sha256": "9855aeec44ed37bebd505ba1fb876402ab68e056bb2511d4a89431a55962b0d5", "type": "json", "entropy": 4.587, "finding": "SDK feature switches only"},
+    {"name": "GCloud.config", "size": 162, "sha256": "059b7132005329e5174aa4ae4d17d092a805e1f0cd11b02965c6b3998986640e", "type": "opaque_binary", "entropy": 6.568, "finding": "no targeted term"},
+    {"name": "package_root_dat", "size": 56, "sha256": "406a5bf36e8cd7e44fb04e99ed82d73c76c1e949dbc04868b11d62d8bf288ba5", "type": "opaque_binary", "entropy": 4.995, "finding": "no targeted term"}
+  ],
+  "target_terms_found": [],
+  "useful_virtual_path_mapping": false,
+  "raw_logs_published": false,
+  "device_identifier_published": false
+}

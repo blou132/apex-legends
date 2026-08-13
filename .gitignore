@@ -50,6 +50,7 @@ platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functi
 platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/ghidra_project/
 platform-tools/ApexMobileBackup/Analyse/Codex/**/javac_probe/
 platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/local_only_recovered/
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/local_only_recovered/
 *.gpr
 *.rep/
 *.lock

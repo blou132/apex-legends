@@ -1,0 +1,32 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "decision_gate": "E",
+  "VIRTUAL_PATH_MAPPING_STILL_UNKNOWN": true,
+  "probable_logical_path": "Script/Tools/EventSystem/EventSystem.lua",
+  "probable_bridge_module_key": "Script/Tools/EventSystem/EventSystem",
+  "logical_path_status": "PROBABLE",
+  "exact_lookup_key": "UNKNOWN",
+  "provider": "UNKNOWN",
+  "container": "UNKNOWN",
+  "entry_id": "UNKNOWN",
+  "entry_offset": "UNKNOWN",
+  "entry_size": "UNKNOWN",
+  "entry_boundary": "UNKNOWN",
+  "bytes_accessible_without_bypass": "UNKNOWN",
+  "content_type": "UNKNOWN",
+  "pak_not_only_backend": true,
+  "raw_exact_scan": {
+    "containers_scanned": 4,
+    "encodings": ["ASCII/UTF-8", "UTF-16LE"],
+    "eventsystem_hits": 0,
+    "server_list_term_hits": 0
+  },
+  "local_only_entry_recovered": false,
+  "blockers": [
+    "encoded logical-name prefix",
+    "unresolved Lua package searcher",
+    "unknown runtime provider and prefix",
+    "no readable PAK index or external manifest"
+  ]
+}

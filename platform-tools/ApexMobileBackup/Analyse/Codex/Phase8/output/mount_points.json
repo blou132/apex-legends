@@ -1,0 +1,18 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "status": "UNKNOWN",
+  "proven_game_mount_points": [],
+  "runtime_prefix": {
+    "storage": "0xb7c7020/0xb7c7028",
+    "static_initial_value": "empty",
+    "effective_value": "UNKNOWN"
+  },
+  "path_evidence_not_promoted_to_mount": [
+    {"value": "../../../%s/", "address": "0x28752a4", "status": "CONFIRMED_FORMAT_STRING"},
+    {"value": "/system/etc/", "address": "0x2633dc8", "status": "CONFIRMED_NORMALIZER_CHECK"},
+    {"value": "AClient/Content/Paks/", "source": "OBB ZIP layout", "status": "CONFIRMED_PHYSICAL_LAYOUT"},
+    {"value": "Client/", "source": "raw PAK body witness", "status": "NOT_A_MOUNT_PROOF"},
+    {"value": "Script/", "source": "probable encoded module name", "status": "PROBABLE_LOGICAL_PREFIX"}
+  ]
+}

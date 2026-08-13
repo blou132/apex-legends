@@ -1,0 +1,15 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "status": "UNKNOWN",
+  "request_function": "RequestAvatarServerList",
+  "native_request_path": ["FUN_07a31858", "FUN_06bc68e8"],
+  "url_representation": "caller-supplied FString",
+  "url_producer": "UNKNOWN",
+  "response_event": "0x138",
+  "lua_subscriber": "UNKNOWN",
+  "lua_parser": "UNKNOWN",
+  "new_correlation": false,
+  "network_contacted": false,
+  "reason": "the Script/ virtual-file mapping and EventSystem entry remain unresolved"
+}

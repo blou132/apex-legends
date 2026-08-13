@@ -1,0 +1,820 @@
+{
+    "phase":  "Phase8",
+    "generated":  "2026-08-13",
+    "status":  "PARTIAL",
+    "fallback_backend_classification":  "PROBABLE_ANDROID_ASSET_AND_PHYSICAL_FILE",
+    "concrete_unreal_class_name":  "UNKNOWN",
+    "singleton":  {
+                      "object":  "0xb7cf9b0",
+                      "factory":  "FUN_046355e8",
+                      "factory_address":  "0x46355e8",
+                      "vtable":  "0xaf710e0"
+                  },
+    "open_read":  {
+                      "slot":  "+0xc0",
+                      "thunk":  "0x49825b8",
+                      "body":  "0x49825bc",
+                      "normalizer":  "FUN_046095e4",
+                      "registered_path_lookup":  "FUN_04609488",
+                      "registered_handle_vtable":  "0xaf712c8",
+                      "physical_handle_constructor":  "FUN_049829e0",
+                      "android_asset_handle_constructor":  "FUN_0825240c"
+                  },
+    "lua_file_facade":  {
+                            "vtable":  "0xaf721e8",
+                            "open_slot":  "+0x18",
+                            "open_target":  "0x48415b8",
+                            "path_check_slot":  "+0x48",
+                            "path_check_target":  "0x82693bc"
+                        },
+    "optional_provider":  {
+                              "global":  "0xb697528",
+                              "enabled_state":  "0xb697530",
+                              "check_slot":  "+0x28",
+                              "read_slot":  "+0x50",
+                              "concrete_type":  "UNKNOWN",
+                              "direct_static_assignment_found":  false,
+                              "static_reset_found_at":  "0x583fc18"
+                          },
+    "pak_provider_identified":  false,
+    "pak_not_only_backend":  true,
+    "vtable_relocation_symbols":  "UNAVAILABLE_STRIPPED",
+    "vtables":  [
+                    {
+                        "address_point":  "0xaf710e0",
+                        "elf_virtual_address":  "0xae710e0",
+                        "role":  "fallback platform-file vtable",
+                        "captured_slot_range":  "+0x0..+0x1d0",
+                        "end_inferred_from_following_null_pair":  true,
+                        "slots":  [
+                                      {
+                                          "relative_offset":  "+0x0",
+                                          "slot":  "0xaf710e0",
+                                          "value":  "0x8250378",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250378"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x8",
+                                          "slot":  "0xaf710e8",
+                                          "value":  "0x8250478",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250478"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x10",
+                                          "slot":  "0xaf710f0",
+                                          "value":  "0xa2b2794",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2794"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x18",
+                                          "slot":  "0xaf710f8",
+                                          "value":  "0xa2b2798",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2798"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x20",
+                                          "slot":  "0xaf71100",
+                                          "value":  "0xa2b27a0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b27a0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x28",
+                                          "slot":  "0xaf71108",
+                                          "value":  "0x56dccac",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_056dccac"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x30",
+                                          "slot":  "0xaf71110",
+                                          "value":  "0xa2b27a8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b27a8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x38",
+                                          "slot":  "0xaf71118",
+                                          "value":  "0xa2b27ac",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b27ac"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x40",
+                                          "slot":  "0xaf71120",
+                                          "value":  "0xa2b27b0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b27b0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x48",
+                                          "slot":  "0xaf71128",
+                                          "value":  "0xa2b2808",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2808"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x50",
+                                          "slot":  "0xaf71130",
+                                          "value":  "0xa2b2860",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2860"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x58",
+                                          "slot":  "0xaf71138",
+                                          "value":  "0xa2b2864",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2864"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x60",
+                                          "slot":  "0xaf71140",
+                                          "value":  "0xa2b286c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b286c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x68",
+                                          "slot":  "0xaf71148",
+                                          "value":  "0x8250368",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_0825036c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x70",
+                                          "slot":  "0xaf71150",
+                                          "value":  "0x4926fdc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_04926fe0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x78",
+                                          "slot":  "0xaf71158",
+                                          "value":  "0x460911c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0460911c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x80",
+                                          "slot":  "0xaf71160",
+                                          "value":  "0x8250508",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250508"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x88",
+                                          "slot":  "0xaf71168",
+                                          "value":  "0x82506cc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_082506d0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x90",
+                                          "slot":  "0xaf71170",
+                                          "value":  "0x62ae4f8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_062ae4f8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x98",
+                                          "slot":  "0xaf71178",
+                                          "value":  "0x62ad198",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_062ad198"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xa0",
+                                          "slot":  "0xaf71180",
+                                          "value":  "0x4e16680",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_04e16680"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xa8",
+                                          "slot":  "0xaf71188",
+                                          "value":  "0x59ec20c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_059ec20c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xb0",
+                                          "slot":  "0xaf71190",
+                                          "value":  "0x82508e0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_082508e0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xb8",
+                                          "slot":  "0xaf71198",
+                                          "value":  "0x82508e8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_082508e8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xc0",
+                                          "slot":  "0xaf711a0",
+                                          "value":  "0x49825b8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_049825bc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xc8",
+                                          "slot":  "0xaf711a8",
+                                          "value":  "0xa2b2870",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2870"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xd0",
+                                          "slot":  "0xaf711b0",
+                                          "value":  "0x8250990",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250990"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xd8",
+                                          "slot":  "0xaf711b8",
+                                          "value":  "0x488b378",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0488b378"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xe0",
+                                          "slot":  "0xaf711c0",
+                                          "value":  "0x8250bdc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250bdc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xe8",
+                                          "slot":  "0xaf711c8",
+                                          "value":  "0x8250da8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08250da8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xf0",
+                                          "slot":  "0xaf711d0",
+                                          "value":  "0x8250f5c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_08250f60"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xf8",
+                                          "slot":  "0xaf711d8",
+                                          "value":  "0x5268dd4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_05268dd4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x100",
+                                          "slot":  "0xaf711e0",
+                                          "value":  "0x8251458",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_0825145c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x108",
+                                          "slot":  "0xaf711e8",
+                                          "value":  "0x43c0fe4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_043c0fe4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x110",
+                                          "slot":  "0xaf711f0",
+                                          "value":  "0xa2b2880",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2880"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x118",
+                                          "slot":  "0xaf711f8",
+                                          "value":  "0xa2b2884",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2884"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x120",
+                                          "slot":  "0xaf71200",
+                                          "value":  "0xa2b33ec",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b33ec"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x128",
+                                          "slot":  "0xaf71208",
+                                          "value":  "0x8260a80",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08260a80"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x130",
+                                          "slot":  "0xaf71210",
+                                          "value":  "0xa2b34a4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b34a4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x138",
+                                          "slot":  "0xaf71218",
+                                          "value":  "0xa2b3504",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b3504"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x140",
+                                          "slot":  "0xaf71220",
+                                          "value":  "0xa2b3564",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b3564"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x148",
+                                          "slot":  "0xaf71228",
+                                          "value":  "0x91dd514",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_091dd514"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x150",
+                                          "slot":  "0xaf71230",
+                                          "value":  "0xa2b35a4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b35a4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x158",
+                                          "slot":  "0xaf71238",
+                                          "value":  "0xa2b35f4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b35f4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x160",
+                                          "slot":  "0xaf71240",
+                                          "value":  "0xa2b3644",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b3644"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x168",
+                                          "slot":  "0xaf71248",
+                                          "value":  "0xa2b36a4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b36a4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x170",
+                                          "slot":  "0xaf71250",
+                                          "value":  "0xa2b3704",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b3704"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x178",
+                                          "slot":  "0xaf71258",
+                                          "value":  "0x549d688",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0549d688"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x180",
+                                          "slot":  "0xaf71260",
+                                          "value":  "0x8260b68",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08260b68"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x188",
+                                          "slot":  "0xaf71268",
+                                          "value":  "0x8260cd8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08260cd8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x190",
+                                          "slot":  "0xaf71270",
+                                          "value":  "0x6264b08",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_06264b08"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x198",
+                                          "slot":  "0xaf71278",
+                                          "value":  "0x8248788",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08248788"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1a0",
+                                          "slot":  "0xaf71280",
+                                          "value":  "0xa2b288c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b288c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1a8",
+                                          "slot":  "0xaf71288",
+                                          "value":  "0xa2b2894",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2894"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1b0",
+                                          "slot":  "0xaf71290",
+                                          "value":  "0xa2b289c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b289c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1b8",
+                                          "slot":  "0xaf71298",
+                                          "value":  "0x825157c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "thunk_FUN_05735ff0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1c0",
+                                          "slot":  "0xaf712a0",
+                                          "value":  "0x8251580",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08251580"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1c8",
+                                          "slot":  "0xaf712a8",
+                                          "value":  "0x82516a4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_082516a4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x1d0",
+                                          "slot":  "0xaf712b0",
+                                          "value":  "0x8251914",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08251914"
+                                      }
+                                  ]
+                    },
+                    {
+                        "address_point":  "0xaf712c8",
+                        "elf_virtual_address":  "0xae712c8",
+                        "role":  "registered/physical handle vtable address point",
+                        "captured_slot_range":  "+0x0..+0x48",
+                        "end_inferred_from_following_null_pair":  true,
+                        "slots":  [
+                                      {
+                                          "relative_offset":  "+0x0",
+                                          "slot":  "0xaf712c8",
+                                          "value":  "0xa2b28a0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b28a0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x8",
+                                          "slot":  "0xaf712d0",
+                                          "value":  "0x8251dbc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08251dbc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x10",
+                                          "slot":  "0xaf712d8",
+                                          "value":  "0xa2b2924",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2924"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x18",
+                                          "slot":  "0xaf712e0",
+                                          "value":  "0xa2b2934",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2934"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x20",
+                                          "slot":  "0xaf712e8",
+                                          "value":  "0xa2b294c",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b294c"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x28",
+                                          "slot":  "0xaf712f0",
+                                          "value":  "0xa2b2968",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2968"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x30",
+                                          "slot":  "0xaf712f8",
+                                          "value":  "0xa2b29f0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b29f0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x38",
+                                          "slot":  "0xaf71300",
+                                          "value":  "0xa2b2abc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2abc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x40",
+                                          "slot":  "0xaf71308",
+                                          "value":  "0xa2b2afc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2afc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x48",
+                                          "slot":  "0xaf71310",
+                                          "value":  "0xa2b2b30",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b2b30"
+                                      }
+                                  ]
+                    },
+                    {
+                        "address_point":  "0xaf721e8",
+                        "elf_virtual_address":  "0xae721e8",
+                        "role":  "Lua file facade vtable",
+                        "captured_slot_range":  "+0x0..+0x128",
+                        "end_inferred_from_following_null_pair":  true,
+                        "slots":  [
+                                      {
+                                          "relative_offset":  "+0x0",
+                                          "slot":  "0xaf721e8",
+                                          "value":  "0xa2b3ce8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b3ce8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x8",
+                                          "slot":  "0xaf721f0",
+                                          "value":  "0x826b438",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826b438"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x10",
+                                          "slot":  "0xaf721f8",
+                                          "value":  "0x826b4c8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826b4c8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x18",
+                                          "slot":  "0xaf72200",
+                                          "value":  "0x48415b8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_048415b8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x20",
+                                          "slot":  "0xaf72208",
+                                          "value":  "0x57248a0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_057248a0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x28",
+                                          "slot":  "0xaf72210",
+                                          "value":  "0x8268d18",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08268d18"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x30",
+                                          "slot":  "0xaf72218",
+                                          "value":  "0x8268ab8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08268ab8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x38",
+                                          "slot":  "0xaf72220",
+                                          "value":  "0x8267fd0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08267fd0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x40",
+                                          "slot":  "0xaf72228",
+                                          "value":  "0x8268da4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08268da4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x48",
+                                          "slot":  "0xaf72230",
+                                          "value":  "0x82693bc",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_082693bc"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x50",
+                                          "slot":  "0xaf72238",
+                                          "value":  "0x8269448",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269448"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x58",
+                                          "slot":  "0xaf72240",
+                                          "value":  "0x82694d4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_082694d4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x60",
+                                          "slot":  "0xaf72248",
+                                          "value":  "0x8269588",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269588"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x68",
+                                          "slot":  "0xaf72250",
+                                          "value":  "0x8269698",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269698"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x70",
+                                          "slot":  "0xaf72258",
+                                          "value":  "0x8269740",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269740"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x78",
+                                          "slot":  "0xaf72260",
+                                          "value":  "0x50a8f84",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_050a8f84"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x80",
+                                          "slot":  "0xaf72268",
+                                          "value":  "0x50906d4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_050906d4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x88",
+                                          "slot":  "0xaf72270",
+                                          "value":  "0x8269b88",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269b88"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x90",
+                                          "slot":  "0xaf72278",
+                                          "value":  "0x8269c30",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269c30"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x98",
+                                          "slot":  "0xaf72280",
+                                          "value":  "0x8269cf8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269cf8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xa0",
+                                          "slot":  "0xaf72288",
+                                          "value":  "0x8269da0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269da0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xa8",
+                                          "slot":  "0xaf72290",
+                                          "value":  "0x8269e68",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269e68"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xb0",
+                                          "slot":  "0xaf72298",
+                                          "value":  "0x8269f10",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269f10"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xb8",
+                                          "slot":  "0xaf722a0",
+                                          "value":  "0x8269fd8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08269fd8"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xc0",
+                                          "slot":  "0xaf722a8",
+                                          "value":  "0x826a080",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a080"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xc8",
+                                          "slot":  "0xaf722b0",
+                                          "value":  "0x826a148",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a148"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xd0",
+                                          "slot":  "0xaf722b8",
+                                          "value":  "0x826a274",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a274"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xd8",
+                                          "slot":  "0xaf722c0",
+                                          "value":  "0x826a300",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a300"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xe0",
+                                          "slot":  "0xaf722c8",
+                                          "value":  "0x826a3c4",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a3c4"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xe8",
+                                          "slot":  "0xaf722d0",
+                                          "value":  "0x826a4ac",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a4ac"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xf0",
+                                          "slot":  "0xaf722d8",
+                                          "value":  "0x43fd504",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_043fd504"
+                                      },
+                                      {
+                                          "relative_offset":  "+0xf8",
+                                          "slot":  "0xaf722e0",
+                                          "value":  "0x826a5e0",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a5e0"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x100",
+                                          "slot":  "0xaf722e8",
+                                          "value":  "0x826a688",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a688"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x108",
+                                          "slot":  "0xaf722f0",
+                                          "value":  "0x8267f44",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_08267f44"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x110",
+                                          "slot":  "0xaf722f8",
+                                          "value":  "0x826b540",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826b540"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x118",
+                                          "slot":  "0xaf72300",
+                                          "value":  "0x826a538",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826a538"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x120",
+                                          "slot":  "0xaf72308",
+                                          "value":  "0xa2b4058",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0a2b4058"
+                                      },
+                                      {
+                                          "relative_offset":  "+0x128",
+                                          "slot":  "0xaf72310",
+                                          "value":  "0x826b5e8",
+                                          "classification":  "EXECUTABLE_POINTER",
+                                          "function":  "FUN_0826b5e8"
+                                      }
+                                  ]
+                    }
+                ]
+}

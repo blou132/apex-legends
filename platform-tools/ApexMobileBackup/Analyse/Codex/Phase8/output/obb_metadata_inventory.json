@@ -1,0 +1,227 @@
+{
+    "phase":  "Phase8",
+    "generated":  "2026-08-13",
+    "status":  "CONFIRMED_NO_METADATA",
+    "extracted_file_count":  32,
+    "pak_count":  4,
+    "non_pak_count":  28,
+    "non_pak_bytes":  180356971,
+    "non_pak_extensions":  {
+                               ".mp4":  26,
+                               ".jpg":  2
+                           },
+    "metadata_name_matches":  [
+
+                              ],
+    "sidecar_extensions_searched":  [
+                                        ".sig",
+                                        ".ucas",
+                                        ".utoc",
+                                        ".manifest",
+                                        ".idx",
+                                        ".index",
+                                        ".paklist",
+                                        ".bin"
+                                    ],
+    "pak_sidecars":  [
+
+                     ],
+    "files":  [
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Rating/S3_Logo.mp4",
+                      "size":  2103801,
+                      "sha256":  "a5355cb4e84f8e0d81b697c48f291bd31fca111af0683b700e4b8d6a645f1979",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Rating/S4_Logo.mp4",
+                      "size":  2485459,
+                      "sha256":  "e03d3539f6fb31f0da32b66a1e3a1ab8bd8ee5eb276f6494b4c0022f04824a66",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3_5CG/BATTLEPASS_S7.mp4",
+                      "size":  5039408,
+                      "sha256":  "1e576a2d8a72c991bd4c6c20c47fd7384c704e44dbdd2f744202040e5fa8c82e",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3_5CG/S3_5_Hyperwheel_CG.mp4",
+                      "size":  11369724,
+                      "sha256":  "36b8936817c1b8a86934536b0ae774efdcf5b9d6d9973ef474570112fbb27719",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3_5CG/S3_5_StoreVault.mp4",
+                      "size":  9011599,
+                      "sha256":  "afd189a3e59fa834d385c03ab1af6003235a70c7e5c9fddde69195bc49d9d1d0",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3_5CG/S3_5_TetrisVersusl_CG.mp4",
+                      "size":  3278891,
+                      "sha256":  "3d978b243d903cd0e612de93767890b0187535d675ff099cb8cc12b8b8ffcf77",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3CG/S3SeasonCG.mp4",
+                      "size":  70430511,
+                      "sha256":  "892cd3b0272781283eaf09dc1643ab9aa5327486e6014c9d8b2ba956c70855cb",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S3CG/S3SeasonCGloop.mp4",
+                      "size":  2848965,
+                      "sha256":  "7d1029d72b9e1e506b0b0d61dc12f041c970b450e2561875301f65292228d785",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S4CG/BATTLEPASS_S8.mp4",
+                      "size":  5492793,
+                      "sha256":  "8cfb8d425bdf943f72e6adb9b6fe71de6dac4dc5e34aa220f96defea65247f01",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S4CG/S4_StoreVaultPART1.mp4",
+                      "size":  5891747,
+                      "sha256":  "0d5c0d9899839147893946946c55f92878fe107b6e8c6513b5939e44b3c98c17",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/S4CG/S4_StoreVaultPART2.mp4",
+                      "size":  6487097,
+                      "sha256":  "dd6a1540ec0243fd3021debd1f274d68accefc48c7959e80ad2b7c1aed8ac67e",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/SignatureWeapon/Octane_SW.mp4",
+                      "size":  36575303,
+                      "sha256":  "cb65936de2c31996482196e9668a1ad13f0abab0cf4ff9274fe056950718d77e",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/skillbase/octane_passive.mp4",
+                      "size":  2149102,
+                      "sha256":  "ec26120f3fa048d237b4f5c05e967c2258791a68118287ca82bb22edd3732e81",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/skillbase/octane_tactical.mp4",
+                      "size":  2178773,
+                      "sha256":  "78e3314871f98897c7006fed6ec98f87fd2af1006dff47d0e459766aa19518ed",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/skillbase/octane_ultimate.mp4",
+                      "size":  4742489,
+                      "sha256":  "3b5fe5988de9277f883074ec80f4305831c0edc8e93f351b00522253b5387696",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/11ClimbVideo.mp4",
+                      "size":  410991,
+                      "sha256":  "7a8e5d510e94100026655ec1f21dbc882ecc495de72ff42ecb1150bd54e26c69",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/11GlidingVideo.mp4",
+                      "size":  549950,
+                      "sha256":  "67036e84423dcca7fb287b1f0fe01edfe24ff655e956a82775ff130e2fddc4cf",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/ActivityWeapon_Fire.mp4",
+                      "size":  1019250,
+                      "sha256":  "7dfbe4038d8a67f64c52cfb919cc55c2eb747d97ca8b47578f1923a135f8f8a4",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/ActivityWeapon_Inspector.mp4",
+                      "size":  1542697,
+                      "sha256":  "7850bc1749d1c2c5ddd9d0d2cdd54dc523bad3c159760252ce23e6697f0e56f7",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/ActivityWeapon_Recharge.mp4",
+                      "size":  1529761,
+                      "sha256":  "28486d13a03d8b96517ebc43693f5088c74162c17c8f3f24abdabfe7db8bba1f",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/Guide_Shoot_Fpp.mp4",
+                      "size":  1185535,
+                      "sha256":  "68f4a423b6af0f688165d9ff1e30905a62ab81a287ea4c8a771999a0cfbf620a",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/Guide_Shoot_Fpp_Bg.jpg",
+                      "size":  57950,
+                      "sha256":  "8bc7a8dc896b399d710ed54c39cc1b109359eefe8421b3e965344a1a41c2144e",
+                      "extension":  ".jpg",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/Guide_Shoot_Tpp.mp4",
+                      "size":  1138091,
+                      "sha256":  "a6125333d84003c01826d77b17859153054dc196f9c5b26f2f472e5cc820dd23",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/Guide_Shoot_Tpp_Bg.jpg",
+                      "size":  56667,
+                      "sha256":  "7959c82b222f192cab14d4e2b4a57a8f1b36fbf59d70172d5814c1caf8fb26a0",
+                      "extension":  ".jpg",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/TutorialVideo_Clamb.mp4",
+                      "size":  368723,
+                      "sha256":  "a704fc420d17cc09b6fdb45094487231f676a07b9872321eefe27071e590f1f6",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/TutorialVideo_Sliding.mp4",
+                      "size":  326155,
+                      "sha256":  "2ff56c2b60883fdd0afff3eb081a393fafa9b5cbdbce4e1dffe13d012080e728",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/TutorialVideo_TacticalSkill.mp4",
+                      "size":  723573,
+                      "sha256":  "70f7c183ee2bd4ec86a22026b422305d4027f2038a4a9a441e73b21110bfe7f0",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  },
+                  {
+                      "path":  "MAIN/AClient/Content/Art/Movies/Tutorial/TutorialVideo_Ult.mp4",
+                      "size":  1361966,
+                      "sha256":  "e80ce05e73ce1da67291ab225f20c941f33236f74d9c5db7409b1101e927b89a",
+                      "extension":  ".mp4",
+                      "classification":  "media"
+                  }
+              ]
+}

@@ -1,0 +1,64 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "status": "UNKNOWN_END_TO_END",
+  "stages": [
+    {
+      "order": 1,
+      "function": "FUN_06be427c",
+      "address": "0x6be427c",
+      "operation": "case-insensitive .LUA suffix check and removal",
+      "status": "CONFIRMED"
+    },
+    {
+      "order": 2,
+      "operation": "extensionless UTF-8 name passed into Lua lookup/require path",
+      "status": "PROBABLE"
+    },
+    {
+      "order": 3,
+      "operation": "Lua package searcher converts module name to file candidate",
+      "status": "UNKNOWN"
+    },
+    {
+      "order": 4,
+      "function": "FUN_049a8b54",
+      "address": "0x49a8b54",
+      "operation": "copy file candidate and prepare current/alternate prefixes",
+      "status": "CONFIRMED"
+    },
+    {
+      "order": 5,
+      "function": "FUN_04166f64",
+      "address": "0x4166f64",
+      "operation": "case-insensitive current-prefix to alternate-prefix string replacement",
+      "status": "CONFIRMED"
+    },
+    {
+      "order": 6,
+      "function": "FUN_046095e4",
+      "address": "0x46095e4",
+      "operation": "path cleanup including // to / and /./ to /",
+      "status": "CONFIRMED_PARTIAL"
+    },
+    {
+      "order": 7,
+      "function": "FUN_04609488",
+      "address": "0x4609488",
+      "operation": "case-folded table-driven CRC-like bucket over UTF-16 followed by full case-insensitive string comparison",
+      "status": "CONFIRMED_REGISTERED_PATH_MAP_ONLY"
+    }
+  ],
+  "input_probable": "Script/Tools/EventSystem/EventSystem.lua",
+  "bridge_module_key_probable": "Script/Tools/EventSystem/EventSystem",
+  "exact_file_candidate": "UNKNOWN",
+  "exact_lookup_key": "UNKNOWN",
+  "archive_name_hash": "NOT_PROVEN",
+  "unknowns": [
+    "first eight encoded UTF-16 code units",
+    "Lua package search pattern",
+    "extension restoration or rewrite",
+    "effective runtime alternate prefix",
+    "container entry mapping"
+  ]
+}

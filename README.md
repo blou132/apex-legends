@@ -17,9 +17,8 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 Current focus:
 
 - `CHATGPT_CONTEXT.md`
-- `platform-tools/ApexMobileBackup/Analyse/Codex/REPORT.md`
-- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase2/`
-- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
 
 Phase3C confirms the rebased Ghidra address model:
@@ -29,3 +28,5 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 ```
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
+
+Phase8 is the current investigation boundary. It documents the OBB metadata inventory, public-cache search, native file backend, partial path transforms, and why the exact EventSystem virtual entry remains unresolved without an authorized readable index or manifest.

@@ -1,0 +1,18 @@
+{
+  "phase": "Phase8",
+  "generated": "2026-08-13",
+  "status": "BUILD_WITNESS_ONLY",
+  "text": "Client/Launch/ClientLaunch.lua",
+  "container": "launch.pak",
+  "raw_offset": "0x250517",
+  "encoding": "ASCII/UTF-8",
+  "pak_index_offset": "0x851a746",
+  "location_classification": "PAK_BODY_NOT_INDEX",
+  "nearby_readable_context_classification": "script-level names",
+  "build_witness_match": true,
+  "exact_virtual_path_proven": false,
+  "entry_boundary": "UNKNOWN",
+  "mount_point": "UNKNOWN",
+  "path_mapping_validation": "INVALIDATED",
+  "reason": "a raw body string does not establish an index filename, containing entry, or loader lookup key"
+}
