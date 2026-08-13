@@ -1,0 +1,27 @@
+{
+  "phase": "Phase9B",
+  "final_gate": {
+    "code": "F",
+    "status": "SYSTEM_IMAGE_UNSUITABLE_UNKNOWN"
+  },
+  "avd_created": true,
+  "accelerated_start": {
+    "started": false,
+    "reason": "no usable WHPX or Android Emulator hypervisor driver"
+  },
+  "software_start": {
+    "process_started": true,
+    "deadline_seconds": 360,
+    "adb_endpoint_seen": false,
+    "boot_completed": false,
+    "process_stopped_after_deadline": true
+  },
+  "apk_installed": false,
+  "client_started": false,
+  "libue4_loaded": false,
+  "eventsystem_observed": false,
+  "external_apex_network_contacted": false,
+  "instrumentation_used": false,
+  "bypass_attempted": false,
+  "raw_logs_published": false
+}

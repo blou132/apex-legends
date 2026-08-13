@@ -1,0 +1,15 @@
+{
+  "phase": "Phase9B",
+  "status": "NOT_ATTEMPTED_LAB_NOT_BOOTED",
+  "apk": {
+    "size": 96228800,
+    "sha256": "2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0",
+    "abis": ["arm64-v8a"],
+    "modified": false,
+    "published": false
+  },
+  "avd_created": true,
+  "adb_target_available": false,
+  "install_attempted": false,
+  "obb_copied": false
+}

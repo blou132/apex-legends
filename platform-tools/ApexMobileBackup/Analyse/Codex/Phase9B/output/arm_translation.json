@@ -1,0 +1,17 @@
+{
+  "phase": "Phase9B",
+  "status": "YES",
+  "arm64_translation_supported": true,
+  "evidence": {
+    "system_cpu_abilist": ["x86_64", "arm64-v8a"],
+    "system_cpu_abilist64": ["x86_64", "arm64-v8a"],
+    "package_translated_abis": ["arm64-v8a"],
+    "native_bridge": "libndk_translation.so",
+    "arm64_isa_mapping": "x86_64",
+    "native_bridge_exec_enabled": true,
+    "translation_components_in_image_notice": true
+  },
+  "runtime_guest_properties_observed": false,
+  "client_execution_validated": false,
+  "reason_runtime_not_validated": "emulator did not expose an ADB endpoint without a usable host hypervisor"
+}

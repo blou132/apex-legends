@@ -1,0 +1,17 @@
+{
+  "phase": "Phase9B",
+  "generated": "2026-08-13",
+  "package_id": "system-images;android-36.1;google_apis_playstore;x86_64",
+  "api_level": "36.1",
+  "sdk_level": 36,
+  "android_version": "16",
+  "tag_id": "google_apis_playstore",
+  "tag_display": "Google Play",
+  "abi": "x86_64",
+  "revision": 4,
+  "security_patch": "2026-01-05",
+  "installed_emulator_version": "36.4.9.0",
+  "installed_emulator_build": 14788078,
+  "system_image_count": 1,
+  "download_performed": false
+}
