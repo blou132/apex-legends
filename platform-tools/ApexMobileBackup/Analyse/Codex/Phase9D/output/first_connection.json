@@ -1,0 +1,15 @@
+{
+  "phase": "Phase9D",
+  "status": "DNS_FAILED_BEFORE_CONNECTION",
+  "host": "tdm.mgapex.com",
+  "destination_port": 8013,
+  "configured_protocol": "HTTPS",
+  "transport": "UNKNOWN_NOT_CONNECTED",
+  "dns_resolved": false,
+  "connection_observed": false,
+  "tls_attempt": false,
+  "tls_sni": "NOT_OBSERVED",
+  "tls_version": "NOT_OBSERVED",
+  "certificate_boundary_reached": false,
+  "raw_capture_created": false
+}

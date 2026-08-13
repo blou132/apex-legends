@@ -1,0 +1,13 @@
+{
+  "phase": "Phase9D",
+  "status": "UNKNOWN",
+  "libue4_loaded": "UNKNOWN",
+  "explicit_libue4_log_event": false,
+  "ue4_tagged_startup_messages": true,
+  "ue4_tag_promoted_to_native_load_proof": false,
+  "proc_maps_readable": false,
+  "lsof_mapped_library_evidence": false,
+  "runtime_load_base": "UNKNOWN",
+  "runtime_offsets_applied": false,
+  "root_or_bypass_used": false
+}

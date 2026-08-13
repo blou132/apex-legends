@@ -1,0 +1,15 @@
+{
+  "phase": "Phase9D",
+  "status": "UNCHANGED_FROM_PHASE9C",
+  "second_run_performed": false,
+  "phase9c_baseline": {
+    "black_screen": true,
+    "process_alive_over_90_seconds": true,
+    "game_activity_present": true,
+    "first_failure": "DNS_BACKEND_UNAVAILABLE_UNDER_NETWORK_BLOCK"
+  },
+  "new_stage_reached": false,
+  "clientlaunch_observed": false,
+  "eventsystem_observed": false,
+  "lua_loader_metadata_observed": false
+}

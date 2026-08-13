@@ -17,6 +17,7 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 Current focus:
 
 - `CHATGPT_CONTEXT.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
@@ -32,4 +33,4 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase9C is the current investigation boundary. The verified APK and OBBs were installed on a clean secondary Huawei ARM64 test phone, never on the preserved Samsung. The client process and `GameActivity` remain active under an offline network policy, but the screen stays black after an expected DNS/backend failure. `libUE4.so`, ClientLaunch, EventSystem, the effective provider, and the final open path remain unconfirmed. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.
+Phase9D is the current investigation boundary. Reanalysis of the local-only Huawei log confirms that the first runtime-started backend operation is a TDM POST to `https://tdm.mgapex.com:8013/tdm/v1/route`; DNS fails before connection or TLS. A second run was deliberately skipped because the installed environment cannot guarantee Huawei-to-PC connectivity while blocking every Internet route. `libUE4.so`, ClientLaunch, EventSystem, the effective provider, and the final open path remain unconfirmed.

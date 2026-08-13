@@ -1,0 +1,16 @@
+{
+  "phase": "Phase9D",
+  "generated": "2026-08-13",
+  "source": "PHASE9C_LOCAL_ONLY_LOGCAT",
+  "events": [
+    {"order": 1, "relative_seconds": 1.727, "component": "TDM", "host": "tdm.mgapex.com", "operation": "POST", "scheme": "https", "port": 8013, "path": "/tdm/v1/route", "result_relative_seconds": 1.742, "result": "LIBCURL_CODE_6_DNS_FAILURE"},
+    {"order": 2, "relative_seconds": 1.958, "component": "GCloudCore", "host": "cloudctrl.mgapex.com", "operation": "GET", "scheme": "https", "port": null, "port_status": "NOT_EXPLICIT_IN_URL", "path": "/cfgpush/getConfig", "result_relative_seconds": 1.969, "result": "UNKNOWN_HOST"},
+    {"order": 3, "relative_seconds": 2.723, "component": "PlayCommon", "host": "play.googleapis.com", "operation": "GET", "scheme": "https", "port": null, "port_status": "NOT_EXPLICIT_IN_URL", "path": "/play/log/timestamp", "result_relative_seconds": 2.731, "result": "UNKNOWN_HOST_EXCEPTION"}
+  ],
+  "configuration_only_hosts_not_promoted": [
+    "itop.mgapex.com",
+    "GVoice configured endpoints",
+    "Facebook documentation references"
+  ],
+  "public_dns_query_performed": false
+}

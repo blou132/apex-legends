@@ -1,0 +1,23 @@
+{
+  "phase": "Phase9D",
+  "status": "STRICT_LOCAL_LAB_NETWORK_UNAVAILABLE",
+  "huawei_to_pc_required": true,
+  "huawei_to_internet_block_required": true,
+  "safe_policy_established": false,
+  "second_run_performed": false,
+  "host_capabilities": {
+    "python": false,
+    "mitmproxy": false,
+    "dnsmasq_or_named": false,
+    "packet_capture_cli": false,
+    "windows_hosted_network": false
+  },
+  "huawei_capabilities": {
+    "root": false,
+    "debuggable_build": false,
+    "adb_reverse": true,
+    "adb_reverse_transport": "TCP_ONLY",
+    "tcpdump": false
+  },
+  "network_or_system_changes_made": false
+}

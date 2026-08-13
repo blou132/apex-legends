@@ -1,0 +1,17 @@
+{
+  "phase": "Phase9D",
+  "status": "FIRST_BACKEND_REQUEST_CONFIRMED",
+  "host": "tdm.mgapex.com",
+  "port": 8013,
+  "protocol": "HTTPS_CONFIGURED",
+  "method": "POST",
+  "path": "/tdm/v1/route",
+  "content_type": "UNKNOWN",
+  "body_size": "UNKNOWN",
+  "sensitive_fields_redacted": true,
+  "request_purpose": "TDM_CLIENT_ROUTE_BOOTSTRAP",
+  "request_avatar_server_list_linked": false,
+  "network_delivery_confirmed": false,
+  "response_status": 0,
+  "response_body": "EMPTY_AFTER_DNS_FAILURE"
+}

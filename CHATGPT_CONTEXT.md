@@ -12,19 +12,20 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-12. The relevant topic report and matching JSON from the newest phase
-13. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+13. The relevant topic report and matching JSON from the newest phase
+14. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -78,6 +79,13 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `CONFIRMED`: the first actionable startup failure is DNS/backend resolution under the deliberate network block; the screen remained black. Phase9C gate is `B HUAWEI_CLIENT_STARTS_THEN_BACKEND_FAILURE`.
 - `UNKNOWN`: runtime OBB consumption and `libUE4.so` load state. The shell cannot read process maps and `lsof` exposes no mapped shared objects, so UE4-tagged startup messages are not promoted to native mapping proof.
 - `UNKNOWN`: Phase9C still does not reveal ClientLaunch, EventSystem, the Lua package searcher, effective provider, final OpenRead path, event `0x138` subscriber, parser, or URL source. No hook or bypass was attempted.
+- `CONFIRMED`: Phase9D reanalysis establishes the first runtime-started backend operation at about `+1.727 s`: TDM `POST https://tdm.mgapex.com:8013/tdm/v1/route` through `HttpCurl::HttpPost`.
+- `CONFIRMED`: the TDM operation reports HTTP response code `0`, empty response body, and libcurl code `6` about 15 ms later. DNS fails before any connection or TLS handshake.
+- `CONFIRMED`: GCloudCore later starts `GET https://cloudctrl.mgapex.com/cfgpush/getConfig`, followed by `UnknownHost`; PlayCommon later emits an explicit `UnknownHostException` for `play.googleapis.com`.
+- `INVALIDATED`: treating early Facebook documentation URLs, MSDK `itop` configuration, or the GVoice endpoint list as earlier runtime requests. The captured run only prints those values.
+- `CONFIRMED`: the first TDM POST is a TDM client-route bootstrap and is not linked to Phase5 `RequestAvatarServerList`, which constructs a GET from another caller-supplied URL.
+- `CONFIRMED`: no strict Huawei-to-PC-only network could be established with installed tools. The host has no DNS/capture CLI or hosted-network support; the Huawei is non-root/non-debuggable; ADB reverse is TCP-only. No second run or network/system change occurred.
+- `CONFIRMED`: Phase9D gate is `A FIRST_BACKEND_REQUEST_CONFIRMED` at the application request-dispatch layer. Transport, TLS parameters, content type, body size, and network delivery remain unobserved.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -111,6 +119,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/`: isolated-lab availability audit, refreshed artifact identity, corrected runtime offsets, explicit non-observations, and the safe prerequisites for a future runtime pass.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/`: exact x86_64 image inventory, ARM64 native-translation evidence, disposable AVD attempt, host hypervisor boundary, and cleaned startup gate.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/`: secondary Huawei inventory, compatibility and installation evidence, offline no-hook startup result, runtime-loader limits, EventSystem status, and safety boundary.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/`: local-only Phase9C log reanalysis, ordered bootstrap backend requests, first TDM request metadata, strict-network feasibility audit, and connection/TLS boundary.
 
 ## Machine-readable evidence
 
@@ -127,6 +136,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase9/output/*.json`: runtime-lab availability, prepared loader/provider offsets, and sanitized negative results for ClientLaunch, EventSystem, event subscriber, parser, and URL source.
 - `Phase9B/output/*.json`: installed image identity, ARM64 translation evidence, gated APK-install result, AVD startup result, and final host/runtime boundary.
 - `Phase9C/output/*.json`: sanitized Huawei inventory, compatibility, APK install, client startup, runtime-loader, and EventSystem results.
+- `Phase9D/output/*.json`: backend sequence, lab-network audit, first connection and request metadata, unchanged client progress, and `libUE4.so` status.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -141,12 +151,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Keep the preserved Samsung excluded and retain the Huawei as a clean secondary lab with no real account or copied private state.
-2. Repeat a bounded no-hook run only under an explicitly designed lab network policy that cannot reach historical services.
-3. Stop if progress requires root, bootloader unlock, APK patching, authentication, anti-debug, anti-integrity, certificate, or encryption bypass.
-4. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping or explicit loader event proves it.
-5. If engine startup reaches ClientLaunch/EventSystem without a bypass, use the corrected Phase9 ELF offsets only after validating the actual library load base.
-6. Capture loader metadata only: logical module, candidate and final paths, provider, result, chunk name, and size.
-7. If EventSystem is legitimately readable, identify the exact event `0x138` subscriber, parser, fields, and local URL construction without contacting the URL.
+1. Provide a genuinely isolated link where the Huawei can reach one local PC address and has no Internet route.
+2. Resolve only `tdm.mgapex.com` to that PC inside the isolated lab and listen on port `8013`.
+3. Record only connection metadata; if TLS starts, capture observable ClientHello metadata and stop at the certificate boundary.
+4. Do not install a CA, bypass pinning, patch the APK, emulate authentication, or build a complete backend.
+5. Keep the preserved Samsung excluded and retain the Huawei with no real account or copied private state.
+6. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping or explicit loader event proves it.
+7. If engine startup reaches ClientLaunch/EventSystem without a bypass, use the corrected Phase9 ELF offsets only after validating the actual library load base.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9C supplies a working ARM64 installation lab and proves process startup, but the first offline run stalls on a black screen after backend resolution failure before any useful loader metadata is visible. Gate `B HUAWEI_CLIENT_STARTS_THEN_BACKEND_FAILURE` is authoritative for this lab attempt.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9D confirms the earliest bootstrap request from the existing Huawei log without contacting its destination, but strict local DNS/network isolation is not yet available and no useful loader metadata appears. Gate `A FIRST_BACKEND_REQUEST_CONFIRMED` is authoritative for this phase.
