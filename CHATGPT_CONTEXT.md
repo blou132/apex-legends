@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-13
+Updated: 2026-08-13 (Phase5)
 
 ## Purpose
 
@@ -12,12 +12,12 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/09_phase3b_invalidations.md`
-4. The relevant Phase3C topic report and matching JSON under `Phase3/Phase3C/output/`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/REPORT.md` for the broader network and backend inventory
-6. Phase2 and Phase3B only as historical evidence, with Phase3C taking precedence on every address conflict
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+5. The relevant topic report and matching JSON from the newest phase
+6. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -26,13 +26,18 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `INVALIDATED`: Phase3B conclusions that used Phase2 ELF virtual addresses directly as Ghidra addresses.
 - `INVALIDATED`: `FUN_07941d10` as the direct corrected candidate for `RequestAvatarServerList`.
 - `PROBABLE`: corrected containing functions for its two code references are `FUN_07a41d0c` at `0x7a41d0c` and `FUN_07a41d4c` at `0x7a41d4c`.
-- `UNKNOWN`: the exact native function pointer for `RequestAvatarServerList`.
+- `CONFIRMED`: `RequestAvatarServerList -> FUN_07a31858 -> FUN_06bc68e8` builds an HTTP GET.
+- `CONFIRMED`: callback vtable `0xa732320`, adapter `FUN_06be413c`, handler `FUN_06be3bdc`.
+- `CONFIRMED`: the callback emits event `0x138` through `FUN_06be3f4c` with success plus a response-body `FString`.
+- `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
+- `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
+- `UNKNOWN`: the response wire format and server-list fields; the native callback does not parse them.
 - `UNKNOWN`: a proven `LoginMgr -> RequestAvatarServerList` call path.
-- `UNKNOWN`: the numeric value and handler for `EVENTID_AVATARSERVERLIST_RETURN`.
-- `UNKNOWN`: the owner, exact type, and writer of `GameServerBackupIpList`.
+- `CONFIRMED`: `EVENTID_AVATARSERVERLIST_RETURN = 0x138 / 312` and is emitted in the response path.
+- `PROBABLE`: `GameServerBackupIpList` belongs to `Login` and is a `TArray<FName>`; offset `0x150` is `CONFIRMED`, while the writer and element contents are `UNKNOWN`.
 - `UNKNOWN`: whether `SyncPayloadToGameServer` is an Unreal RPC and which native function implements it.
 - `UNKNOWN`: the effective UEDSToolkit transport.
-- `UNKNOWN`: a complete server-list to game-server address and connection path.
+- `UNKNOWN`: the consumer of event `0x138`, the writer of `GameServerBackupIpList`, and a complete game-server connection path.
 - `CONFIRMED`: several configuration, update, login, telemetry, payment, and voice endpoints exist in the artifacts; none is proven to be a game-server endpoint.
 
 ## Repository map
@@ -45,6 +50,8 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/`: Ghidra installation, import, scripts, initial reports, and raw execution evidence.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3B/`: deeper exports produced before the address-model correction.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/`: corrected address model, corrected exports, invalidations, and current conclusions.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/`: Unreal registration tables and the first confirmed request runtime path.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/`: HTTP callback, response event, URL-source and downstream storage analysis.
 
 ## Machine-readable evidence
 
@@ -52,6 +59,8 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase3/output/ghidra_nearest_functions.json`: nearest-function lookups used by the earlier analysis.
 - `Phase3/Phase3B/output/*.json`: target callgraph and xref exports; interpret addresses through Phase3C corrections.
 - `Phase3/Phase3C/output/*.json`: corrected target exports and address mapping.
+- `Phase4/output/*.json`: Unreal registration tables, event metadata, property metadata, and request runtime probe.
+- `Phase5/output/*.json`: request construction, callback vtables, response event, response representation, storage check, and SyncPayload thunk.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -66,12 +75,11 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Export xrefs, function ranges, callers, callees, and decompilation for the corrected Phase3C targets.
-2. Resolve the `STRING -> RELOCATION/RAW_POINTER -> METADATA -> CODE` chain for `RequestAvatarServerList`.
-3. Identify the native registration slot and exact function pointer.
-4. Trace the server-list return event to its handler and numeric event value.
-5. Identify the owner, type, and writer of `GameServerBackupIpList`.
-6. Trace `SyncPayloadToGameServer` toward Unreal networking primitives.
-7. Trace reconnect and UEDSToolkit paths toward `Host`, `Port`, `FURL`, socket, HTTP, or resolver calls.
+1. Resolve the Lua/Blueprint/event consumer of `EVENTID_AVATARSERVERLIST_RETURN` (`0x138`).
+2. From that consumer, identify the response parser and prove individual server-list fields.
+3. Prove a concrete `Login` instance before looking for writes at `Login+0x150`.
+4. Resolve the dynamic UFunction caller that supplies the URL `FString`.
+5. Identify the concrete receiver/vtable behind `SyncPayloadToGameServer +0xa58`.
+6. Trace reconnect and UEDSToolkit paths only from proven owners toward `Host`, `Port`, `FURL`, socket, HTTP, or resolver calls.
 
-Until those links are exported, the concrete lobby, matchmaking, and game-server destination remain unknown.
+The HTTP response event is now confirmed. The concrete lobby, matchmaking, and game-server destination remain unknown.
