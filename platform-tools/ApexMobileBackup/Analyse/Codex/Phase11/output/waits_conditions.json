@@ -1,0 +1,8 @@
+{
+  "phase": "Phase11",
+  "status": "UNKNOWN",
+  "root": null,
+  "first_possible_blocking_wait": null,
+  "waits": [],
+  "reason": "No wait can be attributed without a resolved JNI function."
+}

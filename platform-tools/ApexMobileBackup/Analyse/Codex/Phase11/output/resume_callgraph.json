@@ -1,0 +1,11 @@
+{
+  "phase": "Phase11",
+  "root": null,
+  "status": "BLOCKED_BY_UNRESOLVED_JNI_ENTRY",
+  "requested_depth": 5,
+  "nodes": [],
+  "edges": [],
+  "tail_calls": [],
+  "resolved_indirect_calls": [],
+  "interpretation": "UNKNOWN"
+}

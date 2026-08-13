@@ -1,0 +1,7 @@
+{
+  "phase": "Phase11",
+  "status": "UNKNOWN",
+  "root": null,
+  "workers": [],
+  "reason": "No worker launch is reachable from a confirmed native resume root."
+}

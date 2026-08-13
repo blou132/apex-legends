@@ -1,0 +1,11 @@
+{
+  "phase": "Phase11",
+  "first_native_startup_gate": null,
+  "status": "UNKNOWN",
+  "network_dependency_at_gate": "UNKNOWN",
+  "lua_dependency_at_gate": "UNKNOWN",
+  "android_lifecycle_dependency_at_gate": "UNKNOWN",
+  "candidates": [],
+  "final_gate": "F_JNI_ENTRYPOINT_NOT_RESOLVED",
+  "final_gate_confidence": "CONFIRMED"
+}

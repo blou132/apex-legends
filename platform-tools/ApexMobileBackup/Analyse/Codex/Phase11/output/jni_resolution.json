@@ -1,0 +1,35 @@
+{
+  "phase": "Phase11",
+  "target": "Java_com_epicgames_ue4_GameActivity_nativeResumeMainInit",
+  "status": "UNKNOWN",
+  "function": null,
+  "ghidra_address": null,
+  "elf_virtual_offset": null,
+  "dex_declaration": "public native nativeResumeMainInit()V",
+  "expected_jni_signature": "void(JNIEnv*, jobject)",
+  "name_evidence": {
+    "full_name_ghidra_address": "0x21dcc9d",
+    "full_name_elf_virtual_offset": "0x20dcc9d",
+    "method_suffix_ghidra_address": "0x21dccc1",
+    "method_suffix_elf_virtual_offset": "0x20dccc1"
+  },
+  "dynamic_tables": {
+    "dt_strtab_ghidra_address": "0x21dc658",
+    "dt_symtab_ghidra_address": "0xb9cc5b8",
+    "dt_hash_ghidra_address": "0x105904",
+    "authoritative_symbol_count": 824,
+    "target_symbol_matches": 0
+  },
+  "tested_resolution_paths": [
+    "EXACT_GHIDRA_SYMBOL",
+    "AUTHORITATIVE_ELF_DYNAMIC_SYMBOL_TABLE",
+    "SECTION_SIZED_DYNAMIC_SYMBOL_TABLE",
+    "JNI_NATIVE_METHOD_POINTER_TABLE",
+    "RELA_DYN_NAME_ADDEND",
+    "AARCH64_ADR_EXACT_NAME_REFERENCE",
+    "AARCH64_ADRP_ADD_EXACT_NAME_REFERENCE"
+  ],
+  "candidate_count": 0,
+  "final_gate": "F_JNI_ENTRYPOINT_NOT_RESOLVED",
+  "final_gate_confidence": "CONFIRMED"
+}

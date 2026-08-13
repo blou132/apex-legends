@@ -1,0 +1,7 @@
+{
+  "phase": "Phase11",
+  "status": "UNKNOWN",
+  "root": null,
+  "variables": [],
+  "reason": "No state read or write can be attributed without a resolved JNI function."
+}

@@ -16,6 +16,7 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 
 Current focus:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
 - `CHATGPT_CONTEXT.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
@@ -34,4 +35,10 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase10 is the current investigation boundary. TDM route failure is confined to a telemetry/report retry worker, GCloud RemoteConfig failure does not block observed plugin startup, PlayCommon belongs to Google Play/Finsky, and the local OBB validation succeeds. The client reaches and returns from `nativeResumeMainInit`, but the next native game-startup transition, Lua, ClientLaunch, and Login remain unknown. No backend response should be fabricated before that native startup boundary is resolved.
+Phase11 is the current investigation boundary. The DEX declaration and JNI ABI
+for `nativeResumeMainInit` are confirmed, but no unique native function was
+resolved through the exact symbol, authoritative ELF dynamic tables,
+registration pointers, relocations, or exact AArch64 name references. The local
+callgraph, first native wait, Lua, ClientLaunch, and Login therefore remain
+unknown. Phase11 gate `F JNI_ENTRYPOINT_NOT_RESOLVED` is authoritative; no
+backend response should be fabricated.

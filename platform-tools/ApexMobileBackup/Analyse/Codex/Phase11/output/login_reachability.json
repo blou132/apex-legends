@@ -1,0 +1,9 @@
+{
+  "phase": "Phase11",
+  "status": "UNKNOWN",
+  "root": null,
+  "login_native_reachable": "UNKNOWN",
+  "open_server_list_reachable": "UNKNOWN",
+  "request_avatar_server_list_reachable": "UNKNOWN",
+  "reason": "The native resume callgraph has no resolved root."
+}

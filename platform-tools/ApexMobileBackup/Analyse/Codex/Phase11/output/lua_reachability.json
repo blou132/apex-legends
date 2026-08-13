@@ -1,0 +1,13 @@
+{
+  "phase": "Phase11",
+  "status": "UNKNOWN",
+  "root": null,
+  "targets": [
+    {"function": "FUN_049a8b54", "reachability": "UNKNOWN"},
+    {"function": "FUN_049a9694", "reachability": "UNKNOWN"},
+    {"function": "FUN_048ab4d0", "reachability": "UNKNOWN"},
+    {"function": "FUN_06be427c", "reachability": "UNKNOWN"},
+    {"function": "FUN_06be3f4c", "reachability": "UNKNOWN"}
+  ],
+  "lua_init_reachable": "UNKNOWN"
+}
