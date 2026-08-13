@@ -1,0 +1,51 @@
+{
+  "phase": "7B",
+  "generated": "2026-08-13",
+  "status": "INPUTS_NOT_FOUND",
+  "search_method": "Non-destructive filename search in authorized local scopes",
+  "candidates_found": 0,
+  "paks": [
+    {
+      "name": "launch.pak",
+      "size": null,
+      "sha256": null,
+      "historical_expected_size": 140867491,
+      "size_match": null,
+      "source_path": null,
+      "restored_path": null,
+      "status": "UNKNOWN_BUILD"
+    },
+    {
+      "name": "pakchunk2-Android_ASTC.pak",
+      "size": null,
+      "sha256": null,
+      "historical_expected_size": 367571213,
+      "size_match": null,
+      "source_path": null,
+      "restored_path": null,
+      "status": "UNKNOWN_BUILD"
+    },
+    {
+      "name": "pakchunk3-Android_ASTC.pak",
+      "size": null,
+      "sha256": null,
+      "historical_expected_size": 1837582232,
+      "size_match": null,
+      "source_path": null,
+      "restored_path": null,
+      "status": "UNKNOWN_BUILD"
+    },
+    {
+      "name": "pakchunk4-Android_ASTC.pak",
+      "size": null,
+      "sha256": null,
+      "historical_expected_size": 1253209707,
+      "size_match": null,
+      "source_path": null,
+      "restored_path": null,
+      "status": "UNKNOWN_BUILD"
+    }
+  ],
+  "obb_candidates_found": 0,
+  "restore_performed": false
+}

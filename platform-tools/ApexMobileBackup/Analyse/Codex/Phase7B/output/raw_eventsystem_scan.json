@@ -1,0 +1,33 @@
+{
+  "phase": "7B",
+  "generated": "2026-08-13",
+  "status": "NOT_RUN_INPUTS_NOT_FOUND",
+  "scan_performed": false,
+  "encodings": [
+    "ASCII",
+    "UTF-8",
+    "UTF-16LE"
+  ],
+  "terms": [
+    "Script/Tools/EventSystem/EventSystem.lua",
+    "Tools/EventSystem/EventSystem.lua",
+    "EventSystem.lua",
+    "EventSystem.PostCppEvent",
+    "PostCppEvent",
+    "EVENTID_AVATARSERVERLIST_RETURN",
+    "ELuaCppEventType::EVENTID_AVATARSERVERLIST_RETURN",
+    "AvatarServerList",
+    "RequestAvatarServerList",
+    "OpenServerList",
+    "ServerListName"
+  ],
+  "hits": [],
+  "decision": {
+    "eventsystem_full_path_found": "UNKNOWN",
+    "eventsystem_fragment_found": "UNKNOWN",
+    "eventsystem_not_found": "UNKNOWN",
+    "entry_boundary": "UNKNOWN",
+    "content_classification": "UNKNOWN"
+  },
+  "reason": "No validated PAK input was restored"
+}

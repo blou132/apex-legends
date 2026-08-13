@@ -1,0 +1,27 @@
+{
+  "phase": "7B",
+  "generated": "2026-08-13",
+  "status": "NOT_RUN_INPUTS_NOT_FOUND",
+  "scan_performed": false,
+  "witnesses": [
+    {
+      "name": "Client/Launch/ClientLaunch.lua",
+      "historical_container": "launch.pak",
+      "historical_offset": "0x250517",
+      "phase7b_found": "UNKNOWN"
+    },
+    {
+      "name": "Client/UMG/SelectLegend/BP_Screen.lua",
+      "historical_container": "pakchunk3-Android_ASTC.pak",
+      "historical_offset": null,
+      "phase7b_found": "UNKNOWN"
+    },
+    {
+      "name": "RatingSeasonArchivesLogic.lua",
+      "historical_container": "pakchunk3-Android_ASTC.pak",
+      "historical_offset": null,
+      "phase7b_found": "UNKNOWN"
+    }
+  ],
+  "conclusion": "Historical witnesses were not retested because no PAK input was restored"
+}

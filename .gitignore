@@ -38,6 +38,7 @@ platform-tools/ApexMobileBackup/Backups/
 platform-tools/ApexMobileBackup/Analyse/APK/
 platform-tools/ApexMobileBackup/Analyse/MAIN/
 platform-tools/ApexMobileBackup/Analyse/PATCH/
+platform-tools/ApexMobileBackup/Analyse/LocalInputs/
 
 # Raw logs and temporary analysis output.
 *.log
