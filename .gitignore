@@ -1,4 +1,4 @@
-# Keep the GitHub repository lightweight and focused on analysis notes.
+# Keep the public GitHub repository limited to cleaned analysis material.
 
 # Ignore everything by default, then re-include the Codex analysis tree.
 *
@@ -6,6 +6,7 @@
 !README.md
 !AGENTS.md
 !CHATGPT_CONTEXT.md
+!PUBLIC_DATA_POLICY.md
 !platform-tools/
 platform-tools/*
 !platform-tools/ApexMobileBackup/
@@ -15,10 +16,12 @@ platform-tools/ApexMobileBackup/Analyse/*
 !platform-tools/ApexMobileBackup/Analyse/Codex/
 !platform-tools/ApexMobileBackup/Analyse/Codex/**
 
-# Never publish heavy/proprietary game artifacts or local tool databases.
+# Original game binaries.
 *.apk
 *.obb
 *.pak
+*.dex
+*.xapk
 *.ucas
 *.utoc
 *.so
@@ -27,16 +30,40 @@ platform-tools/ApexMobileBackup/Analyse/*
 *.mp4
 *.gbf
 *.ps
-*.log
-*.txt
-*.pid
 
-# Keep textual Ghidra evidence available to remote AI assistants.
-!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.log
-!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.txt
-!platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functions.json
+# Phone backups, private data, and original extracted game content.
+platform-tools/ApexMobileBackup/Android-data/
+platform-tools/ApexMobileBackup/Phone-storage/
+platform-tools/ApexMobileBackup/Backups/
+platform-tools/ApexMobileBackup/Analyse/APK/
+platform-tools/ApexMobileBackup/Analyse/MAIN/
+platform-tools/ApexMobileBackup/Analyse/PATCH/
+
+# Raw logs and temporary analysis output.
+*.log
+*.pid
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.txt
+platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/ghidra_export_functions.json
 
 # Local Ghidra and compilation artifacts.
 platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/ghidra_project/
 platform-tools/ApexMobileBackup/Analyse/Codex/**/javac_probe/
-platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/output/*.pid
+*.gpr
+*.rep/
+*.lock
+*.class
+
+# Backup archives and bulk exports.
+platform-tools/ApexMobileBackup/**/*.tar
+platform-tools/ApexMobileBackup/**/*.tar.gz
+platform-tools/ApexMobileBackup/**/*.zip
+
+# Secrets and credentials must never be published.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.keystore
+*token*
+*cookie*

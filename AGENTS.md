@@ -17,4 +17,4 @@ Never present a hostname, IP, port, native function, RPC, event handler, or call
 GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 ```
 
-Do not add APK, OBB, PAK, SO, DLL, EXE, media files, local Ghidra databases, Java class files, or process IDs to Git. Text reports, scripts, JSON exports, and execution logs are intended to remain available to remote AI assistants.
+Do not add APK, OBB, PAK, SO, DLL, EXE, DEX, media files, phone backups, raw logs, local Ghidra databases, Java class files, process IDs, credentials, or secrets to Git. Only cleaned reports, analysis scripts, sanitized JSON exports, and public methodology notes are intended for remote AI assistants. Follow `PUBLIC_DATA_POLICY.md` before staging new evidence.
