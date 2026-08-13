@@ -1,0 +1,20 @@
+{
+  "phase": "Phase10",
+  "status": "CONFIRMED_PARTIAL",
+  "cache_mechanism": true,
+  "cache_present_in_observed_run": false,
+  "caller_default_mechanism": true,
+  "complete_offline_config": "UNKNOWN",
+  "values": [
+    {"key": "RemoteConfigMaxRetryCount", "value": 3, "source": "DEFAULT"},
+    {"key": "RemoteConfigRetryIntervalSeconds", "value": 10, "source": "DEFAULT"},
+    {"key": "RpcConnectTimeout", "value": 15, "source": "DEFAULT"},
+    {"key": "RpcRetryIncrement", "value": 7, "source": "DEFAULT"},
+    {"key": "RpcAddressSvrPortList", "value": "8085|8080", "source": "DEFAULT"},
+    {"key": "RpcAddressSvrBkIPList", "value": "", "source": "DEFAULT"},
+    {"key": "RpcConnectMode", "value": 0, "source": "DEFAULT"},
+    {"key": "RpcConnectTdrProto", "value": 100, "source": "DEFAULT"},
+    {"key": "RpcParallelChannels", "value": 15, "source": "DEFAULT"},
+    {"key": "RpcParallelCount", "value": 1, "source": "DEFAULT"}
+  ]
+}

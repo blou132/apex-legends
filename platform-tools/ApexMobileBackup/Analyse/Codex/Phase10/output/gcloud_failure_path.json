@@ -1,0 +1,27 @@
+{
+  "phase": "Phase10",
+  "status": "CONFIRMED",
+  "classification": "OPTIONAL_FOR_OBSERVED_PLUGIN_STARTUP_UNKNOWN_FOR_GAMEPLAY",
+  "functions": {
+    "request_ghidra": "0x186b14",
+    "on_data_task_finished_ghidra": "0x1863ac",
+    "retry_request_ghidra": "0x185544",
+    "parse_json_object_ghidra": "0x185774",
+    "start_once_ghidra": "0x186f54"
+  },
+  "observed_error": {
+    "network_result": 3,
+    "http_status": 0,
+    "error_class": "UNKNOWN_HOST",
+    "response": "EMPTY"
+  },
+  "retry": {
+    "configured_max": 3,
+    "interval_seconds": 10,
+    "total_observed_attempts": 4
+  },
+  "success_notifies_observers": true,
+  "failure_notifies_success_observers": false,
+  "plugin_startup_continued": true,
+  "network_request_performed_by_phase10": false
+}

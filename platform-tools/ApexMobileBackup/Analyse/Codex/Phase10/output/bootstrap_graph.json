@@ -1,0 +1,17 @@
+{
+  "phase": "Phase10",
+  "final_gate": "E_BOOTSTRAP_GATE_STILL_UNKNOWN",
+  "nodes": [
+    {"order": 1, "node": "GAME_ACTIVITY_NATIVE_ACTIVITY", "status": "CONFIRMED", "success_required": "YES"},
+    {"order": 2, "node": "UE4_NATIVE_LIBRARY_HANDOFF", "status": "CONFIRMED", "success_required": "YES"},
+    {"order": 3, "node": "TDM_ROUTE_WORKER", "status": "CONFIRMED", "success_required": "NO"},
+    {"order": 4, "node": "GCLOUD_REMOTE_CONFIG_WORKER", "status": "CONFIRMED", "success_required": "NO_FOR_PLUGIN_STARTUP_UNKNOWN_FOR_GAMEPLAY"},
+    {"order": 5, "node": "OBB_VALIDATION", "status": "CONFIRMED_SUCCESS", "success_required": "YES"},
+    {"order": 6, "node": "NATIVE_RESUME_MAIN_INIT", "status": "CONFIRMED_RETURNED", "success_required": "YES"},
+    {"order": 7, "node": "NATIVE_GAME_INITIALIZATION", "status": "UNKNOWN", "success_required": "YES"},
+    {"order": 8, "node": "LUA_CLIENTLAUNCH_LOGIN", "status": "UNKNOWN", "success_required": "UNKNOWN"}
+  ],
+  "excluded": [
+    {"node": "PLAYCOMMON_TIMESTAMP", "reason": "GOOGLE_PLAY_FINSKY_LOG_UPLOAD_PROCESS"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "Phase10",
+  "ue4_runtime_stage_reached": "CONFIRMED",
+  "lua_runtime_stage_reached": "UNKNOWN",
+  "clientlaunch_stage_reached": "UNKNOWN",
+  "login_stage_reached": "UNKNOWN",
+  "request_avatar_server_list_reached": "UNKNOWN",
+  "static_request_path_exists": true,
+  "bootstrap_edge_to_static_request_path": "UNKNOWN",
+  "next_backend_to_study": "UNKNOWN_RESOLVE_NATIVE_STARTUP_GATE_FIRST"
+}

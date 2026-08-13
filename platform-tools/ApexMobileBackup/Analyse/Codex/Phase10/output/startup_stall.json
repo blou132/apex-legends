@@ -1,0 +1,18 @@
+{
+  "phase": "Phase10",
+  "first_confirmed_startup_stall": "UNKNOWN",
+  "last_confirmed_transition": "NATIVE_RESUME_MAIN_INIT_RETURNED",
+  "stall_region": "INSIDE_OR_AFTER_NATIVE_GAME_INITIALIZATION",
+  "invalidated_gates": [
+    "TDM_APPLICATION_STARTUP",
+    "GCLOUD_OBSERVED_PLUGIN_STARTUP",
+    "PLAYCOMMON",
+    "OBB_DOWNLOADER"
+  ],
+  "recurrent_activity_after_boundary": [
+    "TDM_ROUTE_RETRIES",
+    "GCLOUD_REMOTE_CONFIG_RETRIES_UNTIL_EXHAUSTED"
+  ],
+  "fatal_java_exception": false,
+  "fatal_native_signal": false
+}

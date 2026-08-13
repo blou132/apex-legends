@@ -1,0 +1,25 @@
+{
+  "phase": "Phase10",
+  "status": "CONFIRMED",
+  "classification": "TDM_FAILURE_RETRY_ONLY",
+  "request_role": "TELEMETRY_REPORT_ROUTE",
+  "runtime_failure": {
+    "curl_code": 6,
+    "http_code": 0,
+    "response": "EMPTY"
+  },
+  "functions": {
+    "request_remote_route_config_ghidra": "0x15e6b4",
+    "http_route_proc2_ghidra": "0x15f298",
+    "on_http_route_resp_ghidra": "0x15f668",
+    "send_client_route_post_request_ghidra": "0x180cac",
+    "curl_http_post_ghidra": "0x182030"
+  },
+  "retry": {
+    "delay_step_seconds": 5,
+    "delay_cap_seconds": 60,
+    "scope": "TDM_REPORT_WORKER"
+  },
+  "fatal_to_application_startup": false,
+  "network_request_performed_by_phase10": false
+}
