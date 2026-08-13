@@ -1,0 +1,9 @@
+{
+  "phase": "Phase9C",
+  "status": "APK_INSTALL_SUCCESS",
+  "install_method": "ADB_STREAMED_INSTALL_EXPLICIT_HUAWEI_TARGET",
+  "apk_modified": false,
+  "previous_package_overwritten": false,
+  "android_result": "Success",
+  "preserved_samsung_targeted": false
+}

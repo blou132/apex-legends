@@ -1,0 +1,16 @@
+{
+  "phase": "Phase9C",
+  "generated": "2026-08-13",
+  "manufacturer": "HUAWEI",
+  "model": "PRA-LX1",
+  "android_version": "8.0.0",
+  "sdk": 26,
+  "primary_abi": "arm64-v8a",
+  "abi_list": ["arm64-v8a", "armeabi-v7a", "armeabi"],
+  "abi_list_64": ["arm64-v8a"],
+  "arm64_supported": true,
+  "free_data_kib": 6462672,
+  "free_sdcard_kib": 6442192,
+  "serial_published": false,
+  "preserved_samsung_targeted": false
+}

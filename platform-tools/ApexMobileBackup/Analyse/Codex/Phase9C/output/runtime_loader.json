@@ -1,0 +1,21 @@
+{
+  "phase": "Phase9C",
+  "status": "NOT_OBSERVED",
+  "clientlaunch_observed": false,
+  "lua_package_searcher_observed": false,
+  "effective_provider": "UNKNOWN",
+  "final_open_path": "UNKNOWN",
+  "chunk_name": "UNKNOWN",
+  "chunk_size": "UNKNOWN",
+  "libue4_load_base": "UNKNOWN",
+  "runtime_offsets_applied": false,
+  "target_terms": {
+    "lua": 0,
+    "clientlaunch": 0,
+    "eventsystem": 0,
+    "postcppevent": 0,
+    "openread": 0,
+    "script_prefix": 0,
+    "pak": 0
+  }
+}

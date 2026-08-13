@@ -1,0 +1,12 @@
+{
+  "phase": "Phase9C",
+  "status": "NOT_OBSERVED",
+  "eventsystem_observed": false,
+  "eventsystem_runtime_path_confirmed": false,
+  "post_cpp_event_observed": false,
+  "event_0x138_subscriber_found": false,
+  "serverlist_parser_found": false,
+  "request_url_source_found": false,
+  "lua_content_accessed": false,
+  "proprietary_lua_published": false
+}

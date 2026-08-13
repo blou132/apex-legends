@@ -17,6 +17,7 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 Current focus:
 
 - `CHATGPT_CONTEXT.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
@@ -31,4 +32,4 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase9B is the current investigation boundary. The installed Android 16/API 36.1 Google Play x86_64 image explicitly supports `arm64-v8a` through native translation, and a disposable AVD was created without downloading components. The host has no usable WHPX/AEHD acceleration, however, and software emulation did not reach an ADB-visible boot, so the APK was not installed and the client was not launched. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.
+Phase9C is the current investigation boundary. The verified APK and OBBs were installed on a clean secondary Huawei ARM64 test phone, never on the preserved Samsung. The client process and `GameActivity` remain active under an offline network policy, but the screen stays black after an expected DNS/backend failure. `libUE4.so`, ClientLaunch, EventSystem, the effective provider, and the final open path remain unconfirmed. Phase8 remains authoritative for the unresolved static virtual-path and provider analysis.

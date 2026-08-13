@@ -12,18 +12,19 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-11. The relevant topic report and matching JSON from the newest phase
-12. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+12. The relevant topic report and matching JSON from the newest phase
+13. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -70,6 +71,13 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `CONFIRMED`: Phase9B created the disposable `ApexPhase9Lab` AVD from the existing image without downloading a component or using the preserved phone.
 - `CONFIRMED`: no usable WHPX/AEHD hypervisor is active. Accelerated startup was refused; a bounded software TCG attempt exposed no ADB endpoint or completed boot after six minutes.
 - `CONFIRMED`: Phase9B did not install the APK, copy OBBs, launch the client, load `libUE4.so`, contact an external service, or use instrumentation. Its final gate is `F SYSTEM_IMAGE_UNSUITABLE_UNKNOWN`.
+- `CONFIRMED`: Phase9C identifies the secondary Huawei test phone as `PRA-LX1`, Android 8.0/API 26, with primary and 64-bit ABI `arm64-v8a`; the preserved Samsung was never targeted.
+- `CONFIRMED`: before installation, the Huawei had about 6.16 GiB free on `/data`, about 6.14 GiB on `/sdcard`, and no existing Apex package. The exact APK and both exact OBB identities matched.
+- `CONFIRMED`: the unchanged APK installed successfully and both OBB remote byte sizes match their verified local copies.
+- `CONFIRMED`: under blocked Huawei Wi-Fi/mobile data, Android started `GameActivity`; the client process and activity remained present for more than 90 seconds, with no fatal Java exception, native fatal signal, ABI failure, or `UnsatisfiedLinkError`.
+- `CONFIRMED`: the first actionable startup failure is DNS/backend resolution under the deliberate network block; the screen remained black. Phase9C gate is `B HUAWEI_CLIENT_STARTS_THEN_BACKEND_FAILURE`.
+- `UNKNOWN`: runtime OBB consumption and `libUE4.so` load state. The shell cannot read process maps and `lsof` exposes no mapped shared objects, so UE4-tagged startup messages are not promoted to native mapping proof.
+- `UNKNOWN`: Phase9C still does not reveal ClientLaunch, EventSystem, the Lua package searcher, effective provider, final OpenRead path, event `0x138` subscriber, parser, or URL source. No hook or bypass was attempted.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -102,6 +110,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/`: OBB metadata and sidecar inventory, public cache search, fallback backend/vtable analysis, path-transform boundary, ClientLaunch validation limit, and EventSystem mapping gate.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/`: isolated-lab availability audit, refreshed artifact identity, corrected runtime offsets, explicit non-observations, and the safe prerequisites for a future runtime pass.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/`: exact x86_64 image inventory, ARM64 native-translation evidence, disposable AVD attempt, host hypervisor boundary, and cleaned startup gate.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/`: secondary Huawei inventory, compatibility and installation evidence, offline no-hook startup result, runtime-loader limits, EventSystem status, and safety boundary.
 
 ## Machine-readable evidence
 
@@ -117,6 +126,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase8/output/*.json`: complete non-PAK inventory, backend/vtable evidence, mount and path-transform status, ClientLaunch witness limit, EventSystem mapping, public cache results, and URL follow-up.
 - `Phase9/output/*.json`: runtime-lab availability, prepared loader/provider offsets, and sanitized negative results for ClientLaunch, EventSystem, event subscriber, parser, and URL source.
 - `Phase9B/output/*.json`: installed image identity, ARM64 translation evidence, gated APK-install result, AVD startup result, and final host/runtime boundary.
+- `Phase9C/output/*.json`: sanitized Huawei inventory, compatibility, APK install, client startup, runtime-loader, and EventSystem results.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -131,13 +141,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Enable an official supported Windows emulator hypervisor path, then rerun the emulator acceleration check; do not download another system image automatically.
-2. Cold-boot the existing `ApexPhase9Lab` and verify the guest ABI list plus native bridge on its explicit emulator endpoint.
-3. Install the unchanged local APK only if the guest still advertises `arm64-v8a`; stop on an ABI mismatch or any required bypass.
-4. Copy the existing OBBs and isolate the lab from external Internet before the first no-hook client launch.
-5. Stop if startup requires an authentication, anti-emulator, integrity, or encryption bypass.
-6. If runtime metadata is still absent, use the corrected Phase9 ELF offsets with the observed `libUE4.so` load base and capture loader metadata only.
-7. Validate the Lua search/provider chain against `ClientLaunch` before applying it to EventSystem.
-8. If EventSystem is legitimately readable, identify the exact event `0x138` subscriber, parser, fields, and local URL construction without contacting the URL.
+1. Keep the preserved Samsung excluded and retain the Huawei as a clean secondary lab with no real account or copied private state.
+2. Repeat a bounded no-hook run only under an explicitly designed lab network policy that cannot reach historical services.
+3. Stop if progress requires root, bootloader unlock, APK patching, authentication, anti-debug, anti-integrity, certificate, or encryption bypass.
+4. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping or explicit loader event proves it.
+5. If engine startup reaches ClientLaunch/EventSystem without a bypass, use the corrected Phase9 ELF offsets only after validating the actual library load base.
+6. Capture loader metadata only: logical module, candidate and final paths, provider, result, chunk name, and size.
+7. If EventSystem is legitimately readable, identify the exact event `0x138` subscriber, parser, fields, and local URL construction without contacting the URL.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9B confirms that the installed x86_64 image supports ARM64 translation, but the current Windows host cannot boot it to an ADB-visible state without a usable hypervisor. Gate `F SYSTEM_IMAGE_UNSUITABLE_UNKNOWN` is authoritative for this lab attempt.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase9C supplies a working ARM64 installation lab and proves process startup, but the first offline run stalls on a black screen after backend resolution failure before any useful loader metadata is visible. Gate `B HUAWEI_CLIENT_STARTS_THEN_BACKEND_FAILURE` is authoritative for this lab attempt.

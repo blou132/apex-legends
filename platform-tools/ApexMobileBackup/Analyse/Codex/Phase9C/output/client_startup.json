@@ -1,0 +1,25 @@
+{
+  "phase": "Phase9C",
+  "final_gate": {
+    "code": "B",
+    "status": "HUAWEI_CLIENT_STARTS_THEN_BACKEND_FAILURE"
+  },
+  "network_external_blocked_during_run": true,
+  "network_state_restored_after_run": true,
+  "client_started": true,
+  "game_activity_observed": true,
+  "process_observation_seconds": 95,
+  "process_remained_alive": true,
+  "screen_state": "BLACK",
+  "fatal_java_exception": false,
+  "fatal_native_signal": false,
+  "first_failure": "DNS_BACKEND_UNAVAILABLE_UNDER_NETWORK_BLOCK",
+  "libue4_loaded": "NOT_CONFIRMED",
+  "proc_maps_readable": false,
+  "lsof_libue4_hits": 0,
+  "obb_runtime_detected": "NOT_CONFIRMED",
+  "raw_log_published": false,
+  "screenshot_published": false,
+  "instrumentation_used": false,
+  "bypass_attempted": false
+}
