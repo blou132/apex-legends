@@ -1,0 +1,14 @@
+{
+  "phase": "Phase12",
+  "status": "UNKNOWN",
+  "native_resume_main_init_function": null,
+  "ghidra_address": null,
+  "elf_virtual_offset": null,
+  "jni_registration_method": "UNKNOWN",
+  "jni_table_row": null,
+  "jni_entry_confirmed": "UNKNOWN",
+  "libue4_loaded": "PROBABLE",
+  "libue4_load_base": "UNKNOWN",
+  "first_direct_callees": [],
+  "final_gate": "F_JNI_ONLOAD_NOT_RESOLVED"
+}

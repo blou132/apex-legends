@@ -1,0 +1,8 @@
+{
+  "phase": "Phase12",
+  "status": "UNKNOWN",
+  "registration_table_confidence": "UNKNOWN",
+  "rows_validated": 0,
+  "rows": [],
+  "reason": "No candidate GameActivity JNINativeMethod table was resolved."
+}

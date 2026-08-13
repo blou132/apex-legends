@@ -1,0 +1,13 @@
+{
+  "phase": "Phase12",
+  "status": "UNKNOWN",
+  "table_pointer": null,
+  "count": null,
+  "row_size": 24,
+  "rows": [],
+  "target_expectation": {
+    "name": "nativeResumeMainInit",
+    "signature": "()V",
+    "source": "DEX_VALIDATION_ONLY"
+  }
+}

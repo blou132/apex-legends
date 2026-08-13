@@ -1,0 +1,11 @@
+{
+  "phase": "Phase12",
+  "status": "UNKNOWN",
+  "jni_onload_root": null,
+  "gameactivity_class_lookup": "UNKNOWN",
+  "class_name": null,
+  "call_site": null,
+  "return_value_storage": null,
+  "downstream_calls": [],
+  "reason": "JNI_OnLoad was not uniquely resolved."
+}

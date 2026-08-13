@@ -16,6 +16,7 @@ The repository keeps only the smaller, cleaned reports and machine-readable expo
 
 Current focus:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
 - `CHATGPT_CONTEXT.md`
@@ -35,10 +36,10 @@ GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000
 
 Phase3B addresses must not be reused directly. Phase3C is the authoritative source whenever an older report conflicts with the rebased results.
 
-Phase11 is the current investigation boundary. The DEX declaration and JNI ABI
-for `nativeResumeMainInit` are confirmed, but no unique native function was
-resolved through the exact symbol, authoritative ELF dynamic tables,
-registration pointers, relocations, or exact AArch64 name references. The local
-callgraph, first native wait, Lua, ClientLaunch, and Login therefore remain
-unknown. Phase11 gate `F JNI_ENTRYPOINT_NOT_RESOLVED` is authoritative; no
-backend response should be fabricated.
+Phase12 is the current investigation boundary. `JNI_OnLoad` is absent from the
+exact Ghidra symbols and authoritative ELF dynamic symbols in the local
+`libUE4.so`; loader metadata and the complete conventional JavaVM GetEnv/version
+pattern also produce no unique candidate. GameActivity registration and the
+native `nativeResumeMainInit` address therefore remain unknown. Phase12 gate
+`F JNI_ONLOAD_NOT_RESOLVED` is authoritative; no backend response should be
+fabricated.

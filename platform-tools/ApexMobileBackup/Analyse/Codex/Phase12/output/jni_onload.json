@@ -1,0 +1,22 @@
+{
+  "phase": "Phase12",
+  "target": "JNI_OnLoad",
+  "status": "UNKNOWN",
+  "function": null,
+  "ghidra_address": null,
+  "elf_virtual_offset": null,
+  "resolution_paths": {
+    "ghidra_exact_symbols": 0,
+    "ghidra_named_functions": 0,
+    "authoritative_dynamic_symbols": 824,
+    "dynamic_symbol_matches": 0,
+    "dt_init_elf_virtual_offset": "0xb8c503c",
+    "dt_init_ghidra_address": "0xb9c503c",
+    "dt_init_function": null,
+    "dt_init_array_present": false,
+    "conventional_getenv_version_candidates": 0
+  },
+  "candidate_count": 0,
+  "final_gate": "F_JNI_ONLOAD_NOT_RESOLVED",
+  "final_gate_confidence": "CONFIRMED"
+}

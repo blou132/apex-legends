@@ -1,0 +1,10 @@
+{
+  "phase": "Phase12",
+  "status": "UNKNOWN",
+  "register_site": null,
+  "class_source": null,
+  "table_pointer": null,
+  "count": null,
+  "static_or_dynamic_table": "UNKNOWN",
+  "reason": "No GameActivity class value is reachable from a confirmed JNI_OnLoad root."
+}
