@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-13 (Phase6)
+Updated: 2026-08-13 (Phase7)
 
 ## Purpose
 
@@ -12,13 +12,14 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-6. The relevant topic report and matching JSON from the newest phase
-7. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+7. The relevant topic report and matching JSON from the newest phase
+8. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -32,6 +33,14 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `CONFIRMED`: the callback emits event `0x138` through `FUN_06be3f4c` with success plus a response-body `FString`.
 - `CONFIRMED`: `FUN_06be427c` is a native-to-Lua bridge, not UObject ProcessEvent or a Blueprint dispatcher; it recognizes `.LUA`, pushes typed values and delegates dotted-name dispatch to `FUN_06be4d1c`.
 - `PROBABLE`: `FUN_06be3f4c` targets `Script/Tools/EventSystem/EventSystem.lua` and `EventSystem.PostCppEvent`; clear UTF-16 fragments and exact lengths support these values, but eight encoded code units in each value were not independently decoded.
+- `CONFIRMED`: `FUN_049a8b54` constructs/resolves a Lua module path, reads bytes through an optional provider or fallback `FUN_049a9694`, removes an optional UTF-8 BOM, and hands the buffer to `FUN_048ab4d0`.
+- `PROBABLE`: `FUN_048ab4d0` is the Lua chunk load/compile wrapper. Stripped symbols and a decompiler boundary prevent assigning an exact `lua_load` API name.
+- `CONFIRMED`: `FUN_046355e8`, path resolver `FUN_082693bc`, and backend open `thunk_FUN_049825bc` form a generic virtual/platform file pipeline.
+- `UNKNOWN`: the concrete Pak/custom/physical backend, runtime mount prefix, exact virtual asset name, physical container, EventSystem entry boundary, and script content type.
+- `CONFIRMED`: no decompression or custom decode occurs between the returned byte buffer and chunk handoff except optional BOM removal; any such processing must happen below the reader/provider boundary.
+- `PROBABLE`: the four previously inspected PAK indexes were encrypted or otherwise unreadable to the minimal parser. This does not classify individual entry contents.
+- `CONFIRMED`: the current workspace contains no original PAK, extracted Lua, `Analyse/APK`, `Analyse/MAIN`, or `Analyse/PATCH` input, so Phase7 raw scans could not be rerun.
+- `CONFIRMED`: Phase7 decision gate is `D`, `EVENTSYSTEM_CONTAINER_UNKNOWN = YES`.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -57,6 +66,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/`: Unreal registration tables and the first confirmed request runtime path.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/`: HTTP callback, response event, URL-source and downstream storage analysis.
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/`: native-to-Lua event dispatch, consumer search, script boundary, parser/storage limits, URL and SyncPayload follow-up.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/`: Lua loader, virtual file pipeline, encoded-name status, local asset availability, EventSystem location gate, and next authorized evidence source.
 
 ## Machine-readable evidence
 
@@ -67,6 +77,7 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase4/output/*.json`: Unreal registration tables, event metadata, property metadata, and request runtime probe.
 - `Phase5/output/*.json`: request construction, callback vtables, response event, response representation, storage check, and SyncPayload thunk.
 - `Phase6/output/*.json`: event emitter, Lua dispatcher/core, event-consumer boundary, parser/storage status, URL source and SyncPayload receiver evidence.
+- `Phase7/output/*.json`: local inventory and PAK-search availability, encoded names, Lua loader, asset mapping, EventSystem location, subscriber status, and URL-source status.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -81,11 +92,11 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Obtain the probable `Script/Tools/EventSystem/EventSystem.lua` source and the Lua module subscribing to `EVENTID_AVATARSERVERLIST_RETURN` (`0x138`) without automatically attempting PAK decryption.
-2. From that proven consumer, identify the response parser and only the server-list fields it actually reads.
-3. Prove a concrete `Login` instance before looking for writes at `Login+0x150`.
-4. Resolve the script/reflection caller that supplies the URL `FString`.
-5. Identify the concrete receiver/vtable behind `SyncPayloadToGameServer +0xa58`.
-6. Trace reconnect and UEDSToolkit paths only from proven owners toward `Host`, `Port`, `FURL`, socket, HTTP, or resolver calls.
+1. Restore the four original local-only PAK inputs or obtain an authorized readable manifest/index/cache from the same build; do not attempt decryption or key search.
+2. Rerun exact ASCII, UTF-8, and UTF-16LE searches for EventSystem and the `0x138` subscriber, then correlate hits only through proven entry boundaries.
+3. If EventSystem is legitimately readable, identify the exact subscriber, parser, and fields it actually reads; publish only a cleaned summary, not proprietary Lua.
+4. Prove a concrete `Login` instance before looking for writes at `Login+0x150`.
+5. Resolve the script/reflection caller that supplies the URL `FString`.
+6. Identify the concrete receiver/vtable behind `SyncPayloadToGameServer +0xa58`.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge. The Lua subscriber, wire format, server-list fields, storage, and concrete game-server destination remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and a confirmed generic virtual-file Lua loading pipeline. EventSystem's concrete container, source/bytecode, subscriber, wire format, server-list fields, storage, and game-server destination remain unknown.

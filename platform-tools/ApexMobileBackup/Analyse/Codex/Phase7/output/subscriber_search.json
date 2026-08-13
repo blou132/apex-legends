@@ -1,0 +1,25 @@
+{
+  "phase": 7,
+  "generated": "2026-08-13",
+  "status": "UNKNOWN",
+  "event_id": {
+    "hex": "0x138",
+    "decimal": 312,
+    "name": "EVENTID_AVATARSERVERLIST_RETURN",
+    "name_status": "CONFIRMED"
+  },
+  "native_boundary": {
+    "emitter": "FUN_06be3f4c",
+    "bridge": "FUN_06be427c",
+    "target": "PROBABLE EventSystem.PostCppEvent"
+  },
+  "searched_sources": "Accessible cleaned reports and Ghidra evidence only",
+  "raw_pak_search_performed": false,
+  "raw_pak_search_reason": "PAK inputs absent",
+  "subscriber": "UNKNOWN",
+  "handler": "UNKNOWN",
+  "parser": "UNKNOWN",
+  "registration_mechanism": "UNKNOWN beyond the Lua EventSystem boundary",
+  "candidate_context_hits": [],
+  "conclusion": "No exact Lua subscriber or handler can be attributed to event 0x138 from the accessible evidence."
+}

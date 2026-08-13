@@ -1,0 +1,15 @@
+{
+  "phase": 7,
+  "generated": "2026-08-13",
+  "status": "UNKNOWN",
+  "request": "RequestAvatarServerList",
+  "native_request_path": "CONFIRMED HTTP GET through FUN_07a31858 -> FUN_06bc68e8",
+  "url_argument": "CONFIRMED dynamic FString supplied through an Unreal frame",
+  "asset_search_performed": false,
+  "asset_search_reason": "No extracted Lua or PAK assets are present in the current workspace",
+  "static_url_found": false,
+  "url_components_found": [],
+  "network_contacted": false,
+  "secrets_published": false,
+  "conclusion": "The producer of the URL FString remains UNKNOWN."
+}

@@ -1,0 +1,68 @@
+{
+  "phase": 7,
+  "generated": "2026-08-13",
+  "status": "NOT_RERUN_INPUT_ABSENT",
+  "requested_encodings": [
+    "ASCII",
+    "UTF-8",
+    "UTF-16LE"
+  ],
+  "requested_terms": [
+    "EventSystem.lua",
+    "EventSystem",
+    "PostCppEvent",
+    "EVENTID_AVATARSERVERLIST_RETURN",
+    "AvatarServerList",
+    "LoginMgr",
+    "OpenServerList",
+    "ServerListName"
+  ],
+  "phase7_direct_hits": [],
+  "known_paks_from_prior_read_only_analysis": [
+    {
+      "name": "launch.pak",
+      "size": 140867491,
+      "footer_offset": "0x86576d7",
+      "index_offset": "0x851a746",
+      "index_size": 1298304,
+      "index_status": "PROBABLE encrypted or unreadable"
+    },
+    {
+      "name": "pakchunk2-Android_ASTC.pak",
+      "size": 367571213,
+      "footer_offset": "0x15e8b041",
+      "index_offset": "0x15c2e850",
+      "index_size": 2476000,
+      "index_status": "PROBABLE encrypted or unreadable"
+    },
+    {
+      "name": "pakchunk3-Android_ASTC.pak",
+      "size": 1837582232,
+      "footer_offset": "0x6d8746cc",
+      "index_offset": "0x6c30c24b",
+      "index_size": 22447216,
+      "index_status": "PROBABLE encrypted or unreadable"
+    },
+    {
+      "name": "pakchunk4-Android_ASTC.pak",
+      "size": 1253209707,
+      "footer_offset": "0x4ab2759f",
+      "index_offset": "0x4a56e9ee",
+      "index_size": 5999520,
+      "index_status": "PROBABLE encrypted or unreadable"
+    }
+  ],
+  "historical_witness": {
+    "source": "Phase2/06_launchpak.md",
+    "pak": "launch.pak",
+    "path": "Client/Launch/ClientLaunch.lua",
+    "path_offset": "0x250517",
+    "nearby_zlib_marker": "0x2513f8",
+    "marker_delta": 3809,
+    "entropy_4k_before": 7.69967490924395,
+    "entropy_4k_after": 7.287398850365669,
+    "interpretation": "CONFIRMED visible path only; entry boundary and associated Lua bytes remain UNKNOWN"
+  },
+  "historical_target_result": "No EventSystem/PostCppEvent/subscriber hit was established in prior raw PAK searches.",
+  "limitation": "No PAK file is present in the current workspace, so offsets, context windows, entropy, compression markers, and alignment could not be recomputed for Phase7."
+}

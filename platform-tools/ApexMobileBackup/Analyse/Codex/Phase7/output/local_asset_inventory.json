@@ -1,0 +1,54 @@
+{
+  "phase": 7,
+  "generated": "2026-08-13",
+  "status": "PARTIAL_INPUT_ABSENT",
+  "scope": "Read-only inventory of locally accessible analysis artifacts",
+  "searched_roots": [
+    {
+      "path": "platform-tools/ApexMobileBackup/Analyse/APK",
+      "present": false
+    },
+    {
+      "path": "platform-tools/ApexMobileBackup/Analyse/MAIN",
+      "present": false
+    },
+    {
+      "path": "platform-tools/ApexMobileBackup/Analyse/PATCH",
+      "present": false
+    },
+    {
+      "path": "platform-tools/ApexMobileBackup/Analyse/Codex",
+      "present": true
+    }
+  ],
+  "accessible_counts_at_scan": {
+    "json": 55,
+    "txt": 30,
+    "lua_or_luac": 0,
+    "pak": 0
+  },
+  "search_terms": [
+    "EVENTID_AVATARSERVERLIST_RETURN",
+    "AVATARSERVERLIST_RETURN",
+    "AvatarServerList",
+    "RequestAvatarServerList",
+    "EventSystem.PostCppEvent",
+    "PostCppEvent",
+    "EventSystem.lua",
+    "Script/Tools/EventSystem",
+    "Tools/EventSystem"
+  ],
+  "direct_asset_hits": [],
+  "cleaned_analysis_hits": {
+    "status": "REPORT_ONLY",
+    "summary": "The terms occur in existing Markdown, JSON, and Ghidra scripts. These are prior analysis evidence, not recovered Lua assets or fresh PAK hits.",
+    "representative_files": [
+      "platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/01_event_emitter.md",
+      "platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/02_dynamic_dispatch.md",
+      "platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/output/event_emitter.json",
+      "platform-tools/ApexMobileBackup/Analyse/Codex/04_pak_analysis.md"
+    ]
+  },
+  "local_recovered_assets": [],
+  "limitation": "Original extracted assets and PAK files are intentionally excluded from the public repository and are not present in the current local workspace."
+}
