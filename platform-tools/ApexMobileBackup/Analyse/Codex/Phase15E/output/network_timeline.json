@@ -1,0 +1,37 @@
+{
+  "phase": "Phase15E",
+  "time_origin": "APEX_PROCESS_CREATION",
+  "operations": [
+    {
+      "component": "TDM",
+      "process": "APEX_MAIN_WORKER",
+      "method": "POST",
+      "host": "tdm.mgapex.com",
+      "relative_request_seconds": [11.278, 14.103, 24.310, 39.382, 59.419],
+      "failure_layer": "DNS",
+      "curl_result_code": 6,
+      "http_response_observed": false
+    },
+    {
+      "component": "GCLOUD_REMOTE_CONFIG",
+      "process": "APEX_MAIN_WORKER",
+      "method": "GET",
+      "host": "cloudctrl.mgapex.com",
+      "relative_request_seconds": [12.069, 12.307, 22.624, 32.981, 43.574],
+      "failure_layer": "DNS",
+      "http_response_observed": false
+    }
+  ],
+  "msdk": {
+    "independent_request_confirmed": false,
+    "gcloud_failure_callback_relative_seconds": 12.248,
+    "built_in_default_use": "CONFIRMED"
+  },
+  "gvoice": {"launched_request_confirmed": false, "configuration_strings_only": true},
+  "playcommon": {"apex_operation_confirmed": false},
+  "finsky_attribution": "SEPARATE_PROCESS",
+  "gcloud_runtime_retry_observed": true,
+  "gcloud_runtime_default_use_evidence": "CONFIRMED",
+  "gcloud_gameplay_gate": "UNKNOWN",
+  "tdm_failure_terminates_observed_process": false
+}

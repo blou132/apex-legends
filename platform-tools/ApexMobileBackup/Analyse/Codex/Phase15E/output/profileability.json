@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15E",
+  "artifact_identity": "MATCH",
+  "apk_size_bytes": 96228800,
+  "apk_sha256": "2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0",
+  "manifest_parser": "aapt2_xmltree",
+  "package_debuggable": {"status": "CONFIRMED", "value": false},
+  "profileable_element_present": {"status": "CONFIRMED", "value": false},
+  "profileable_shell": {"status": "CONFIRMED_BY_ABSENT_ELEMENT", "value": false},
+  "profileable_enabled": {"status": "CONFIRMED_BY_ABSENT_ELEMENT", "value": false},
+  "profileable_by_shell": {"status": "CONFIRMED", "value": false},
+  "extract_native_libs": {"status": "CONFIRMED", "value": true},
+  "non_root_native_profiling_possible": "NO_BY_APP_POLICY"
+}

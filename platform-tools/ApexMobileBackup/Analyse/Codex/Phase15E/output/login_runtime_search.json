@@ -1,0 +1,20 @@
+{
+  "phase": "Phase15E",
+  "source": "EXISTING_PHASE15D_LOCAL_ONLY_LOG",
+  "terms_searched": [
+    "Login",
+    "LoginMgr",
+    "ULoginMgrWrapper",
+    "OpenServerList",
+    "ServerListName",
+    "RequestAvatarServerList",
+    "AvatarServerList",
+    "EVENTID_AVATARSERVERLIST_RETURN",
+    "0x138"
+  ],
+  "confirmed_runtime_witnesses": [],
+  "login_runtime_evidence": "NO_NEW_EVIDENCE",
+  "request_avatar_server_list_runtime_evidence": "NO_NEW_EVIDENCE",
+  "event_0x138_runtime_evidence": "NO_NEW_EVIDENCE",
+  "absence_interpreted_as_not_reached": false
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "Phase15E",
+  "source": "EXISTING_PHASE15D_LOCAL_ONLY_LOG",
+  "terms_searched": [
+    "Lua",
+    "ClientLaunch",
+    "Client/Launch/ClientLaunch.lua",
+    "EventSystem",
+    "PostCppEvent",
+    "Script/Tools/EventSystem",
+    "LoadFile",
+    "LoadBuffer",
+    "LoadChunk"
+  ],
+  "exact_runtime_witnesses": [],
+  "generic_unrelated_strings": [],
+  "lua_runtime_evidence": "NO_NEW_EVIDENCE",
+  "clientlaunch_runtime_evidence": "NO_NEW_EVIDENCE",
+  "eventsystem_runtime_evidence": "NO_NEW_EVIDENCE",
+  "absence_interpreted_as_not_reached": false
+}

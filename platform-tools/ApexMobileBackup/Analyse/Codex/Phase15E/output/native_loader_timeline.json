@@ -1,0 +1,23 @@
+{
+  "phase": "Phase15E",
+  "time_origin": "APEX_PROCESS_CREATION",
+  "native_bridge_runtime_witness": {"relative_seconds": 0.134, "value": "BERBERIS_INITIALIZED"},
+  "loads": [
+    {"relative_seconds": 1.663, "library": "libanort.so", "result": "OK"},
+    {"relative_seconds": 2.929, "library": "libINTLTAB.so", "result": "OK"},
+    {"relative_seconds": 3.336, "library": "libgcloudcore.so", "result": "OK"},
+    {"relative_seconds": 3.509, "library": "libTDataMaster.so", "result": "OK"},
+    {"relative_seconds": 3.692, "library": "libanogs.so", "result": "OK"},
+    {"relative_seconds": 3.960, "library": "libGVoice.so", "result": "OK"},
+    {"relative_seconds": 4.245, "library": "libMSDKCore.so", "result": "OK"},
+    {"relative_seconds": 4.773, "library": "libGPM.so", "result": "OK"},
+    {"relative_seconds": 4.798, "library": "libtgpa.so", "result": "OK"},
+    {"relative_seconds": 4.921, "library": "libgcloud.so", "result": "OK"},
+    {"relative_seconds": 4.932, "library": "libgnustl_shared.so", "result": "OK"},
+    {"relative_seconds": 10.494, "library": "libUE4.so", "result": "OK"},
+    {"relative_seconds": 10.572, "library": "libUE4.so", "result": "OK_SECOND_CALL"},
+    {"relative_seconds": 11.523, "library": "libCrashSight.so", "result": "OK"}
+  ],
+  "native_bridge_indicator_for_loads": "ARM64_APP_PATH_AFTER_BERBERIS_INIT",
+  "mapping_or_load_bias_derived": false
+}

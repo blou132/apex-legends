@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15E",
+  "audit_mode": "READ_ONLY_HOST_INVENTORY",
+  "simpleperf_available": {"status": "CONFIRMED", "value": false},
+  "perfetto_host_tool_available": {"status": "CONFIRMED", "value": false},
+  "trace_processor_available": {"status": "CONFIRMED", "value": false},
+  "android_studio_profiler_tooling": {"status": "CONFIRMED", "value": false},
+  "guest_tool_inventory_performed": false,
+  "tool_installed_or_executed": false,
+  "non_root_native_profiling_possible": "NO_BY_APP_POLICY"
+}

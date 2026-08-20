@@ -1,0 +1,23 @@
+{
+  "phase": "Phase15E",
+  "time_origin": "APEX_PROCESS_CREATION",
+  "events": [
+    {"relative_seconds": -0.215, "source": "ANDROID_SYSTEM", "event": "LOG_START"},
+    {"relative_seconds": -0.181, "source": "SYSTEM_SERVER", "event": "LAUNCH_INTENT_ACCEPTED"},
+    {"relative_seconds": 0.000, "source": "APEX_MAIN", "event": "PROCESS_CREATED"},
+    {"relative_seconds": 0.134, "source": "APEX_MAIN", "event": "BERBERIS_INITIALIZED"},
+    {"relative_seconds": 0.624, "source": "APEX_MAIN", "event": "ARM64_LOADER_NAMESPACE_CONFIGURED"},
+    {"relative_seconds": 1.663, "source": "APEX_MAIN", "event": "FIRST_APEX_LIBRARY_LOAD", "library": "libanort.so"},
+    {"relative_seconds": 3.430, "source": "APEX_RENDER_THREAD", "event": "GFXSTREAM_GLES_EMULATION_OPEN"},
+    {"relative_seconds": 10.494, "source": "APEX_MAIN", "event": "LIBUE4_LOAD_OK"},
+    {"relative_seconds": 10.603, "source": "APEX_MAIN", "event": "UE4_SPLASH_START"},
+    {"relative_seconds": 11.278, "source": "APEX_WORKER", "event": "FIRST_APPLICATION_REQUEST", "operation": "TDM_POST"},
+    {"relative_seconds": 12.788, "source": "APEX_MAIN", "event": "APPLICATION_ONRESUME"},
+    {"relative_seconds": 13.758, "source": "SYSTEM_SERVER", "event": "GAMEACTIVITY_DISPLAYED"},
+    {"relative_seconds": 15.864, "source": "SYSTEM_SERVER", "event": "DOWNLOADER_ACTIVITY_DISPLAYED"},
+    {"relative_seconds": 59.517, "source": "APEX_WORKER", "event": "LAST_TDM_DNS_FAILURE"},
+    {"relative_seconds": 61.066, "source": "APEX_MAIN", "event": "BACKGROUND_GC_PROCESS_ACTIVE"}
+  ],
+  "apex_process_count_observed": 1,
+  "last_observed_stage": "DOWNLOADER_ACTIVITY_DISPLAYED_WITH_PROCESS_ACTIVE_AFTER_60S"
+}

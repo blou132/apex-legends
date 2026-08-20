@@ -1,0 +1,16 @@
+{
+  "phase": "Phase15E",
+  "time_origin": "APEX_PROCESS_CREATION",
+  "gfxstream_gles_emulation_open_relative_seconds": 3.430,
+  "libue4_load_relative_seconds": 10.494,
+  "ue4_splash_relative_seconds": 10.603,
+  "game_activity_displayed_relative_seconds": 13.758,
+  "downloader_activity_displayed_relative_seconds": 15.864,
+  "render_surface_created": "CONFIRMED_ANDROID_ACTIVITY_WINDOW",
+  "first_frame_evidence": "CONFIRMED_ANDROID_ACTIVITY_DISPLAYED_BOUNDARY",
+  "window_visible": "CONFIRMED",
+  "ue4_renderer_init": "UNKNOWN",
+  "ue4_gameplay_frame": "UNKNOWN",
+  "native_resume_log_witness": "NO_NEW_EVIDENCE",
+  "black_screen_cause": "UNKNOWN"
+}
