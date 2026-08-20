@@ -1,0 +1,17 @@
+{
+  "phase": "Phase15L",
+  "dialog_package": "com.ea.gp.apexlegendsmobilefps",
+  "dialog_class": "android.app.AlertDialog",
+  "dialog_class_confidence": "PROBABLE",
+  "hierarchy_root_class": "android.widget.FrameLayout",
+  "dialog_title": "Unable to run on this device!",
+  "dialog_message": "App is packaged for OpenGL ES 3.1 but device has not met all the requirements for ES 3.1 :\n\tDevice has OpenGL ES 3.1 support: NO\n\tFloating point render target support: NO\nThis device only supports OpenGL ES 2 but the app was not packaged with ES2 support.",
+  "dialog_buttons": ["OK"],
+  "dialog_resource_ids": [
+    "android:id/alertTitle",
+    "android:id/message",
+    "android:id/buttonPanel",
+    "android:id/button1"
+  ],
+  "sensitive_content_present": false
+}

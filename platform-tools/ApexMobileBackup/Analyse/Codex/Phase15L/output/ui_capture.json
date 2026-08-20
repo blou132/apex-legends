@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15L",
+  "baseline_ui_dump_works": true,
+  "baseline_xml_well_formed": true,
+  "baseline_node_count": 17,
+  "dialog_xml_present": true,
+  "dialog_xml_bytes": 2296,
+  "dialog_xml_well_formed": true,
+  "dialog_node_count": 5,
+  "apex_node_count": 5,
+  "screenshot_present": false,
+  "visual_confirmed": "NO_XML_ONLY_SCREENSHOT_CAPTURE_FAILED",
+  "raw_artifacts": "LOCAL_ONLY"
+}

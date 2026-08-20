@@ -1,0 +1,29 @@
+{
+  "phase": "Phase15L",
+  "launch_count": 1,
+  "validation_cache_reused": "YES_FAST_PATH_INFERRED_FROM_VALID_CACHE_AND_STATE_4_RESULT_1",
+  "gameactivity_resumed": true,
+  "post_resume_launch_plus_seconds": 13.216,
+  "snapshots": [
+    {
+      "target_seconds": 10,
+      "actual_seconds": 10.430,
+      "apex_window_count": 2,
+      "apex_wrap_window_count": 0,
+      "third_dialog_present": false,
+      "systemui_anr": false
+    },
+    {
+      "target_seconds": 15,
+      "actual_seconds": 15.390,
+      "apex_window_count": 3,
+      "apex_wrap_window_count": 1,
+      "third_dialog_present": true,
+      "systemui_anr": false
+    }
+  ],
+  "apex_dialog_reproduced": true,
+  "apex_dialog_appear_seconds_post_resume": 15.391,
+  "polling_stopped_on_detection": true,
+  "systemui_anr_during_apex": false
+}

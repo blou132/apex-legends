@@ -1,0 +1,23 @@
+{
+  "phase": "Phase15L",
+  "dialog_text_resource": "libUE4.so UTF-16 strings; no Android resource ID",
+  "dialog_text_owner": "UNKNOWN_NATIVE_OWNER",
+  "dialog_creator_class": "com.epicgames.ue4.MessageBox01",
+  "dialog_creator_class_confidence": "PROBABLE",
+  "dialog_creator_method": "createAlert()/show()",
+  "dialog_creator_method_confidence": "PROBABLE",
+  "dialog_trigger_caller": "UNKNOWN",
+  "dialog_trigger_condition": "PROBABLE_GLES31_AND_FLOAT_RENDER_TARGET_REQUIREMENTS_NOT_MET_WITH_NO_ES2_FALLBACK",
+  "java_mechanism": {
+    "create_alert_dex": "0x5a1698",
+    "set_title_dex": "0x5a16d2",
+    "set_message_dex": "0x5a16e0",
+    "set_positive_button_dex": "0x5a1710",
+    "show_dex": "0x5a18d0",
+    "sleep_wait_dex": "0x5a1920",
+    "non_cancelable_dex": "0x5a1776",
+    "outside_touch_disabled_dex": "0x5a1780"
+  },
+  "native_direct_reference_count": 0,
+  "broad_native_scan_performed": false
+}

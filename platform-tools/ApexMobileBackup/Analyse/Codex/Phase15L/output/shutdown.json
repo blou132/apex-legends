@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15L",
+  "apex_force_stop_confirmed": true,
+  "initial_network_state": {
+    "airplane_mode": false,
+    "wifi": true,
+    "mobile_data": true
+  },
+  "network_restored": true,
+  "shutdown_requested": true,
+  "avd_shutdown_clean": true,
+  "no_adb_endpoint_remaining": true,
+  "emulator_process_count": 0
+}

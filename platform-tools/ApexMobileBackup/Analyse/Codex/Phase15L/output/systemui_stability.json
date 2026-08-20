@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15L",
+  "physical_device_present": false,
+  "whpx_acceleration": "CONFIRMED",
+  "avd_boot_completed": true,
+  "checkpoints": [
+    { "target_seconds": 0, "actual_seconds": 2.269, "systemui_anr": false },
+    { "target_seconds": 30, "actual_seconds": 30.727, "systemui_anr": false },
+    { "target_seconds": 60, "actual_seconds": 60.684, "systemui_anr": false },
+    { "target_seconds": 90, "actual_seconds": 90.421, "systemui_anr": false },
+    { "target_seconds": 120, "actual_seconds": 120.268, "systemui_anr": false }
+  ],
+  "final_prelaunch_systemui_anr": false,
+  "systemui_preflight_stable": true
+}

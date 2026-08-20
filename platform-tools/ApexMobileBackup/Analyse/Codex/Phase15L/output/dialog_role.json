@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15L",
+  "apex_dialog_role": "DEVICE_COMPATIBILITY",
+  "role_confidence": "CONFIRMED",
+  "user_ack_required": "YES",
+  "dialog_blocks_bootstrap": "PROBABLE",
+  "dialog_controls_splash_dismiss": "NO_EVIDENCE",
+  "native_splash_dismiss_trigger": "UNKNOWN",
+  "first_blocking_dependency": "OPENGL_ES_3_1_DEVICE_COMPATIBILITY_GATE",
+  "final_gate": "B APEX_DIALOG_TEXT_RESOLVED_TRIGGER_UNKNOWN"
+}
