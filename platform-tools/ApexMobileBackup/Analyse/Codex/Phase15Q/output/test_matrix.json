@@ -1,0 +1,34 @@
+{
+  "test_avd": "ApexGraphicsProbe",
+  "cases": [
+    {
+      "id": "A",
+      "gpu_mode": "host",
+      "read_only": true,
+      "boot_completed": true,
+      "anr_detected": true,
+      "anr_target_seconds": 30,
+      "anr_actual_seconds": 30.043
+    },
+    {
+      "id": "B",
+      "gpu_mode": "host",
+      "read_only": false,
+      "boot_completed": true,
+      "anr_detected": true,
+      "anr_target_seconds": 30,
+      "anr_actual_seconds": 30.114
+    },
+    {
+      "id": "C",
+      "gpu_mode": "auto",
+      "read_only": true,
+      "boot_completed": true,
+      "anr_detected": true,
+      "anr_target_seconds": 60,
+      "anr_actual_seconds": 60.173
+    }
+  ],
+  "application_launch_commands": 0,
+  "network_changed": false
+}

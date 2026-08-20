@@ -1,0 +1,20 @@
+{
+  "case": "C",
+  "gpu_mode": "auto",
+  "read_only": true,
+  "booted": true,
+  "renderer_active": true,
+  "renderer": "Android Emulator OpenGL ES Translator (Google SwiftShader)",
+  "gles_version": "OpenGL ES 3.0",
+  "checkpoints": {
+    "0s": "NO_ANR",
+    "15s": "NO_ANR",
+    "30s": "NO_ANR",
+    "60s": "ANR",
+    "90s": "NOT_REACHED_ANR_STOP",
+    "120s": "NOT_REACHED_ANR_STOP"
+  },
+  "anr_actual_seconds": 60.173,
+  "anr_reason": "executing service com.android.systemui/.SystemUIService, waited 20515ms",
+  "systemui_stable": false
+}

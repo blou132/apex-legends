@@ -1,0 +1,20 @@
+{
+  "case": "A",
+  "gpu_mode": "host",
+  "read_only": true,
+  "booted": true,
+  "renderer_active": true,
+  "renderer": "Android Emulator OpenGL ES Translator (AMD Radeon(TM) RX Vega 10 Graphics)",
+  "gles_version": "OpenGL ES 3.1",
+  "checkpoints": {
+    "0s": "NO_ANR",
+    "15s": "NO_ANR",
+    "30s": "ANR",
+    "60s": "NOT_REACHED_ANR_STOP",
+    "90s": "NOT_REACHED_ANR_STOP",
+    "120s": "NOT_REACHED_ANR_STOP"
+  },
+  "anr_actual_seconds": 30.043,
+  "anr_reason": "executing service com.android.systemui/.keyguard.KeyguardService, waited 20053ms",
+  "systemui_stable": false
+}

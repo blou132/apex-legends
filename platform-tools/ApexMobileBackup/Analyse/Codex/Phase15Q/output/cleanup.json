@@ -1,0 +1,16 @@
+{
+  "physical_device_present_initial": false,
+  "physical_device_present_final": false,
+  "all_case_endpoints_removed": true,
+  "all_emulator_processes_stopped": true,
+  "network_changed": false,
+  "apexphase9lab_booted": false,
+  "apex_installed_or_launched": false,
+  "graphics_probe_launched": false,
+  "apexphase9lab_persistent_config_unchanged": true,
+  "apexphase9lab_hashes": {
+    "ApexPhase9Lab.ini": "55095F2B7E9B24845E90D446D3F5C2B70B3FA83FE3359A50723FC36A459D5AC2",
+    "config.ini": "0E863E6AF73E9104E8D08A00DBDF943EF0573BF5462B81F562F0C43B69E4B6BE",
+    "hardware-qemu.ini": "E2E78955A6E2BAC9306C29655EF3FFBB584DFDB14F86205A358E43F4D2A72045"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "host_readonly_systemui_stable": false,
+  "host_writable_systemui_stable": false,
+  "fresh_host_runtime_avd_justified": "NO_FOR_NOW",
+  "reason": "HOST_ANR_REPRODUCED_ON_DISPOSABLE_AVD_AND_AUTO_CONTROL_ALSO_FAILED",
+  "new_apex_avd_created": false
+}

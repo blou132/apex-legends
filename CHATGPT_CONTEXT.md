@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15P completed)
+Updated: 2026-08-20 (Phase15Q completed)
 
 ## Purpose
 
@@ -12,41 +12,42 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15P/REPORT_PHASE15P.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15O/REPORT_PHASE15O.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15N/REPORT_PHASE15N.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-31. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-32. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-33. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-34. The relevant topic report and matching JSON from the newest phase
-35. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Q/REPORT_PHASE15Q.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15P/REPORT_PHASE15P.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15O/REPORT_PHASE15O.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15N/REPORT_PHASE15N.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+31. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+32. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+33. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+34. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+35. The relevant topic report and matching JSON from the newest phase
+36. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -715,6 +716,34 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 - Phase15P gate is `G REPEATED_HOST_MODE_SYSTEMUI_ANR_STOP`. Do not repeat
   `-gpu host` on this AVD without a new technical reason that addresses the
   prelaunch SystemUI instability.
+
+## Phase15Q authoritative disposable-AVD SystemUI result
+
+- `CONFIRMED`: no physical Android device was present, WHPX was usable, and
+  only the disposable `ApexGraphicsProbe` AVD was booted. `ApexPhase9Lab` was
+  never booted and its three tracked hashes/timestamps remain unchanged.
+- `CONFIRMED`: no application was manually launched. Neither the graphics
+  probe nor Apex was started, and guest network state was not changed.
+- `CONFIRMED`: `host + read-only` reproduced a visible SystemUI ANR at the
+  `30 s` checkpoint (`+30.043 s`). `host + writable` reproduced it at `30 s`
+  (`+30.114 s`). `auto + read-only` reproduced it at `60 s` (`+60.173 s`).
+- `CONFIRMED`: ActivityManager identifies service-execution timeouts:
+  `KeyguardService` after `20053/20259 ms` in the host cases and
+  `SystemUIService` after `20515 ms` in the auto control.
+- `CONFIRMED`: both host cases exposed the expected Radeon-backed GLES 3.1
+  renderer; the auto control exposed SwiftShader GLES 3.0. No emulator host log
+  reported context loss, device reset/loss, swap failure, or EGL/OpenGL failure.
+- `CORRELATED`: all three detailed ANR records show high kernel CPU in
+  SurfaceFlinger (about `88-104%`). This does not establish a renderer root
+  cause because the auto control also fails and no direct graphics fault exists.
+- `INVALIDATED AS SOLE EXPLANATIONS`: `-read-only`, the host renderer, and
+  `ApexPhase9Lab` userdata. The matrix instead supports broader Android 36.1
+  Google Play image/SystemUI startup instability in this environment.
+- `CONFIRMED`: all emulator endpoints and processes were stopped.
+  `FRESH_HOST_RUNTIME_AVD_JUSTIFIED=NO_FOR_NOW`.
+- Phase15Q gate is `E EXACT_SYSTEMUI_ANR_REASON_RESOLVED`; the immediate service
+  timeout is direct evidence, while the deeper source of CPU saturation remains
+  unknown.
 
 ## Evidence rules
 

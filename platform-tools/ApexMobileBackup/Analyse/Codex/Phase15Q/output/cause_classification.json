@@ -1,0 +1,10 @@
+{
+  "readonly_interaction_suspected": false,
+  "host_renderer_instability_suspected_as_sole_cause": false,
+  "apexphase9lab_state_specific_suspected": false,
+  "broader_systemui_or_system_image_instability_suspected": true,
+  "immediate_anr_reason_resolved": true,
+  "deep_cpu_saturation_cause": "UNKNOWN",
+  "classification_basis": "ALL_THREE_CASES_ANR_WITH_DIRECT_SERVICE_TIMEOUT_EVENTS",
+  "final_gate": "E EXACT_SYSTEMUI_ANR_REASON_RESOLVED"
+}

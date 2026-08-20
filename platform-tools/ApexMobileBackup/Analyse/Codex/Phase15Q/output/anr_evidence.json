@@ -1,0 +1,25 @@
+{
+  "visible_window_identity": "Application Not Responding: com.android.systemui",
+  "activity_manager_reason_class": "SERVICE_EXECUTION_TIMEOUT",
+  "waiting_components": {
+    "case_a": "com.android.systemui/.keyguard.KeyguardService",
+    "case_b": "com.android.systemui/.keyguard.KeyguardService",
+    "case_c": "com.android.systemui/.SystemUIService"
+  },
+  "waited_milliseconds": {
+    "case_a": 20053,
+    "case_b": 20259,
+    "case_c": 20515
+  },
+  "surfaceflinger_cpu_percent": {
+    "case_a": 104,
+    "case_b": 96,
+    "case_c": 88
+  },
+  "input_timeout_evidence": false,
+  "main_thread_block_evidence": "UNKNOWN_NO_THREAD_TRACE",
+  "lastanr_command_supported": true,
+  "lastanr_archived_record_available_at_capture": false,
+  "renderer_related_evidence": "CORRELATED_SURFACEFLINGER_KERNEL_CPU_ONLY_NO_DIRECT_FAULT",
+  "host_gpu_error_near_anr": false
+}
