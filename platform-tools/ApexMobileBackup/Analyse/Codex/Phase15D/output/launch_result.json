@@ -1,0 +1,16 @@
+{
+  "phase": "Phase15D",
+  "launch_count": 1,
+  "launch_result": "SUCCESS_OFFLINE_STABLE_60S",
+  "launcher_activity": "com.epicgames.ue4.GameActivity",
+  "observations": [
+    {"target_seconds": 5, "process_alive": true, "foreground_activity_seen": true},
+    {"target_seconds": 20, "process_alive": true, "foreground_activity_seen": true},
+    {"target_seconds": 60, "process_alive": true, "foreground_activity_seen": true}
+  ],
+  "same_process_at_all_observations": true,
+  "fatal_java_exception_observed": false,
+  "fatal_native_signal_observed": false,
+  "abi_failure_observed": false,
+  "account_or_login_input_used": false
+}

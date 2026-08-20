@@ -1,0 +1,19 @@
+{
+  "phase": "Phase15D",
+  "apex_force_stop_confirmed": true,
+  "apex_process_absent_after_stop": true,
+  "initial_network_state_restored": true,
+  "restored_state": {
+    "airplane_mode": false,
+    "wifi": true,
+    "mobile_data": true
+  },
+  "temporary_debug_property_used": false,
+  "emulator_shutdown_requested": true,
+  "emulator_endpoint_present_after_wait": false,
+  "emulator_process_running_after_wait": false,
+  "forced_emulator_termination": false,
+  "avd_shutdown_clean": true,
+  "apex_package_preserved": true,
+  "obb_files_preserved": true
+}

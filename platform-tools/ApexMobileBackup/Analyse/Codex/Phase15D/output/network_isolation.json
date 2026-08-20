@@ -1,0 +1,25 @@
+{
+  "phase": "Phase15D",
+  "initial_state": {
+    "airplane_mode": false,
+    "wifi": true,
+    "mobile_data": true,
+    "active_default_network": "PRESENT"
+  },
+  "isolated_state": {
+    "airplane_mode": true,
+    "wifi": false,
+    "mobile_data": false,
+    "active_default_network": "NONE",
+    "default_route": "NONE"
+  },
+  "network_isolation_confirmed": true,
+  "external_test_packet_sent": false,
+  "host_network_modified": false,
+  "first_application_request": {
+    "host": "tdm.mgapex.com",
+    "method": "POST",
+    "failure_layer": "DNS",
+    "curl_result_code": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15D",
+  "libue4_loaded": "CONFIRMED",
+  "evidence_kind": "ANDROID_NATIVE_LOADER_EVENT",
+  "mapping_found": false,
+  "mapping_path_kind": "APP_PRIVATE_ARM64_LIBRARY",
+  "mapping_ranges_sanitized": [],
+  "load_bias": "UNKNOWN",
+  "runtime_address_model_validated": false,
+  "ghidra_runtime_correlation_performed": false
+}

@@ -1,0 +1,16 @@
+{
+  "phase": "Phase15D",
+  "guest_primary_abi": "x86_64",
+  "package_primary_abi": "arm64-v8a",
+  "native_bridge": "libndk_translation.so",
+  "arm64_to_x86_64_mapping": "CONFIRMED_BY_PHASE15C_UNCHANGED_AVD",
+  "runtime_loader_arm64_library_events": "CONFIRMED",
+  "runtime_loader_libue4_event": "CONFIRMED",
+  "arm64_translation_runtime": "CONFIRMED",
+  "classification_basis": [
+    "verified_x86_64_guest_native_bridge",
+    "arm64_package_primary_abi",
+    "successful_app_private_arm64_runtime_loads",
+    "successful_libUE4.so_runtime_loader_event"
+  ]
+}

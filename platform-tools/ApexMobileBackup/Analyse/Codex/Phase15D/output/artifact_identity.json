@@ -1,0 +1,28 @@
+{
+  "phase": "Phase15D",
+  "status": "MATCH",
+  "artifacts": [
+    {
+      "kind": "base_apk",
+      "filename": "base.apk",
+      "size_bytes": 96228800,
+      "sha256": "2CC7253D7E81ACC9C0E7A9383CBD8C81C4311637F3EAFCD69CBDAD748F7C34C0",
+      "identity": "MATCH"
+    },
+    {
+      "kind": "main_obb",
+      "filename": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size_bytes": 1942013346,
+      "sha256": "104B313F86A57F1B2A11D81D87E916EFBAB99BBBFB4A031E2D12B0201D5244E0",
+      "identity": "MATCH"
+    },
+    {
+      "kind": "patch_obb",
+      "filename": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size_bytes": 1837582506,
+      "sha256": "BFE887744EC21CB7CE0829F1C1F1BCAF1C400C358185B52D140D75242264973D",
+      "identity": "MATCH"
+    }
+  ],
+  "original_artifacts_published": false
+}

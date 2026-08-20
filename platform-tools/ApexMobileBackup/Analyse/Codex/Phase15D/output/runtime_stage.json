@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15D",
+  "confirmed_runtime_boundary": [
+    "ARM64_NATIVE_LIBRARY_LOADING",
+    "LIBUE4_LOADER_SUCCESS",
+    "UE4_SPLASH_START",
+    "TDM_REQUEST_DISPATCH"
+  ],
+  "first_network_attempt": {
+    "host": "tdm.mgapex.com",
+    "method": "POST",
+    "failure_layer": "DNS",
+    "response_observed": false
+  },
+  "native_resume_main_init": "NO_NEW_EVIDENCE",
+  "lua_runtime": "NO_NEW_EVIDENCE",
+  "client_launch": "NO_NEW_EVIDENCE",
+  "event_system": "NO_NEW_EVIDENCE",
+  "login": "NO_NEW_EVIDENCE",
+  "request_avatar_server_list": "NO_NEW_EVIDENCE",
+  "absence_interpreted_as_not_reached": false
+}

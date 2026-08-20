@@ -1,0 +1,19 @@
+{
+  "phase": "Phase15D",
+  "install_result": "SUCCESS",
+  "directory_file_count": 2,
+  "main_obb": {
+    "filename": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+    "present": true,
+    "size_bytes": 1942013346,
+    "size_match": true
+  },
+  "patch_obb": {
+    "filename": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+    "present": true,
+    "size_bytes": 1837582506,
+    "size_match": true
+  },
+  "guest_rehash_performed": false,
+  "host_sha256_verified_before_copy": true
+}

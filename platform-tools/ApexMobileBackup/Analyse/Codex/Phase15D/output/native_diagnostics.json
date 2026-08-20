@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15D",
+  "showmap": {
+    "attempts": 1,
+    "status": "NO_PERMISSION",
+    "failure_boundary": "PROC_SMAPS_READ"
+  },
+  "debuggerd_backtrace": {
+    "attempts": 1,
+    "status": "NO_PERMISSION",
+    "failure_boundary": "ROOT_REQUIRED",
+    "frames_produced": 0
+  },
+  "retry_or_escalation": false,
+  "root_used": false,
+  "debug_property_used": false,
+  "hook_or_patch_used": false
+}
