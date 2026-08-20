@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15A)
+Updated: 2026-08-20 (Phase15B)
 
 ## Purpose
 
@@ -12,26 +12,27 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-19. The relevant topic report and matching JSON from the newest phase
-20. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+20. The relevant topic report and matching JSON from the newest phase
+21. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -158,6 +159,19 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `CONFIRMED`: Phase15A decision gate is `B WHPX_ENABLE_REQUIRED`. The minimum
   planned change is to enable Windows Hypervisor Platform and restart; no host
   change was executed.
+- `CONFIRMED`: after the user's manual enablement and reboot, Phase15B reads
+  `HypervisorPlatform` install-state code `1` (`ENABLED`) and Windows reports a
+  currently present hypervisor.
+- `CONFIRMED`: Android Emulator 36.4.9.0 now returns acceleration code `0` and
+  explicitly reports `WHPX(10.0.26200) is installed and usable`. Phase15A's
+  acceleration failure is superseded.
+- `CONFIRMED`: `ApexPhase9Lab` remains the only listed AVD and retains the
+  Android 36.1 Google Play x86_64 image, translated ABI `arm64-v8a`, and
+  `libndk_translation.so`. No AVD was booted.
+- `NOT_APPLICABLE`: the Phase15B BCD audit was conditional on acceleration
+  failure. Because WHPX works, `hypervisorlaunchtype` was not queried and no
+  elevation or BCD change occurred.
+- `CONFIRMED`: Phase15B decision gate is `A WHPX_ACCELERATION_CONFIRMED`.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -206,6 +220,9 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/`: cleaned Windows
   host, CPU virtualization, WHPX/VBS, emulator acceleration, existing AVD,
   AEHD/HAXM/VirtualBox, required-change, and read-only stop-boundary evidence.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/`: cleaned post-reboot
+  WHPX enabled state, successful emulator acceleration check, unchanged AVD and
+  ARM64-translation metadata, skipped conditional BCD audit, and next gate.
 
 ## Machine-readable evidence
 
@@ -249,12 +266,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Stop before any host change in Phase15A. The user must explicitly enable
-   Windows Hypervisor Platform and restart outside this read-only phase.
-2. After reboot, rerun `emulator.exe -accel-check`; only a usable WHPX result
-   permits a separate AVD boot-validation phase.
-3. Do not change BCD preemptively. If acceleration still fails, first perform
-   an elevated read-only BCD audit and review VirtualBox coexistence.
+1. WHPX is now usable. A separately authorized phase may perform a bounded
+   boot-only validation of unchanged `ApexPhase9Lab` without installing or
+   launching Apex.
+2. Require an ADB-visible emulator, Android boot completion, guest ABI, and
+   `libndk_translation.so` confirmation before considering APK/OBB work.
+3. Do not change BCD; the conditional audit was unnecessary because WHPX works.
 4. Do not repeat static ownership scans across the 17 exact APK libraries;
    Phase13 exhausted that scope without proving an owner.
 5. Do not repeat the Phase14 `debuggerd -b` run on the production Huawei image;
@@ -265,4 +282,4 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 8. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
    or explicit loader event proves it.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15A confirms the existing translated-ABI AVD remains viable in design but cannot be tested until Windows Hypervisor Platform is explicitly enabled and the host restarted; its gate is `B WHPX_ENABLE_REQUIRED`.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15B confirms WHPX acceleration is now usable and the translated-ABI AVD remains configured but unbooted; its gate is `A WHPX_ACCELERATION_CONFIRMED`.
