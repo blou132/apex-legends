@@ -1,0 +1,26 @@
+{
+  "native_resume_runtime_witness": "CONFIRMED",
+  "native_resume_runtime_witness_detail": "PROCESS_SCOPED_NATIVE_GRAPHICS_ACTIVITY",
+  "native_resume_main_init_name_after_t0": "NO_NEW_EVIDENCE",
+  "ue4_post_resume_stage": "GRAPHICS_BACKEND_INITIALIZATION_AND_RENDERED_SPLASH",
+  "evidence": [
+    {
+      "relative_time_seconds": 16.305,
+      "component": "APEX_PROCESS_EGL",
+      "state": "GRAPHICS_INITIALIZATION_PROBES"
+    },
+    {
+      "relative_time_seconds": 17.127,
+      "component": "APEX_PROCESS_VULKAN",
+      "state": "LAYER_DISCOVERY"
+    },
+    {
+      "relative_time_seconds": 30.062,
+      "component": "PIXEL_CAPTURE",
+      "state": "RENDERED_LIGHTSPEED_SPLASH_AND_WAIT_UI"
+    }
+  ],
+  "exact_ue4_function": "UNKNOWN",
+  "game_engine_or_game_instance_stage": "UNKNOWN",
+  "gameplay_frame": "NOT_CONFIRMED"
+}

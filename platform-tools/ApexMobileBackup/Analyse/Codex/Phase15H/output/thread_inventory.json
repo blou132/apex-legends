@@ -1,0 +1,16 @@
+{
+  "checkpoints_seconds": [
+    5,
+    120
+  ],
+  "command_succeeded": true,
+  "thread_rows": {
+    "5s": 66,
+    "120s": 76
+  },
+  "inventory_result": "AVAILABLE_BUT_THREAD_NAMES_COLLAPSED_TO_PROCESS_NAME",
+  "ue4_game_thread_name_visible": false,
+  "ue4_render_thread_name_visible": false,
+  "other_relevant_thread_names": [],
+  "stacks_maps_registers_read": false
+}

@@ -1,0 +1,10 @@
+{
+  "search_scope": "APEX_PROCESS_AFTER_POST_RESUME_T0",
+  "login_runtime_evidence": "NO_NEW_EVIDENCE",
+  "request_avatar_server_list_runtime_evidence": "NO_NEW_EVIDENCE",
+  "server_list_event_0x138_runtime_evidence": "NO_NEW_EVIDENCE",
+  "matched_application_hits": 0,
+  "login_ui_visible": false,
+  "account_input_used": false,
+  "backend_response_received": false
+}

@@ -1,0 +1,18 @@
+{
+  "search_scope": "APEX_PROCESS_AFTER_POST_RESUME_T0",
+  "lua_runtime_evidence": "NO_NEW_EVIDENCE",
+  "clientlaunch_runtime_evidence": "NO_NEW_EVIDENCE",
+  "eventsystem_runtime_evidence": "NO_NEW_EVIDENCE",
+  "matched_application_hits": 0,
+  "searched_families": [
+    "Lua",
+    "ClientLaunch",
+    "Client/Launch/ClientLaunch.lua",
+    "EventSystem",
+    "PostCppEvent",
+    "LoadFile",
+    "LoadBuffer",
+    "LoadChunk"
+  ],
+  "third_party_sdk_hits_promoted": false
+}

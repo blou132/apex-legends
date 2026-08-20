@@ -1,0 +1,21 @@
+{
+  "downloader_activity_observed": true,
+  "state": "FILES_PRESENT_STATE_4",
+  "branch_marker": "DOWN_POB_2",
+  "validation_cache_reused": true,
+  "times_process_relative_seconds": {
+    "activity_start": 15.004,
+    "on_create": 15.639,
+    "files_present_state": 15.835,
+    "cache_branch": 15.852,
+    "result_return": 15.961,
+    "game_on_resume": 15.962,
+    "post_resume_t0": 16.231,
+    "activity_destroy": 16.571
+  },
+  "duration_to_result_seconds": 0.957,
+  "duration_through_destroy_seconds": 1.567,
+  "downloader_result": 1,
+  "gameactivity_resumed": true,
+  "full_crc_repeated": false
+}

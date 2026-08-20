@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15G completed)
+Updated: 2026-08-20 (Phase15H completed)
 
 ## Purpose
 
@@ -12,32 +12,33 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-25. The relevant topic report and matching JSON from the newest phase
-26. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+26. The relevant topic report and matching JSON from the newest phase
+27. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -280,6 +281,38 @@ Use this order to avoid repeating conclusions that were later corrected:
   exactly, and the AVD shut down with no remaining ADB endpoint or emulator
   process. Phase15G gate is
   `B CURRENT_VALIDATION_COMPLETES_AND_GAMEACTIVITY_RESUMES`.
+- `CONFIRMED`: Phase15H began with no Android endpoint or physical device,
+  usable WHPX, and the unchanged existing AVD. Package version/code, both OBB
+  names/sizes, and the two-row validation cache all matched without modifying
+  an artifact or cache.
+- `CONFIRMED`: under strict offline isolation, the only Apex launch briefly
+  selected downloader files-present state `4`, emitted `Down POB 2`, returned
+  result `1` in `0.957 s`, and resumed `GameActivity` with `HasAllFiles=true`.
+  The valid Phase15G cache was reused; no full CRC pass repeated.
+- `CONFIRMED`: `GameActivity` remained top-resumed, the focused application,
+  visible, and reported-drawn through `+300 s` post-resume. The downloader was
+  not visible and no other Apex activity replaced the game activity.
+- `CONFIRMED`: the Apex process emitted EGL initialization evidence at about
+  `+16.305 s` and Vulkan layer discovery at `+17.127 s` post-resume. Local-only
+  pixel captures at `+30 s` and `+120 s` show a rendered Lightspeed splash and
+  wait UI beneath Android's immersive-mode tutorial overlay.
+- `INVALIDATED`: describing the cached Phase15H post-resume screen as confirmed
+  pixel-black. The three captures are not black; the cause of the visible wait
+  state remains `UNKNOWN`.
+- `CONFIRMED`: the permitted thread inventory succeeded but Android collapsed
+  every visible thread name to the package process name. No GameThread,
+  RenderThread, RHIThread, UE4, or Lua thread name is established.
+- `CONFIRMED`: no Lua, ClientLaunch, EventSystem, Login,
+  RequestAvatarServerList, or meaningful event `0x138` runtime witness appears
+  after post-resume T0. No exact post-resume UE4 function name is established.
+- `CONFIRMED`: the first post-resume network attempt is the already-known TDM
+  POST at `+0.109 s`; it and later TDM/GCloud retries fail at name resolution.
+  No new post-resume host or response appears, and the process stays alive.
+- `CONFIRMED`: Apex was force-stopped, guest network state was restored exactly,
+  and the AVD shut down with no remaining endpoint or emulator process.
+  Phase15H gate is `C NEW_POST_RESUME_UE4_NATIVE_STAGE_CONFIRMED` for the
+  process-scoped graphics initialization and rendered-splash boundary; an exact
+  UE4 function and gameplay frame remain unconfirmed.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -354,6 +387,12 @@ Use this order to avoid repeating conclusions that were later corrected:
   result/resume transition, failure exclusions, post-run cache, restoration,
   shutdown, and final gate. Raw logcat, activity dumps, endpoint/process data,
   and the local script remain ignored.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/`: cleaned cache-reuse
+  fast path, post-resume clock, stable activity/window state, constrained thread
+  inventory, process-scoped EGL/Vulkan startup, rendered screen classification,
+  negative Lua/Login searches, ordered offline network attempts, restoration,
+  shutdown, and final gate. Raw logs, dumps, screenshots, endpoint/process data,
+  and the local run script remain ignored.
 
 ## Machine-readable evidence
 
@@ -403,6 +442,11 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase15G/output/*.json`: cleaned preflight, validation cache, relative CRC
   timeline, result transition, failure classification, network restoration,
   and shutdown evidence. Raw runtime output remains local-only.
+- `Phase15H/output/*.json`: cleaned preflight/cache identity, downloader fast
+  path, post-resume timeline, activity/window state, thread-name limits,
+  graphics/runtime stage, negative Lua/Login evidence, sanitized network order,
+  screen classifications, and shutdown. No raw log, screenshot, process ID,
+  endpoint, private path, or URL query is published.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -417,8 +461,8 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Phase15G confirms unchanged local OBB validation completes after 87.926
-   seconds and returns result `1`. Do not repeat downloader/CRC observations.
+1. Phase15H confirms the Phase15G validation cache is reused, with result `1`
+   returned in `0.957 s`. Do not repeat downloader/cache/CRC observations.
 2. Preserve the existing AVD and do not wipe it, patch artifacts, enable root,
    or assume diagnostic access merely because `debuggerd` and `showmap` exist.
 3. Do not change BCD; WHPX works and the AVD boot is stable.
@@ -432,5 +476,10 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 7. Keep both phones excluded and use no real account or copied private state.
 8. Do not assign a `libUE4.so` runtime base from the confirmed loader event. A
    legitimate readable mapping plus PT_LOAD correlation is still required.
+9. Treat the current runtime frontier as the transition from confirmed
+   process-scoped graphics initialization and rendered Lightspeed splash/wait
+   UI to the first named Lua, ClientLaunch, Login, or server-list stage. Do not
+   infer those stages from a splash, wait UI, SDK lifecycle callback, or TDM
+   retry.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Lua/Login reachability, mapping, load bias, gameplay frame, and final black-screen cause remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Lua/Login reachability, the exact UE4 post-resume function, mapping, load bias, gameplay frame, and wait-state cause remain unknown.

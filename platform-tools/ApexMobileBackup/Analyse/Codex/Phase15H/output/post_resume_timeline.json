@@ -1,0 +1,40 @@
+{
+  "clock": "SECONDS_AFTER_GAMEACTIVITY_POST_DOWNLOADER_RESUME_BODY",
+  "events": [
+    {
+      "time_seconds": 0.0,
+      "event": "GAMEACTIVITY_RESUME_BODY_COMPLETED_HAS_ALL_FILES_TRUE"
+    },
+    {
+      "time_seconds": 0.109,
+      "event": "FIRST_POST_RESUME_TDM_POST_ATTEMPT"
+    },
+    {
+      "time_seconds": 0.2,
+      "event": "FIRST_POST_RESUME_REQUEST_NAME_RESOLUTION_FAILURE"
+    },
+    {
+      "time_seconds": 0.34,
+      "event": "DOWNLOADER_ACTIVITY_DESTROYED"
+    },
+    {
+      "time_seconds": 16.305,
+      "event": "APEX_PROCESS_EGL_INITIALIZATION_EVIDENCE"
+    },
+    {
+      "time_seconds": 17.127,
+      "event": "APEX_PROCESS_VULKAN_LAYER_DISCOVERY"
+    },
+    {
+      "time_seconds": 30.062,
+      "event": "LIGHTSPEED_SPLASH_WAIT_UI_VISIBLE_UNDER_SYSTEM_OVERLAY"
+    },
+    {
+      "time_seconds": 300.069,
+      "event": "PROCESS_ALIVE_GAMEACTIVITY_FOREGROUND"
+    }
+  ],
+  "process_alive_300s": true,
+  "crash_observed": false,
+  "final_gate": "C_NEW_POST_RESUME_UE4_NATIVE_STAGE_CONFIRMED"
+}

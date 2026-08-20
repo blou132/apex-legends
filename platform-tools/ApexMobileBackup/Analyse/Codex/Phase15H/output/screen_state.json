@@ -1,0 +1,25 @@
+{
+  "screenshots_committed": false,
+  "captures": [
+    {
+      "target_seconds": 5,
+      "state": "OTHER",
+      "detail": "SYSTEM_IMMERSIVE_OVERLAY_ABOVE_GAME_WAIT_UI"
+    },
+    {
+      "target_seconds": 30,
+      "state": "OTHER",
+      "detail": "SYSTEM_IMMERSIVE_OVERLAY_ABOVE_LIGHTSPEED_SPLASH_WAIT_UI"
+    },
+    {
+      "target_seconds": 120,
+      "state": "OTHER",
+      "detail": "SYSTEM_IMMERSIVE_OVERLAY_ABOVE_LIGHTSPEED_SPLASH_WAIT_UI"
+    }
+  ],
+  "black_screen_confirmed_by_pixel_capture": false,
+  "black_screen_cause": "NOT_APPLICABLE_SCREEN_NOT_BLACK",
+  "wait_state_cause": "UNKNOWN",
+  "game_ui_confirmed": false,
+  "login_ui_confirmed": false
+}

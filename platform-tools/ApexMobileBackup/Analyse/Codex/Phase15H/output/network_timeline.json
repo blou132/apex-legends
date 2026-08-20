@@ -1,0 +1,41 @@
+{
+  "guest_offline": true,
+  "responses_received": false,
+  "attempts_before_post_resume": [
+    {
+      "relative_time_seconds": -3.788,
+      "component": "TDM",
+      "method": "POST",
+      "host": "tdm.mgapex.com",
+      "failure_layer": "NAME_RESOLUTION"
+    },
+    {
+      "relative_time_seconds": -3.119,
+      "component": "GCloud_RemoteConfig",
+      "method": "GET",
+      "host": "cloudctrl.mgapex.com",
+      "failure_layer": "NAME_RESOLUTION"
+    },
+    {
+      "relative_time_seconds": -0.804,
+      "component": "TDM",
+      "method": "POST",
+      "host": "tdm.mgapex.com",
+      "failure_layer": "NAME_RESOLUTION"
+    }
+  ],
+  "first_post_resume_attempt": {
+    "relative_time_seconds": 0.109,
+    "component": "TDM",
+    "method": "POST",
+    "host": "tdm.mgapex.com",
+    "failure_relative_time_seconds": 0.2,
+    "failure_layer": "NAME_RESOLUTION"
+  },
+  "post_resume_hosts": [
+    "tdm.mgapex.com",
+    "cloudctrl.mgapex.com"
+  ],
+  "new_endpoint_only_after_resume": false,
+  "last_confirmed_network_stage": "TDM_ROUTE_RETRIES_FAILING_AT_NAME_RESOLUTION"
+}

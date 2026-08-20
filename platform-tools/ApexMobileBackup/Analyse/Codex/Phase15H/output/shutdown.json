@@ -1,0 +1,19 @@
+{
+  "apex_force_stop_confirmed": true,
+  "network_initial": {
+    "airplane_mode": "OFF",
+    "wifi": "ON",
+    "mobile_data": "ON"
+  },
+  "network_final": {
+    "airplane_mode": "OFF",
+    "wifi": "ON",
+    "mobile_data": "ON"
+  },
+  "network_restored": true,
+  "temporary_debug_property_used": false,
+  "avd_shutdown_requested": true,
+  "avd_shutdown_clean": true,
+  "no_adb_endpoint_remaining": true,
+  "no_emulator_process_remaining": true
+}

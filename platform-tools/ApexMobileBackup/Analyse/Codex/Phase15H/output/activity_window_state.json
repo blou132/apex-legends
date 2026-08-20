@@ -1,0 +1,30 @@
+{
+  "checkpoints_seconds": [
+    2,
+    5,
+    15,
+    30,
+    60,
+    120,
+    180,
+    300
+  ],
+  "uniform_state": {
+    "foreground_activity": "GameActivity",
+    "top_resumed_activity": "GameActivity",
+    "focused_app": "GameActivity",
+    "gameactivity_visible": true,
+    "gameactivity_client_visible": true,
+    "gameactivity_reported_drawn": true,
+    "gameactivity_reported_visible": true,
+    "game_window_on_screen": true,
+    "game_window_visible": true,
+    "downloader_visible": false
+  },
+  "system_overlay": {
+    "name": "ImmersiveModeConfirmation",
+    "on_screen": true,
+    "visible": true
+  },
+  "other_apex_activity_after_resume": "NONE_OBSERVED"
+}
