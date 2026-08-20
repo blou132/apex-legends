@@ -1,0 +1,7 @@
+{
+  "phase": "Phase15C",
+  "android_version": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "android_sdk": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "guest_build_type": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "guest_ro_debuggable": {"status": "UNKNOWN_NOT_BOOTED", "value": null}
+}

@@ -1,0 +1,8 @@
+{
+  "phase": "Phase15C",
+  "debuggerd_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "showmap_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "guest_debuggable": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "apex_installed": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "guest_commands_executed": false
+}

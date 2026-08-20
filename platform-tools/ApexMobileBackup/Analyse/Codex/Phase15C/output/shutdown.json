@@ -1,0 +1,8 @@
+{
+  "phase": "Phase15C",
+  "avd_stable_30s": "NOT_ATTEMPTED_AVD_NOT_STARTED",
+  "avd_shutdown_clean": "NOT_REQUIRED_AVD_NOT_STARTED",
+  "emu_kill_sent": false,
+  "forced_process_termination": false,
+  "emulator_process_running_after_preflight": false
+}

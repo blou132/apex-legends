@@ -1,0 +1,12 @@
+{
+  "phase": "Phase15C",
+  "physical_device_present": {"status": "CONFIRMED", "value": true},
+  "physical_device_count": 1,
+  "emulator_endpoint_present_at_preflight": {"status": "CONFIRMED", "value": false},
+  "whpx_acceleration": "NOT_RECHECKED_PHYSICAL_DEVICE_STOP",
+  "avd_name": "ApexPhase9Lab",
+  "avd_started": false,
+  "emulator_adb_visible": false,
+  "android_boot_completed": "NOT_ATTEMPTED_AVD_NOT_STARTED",
+  "final_gate": "E_PHYSICAL_DEVICE_PRESENT_STOP"
+}

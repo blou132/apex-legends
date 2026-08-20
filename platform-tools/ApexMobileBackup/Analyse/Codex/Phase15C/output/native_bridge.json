@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15C",
+  "native_bridge_property": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "native_bridge_library_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "native_bridge_enabled": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "arm64_isa_mapping": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
+  "arm64_translation_guest_config": "UNKNOWN_NOT_BOOTED",
+  "static_image_bridge_from_phase15b": "libndk_translation.so"
+}
