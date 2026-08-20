@@ -1,0 +1,7 @@
+{
+  "phase": "Phase14",
+  "first_runtime_stall_frame": {"status": "UNKNOWN", "value": null},
+  "persistence_analysis": {"status": "UNAVAILABLE_NO_BACKTRACE", "value": null},
+  "candidate_threads": [],
+  "candidate_frames": []
+}

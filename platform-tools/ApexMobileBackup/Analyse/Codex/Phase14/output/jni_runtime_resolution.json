@@ -1,0 +1,10 @@
+{
+  "phase": "Phase14",
+  "native_resume_runtime_resolution": {"status": "UNKNOWN", "value": null},
+  "owner_library": {"status": "UNKNOWN", "value": null},
+  "native_resume_main_init_function": {"status": "UNKNOWN", "value": null},
+  "lua_runtime_evidence": "NO_NEW_EVIDENCE",
+  "clientlaunch_runtime_evidence": "NO_NEW_EVIDENCE",
+  "eventsystem_runtime_evidence": "NO_NEW_EVIDENCE",
+  "final_gate": "E_OS_DIAGNOSTIC_PERMISSION_BLOCKED"
+}

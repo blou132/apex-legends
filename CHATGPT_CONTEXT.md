@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-13 (Phase13)
+Updated: 2026-08-20 (Phase14)
 
 ## Purpose
 
@@ -12,24 +12,25 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-17. The relevant topic report and matching JSON from the newest phase
-18. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+18. The relevant topic report and matching JSON from the newest phase
+19. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -122,6 +123,21 @@ Use this order to avoid repeating conclusions that were later corrected:
   still `UNKNOWN`.
 - `CONFIRMED`: Phase13 decision gate is `E STATIC_LIBRARY_OWNERSHIP_EXHAUSTED`.
   No runtime work was performed and no arbitrary libUE4 function was selected.
+- `CONFIRMED`: Phase14's Huawei capability audit found a production `user`
+  build, `ro.debuggable=0`, and a non-debuggable Apex package. Official
+  per-app linker logging was unavailable by requirement.
+- `CONFIRMED`: `debuggerd` exists and advertises backtrace mode, but the only
+  permitted `debuggerd -b` request failed at the OS process-dump boundary
+  before producing a frame. `showmap` is absent. No retry or escalation was
+  attempted.
+- `CONFIRMED`: the Phase14 launch had no active default network; Apex was
+  force-stopped after the failed diagnostic request and airplane mode, Wi-Fi,
+  and mobile data were restored exactly. No debug property was used and the
+  preserved Samsung was excluded.
+- `UNKNOWN`: Phase14 does not establish a native mapping, `libUE4.so` load
+  bias, debuggerd PC model, persistent native stall, or JNI runtime address.
+  Phase13's `PROBABLE` libUE4 load status remains unchanged.
+- `CONFIRMED`: Phase14 decision gate is `E OS_DIAGNOSTIC_PERMISSION_BLOCKED`.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -163,6 +179,10 @@ Use this order to avoid repeating conclusions that were later corrected:
   APK inventory, dependency graph, JNI exports and strings, DEX library-loading
   order, targeted JNI_OnLoad validation, candidate classification, unresolved
   owner, and static-exhaustion gate.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/`: sanitized Huawei
+  native-diagnostic capability audit, offline boundary, failed backtrace-only
+  request, unavailable mapping/PC/stall/JNI results, restoration proof, and OS
+  diagnostic-permission gate.
 
 ## Machine-readable evidence
 
@@ -186,6 +206,9 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase13/output/*.json`: native library identity and loader metadata,
   dependency edges, JNI symbol/string evidence, Java library-loading order,
   candidate classes, resume status, and final gate.
+- `Phase14/output/*.json`: sanitized runtime capabilities, mapping status,
+  snapshot outcomes, PC-model boundary, stall status, JNI runtime status, and
+  final gate. Raw device output remains local-only.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -202,14 +225,16 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 1. Do not repeat static ownership scans across the 17 exact APK libraries;
    Phase13 exhausted that scope without proving an owner.
-2. If separately authorized, define one local-only loader observation that
-   records the library and resolved address for
-   `GameActivity.nativeResumeMainInit()V` without patching the APK/SO.
-3. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK,
+2. Do not repeat the Phase14 `debuggerd -b` run on the production Huawei image;
+   the OS diagnostic boundary is confirmed and `showmap` is absent.
+3. Further native work requires a separately authorized environment that
+   legitimately exposes read-only mappings or backtraces for the unchanged
+   package.
+4. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK,
    emulate authentication, or build a backend.
-4. Keep the preserved Samsung excluded and use no real account or copied
+5. Keep the preserved Samsung excluded and use no real account or copied
    private state.
-5. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
+6. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
    or explicit loader event proves it.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown and gate `E STATIC_LIBRARY_OWNERSHIP_EXHAUSTED` is authoritative.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace; its current gate is `E OS_DIAGNOSTIC_PERMISSION_BLOCKED`.

@@ -1,0 +1,18 @@
+{
+  "phase": "Phase14",
+  "android_build_type": {"status": "CONFIRMED", "value": "user"},
+  "device_ro_debuggable": {"status": "CONFIRMED", "value": false},
+  "package_debuggable": {"status": "CONFIRMED", "value": false},
+  "debuggerd_available": {"status": "CONFIRMED", "value": true},
+  "debuggerd_backtrace_available": {"status": "CONFIRMED", "value": "NO_OS_POLICY"},
+  "showmap_available": {"status": "CONFIRMED", "value": "NO_BINARY"},
+  "linker_app_logging_available": {
+    "status": "CONFIRMED",
+    "value": "NO_BY_DEBUGGABLE_REQUIREMENT"
+  },
+  "network_offline_confirmed": {"status": "CONFIRMED", "value": true},
+  "network_restored": {"status": "CONFIRMED", "value": true},
+  "debug_property_cleared": {"status": "CONFIRMED", "value": "NOT_USED"},
+  "preserved_device_targeted": {"status": "CONFIRMED", "value": false},
+  "final_gate": "E_OS_DIAGNOSTIC_PERMISSION_BLOCKED"
+}

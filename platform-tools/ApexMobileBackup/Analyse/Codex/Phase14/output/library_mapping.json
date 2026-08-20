@@ -1,0 +1,10 @@
+{
+  "phase": "Phase14",
+  "mapping_source": {"status": "UNAVAILABLE", "value": null},
+  "apk_library_count": {"status": "CONFIRMED_PHASE13", "value": 17},
+  "libue4_mapped": {"status": "UNKNOWN", "value": null},
+  "libue4_loaded": {"status": "PROBABLE", "value": true},
+  "libue4_load_base": {"status": "UNKNOWN", "value": null},
+  "libue4_map_metadata": {"status": "UNAVAILABLE", "value": null},
+  "reason": "SHOWMAP_ABSENT_AND_NO_DEBUGGERD_FRAMES"
+}

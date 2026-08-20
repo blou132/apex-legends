@@ -1,0 +1,11 @@
+{
+  "phase": "Phase14",
+  "debuggerd_pc_model": {"status": "UNKNOWN", "value": null},
+  "validation_frame": null,
+  "runtime_pc_conversions": [],
+  "ghidra_image_base": {
+    "status": "CONFIRMED_PHASE3C",
+    "value": "0x100000",
+    "applied_in_phase14": false
+  }
+}

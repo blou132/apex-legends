@@ -1,0 +1,12 @@
+{
+  "phase": "Phase14",
+  "debuggerd_mode": "BACKTRACE_ONLY",
+  "snapshots": [
+    {"target_seconds": 5, "result": "FAILED_OS_DIAGNOSTIC_POLICY", "frame_count": 0},
+    {"target_seconds": 20, "result": "NOT_ATTEMPTED_STOP_RULE", "frame_count": 0},
+    {"target_seconds": 60, "result": "NOT_ATTEMPTED_STOP_RULE", "frame_count": 0}
+  ],
+  "apk_frames": [],
+  "persistent_libue4_frames": {"status": "UNKNOWN_NO_BACKTRACE", "value": null},
+  "raw_data_published": false
+}
