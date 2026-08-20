@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15A",
+  "required_change": "ENABLE_WINDOWS_HYPERVISOR_PLATFORM",
+  "reboot_required": true,
+  "preferred_gui_step": "Windows Features > Windows Hypervisor Platform",
+  "command_documented_not_executed": "dism.exe /Online /Enable-Feature /FeatureName:HypervisorPlatform /All",
+  "virtual_machine_platform_required": false,
+  "hyper_v_role_required": false,
+  "aehd_required": false,
+  "bios_change_required": false,
+  "bcd_change_required": {"status": "UNKNOWN_NOT_JUSTIFIED", "value": null},
+  "potential_hypervisor_conflicts": ["VIRTUALBOX_PRESENT_NOT_PROVEN_BLOCKING"],
+  "final_gate": "B_WHPX_ENABLE_REQUIRED",
+  "change_executed": false
+}

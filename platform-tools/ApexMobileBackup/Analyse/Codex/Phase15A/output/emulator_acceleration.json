@@ -1,0 +1,12 @@
+{
+  "phase": "Phase15A",
+  "emulator_version": "36.4.9.0",
+  "emulator_build": 14788078,
+  "accel_check_exit_code": 6,
+  "accel_check_result": "NO_HYPERVISOR_DRIVER",
+  "aehd_installed": {"status": "CONFIRMED", "value": false},
+  "aehd_state": "NOT_INSTALLED",
+  "haxm_installed": {"status": "CONFIRMED", "value": false},
+  "emulator_process_running": {"status": "CONFIRMED", "value": false},
+  "avd_started": false
+}

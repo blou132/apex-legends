@@ -1,0 +1,13 @@
+{
+  "phase": "Phase15A",
+  "whpx_available": {"status": "CONFIRMED", "value": true},
+  "whpx_feature_state": {"status": "CONFIRMED", "value": "DISABLED"},
+  "hyper_v_feature_state": {
+    "status": "NOT_LISTED_ON_THIS_EDITION",
+    "value": null
+  },
+  "virtual_machine_platform_state": {"status": "CONFIRMED", "value": "DISABLED"},
+  "vbs_state": {"status": "CONFIRMED", "value": "DISABLED"},
+  "memory_integrity_state": {"status": "CONFIRMED", "value": "DISABLED"},
+  "query_source": "Win32_OptionalFeature_and_Win32_DeviceGuard"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15A",
+  "avd_name": "ApexPhase9Lab",
+  "avd_present": {"status": "CONFIRMED", "value": true},
+  "system_image": "system-images;android-36.1;google_apis_playstore;x86_64",
+  "image_revision": 4,
+  "image_abi": "x86_64",
+  "translated_abi": "arm64-v8a",
+  "native_bridge": "libndk_translation.so",
+  "arm64_isa_mapping": "x86_64",
+  "native_bridge_execution": {"status": "CONFIRMED", "value": true},
+  "arm64_translation_expected": {"status": "CONFIRMED", "value": true},
+  "boot_attempted": false
+}

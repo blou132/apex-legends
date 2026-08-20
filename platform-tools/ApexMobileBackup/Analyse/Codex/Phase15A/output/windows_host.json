@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15A",
+  "windows_edition": "Windows 11 Home Single Language",
+  "windows_version": "25H2",
+  "windows_build": "26200.9168",
+  "host_arch": "x86_64",
+  "legacy_product_name_stale": true,
+  "identifiers_published": false
+}

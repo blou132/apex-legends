@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15A",
+  "cpu_vendor": "AMD",
+  "cpu_model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx",
+  "virtualization_firmware_enabled": {"status": "CONFIRMED", "value": true},
+  "slat_supported": {"status": "CONFIRMED", "value": true},
+  "vm_monitor_mode_supported": {"status": "CONFIRMED", "value": true},
+  "hypervisor_present": {"status": "CONFIRMED", "value": false},
+  "hypervisor_launch_type": {"status": "UNKNOWN_ACCESS_DENIED", "value": null},
+  "bios_change_required": {"status": "CONFIRMED", "value": false}
+}
