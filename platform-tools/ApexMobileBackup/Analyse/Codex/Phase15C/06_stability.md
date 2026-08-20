@@ -1,10 +1,16 @@
 # Stability
 
-The 30-second guest stability check requires a completed Android boot. Because
-the physical-device preflight stopped the run before launch, stability was not
-tested.
+After boot and guest validation, the AVD remained running for an additional 30
+seconds.
 
 ```text
-AVD_STABLE_30S = NOT_ATTEMPTED_AVD_NOT_STARTED
-HYPERVISOR_FATAL_ERROR = NOT_OBSERVED_NO_LAUNCH
+ADB_ENDPOINT_STATE_AFTER_30S = device
+BOOT_COMPLETED_AFTER_30S = 1
+EMULATOR_PROCESS_ALIVE_AFTER_30S = YES
+PHYSICAL_DEVICE_PRESENT_AFTER_30S = NO
+FATAL_HYPERVISOR_LOG_MATCHES = 0
+AVD_STABLE_30S = CONFIRMED YES
 ```
+
+The fatal-error check was limited to WHPX/hypervisor fatal, panic, failure, and
+error patterns in the complete local-only emulator logs.

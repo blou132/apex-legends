@@ -1,8 +1,11 @@
 {
   "phase": "Phase15C",
-  "avd_stable_30s": "NOT_ATTEMPTED_AVD_NOT_STARTED",
-  "avd_shutdown_clean": "NOT_REQUIRED_AVD_NOT_STARTED",
-  "emu_kill_sent": false,
+  "avd_stable_30s": {"status": "CONFIRMED", "value": true},
+  "fatal_hypervisor_log_matches": 0,
+  "emu_kill_exit_code": 0,
+  "emu_kill_acknowledged": true,
+  "emulator_endpoint_present_after_wait": false,
+  "emulator_process_running_after_wait": false,
   "forced_process_termination": false,
-  "emulator_process_running_after_preflight": false
+  "avd_shutdown_clean": {"status": "CONFIRMED", "value": true}
 }

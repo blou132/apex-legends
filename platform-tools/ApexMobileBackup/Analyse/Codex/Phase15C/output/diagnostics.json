@@ -1,8 +1,9 @@
 {
   "phase": "Phase15C",
-  "debuggerd_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "showmap_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "guest_debuggable": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "apex_installed": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "guest_commands_executed": false
+  "debuggerd_present": {"status": "CONFIRMED", "value": true, "path": "/system/bin/debuggerd"},
+  "showmap_present": {"status": "CONFIRMED", "value": true, "path": "/system/bin/showmap"},
+  "guest_debuggable": {"status": "CONFIRMED", "value": false},
+  "apex_installed": {"status": "CONFIRMED", "value": false},
+  "diagnostic_tool_executed_on_process": false,
+  "root_requested": false
 }

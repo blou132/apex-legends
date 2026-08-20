@@ -1,13 +1,15 @@
 # Guest ABI
 
-The guest was not booted, so no runtime property was queried.
+Runtime guest properties confirm the translated-ABI configuration previously
+seen only in static image metadata.
 
 ```text
-PRIMARY_ABI = UNKNOWN_NOT_BOOTED
-ABI_LIST = UNKNOWN_NOT_BOOTED
-ABI_LIST_64 = UNKNOWN_NOT_BOOTED
-ARM64_ABI_ADVERTISED = UNKNOWN_NOT_BOOTED
+PRIMARY_ABI = x86_64
+ABI_LIST = x86_64,arm64-v8a
+ABI_LIST_32 = EMPTY
+ABI_LIST_64 = x86_64,arm64-v8a
+ARM64_ABI_ADVERTISED = CONFIRMED YES
 ```
 
-Phase15B's system-image metadata still declares x86_64 plus translated
-`arm64-v8a`. That is a static expectation, not a Phase15C guest confirmation.
+The guest is natively x86_64 and advertises ARM64 as a translated 64-bit ABI.
+This confirms guest configuration, not execution of an Apex binary.

@@ -1,12 +1,20 @@
 {
   "phase": "Phase15C",
-  "physical_device_present": {"status": "CONFIRMED", "value": true},
-  "physical_device_count": 1,
-  "emulator_endpoint_present_at_preflight": {"status": "CONFIRMED", "value": false},
-  "whpx_acceleration": "NOT_RECHECKED_PHYSICAL_DEVICE_STOP",
+  "physical_device_present": {"status": "CONFIRMED", "value": false},
+  "preexisting_adb_endpoint": {"status": "CONFIRMED", "value": false},
+  "whpx_acceleration": {
+    "status": "CONFIRMED",
+    "value": "WHPX(10.0.26200)_INSTALLED_AND_USABLE",
+    "exit_code": 0
+  },
   "avd_name": "ApexPhase9Lab",
-  "avd_started": false,
-  "emulator_adb_visible": false,
-  "android_boot_completed": "NOT_ATTEMPTED_AVD_NOT_STARTED",
-  "final_gate": "E_PHYSICAL_DEVICE_PRESENT_STOP"
+  "system_image": "system-images;android-36.1;google_apis_playstore;x86_64",
+  "avd_started": {"status": "CONFIRMED", "value": true},
+  "emulator_adb_visible": {"status": "CONFIRMED", "value": true},
+  "android_boot_completed": {"status": "CONFIRMED", "value": true},
+  "boot_completion_after_adb_seconds": 201.8,
+  "snapshot_load": false,
+  "snapshot_save": false,
+  "data_wipe": false,
+  "final_gate": "A_AVD_BOOT_ARM64_BRIDGE_CONFIRMED"
 }

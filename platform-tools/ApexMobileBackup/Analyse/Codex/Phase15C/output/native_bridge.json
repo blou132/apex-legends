@@ -1,9 +1,15 @@
 {
   "phase": "Phase15C",
-  "native_bridge_property": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "native_bridge_library_present": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "native_bridge_enabled": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "arm64_isa_mapping": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "arm64_translation_guest_config": "UNKNOWN_NOT_BOOTED",
-  "static_image_bridge_from_phase15b": "libndk_translation.so"
+  "native_bridge_property": "libndk_translation.so",
+  "native_bridge_library_present": {
+    "status": "CONFIRMED",
+    "value": true,
+    "path": "/system/lib64/libndk_translation.so"
+  },
+  "ro_enable_native_bridge": "",
+  "ro_enable_native_bridge_exec": true,
+  "native_bridge_enabled": {"status": "CONFIRMED_BY_EXEC_PROPERTY", "value": true},
+  "arm64_isa_mapping": {"status": "CONFIRMED", "from": "arm64", "to": "x86_64"},
+  "arm64_translation_guest_config": "CONFIRMED",
+  "targeted_paths_tested": 3
 }

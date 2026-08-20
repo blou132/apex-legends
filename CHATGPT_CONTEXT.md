@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15C preflight stop)
+Updated: 2026-08-20 (Phase15C completed retry)
 
 ## Purpose
 
@@ -173,16 +173,21 @@ Use this order to avoid repeating conclusions that were later corrected:
   failure. Because WHPX works, `hypervisorlaunchtype` was not queried and no
   elevation or BCD change occurred.
 - `CONFIRMED`: Phase15B decision gate is `A WHPX_ACCELERATION_CONFIRMED`.
-- `CONFIRMED`: Phase15C's mandatory first ADB inventory found one physical
-  Huawei endpoint and no emulator endpoint. No device-specific command was
-  sent.
-- `CONFIRMED`: the physical-device stop rule prevented the WHPX recheck, AVD
-  configuration recheck, and boot. No emulator process was started, and all
-  guest identity, ABI, native-bridge, diagnostic, stability, and Apex-package
-  results remain `UNKNOWN_NOT_BOOTED` or `NOT_ATTEMPTED`.
-- `CONFIRMED`: Phase15B remains authoritative for usable WHPX acceleration and
-  static AVD/native-bridge configuration. Phase15C does not supersede it.
-- `CONFIRMED`: Phase15C decision gate is `E PHYSICAL_DEVICE_PRESENT_STOP`.
+- `CONFIRMED`: the authorized Phase15C retry began with an empty ADB inventory,
+  then revalidated WHPX with exit code `0` and the unchanged `ApexPhase9Lab`
+  Android 36.1 x86_64 image before launch.
+- `CONFIRMED`: the AVD booted without snapshot load/save or wipe, exposed an
+  emulator ADB endpoint, reached `sys.boot_completed=1` within the five-minute
+  guest limit, remained stable for 30 seconds, and shut down cleanly through
+  `emu kill` without forced termination.
+- `CONFIRMED`: the Android 16/API 36 `user` guest has primary ABI `x86_64`,
+  advertises `arm64-v8a`, configures and contains `libndk_translation.so`,
+  enables native-bridge execution, and maps ARM64 to x86_64.
+- `CONFIRMED`: `debuggerd` and `showmap` are present but were not used on a
+  process. The guest is not debuggable and Apex is not installed.
+- `CONFIRMED`: Phase15C decision gate is
+  `A AVD_BOOT_ARM64_BRIDGE_CONFIRMED`. This proves lab configuration, not Apex
+  ARM64 execution.
 - `PROBABLE`: the event `0x138` consumer is in Lua/PAK content. No extracted Lua source is currently accessible, so its registration, handler, parser and storage remain `UNKNOWN`.
 - `CONFIRMED`: `FUN_06bc6ca0` clones the callback delegate; it is not the response handler.
 - `UNKNOWN`: the concrete GET URL, supplied dynamically as a UFunction `FString` argument.
@@ -234,9 +239,10 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/`: cleaned post-reboot
   WHPX enabled state, successful emulator acceleration check, unchanged AVD and
   ARM64-translation metadata, skipped conditional BCD audit, and next gate.
-- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/`: cleaned physical-
-  device preflight stop, explicit non-attempted AVD/guest results, publication
-  boundary, and retry prerequisite. No emulator raw log exists for this run.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/`: cleaned WHPX/AVD
+  preflight, successful guest boot, identity and ABI, native-bridge path and ISA
+  mapping, diagnostic inventory, Apex absence, stability, clean shutdown, and
+  final gate. Complete emulator logs remain local-only.
 
 ## Machine-readable evidence
 
@@ -266,9 +272,10 @@ Use this order to avoid repeating conclusions that were later corrected:
 - `Phase15A/output/*.json`: cleaned host/build, CPU virtualization, Windows
   feature/VBS, emulator acceleration, AVD/native-bridge, and required-change
   status without hostname, account, or absolute-path data.
-- `Phase15C/output/*.json`: cleaned physical-device preflight, explicit
-  not-started guest/ABI/native-bridge/diagnostic states, and no-op shutdown
-  result. No device identifier or raw ADB output is published.
+- `Phase15C/output/*.json`: cleaned boot timing and flags, guest identity/ABI,
+  native-bridge configuration, diagnostic inventory, Apex absence, stability,
+  and clean shutdown. No endpoint port, device identifier, or raw log is
+  published.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -283,22 +290,20 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Physically disconnect every Android phone before retrying Phase15C. Start
-   again from `adb devices -l` and require no physical endpoint.
-2. Once the preflight is clear, revalidate WHPX, then perform the bounded
-   boot-only validation of unchanged `ApexPhase9Lab` without installing or
-   launching Apex.
-3. Require an ADB-visible emulator, Android boot completion, guest ABI, and
-   `libndk_translation.so` confirmation before considering APK/OBB work.
-4. Do not change BCD; Phase15B already confirms WHPX works.
-5. Do not repeat static ownership scans across the 17 exact APK libraries;
+1. Phase15C now validates the isolated guest. Any APK/OBB installation or Apex
+   launch requires a separate explicit phase with no physical device present,
+   blocked Internet, exact artifact identity, and no account or authentication.
+2. Preserve the existing AVD and do not wipe it, patch artifacts, enable root,
+   or assume diagnostic access merely because `debuggerd` and `showmap` exist.
+3. Do not change BCD; WHPX works and the AVD boot is stable.
+4. Do not repeat static ownership scans across the 17 exact APK libraries;
    Phase13 exhausted that scope without proving an owner.
-6. Do not repeat the Phase14 `debuggerd -b` run on the production Huawei image;
+5. Do not repeat the Phase14 `debuggerd -b` run on the production Huawei image;
    the OS diagnostic boundary is confirmed and `showmap` is absent.
-7. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK,
+6. Do not answer TDM or GCloud, install a CA, bypass pinning, patch the APK,
    emulate authentication, or build a backend.
-8. Keep both phones excluded and use no real account or copied private state.
-9. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
+7. Keep both phones excluded and use no real account or copied private state.
+8. Do not assign a `libUE4.so` runtime base until a legitimate readable mapping
    or explicit loader event proves it.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15B confirms WHPX acceleration is usable and the translated-ABI AVD remains configured but unbooted. Phase15C stopped before boot because a physical phone was still connected; its gate is `E PHYSICAL_DEVICE_PRESENT_STOP`.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block the observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge, but Apex is not installed and no proprietary ARM64 execution has occurred; its gate is `A AVD_BOOT_ARM64_BRIDGE_CONFIRMED`.

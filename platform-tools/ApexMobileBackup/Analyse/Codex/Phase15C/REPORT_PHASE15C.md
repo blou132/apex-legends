@@ -1,49 +1,55 @@
-# Phase15C - AVD boot preflight stop
+# Phase15C - translated AVD boot validation
 
 Date: 2026-08-20
 
 ## Executive result
 
-The mandatory first ADB inventory found one physical Huawei endpoint and no
-emulator endpoint. Per the explicit safety rule, Phase15C stopped before the
-WHPX recheck, AVD configuration recheck, or boot.
+The resumed preflight found no physical Android device and no existing ADB
+endpoint. WHPX again returned exit code `0`, and the unchanged
+`ApexPhase9Lab` configuration matched the Android 36.1 Google Play x86_64 image.
 
-No device-specific command was sent to the phone. No emulator process, AVD,
-Apex package, APK, OBB, native library, Windows setting, BCD value, BIOS option,
-driver, or service was started or changed.
+The AVD booted with normal WHPX acceleration, no snapshot restore/save, and no
+wipe. Its ADB endpoint appeared, Android completed boot within the allowed
+window, and the guest remained stable for 30 additional seconds. Clean shutdown
+removed both the endpoint and emulator processes without force.
 
-Phase15B remains authoritative: WHPX was last confirmed installed and usable,
-and `ApexPhase9Lab` was last confirmed configured for the Android 36.1 x86_64
-image with expected ARM64 translation. Phase15C provides no guest runtime
-evidence and does not supersede those results.
+Guest properties confirm Android 16/API 36, primary x86_64 ABI,
+`arm64-v8a` in the 64-bit ABI list, `libndk_translation.so` configured and
+present under `/system/lib64`, native-bridge execution enabled, and ARM64 mapped
+to x86_64. `debuggerd` and `showmap` are present but were not used on a process.
+The guest is a non-debuggable `user` build, and Apex is not installed.
+
+No phone command, APK/OBB/PAK/SO operation, Apex launch, root, hook, patch,
+ptrace, backend, account, or authentication activity occurred. Complete
+emulator logs remain local-only.
 
 ## Required results
 
 ```text
-WHPX_ACCELERATION = NOT_RECHECKED_PHYSICAL_DEVICE_STOP
-AVD_STARTED = NO
-EMULATOR_ADB_VISIBLE = NO
-ANDROID_BOOT_COMPLETED = NOT_ATTEMPTED_AVD_NOT_STARTED
-ANDROID_VERSION = UNKNOWN_NOT_BOOTED
-ANDROID_SDK = UNKNOWN_NOT_BOOTED
-GUEST_BUILD_TYPE = UNKNOWN_NOT_BOOTED
-GUEST_DEBUGGABLE = UNKNOWN_NOT_BOOTED
-PRIMARY_ABI = UNKNOWN_NOT_BOOTED
-ABI_LIST = UNKNOWN_NOT_BOOTED
-ARM64_ABI_ADVERTISED = UNKNOWN_NOT_BOOTED
-NATIVE_BRIDGE_PROPERTY = UNKNOWN_NOT_BOOTED
-NATIVE_BRIDGE_LIBRARY_PRESENT = UNKNOWN_NOT_BOOTED
-ARM64_ISA_MAPPING = UNKNOWN_NOT_BOOTED
-ARM64_TRANSLATION_GUEST_CONFIG = UNKNOWN_NOT_BOOTED
-DEBUGGERD_PRESENT = UNKNOWN_NOT_BOOTED
-SHOWMAP_PRESENT = UNKNOWN_NOT_BOOTED
-APEX_INSTALLED = UNKNOWN_NOT_BOOTED
-AVD_STABLE_30S = NOT_ATTEMPTED_AVD_NOT_STARTED
-AVD_SHUTDOWN_CLEAN = NOT_REQUIRED_AVD_NOT_STARTED
-FINAL_GATE = CONFIRMED E PHYSICAL_DEVICE_PRESENT_STOP
+WHPX_ACCELERATION = CONFIRMED WHPX(10.0.26200) INSTALLED_AND_USABLE
+AVD_STARTED = CONFIRMED YES
+EMULATOR_ADB_VISIBLE = CONFIRMED YES
+ANDROID_BOOT_COMPLETED = CONFIRMED YES
+ANDROID_VERSION = 16
+ANDROID_SDK = 36
+GUEST_BUILD_TYPE = user
+GUEST_DEBUGGABLE = CONFIRMED NO
+PRIMARY_ABI = x86_64
+ABI_LIST = x86_64,arm64-v8a
+ARM64_ABI_ADVERTISED = CONFIRMED YES
+NATIVE_BRIDGE_PROPERTY = libndk_translation.so
+NATIVE_BRIDGE_LIBRARY_PRESENT = CONFIRMED /system/lib64/libndk_translation.so
+ARM64_ISA_MAPPING = CONFIRMED arm64 -> x86_64
+ARM64_TRANSLATION_GUEST_CONFIG = CONFIRMED
+DEBUGGERD_PRESENT = CONFIRMED YES
+SHOWMAP_PRESENT = CONFIRMED YES
+APEX_INSTALLED = CONFIRMED NO
+AVD_STABLE_30S = CONFIRMED YES
+AVD_SHUTDOWN_CLEAN = CONFIRMED YES
+FINAL_GATE = CONFIRMED A AVD_BOOT_ARM64_BRIDGE_CONFIRMED
 ```
 
-## Publication boundary
+## Evidence limit
 
-No raw ADB output, device serial, transport identifier, account data, hostname,
-private absolute path, APK, SO, OBB, PAK, or emulator log is published.
+Phase15C proves the guest translation configuration and lab stability. It does
+not prove execution of the ARM64 Apex package or any Apex native library.

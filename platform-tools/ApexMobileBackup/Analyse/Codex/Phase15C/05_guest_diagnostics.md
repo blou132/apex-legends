@@ -1,14 +1,16 @@
 # Guest diagnostics
 
-The AVD was not started, so no guest command or package query was possible or
-attempted.
+Only executable presence and guest build policy were inspected. Neither tool
+was run against a process.
 
 ```text
-DEBUGGERD_PRESENT = UNKNOWN_NOT_BOOTED
-SHOWMAP_PRESENT = UNKNOWN_NOT_BOOTED
-GUEST_DEBUGGABLE = UNKNOWN_NOT_BOOTED
-APEX_INSTALLED = UNKNOWN_NOT_BOOTED
+DEBUGGERD_PRESENT = CONFIRMED /system/bin/debuggerd
+SHOWMAP_PRESENT = CONFIRMED /system/bin/showmap
+GUEST_DEBUGGABLE = CONFIRMED NO
+APEX_INSTALLED = CONFIRMED NO
 ```
 
-No `debuggerd`, root, ptrace, package installation, package removal, or data
-operation occurred.
+The emulator has a broader diagnostic tool inventory than the Huawei, where
+`showmap` was absent. Actual access to a future app process remains untested.
+No root, debuggerd backtrace, showmap query, ptrace, package install, uninstall,
+or data operation occurred.

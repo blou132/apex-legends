@@ -1,9 +1,8 @@
 {
   "phase": "Phase15C",
-  "primary_abi": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "abi_list": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "abi_list_32": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "abi_list_64": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "arm64_abi_advertised": {"status": "UNKNOWN_NOT_BOOTED", "value": null},
-  "static_image_expectation_from_phase15b": ["x86_64", "arm64-v8a"]
+  "primary_abi": "x86_64",
+  "abi_list": ["x86_64", "arm64-v8a"],
+  "abi_list_32": [],
+  "abi_list_64": ["x86_64", "arm64-v8a"],
+  "arm64_abi_advertised": {"status": "CONFIRMED", "value": true}
 }

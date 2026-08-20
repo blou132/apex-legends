@@ -1,16 +1,15 @@
-# ADB guest state
+# ADB guest identity
 
-No emulator endpoint existed at preflight and the AVD was not started.
+Every guest command selected the discovered emulator endpoint explicitly. The
+endpoint port is local-only and unnecessary for the published result.
 
 ```text
-EMULATOR_ADB_VISIBLE = NO
-EMULATOR_SERIAL_PRESENT = NO
-ANDROID_BOOT_COMPLETED = NOT_ATTEMPTED_AVD_NOT_STARTED
-ANDROID_VERSION = UNKNOWN_NOT_BOOTED
-ANDROID_SDK = UNKNOWN_NOT_BOOTED
-GUEST_BUILD_TYPE = UNKNOWN_NOT_BOOTED
-GUEST_DEBUGGABLE = UNKNOWN_NOT_BOOTED
+ANDROID_VERSION = 16
+ANDROID_SDK = 36
+GUEST_BUILD_TYPE = user
+GUEST_RO_DEBUGGABLE = 0
+GUEST_DEBUGGABLE = CONFIRMED NO
 ```
 
-The only ADB action was the host-level endpoint inventory. No command selected
-or queried the physical device.
+The guest remained ADB-visible throughout identity, ABI, native-bridge,
+diagnostic, package, and stability checks. No physical endpoint appeared.
