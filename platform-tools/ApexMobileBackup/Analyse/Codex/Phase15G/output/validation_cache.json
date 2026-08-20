@@ -1,0 +1,21 @@
+{
+  "phase": "Phase15G",
+  "targeted_check_only": true,
+  "preflight": {
+    "presence": "ABSENT",
+    "content_valid": "UNKNOWN",
+    "previous_validation_success_proven": false
+  },
+  "static_write_condition": "DownloaderActivity_validator_onPostExecute_true",
+  "static_failure_behavior": "delete_existing_cache",
+  "postrun": {
+    "presence": "PRESENT",
+    "content_valid": "YES",
+    "row_count": 2,
+    "main_name_match": true,
+    "main_last_modified_match": true,
+    "patch_name_match": true,
+    "patch_last_modified_match": true
+  },
+  "cache_modified_by_analysis": false
+}

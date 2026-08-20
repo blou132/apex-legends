@@ -1,0 +1,78 @@
+{
+  "phase": "Phase15G",
+  "time_origin": "single_apex_process_creation",
+  "events": [
+    {
+      "relative_seconds": 0.000,
+      "event": "APEX_PROCESS_CREATED"
+    },
+    {
+      "relative_seconds": 14.015,
+      "event": "GAMEACTIVITY_ON_RESUME"
+    },
+    {
+      "relative_seconds": 14.699,
+      "event": "GAMEACTIVITY_HAS_ALL_FILES_FALSE"
+    },
+    {
+      "relative_seconds": 15.427,
+      "event": "GAMEACTIVITY_DISPLAYED"
+    },
+    {
+      "relative_seconds": 15.522,
+      "event": "DOWNLOADER_FOR_RESULT_REQUESTED"
+    },
+    {
+      "relative_seconds": 15.617,
+      "event": "DOWNLOADER_ACTIVITY_STARTED"
+    },
+    {
+      "relative_seconds": 15.915,
+      "event": "DOWNLOADER_ON_CREATE"
+    },
+    {
+      "relative_seconds": 16.074,
+      "event": "DOWNLOADER_FILES_PRESENT_STATE_4"
+    },
+    {
+      "relative_seconds": 16.075,
+      "event": "FULL_LOCAL_VALIDATION_SELECTED"
+    },
+    {
+      "relative_seconds": 17.323,
+      "event": "DOWNLOADER_ACTIVITY_DISPLAYED"
+    },
+    {
+      "relative_seconds": 104.001,
+      "event": "VALIDATOR_ON_POST_EXECUTE_TRUE"
+    },
+    {
+      "relative_seconds": 104.472,
+      "event": "GAMEACTIVITY_RESULT_1_HAS_ALL_FILES_TRUE"
+    },
+    {
+      "relative_seconds": 104.475,
+      "event": "GAMEACTIVITY_RESUMED"
+    },
+    {
+      "relative_seconds": 104.606,
+      "event": "GAMEACTIVITY_RESUME_BODY_HAS_ALL_FILES_TRUE"
+    }
+  ],
+  "checkpoints_after_validation_selection": [
+    {
+      "target_seconds": 30,
+      "process_alive": true,
+      "foreground": "DownloaderActivity"
+    },
+    {
+      "target_seconds": 60,
+      "process_alive": true,
+      "foreground": "DownloaderActivity"
+    }
+  ],
+  "validation_completed": "YES",
+  "validation_completion_seconds_after_selection": 87.926,
+  "bounded_limit_seconds": 600,
+  "limit_reached": false
+}

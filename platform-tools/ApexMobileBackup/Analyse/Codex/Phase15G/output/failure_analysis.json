@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15G",
+  "validation_failure_class": "NONE",
+  "specific_obb_entry": "NOT_APPLICABLE",
+  "apex_validator_success_count": 1,
+  "apex_validator_failure_count": 0,
+  "apex_result_one_count": 1,
+  "crc_failure_count": 0,
+  "zip_error_count": 0,
+  "io_error_count": 0,
+  "fatal_exception_count": 0,
+  "process_exit_during_validation": false,
+  "obb_modified_or_replaced": false
+}

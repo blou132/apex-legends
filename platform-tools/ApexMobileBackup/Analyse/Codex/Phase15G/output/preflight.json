@@ -1,0 +1,29 @@
+{
+  "phase": "Phase15G",
+  "physical_device_present": false,
+  "adb_inventory_before_avd": "EMPTY",
+  "whpx_acceleration": "CONFIRMED",
+  "whpx_accel_check_exit_code": 0,
+  "avd": "ApexPhase9Lab",
+  "avd_existing_only": true,
+  "snapshot_load": false,
+  "snapshot_save": false,
+  "wipe_data": false,
+  "avd_boot_completed": true,
+  "package": {
+    "present": true,
+    "version_name": "1.3.672.546",
+    "version_code": 64003140,
+    "state_valid": true
+  },
+  "obb": {
+    "main_name": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+    "main_size_bytes": 1942013346,
+    "patch_name": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+    "patch_size_bytes": 1837582506,
+    "state_valid": true,
+    "guest_rehash_performed": false
+  },
+  "apk_reinstalled": false,
+  "obb_reinstalled": false
+}

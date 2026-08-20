@@ -1,0 +1,21 @@
+{
+  "phase": "Phase15G",
+  "apex_launched": "YES_ONCE",
+  "downloader_activity_observed": true,
+  "validator_success_marker": true,
+  "downloader_result": 1,
+  "has_all_files_after_result": true,
+  "gameactivity_resumed": true,
+  "native_resume_main_init_witness": "NO_NEW_EVIDENCE",
+  "process_stable_after_success": "YES_30S",
+  "downloader_returned_after_success": false,
+  "success_chain": [
+    "FULL_LOCAL_VALIDATION",
+    "DOWNLOADER_ON_POST_EXECUTE_TRUE",
+    "DOWNLOADER_RESULT_1_AND_FINISH",
+    "GAMEACTIVITY_ON_ACTIVITY_RESULT_HAS_ALL_FILES_TRUE",
+    "GAMEACTIVITY_RESUME",
+    "GAMEACTIVITY_RESUME_BODY_HAS_ALL_FILES_TRUE"
+  ],
+  "final_gate": "B CURRENT_VALIDATION_COMPLETES_AND_GAMEACTIVITY_RESUMES"
+}
