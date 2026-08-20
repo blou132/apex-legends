@@ -1,0 +1,53 @@
+{
+  "phase": "Phase15F",
+  "why_started": "MANDATORY_STARTUP_OBB_VERIFICATION_WITH_HAS_ALL_FILES_FALSE",
+  "observed_internal_state": 4,
+  "observed_process_obb_branch": 1,
+  "first_wait_state": "FULL_ZIP_ENTRY_CRC_VALIDATION_AFTER_CACHE_FRESHNESS_MISS",
+  "candidates": [
+    {
+      "condition": "main_obb_absent",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "patch_obb_absent",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "incorrect_outer_file_size",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "incorrect_filename_or_version_code",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "startup_expansion_verification",
+      "classification": "CONFIRMED_TRIGGER"
+    },
+    {
+      "condition": "validation_cache_absent_or_stale",
+      "classification": "CONFIRMED_TRIGGER"
+    },
+    {
+      "condition": "obb_path_inaccessible",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "external_storage_unavailable",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "saved_activity_state",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    },
+    {
+      "condition": "runtime_storage_permission_denial",
+      "classification": "NO_EVIDENCE"
+    },
+    {
+      "condition": "network_unavailable",
+      "classification": "CONFIRMED_NOT_TRIGGER"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15F",
+  "target_sdk": 32,
+  "request_legacy_external_storage": true,
+  "use_external_files_dir_metadata": true,
+  "sdk_version_branch_present": false,
+  "sdk_version_branch_scope": "observed_downloader_obb_subgraph",
+  "storage_api_used": [
+    "Environment.getExternalStorageDirectory",
+    "Android/obb/package",
+    "getExternalFilesDir(null)"
+  ],
+  "manage_external_storage_branch_found": false,
+  "static_network_requirement": "A_LOCAL_OBB_VALIDATION_IS_FULLY_OFFLINE",
+  "google_play_dependency": "ONLY_MISSING_FILE_BRANCH",
+  "phase15d_files_visible_on_android16": true,
+  "android16_incompatibility": "NO_EVIDENCE"
+}

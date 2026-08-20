@@ -1,0 +1,65 @@
+{
+  "phase": "Phase15F",
+  "time_origin": "main_apex_process_creation",
+  "witnesses": [
+    {
+      "relative_seconds": 12.410,
+      "source": "GameActivity",
+      "classification": "ON_RESUME"
+    },
+    {
+      "relative_seconds": 12.787,
+      "source": "GameActivity",
+      "classification": "ON_RESUME_BODY_HAS_ALL_FILES_FALSE"
+    },
+    {
+      "relative_seconds": 13.758,
+      "source": "android_activity_manager",
+      "classification": "GAME_ACTIVITY_DISPLAYED"
+    },
+    {
+      "relative_seconds": 13.774,
+      "source": "GameActivity",
+      "classification": "START_DOWNLOADER_FOR_RESULT"
+    },
+    {
+      "relative_seconds": 13.859,
+      "source": "android_activity_manager",
+      "classification": "DOWNLOADER_ACTIVITY_STARTED"
+    },
+    {
+      "relative_seconds": 14.259,
+      "source": "DownloaderActivity",
+      "classification": "ON_CREATE"
+    },
+    {
+      "relative_seconds": 14.519,
+      "source": "DownloaderActivity",
+      "classification": "FILES_PRESENT_STATE_4"
+    },
+    {
+      "relative_seconds": 14.543,
+      "source": "DownloaderActivity",
+      "classification": "FULL_LOCAL_VALIDATION_SELECTED"
+    },
+    {
+      "relative_seconds": 15.864,
+      "source": "android_activity_manager",
+      "classification": "DOWNLOADER_ACTIVITY_DISPLAYED"
+    },
+    {
+      "relative_seconds": 17.064,
+      "source": "android_window_manager",
+      "classification": "GAME_ACTIVITY_WINDOW_HIDDEN"
+    },
+    {
+      "relative_seconds": 61.066,
+      "source": "apex_process",
+      "classification": "PROCESS_STILL_ACTIVE"
+    }
+  ],
+  "completion_witness": false,
+  "result_callback_witness": false,
+  "fatal_witness": false,
+  "observed_next_transition_after_60s": "NONE_DOWNLOADER_FOREGROUND_PROCESS_ACTIVE"
+}

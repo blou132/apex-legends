@@ -1,0 +1,52 @@
+{
+  "phase": "Phase15F",
+  "methods": [
+    {
+      "name": "GameActivity.onCreate",
+      "dex_address": "0x505998dc"
+    },
+    {
+      "name": "GameActivity.onStart",
+      "dex_address": "0x5059b964"
+    },
+    {
+      "name": "GameActivity.onResume",
+      "dex_address": "0x5059b5dc"
+    },
+    {
+      "name": "GameActivity.onResumeBody",
+      "dex_address": "0x50594624"
+    },
+    {
+      "name": "GameActivity$17.run",
+      "dex_address": "0x50590200"
+    },
+    {
+      "name": "DownloadShim.GetDownloaderType",
+      "dex_address": "0x5058fa04"
+    },
+    {
+      "name": "GameActivity.onActivityResult",
+      "dex_address": "0x50599458"
+    }
+  ],
+  "initial_conditions": {
+    "package_data_inside_apk": false,
+    "has_obb_files": true,
+    "verify_obb_on_startup": true,
+    "has_all_files_after_on_create": false
+  },
+  "edges": [
+    "onCreate -> HasAllFiles=false",
+    "onResume -> onResumeBody",
+    "onResumeBody -> nativeOnInitialDownloadStarted",
+    "onResumeBody -> post GameActivity$17",
+    "GameActivity$17 -> DownloadShim.GetDownloaderType",
+    "GameActivity$17 -> startActivityForResult"
+  ],
+  "downloader_launch_caller": "GameActivity$17.run at 0x50590200",
+  "downloader_launch_method": "startActivityForResult",
+  "downloader_launch_condition": "HasAllFiles == false",
+  "request_code_hex": "0x13881",
+  "request_code_decimal": 80001
+}

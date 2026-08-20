@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15F",
+  "gameactivity_is_launcher": "YES",
+  "downloaderactivity_is_launcher": "NO",
+  "downloader_launch_caller": "GameActivity$17.run at DEX 0x50590200",
+  "downloader_launch_condition": "HasAllFiles == false after mandatory startup OBB verification",
+  "expected_obb_directory": "/storage/emulated/0/Android/obb/com.ea.gp.apexlegendsmobilefps",
+  "main_name_match": "YES",
+  "patch_name_match": "YES",
+  "obb_checks": "EXISTS_EXACT_OUTER_SIZE_CACHE_LAST_MODIFIED_PER_ZIP_ENTRY_CRC32",
+  "obb_validation_expected": "SUCCESS_FOR_IDENTICAL_PHASE10_BYTES",
+  "downloader_initial_state": "FILES_PRESENT_THEN_FULL_LOCAL_VALIDATION",
+  "downloader_offline_behavior": "VALIDATES_PRESENT_OBBS_WITHOUT_NETWORK",
+  "downloader_success_path": "RESULT_1_TO_HAS_ALL_FILES_TRUE_TO_RESUME_TO_NATIVE_RESUME_MAIN_INIT",
+  "phase10_path_comparison": "SAME_EXPECTED_PATH",
+  "android16_incompatibility": "NO_EVIDENCE",
+  "black_screen_downloader_link": "PROBABLE_TEMPORAL_AND_FOREGROUND_OWNERSHIP_LINK",
+  "first_blocking_condition": "CONFIRMED_VALIDATION_PENDING_AT_60S_ROOT_CAUSE_UNKNOWN",
+  "final_gate": "E DOWNLOADER_TRIGGER_RESOLVED_BLOCKER_UNKNOWN",
+  "commit": "Resolve downloader transition Phase15F",
+  "git_status": "CLEAN_EXPECTED_AFTER_COMMIT"
+}

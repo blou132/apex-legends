@@ -1,0 +1,42 @@
+{
+  "phase": "Phase15F",
+  "initial_state": "FILE_CHECK_THEN_LOCAL_VALIDATION",
+  "phase15d_state": "LOCAL_VALIDATION",
+  "states": [
+    {
+      "id": 1,
+      "condition": "obb_missing_and_no_play_key",
+      "outcome": "RESULT_6"
+    },
+    {
+      "id": 2,
+      "condition": "obb_missing_and_download_service_available",
+      "outcome": "DOWNLOAD_SERVICE_UI"
+    },
+    {
+      "id": 3,
+      "condition": "production_and_development_copies_both_present",
+      "outcome": "LOCATION_SELECTION_THEN_PROCESS"
+    },
+    {
+      "id": 4,
+      "condition": "all_obb_files_present_in_one_location",
+      "outcome": "CACHE_CHECK_THEN_LOCAL_VALIDATION"
+    }
+  ],
+  "offline_state": "NOT_APPLICABLE_TO_PRESENT_FILE_LOCAL_VALIDATION",
+  "offline_missing_file_state": "DOWNLOAD_SERVICE_CAN_PAUSE_NETWORK_UNAVAILABLE",
+  "success_state": "RESULT_1_AFTER_LOCAL_VALIDATION",
+  "failure_states": [
+    "RESULT_5_AFTER_CRC_FAILURE",
+    "RESULT_4_DOWNLOAD_FAILURE",
+    "RESULT_6_NO_PLAY_KEY"
+  ],
+  "lifecycle": {
+    "on_start": "connect_client_stub_when_present",
+    "on_service_connected": "register_client_messenger",
+    "on_pause": "empty_result_becomes_user_quit_result_3",
+    "on_stop": "disconnect_client_stub",
+    "on_destroy": "cancel_validation_cooperatively"
+  }
+}

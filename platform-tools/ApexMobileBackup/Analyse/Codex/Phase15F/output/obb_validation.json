@@ -1,0 +1,38 @@
+{
+  "phase": "Phase15F",
+  "expected_directory": "/storage/emulated/0/Android/obb/com.ea.gp.apexlegendsmobilefps",
+  "development_directory": "/storage/emulated/0/obb/com.ea.gp.apexlegendsmobilefps",
+  "selected_directory": "production",
+  "files": [
+    {
+      "kind": "main",
+      "name": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size_bytes": 1942013346,
+      "name_match": true,
+      "size_match": true
+    },
+    {
+      "kind": "patch",
+      "name": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "size_bytes": 1837582506,
+      "name_match": true,
+      "size_match": true
+    }
+  ],
+  "version_code_match": true,
+  "directory_match": true,
+  "checks": [
+    "file_exists",
+    "exact_outer_file_size",
+    "cache_filename_and_last_modified",
+    "per_zip_entry_crc32_over_uncompressed_content"
+  ],
+  "validation_cache": "getExternalFilesDir(null)/cacheFile.txt",
+  "validation_read_chunk_bytes": 262144,
+  "whole_file_hash_check": false,
+  "signature_check": false,
+  "content_check": true,
+  "version_check": "expected_filename_version_64003140",
+  "phase15d_observed_result": "STARTED_NOT_COMPLETED_IN_BOUNDED_LOG",
+  "expected_result": "SUCCESS_FOR_IDENTICAL_PHASE10_BYTES"
+}
