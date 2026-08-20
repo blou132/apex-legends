@@ -1,0 +1,44 @@
+{
+  "phase": "Phase15M",
+  "program": "libUE4.so",
+  "image_base": "0x100000",
+  "address_model": "GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "anchors": [
+    {
+      "name": "dialog_title",
+      "minimal_text": "Unable to run on this device!",
+      "encoding": "UTF-16LE",
+      "file_offset": "0x274437e",
+      "elf_virtual_address": "0x274437e",
+      "ghidra_address": "0x284437e",
+      "section": ".rodata"
+    },
+    {
+      "name": "gles31_line",
+      "minimal_text": "Device has OpenGL ES 3.1 support",
+      "encoding": "UTF-16LE",
+      "file_offset": "0x25222ae",
+      "elf_virtual_address": "0x25222ae",
+      "ghidra_address": "0x26222ae",
+      "section": ".rodata"
+    },
+    {
+      "name": "float_rt_line",
+      "minimal_text": "Floating point render target support",
+      "encoding": "UTF-16LE",
+      "file_offset": "0x25830aa",
+      "elf_virtual_address": "0x25830aa",
+      "ghidra_address": "0x26830aa",
+      "section": ".rodata"
+    },
+    {
+      "name": "es2_fallback_line",
+      "minimal_text": "the app was not packaged with ES2 support",
+      "encoding": "UTF-16LE",
+      "file_offset": "0x246496a",
+      "elf_virtual_address": "0x246496a",
+      "ghidra_address": "0x256496a",
+      "section": ".rodata"
+    }
+  ]
+}

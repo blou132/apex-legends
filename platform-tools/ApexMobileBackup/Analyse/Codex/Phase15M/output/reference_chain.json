@@ -1,0 +1,20 @@
+{
+  "phase": "Phase15M",
+  "aligned_pointer_matches": 0,
+  "relocations_scanned": 1435206,
+  "relocation_anchor_matches": 0,
+  "title_pointer_chain": "NOT_FOUND_AS_DATA_CHAIN",
+  "message_pointer_chain": "NOT_FOUND_AS_DATA_CHAIN",
+  "direct_code_recovery": {
+    "status": "CONFIRMED",
+    "function": "FUN_059ef114",
+    "function_ghidra": "0x59ef114",
+    "function_elf": "0x58ef114",
+    "title_materialization": {
+      "ghidra_range": "0x59ef9b0-0x59ef9b4",
+      "instructions": "ADRP x2, 0x2844000; ADD x2, x2, #0x37e"
+    },
+    "message_construction": "FUNCTION_LOCAL_CONDITIONAL_CONSTRUCTION"
+  },
+  "page_only_hits_used_as_xrefs": false
+}

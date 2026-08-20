@@ -1,0 +1,29 @@
+{
+  "phase": "Phase15M",
+  "java_class": "com.epicgames.ue4.MessageBox01",
+  "java_api": [
+    {"method": "<init>", "signature": "()V", "dex_address": "0x5a15fc"},
+    {"method": "setCaption", "signature": "(Ljava/lang/String;)V", "dex_address": "0x5a18a0"},
+    {"method": "setText", "signature": "(Ljava/lang/String;)V", "dex_address": "0x5a18b8"},
+    {"method": "addButton", "signature": "(Ljava/lang/String;)V", "dex_address": "0x5a164c"},
+    {"method": "show", "signature": "()I", "dex_address": "0x5a18d0"}
+  ],
+  "native_lookup_initializer": {
+    "function": "FUN_082480a8",
+    "ghidra_address": "0x82480a8",
+    "elf_virtual_address": "0x81480a8",
+    "exact_plaintext_methods": ["setCaption", "addButton", "show"],
+    "exact_plaintext_signatures": ["()V", "(Ljava/lang/String;)V", "()I"]
+  },
+  "messagebox_native_bridge": "REFLECTION_LOOKUP",
+  "bridge_confidence": "PROBABLE",
+  "native_messagebox_function": {
+    "function": "FUN_081dea3c",
+    "ghidra_address": "0x81dea3c",
+    "elf_virtual_address": "0x80dea3c",
+    "call_target_confidence": "CONFIRMED",
+    "messagebox_semantics_confidence": "PROBABLE",
+    "body_status": "PROTECTED_NON_DISASSEMBLABLE"
+  },
+  "native_waits_for_dialog_result": "UNKNOWN"
+}

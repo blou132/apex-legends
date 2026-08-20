@@ -1,0 +1,36 @@
+{
+  "phase": "Phase15M",
+  "static_order": "AFTER_PARTIAL_RHI_INIT",
+  "success": {
+    "next_function": "FUN_059efff8",
+    "ghidra_address": "0x59efff8",
+    "elf_virtual_address": "0x58efff8",
+    "stage": "OPENGL_EGL_BACKEND_INITIALIZATION",
+    "direct_api_evidence": [
+      "eglGetDisplay",
+      "eglInitialize",
+      "eglBindAPI",
+      "eglQuerySurface",
+      "eglQueryString"
+    ],
+    "common_tail": {
+      "function": "FUN_059efe00",
+      "ghidra_address": "0x59efe00",
+      "apis": ["eglMakeCurrent", "glFlush", "eglGetCurrentContext"]
+    }
+  },
+  "failure": {
+    "behavior": "BUILD_AND_INVOKE_DIALOG_THEN_COMMON_GRAPHICS_TAIL_RETURN_1",
+    "direct_dialog_target": "0x81dea3c",
+    "post_dialog_helper": "FUN_062f11e8",
+    "returns_false": false,
+    "process_termination_proven": false,
+    "exit_request_proven": false,
+    "native_waits_for_dialog_result": "UNKNOWN",
+    "dialog_blocks_bootstrap": "PROBABLE"
+  },
+  "splash": {
+    "graphics_success_controls_splash_dismiss": "NO_EVIDENCE",
+    "native_splash_dismiss_trigger": "UNKNOWN"
+  }
+}

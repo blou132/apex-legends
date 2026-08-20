@@ -1,0 +1,32 @@
+{
+  "phase": "Phase15M",
+  "capability_initializer": {
+    "function": "FUN_05db077c",
+    "ghidra_address": "0x5db077c",
+    "elf_virtual_address": "0x5cb077c"
+  },
+  "gles31": {
+    "source": "glGetString(GL_VERSION) followed by major/minor parsing",
+    "required_value": "OpenGL ES 3.1",
+    "predicate": "major == 3 && minor >= 1",
+    "ro_opengles_version_used": false
+  },
+  "float_render_target": {
+    "source": "glGetString(GL_EXTENSIONS)",
+    "global_ghidra_address": "0xb9a9068",
+    "extensions": [
+      "GL_EXT_color_buffer_half_float",
+      "GL_EXT_color_buffer_float"
+    ],
+    "predicate": "has(GL_EXT_color_buffer_half_float) || (is_gles3 && has(GL_EXT_color_buffer_float))",
+    "part_of_rejection_branch": false,
+    "role": "DIAGNOSTIC_CAPABILITY"
+  },
+  "es2_fallback": {
+    "source": "AndroidRuntimeSettings.bBuildForES2",
+    "available": false,
+    "confidence": "CONFIRMED"
+  },
+  "es31_package_flag": "AndroidRuntimeSettings.bBuildForES31",
+  "disable_cvar": "r.Android.DisableOpenGLES31Support"
+}

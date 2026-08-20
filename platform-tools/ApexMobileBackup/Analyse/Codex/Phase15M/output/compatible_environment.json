@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15M",
+  "required_gles_version": "OpenGL ES 3.1",
+  "required_gles_predicate": "major == 3 && minor >= 1",
+  "required_float_rt_feature_for_reported_capability": "GL_EXT_color_buffer_half_float OR (GLES3 AND GL_EXT_color_buffer_float)",
+  "float_rt_is_rejecting_operand": false,
+  "required_other_graphics_features": [
+    "AndroidRuntimeSettings.bBuildForES31 == true",
+    "r.Android.DisableOpenGLES31Support == 0"
+  ],
+  "es2_fallback_available": false,
+  "cleanroom_graphics_probe_spec_ready": true,
+  "client_modification_required": false
+}

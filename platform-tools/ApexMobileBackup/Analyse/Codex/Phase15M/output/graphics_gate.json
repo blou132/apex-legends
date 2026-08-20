@@ -1,0 +1,17 @@
+{
+  "phase": "Phase15M",
+  "graphics_error_builder": {
+    "function": "FUN_059ef114",
+    "ghidra_address": "0x59ef114",
+    "elf_virtual_address": "0x58ef114",
+    "source_path": "Engine/Source/Runtime/OpenGLDrv/Private/Android/AndroidOpenGL.cpp",
+    "confidence": "CONFIRMED"
+  },
+  "supports_es31": "major == 3 && minor >= 1",
+  "primary_es31_ok": "disable_cvar == 0 && bBuildForES31 && supports_es31",
+  "show_dialog": "!primary_es31_ok && !bBuildForES2",
+  "float_rt_used_in_show_dialog": false,
+  "pseudocode_document": "08_graphics_gate_logic.md",
+  "return_value": 1,
+  "final_gate": "A EXACT_GRAPHICS_GATE_AND_SUCCESS_PATH_RESOLVED"
+}

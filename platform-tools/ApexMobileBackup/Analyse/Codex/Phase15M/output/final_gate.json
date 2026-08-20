@@ -1,0 +1,16 @@
+{
+  "phase": "Phase15M",
+  "final_gate": "A EXACT_GRAPHICS_GATE_AND_SUCCESS_PATH_RESOLVED",
+  "native_messagebox_function": "FUN_081dea3c (direct target; probable semantics)",
+  "graphics_error_builder_function": "FUN_059ef114",
+  "graphics_gate_resolved": true,
+  "success_path_resolved": true,
+  "native_dialog_wait_resolved": false,
+  "splash_dismiss_trigger_resolved": false,
+  "libue4_sha256": "0D45F92C5D0D2805DA35F223B8E3D352041943C9C2B2B5C914F0E1A1C1EC2977",
+  "runtime_used": false,
+  "network_used": false,
+  "raw_outputs_published": false,
+  "commit": "Resolve native graphics compatibility gate Phase15M",
+  "git_status": "CLEAN_EXPECTED_AFTER_COMMIT"
+}
