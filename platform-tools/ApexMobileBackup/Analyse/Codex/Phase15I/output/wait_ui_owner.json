@@ -1,0 +1,25 @@
+{
+  "phase": "Phase15I",
+  "owner": "ANDROID",
+  "layers": [
+    {
+      "component": "lightspeed_splash",
+      "owner": "apex_gameactivity_android_videoview",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "component": "wait_button",
+      "owner": "android_systemui_anr_dialog",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "component": "later_ok_dialog",
+      "owner": "apex_gameactivity_android_window",
+      "creator": "UNKNOWN",
+      "confidence": "PARTIAL"
+    }
+  ],
+  "creator": "GameActivity.onCreate",
+  "exit_function": "GameActivity.AndroidThunkJava_DismissSplashScreen",
+  "exit_condition": "NATIVE_EXPLICIT_DISMISS_REQUIRED; EXACT_NATIVE_TRIGGER_UNKNOWN"
+}

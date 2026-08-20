@@ -393,6 +393,12 @@ Use this order to avoid repeating conclusions that were later corrected:
   negative Lua/Login searches, ordered offline network attempts, restoration,
   shutdown, and final gate. Raw logs, dumps, screenshots, endpoint/process data,
   and the local run script remain ignored.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/`: cleaned screenshot
+  layer classification, APK splash resource and Java exit flow, targeted UE4
+  asset exclusion, wait timeline, logging frameworks, official SDK file sinks,
+  public accessibility witness, client-stage tag limits, and final gate. No new
+  runtime operation occurred; raw screenshots, logs, binaries, and scratch
+  analysis remain ignored.
 
 ## Machine-readable evidence
 
@@ -447,8 +453,48 @@ Use this order to avoid repeating conclusions that were later corrected:
   graphics/runtime stage, negative Lua/Login evidence, sanitized network order,
   screen classifications, and shutdown. No raw log, screenshot, process ID,
   endpoint, private path, or URL query is published.
+- `Phase15I/output/*.json`: cleaned screenshot classification, Android wait
+  ownership, splash exit conditions, relative wait timeline, logging framework
+  and sink inventory, client-stage tag limits, and final gate. No raw image,
+  log, APK, DEX, native library, process identifier, or private path is
+  published.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
+
+## Phase15I authoritative correction
+
+- `CONFIRMED`: Phase15I was local-only. It used retained Phase15H images,
+  window data, logs, exact APK/DEX/native libraries, and prior inventories. No
+  ADB, emulator, phone, Apex launch, or network operation occurred.
+- `INVALIDATED`: treating the visible Phase15H `Wait` action as one Apex or UE4
+  wait UI. It belongs to a SystemUI ANR dialog that was drawn before the Apex
+  splash started.
+- `CONFIRMED`: the Lightspeed visual is the exact APK's raw splash video,
+  inflated by `GameActivity.onCreate` into an Android `AspectVideoView`. No UE4
+  PAK asset is required to explain the splash.
+- `CONFIRMED`: an additional Apex-owned Android application dialog appears
+  around `+25.269 s` and exposes an `OK` action. Its obscured message and exact
+  creator remain `UNKNOWN` and it is not a proved blocker.
+- `CONFIRMED`: the Java splash exit is
+  `AndroidThunkJava_DismissSplashScreen()`. Automatic removal is disabled in
+  the exact build, so video completion alone is insufficient. The native
+  caller/state that triggers explicit dismissal remains `UNKNOWN`.
+- `NO_EVIDENCE`: a direct TDM or GCloud edge controlling splash dismissal.
+  Their failures are correlated retries, not established wait dependencies.
+- `CONFIRMED`: official SDK file logging is compiled and observed initialized
+  for GCloudCore/MSDK, with TDM file writers also present. Phase8 historically
+  recorded eight files in a public SDK log directory without collecting their
+  contents. This is a shell-readable official sink witness, but not proof of
+  named UE4/Lua/Login stage messages.
+- `UNKNOWN`: an exact UE4 core file-log sink. No targeted `Saved/Logs`, project
+  log, or native file-output chain was established.
+- `CONFIRMED`: useful observed tags are `UE4`, `GCloudCore`, `GCloud`, `TDM`,
+  `[MSDK]`, `MSDK`, `[CrashSightReport]`, and `PluginMSDK`. No exact named
+  client-stage log tag was established for Lua, ClientLaunch, EventSystem,
+  LoginMgr, RequestAvatarServerList, or OpenServerList.
+- Phase15I gate is `B OFFICIAL_READABLE_APPLICATION_LOG_SINK_FOUND`. The next
+  bounded runtime method, only if separately authorized, is
+  `READ_OFFICIAL_CLIENT_LOG_ONLY`.
 
 ## Evidence rules
 

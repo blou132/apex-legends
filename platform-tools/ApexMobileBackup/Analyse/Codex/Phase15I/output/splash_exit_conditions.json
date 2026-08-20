@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15I",
+  "auto_remove_splash": false,
+  "video_completion": {
+    "sets_video_end": true,
+    "calls_native_completion": true,
+    "dismisses_in_exact_build": false
+  },
+  "confirmed_exit_function": "GameActivity.AndroidThunkJava_DismissSplashScreen",
+  "native_trigger": "UNKNOWN",
+  "network_dependency_edges": {
+    "tdm": "NO_EVIDENCE",
+    "gcloud": "NO_EVIDENCE"
+  }
+}

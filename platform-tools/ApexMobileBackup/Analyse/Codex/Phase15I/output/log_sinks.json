@@ -1,0 +1,12 @@
+{
+  "phase": "Phase15I",
+  "official_log_sink_found": true,
+  "official_log_sink_type": "SDK_FILE_LOGS_PLUS_SYSTEM_LOGCAT",
+  "shell_readable": "YES_FOR_HISTORICAL_PUBLIC_SDK_FILES_AND_LOGCAT",
+  "historical_public_log_witness": {
+    "found": true,
+    "file_count": 8,
+    "contents_inspected": false
+  },
+  "ue4_core_file_sink": "UNKNOWN"
+}

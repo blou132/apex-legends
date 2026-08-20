@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15I",
+  "named_client_stage_log_tags_found": false,
+  "confirmed_runtime_tags": [
+    "UE4",
+    "GCloudCore",
+    "GCloud",
+    "TDM",
+    "[MSDK]",
+    "MSDK",
+    "[CrashSightReport]",
+    "PluginMSDK"
+  ],
+  "unconfirmed_stage_keywords": [
+    "Lua",
+    "ClientLaunch",
+    "EventSystem",
+    "LoginMgr",
+    "RequestAvatarServerList",
+    "OpenServerList"
+  ]
+}

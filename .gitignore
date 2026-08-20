@@ -55,6 +55,8 @@ platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/local_only_recovered/
 *.rep/
 *.lock
 *.class
+**/__pycache__/
+*.pyc
 
 # Backup archives and bulk exports.
 platform-tools/ApexMobileBackup/**/*.tar

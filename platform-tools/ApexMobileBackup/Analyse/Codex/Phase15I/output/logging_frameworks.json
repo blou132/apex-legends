@@ -1,0 +1,13 @@
+{
+  "phase": "Phase15I",
+  "frameworks": [
+    {"name": "android_log", "sink": "system_logcat", "observed": true},
+    {"name": "gcloudcore_file_logger", "sink": "sdk_file_log", "initialized": true},
+    {"name": "msdk_xlog", "sink": "sdk_file_log", "initialized": true},
+    {"name": "tdm_logger", "sink": "sdk_file_log", "compiled": true, "active": true},
+    {"name": "crashsight", "sink": "crash_artifact_and_telemetry", "initialized": true},
+    {"name": "ue4_core_file_log", "sink": "UNKNOWN", "compiled": "UNKNOWN"}
+  ],
+  "file_logging_compiled": "YES_FOR_SDK_LOGGERS; UNKNOWN_FOR_UE4_CORE",
+  "file_logging_enabled_by_default": "YES_FOR_OBSERVED_GCLOUD_MSDK_LOGGERS; UNKNOWN_FOR_UE4_CORE"
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15I",
+  "first_blocking_dependency": "UNKNOWN",
+  "next_runtime_method": "READ_OFFICIAL_CLIENT_LOG_ONLY",
+  "final_gate": "B_OFFICIAL_READABLE_APPLICATION_LOG_SINK_FOUND",
+  "commit": "Resolve splash wait and logging sinks Phase15I",
+  "new_runtime_run_performed": false,
+  "raw_artifacts_published": false
+}

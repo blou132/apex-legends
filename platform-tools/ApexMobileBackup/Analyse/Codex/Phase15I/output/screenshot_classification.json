@@ -1,0 +1,24 @@
+{
+  "phase": "Phase15I",
+  "screens": {
+    "plus_5_seconds": [
+      "android_immersive_tutorial",
+      "systemui_anr_wait",
+      "dark_apex_surface"
+    ],
+    "plus_30_seconds": [
+      "android_overlays",
+      "lightspeed_logo",
+      "apex_application_dialog_ok"
+    ],
+    "plus_120_seconds": [
+      "android_overlays",
+      "lightspeed_logo",
+      "apex_application_dialog_ok"
+    ]
+  },
+  "visually_changes": "YES_BETWEEN_5S_AND_30S; NO_BETWEEN_30S_AND_120S",
+  "progress_visible": false,
+  "wait_text_owner": "android_systemui",
+  "raw_images_published": false
+}

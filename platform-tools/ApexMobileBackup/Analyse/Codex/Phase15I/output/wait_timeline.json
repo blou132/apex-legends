@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15I",
+  "clock": "relative_to_post_resume_t0",
+  "events": [
+    {"time_seconds": -13.788, "event": "systemui_anr_dialog_drawn"},
+    {"time_seconds": -4.457, "event": "apex_splash_start"},
+    {"time_seconds": 0.0, "event": "gameactivity_resume_complete"},
+    {"time_seconds": 0.109, "event": "first_tdm_attempt"},
+    {"time_seconds": 16.305, "event": "egl_initialization"},
+    {"time_seconds": 17.127, "event": "vulkan_discovery"},
+    {"time_seconds": 25.269, "event": "apex_android_alert_window_appears"},
+    {"time_seconds": 30.0, "event": "lightspeed_splash_visible"},
+    {"time_seconds": 120.0, "event": "unchanged_lightspeed_splash_visible"},
+    {"time_seconds": 300.0, "event": "process_foreground_alive"}
+  ],
+  "tdm_wait_dependency": "NO_EVIDENCE",
+  "gcloud_wait_dependency": "NO_EVIDENCE"
+}
