@@ -1,0 +1,15 @@
+# Client stage search
+
+The bounded named-stage search was not reachable because no Apex logcat scope
+exists. The following are evidence statuses, not claims that those stages would
+not execute:
+
+```text
+LUA_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+CLIENTLAUNCH_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+EVENTSYSTEM_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+LOGIN_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+REQUEST_AVATAR_SERVER_LIST_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+AVATAR_SERVER_LIST_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+EVENT_0X138_RUNTIME_EVIDENCE = NO_NEW_EVIDENCE
+```

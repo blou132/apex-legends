@@ -1,0 +1,11 @@
+{
+  "search_scope_available": false,
+  "lua_runtime_evidence": "NO_NEW_EVIDENCE",
+  "clientlaunch_runtime_evidence": "NO_NEW_EVIDENCE",
+  "eventsystem_runtime_evidence": "NO_NEW_EVIDENCE",
+  "login_runtime_evidence": "NO_NEW_EVIDENCE",
+  "request_avatar_server_list_runtime_evidence": "NO_NEW_EVIDENCE",
+  "avatar_server_list_runtime_evidence": "NO_NEW_EVIDENCE",
+  "event_0x138_runtime_evidence": "NO_NEW_EVIDENCE",
+  "absence_interpretation": "CLIENT_NOT_LAUNCHED"
+}

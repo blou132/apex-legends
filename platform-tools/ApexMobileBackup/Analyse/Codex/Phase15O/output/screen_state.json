@@ -1,0 +1,11 @@
+{
+  "screenshots_captured": 0,
+  "states": {
+    "5s": "NOT_CAPTURED_POST_RESUME_NOT_REACHED",
+    "15s": "NOT_CAPTURED_POST_RESUME_NOT_REACHED",
+    "30s": "NOT_CAPTURED_POST_RESUME_NOT_REACHED",
+    "60s": "NOT_CAPTURED_POST_RESUME_NOT_REACHED",
+    "120s": "NOT_CAPTURED_POST_RESUME_NOT_REACHED"
+  },
+  "ui_hierarchy_client_content": "NOT_CAPTURED_CLIENT_NOT_LAUNCHED"
+}

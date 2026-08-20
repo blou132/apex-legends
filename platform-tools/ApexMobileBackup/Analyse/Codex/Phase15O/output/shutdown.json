@@ -1,0 +1,12 @@
+{
+  "apex_force_stop_required": false,
+  "network_changed": false,
+  "network_restored": "NOT_REQUIRED_NETWORK_UNCHANGED",
+  "emulator_console_shutdown_requested": true,
+  "avd_shutdown_clean": true,
+  "adb_endpoint_remaining": false,
+  "target_emulator_process_remaining": false,
+  "physical_device_present_final": false,
+  "apex_phase9lab_persistent_config_unchanged": true,
+  "final_gate": "G SYSTEMUI_PRELAUNCH_ANR_STOP"
+}

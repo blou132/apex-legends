@@ -1,0 +1,9 @@
+{
+  "network_initial_state": "NOT_REACHED",
+  "network_isolation": "NOT_REACHED",
+  "network_changed": false,
+  "client_launched": false,
+  "client_network_attempts": [],
+  "network_response_received": false,
+  "network_restored": "NOT_REQUIRED_NETWORK_UNCHANGED"
+}

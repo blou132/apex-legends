@@ -1,0 +1,18 @@
+{
+  "physical_device_present": false,
+  "whpx_acceleration": "WHPX(10.0.26200) installed and usable",
+  "accel_check_exit_code": 0,
+  "avd": "ApexPhase9Lab",
+  "gpu_mode": "host",
+  "read_only_avd": true,
+  "snapshot_load": false,
+  "snapshot_save": false,
+  "wipe_data": false,
+  "boot_completed": true,
+  "systemui_settle_seconds": 60,
+  "systemui_preflight_stable": false,
+  "systemui_anr_window_confirmed": true,
+  "package_state": "NOT_REACHED",
+  "obb_state": "NOT_REACHED",
+  "validation_cache_state": "NOT_REACHED"
+}

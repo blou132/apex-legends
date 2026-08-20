@@ -1,0 +1,14 @@
+{
+  "version_bootstrap_runtime_evidence": "NO_NEW_EVIDENCE",
+  "update_error_runtime_evidence": "NO_NEW_EVIDENCE",
+  "update_error_code": "NOT_OBSERVED",
+  "update_error_class": "UNKNOWN",
+  "update_error_visible_text": "NOT_OBSERVED",
+  "I54140715_runtime_witness": "NO_NEW_EVIDENCE",
+  "update_ui_owner": "UNKNOWN",
+  "version_bootstrap_component": "UNKNOWN",
+  "version_request_function": "UNKNOWN",
+  "version_request_method": "UNKNOWN",
+  "version_request_url_or_host": "UNKNOWN",
+  "static_correlation_performed": false
+}
