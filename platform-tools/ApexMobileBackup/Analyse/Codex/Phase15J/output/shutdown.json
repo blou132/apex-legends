@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15J",
+  "apex_force_stop_confirmed": true,
+  "network_restored": true,
+  "avd_shutdown_clean": true,
+  "no_adb_endpoint_remaining": true,
+  "collection_retry": {
+    "apex_launched": false,
+    "network_isolated": true,
+    "public_log_files_copied": 8,
+    "network_restored": true,
+    "avd_shutdown_clean": true
+  }
+}

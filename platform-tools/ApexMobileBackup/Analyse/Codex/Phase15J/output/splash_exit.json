@@ -1,0 +1,8 @@
+{
+  "phase": "Phase15J",
+  "splash_start_runtime": "CONFIRMED_EXISTING_WITNESS",
+  "video_completion_runtime": "NO_NEW_EVIDENCE",
+  "splash_dismiss_runtime": "NO_NEW_EVIDENCE",
+  "native_splash_dismiss_trigger": "UNKNOWN",
+  "android_launcher_splash_exit_is_application_video_dismiss": false
+}

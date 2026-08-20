@@ -1,0 +1,19 @@
+{
+  "phase": "Phase15J",
+  "clock": "relative_to_post_resume_t0",
+  "isolation_confirmed": true,
+  "attempts": [
+    {"time_seconds": 0.060, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 7.789, "component": "GCloudCore", "method": "CONFIG_REQUEST", "host": "cloudctrl.mgapex.com", "failure": "UNKNOWN_HOST"},
+    {"time_seconds": 15.098, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 18.040, "component": "GCloudCore", "method": "CONFIG_RETRY", "host": "cloudctrl.mgapex.com", "failure": "UNKNOWN_HOST"},
+    {"time_seconds": 28.185, "component": "GCloudCore", "method": "CONFIG_RETRY", "host": "cloudctrl.mgapex.com", "failure": "UNKNOWN_HOST"},
+    {"time_seconds": 35.114, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 60.129, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 90.143, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 125.155, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"},
+    {"time_seconds": 165.164, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com:8013", "failure": "NAME_RESOLUTION_CODE_6"}
+  ],
+  "response_supplied": false,
+  "direct_wait_dependency_edge": false
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15J",
+  "public_sdk_log_directory_present": true,
+  "public_tree_file_count": 7,
+  "preexisting_log_file_count": 5,
+  "categories": {
+    "GCloudCore": 2,
+    "GCloud": 2,
+    "MSDK": 1
+  },
+  "readable_without_root": true,
+  "client_stage_evidence": false,
+  "login_hits": {
+    "count": 2,
+    "classification": "SDK_INTERNAL_PROVIDER_LIST"
+  },
+  "raw_files_published": false
+}

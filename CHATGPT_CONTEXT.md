@@ -399,6 +399,11 @@ Use this order to avoid repeating conclusions that were later corrected:
   public accessibility witness, client-stage tag limits, and final gate. No new
   runtime operation occurred; raw screenshots, logs, binaries, and scratch
   analysis remain ignored.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/`: cleaned public SDK
+  log inventory and comparison, one bounded offline launch, cache reuse,
+  filtered tags, Apex Android dialog window boundary, splash-exit limits,
+  client-stage non-observations, network timeline, restoration, and final gate.
+  Raw official logs, logcat, UI/window dumps, and scripts remain ignored.
 
 ## Machine-readable evidence
 
@@ -458,6 +463,11 @@ Use this order to avoid repeating conclusions that were later corrected:
   and sink inventory, client-stage tag limits, and final gate. No raw image,
   log, APK, DEX, native library, process identifier, or private path is
   published.
+- `Phase15J/output/*.json`: cleaned preexisting/runtime official-log metadata,
+  Apex dialog window counts, splash-exit status, client-stage results, relative
+  offline network attempts, and shutdown evidence. No raw log, UI dump,
+  process identifier, request body, query, token, account, or private path is
+  published.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -496,6 +506,46 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   bounded runtime method, only if separately authorized, is
   `READ_OFFICIAL_CLIENT_LOG_ONLY`.
 
+## Phase15J authoritative runtime result
+
+- `CONFIRMED`: no physical device was present. WHPX was usable and the unchanged
+  `ApexPhase9Lab` AVD booted without wipe, reinstall, or snapshot load/save.
+- `CONFIRMED`: five official SDK files were readable before Apex launch: two
+  GCloudCore logs, two empty GCloud logs, and one MSDK XLog file. Their only
+  `Login` hits are a generic SDK provider list, not an Apex Login stage.
+- `CONFIRMED`: one bounded offline Apex launch was performed. Both OBBs and the
+  two-row validation cache matched. Downloader state `4` returned result `1`
+  in about `0.257 s`, no full validation occurred, and `GameActivity` resumed.
+- `CONFIRMED`: Apex remained alive with application windows present through
+  `+180 s` post-resume. No user account or application click was used.
+- `CONFIRMED`: official files increased from five to eight by `+30 s`: one new
+  GCloudCore log, one empty GCloud log, and one MSDK XLog file. Existing files
+  did not grow. New content is SDK initialization/configuration and offline
+  request activity only.
+- `CONFIRMED`: the established useful logcat tags emitted messages, but neither
+  official files nor logcat provide a new Lua, ClientLaunch, EventSystem,
+  LoginMgr, RequestAvatarServerList, or event `0x138` runtime witness.
+- `CONFIRMED`: the Apex-owned Android window count changes from two at `+15 s`
+  to three at `+30 s`. The new wrap-content `GameActivity` window persists
+  through `+180 s`, reproducing the Phase15H Apex dialog boundary.
+- `UNKNOWN`: the Apex dialog title, message, and role. The permitted UI command
+  returned only completion status rather than hierarchy XML while the
+  preexisting SystemUI ANR and immersive overlays remained foreground. No
+  dialog button was clicked.
+- `NO_NEW_EVIDENCE`: splash video completion, Java splash dismissal, or the
+  native dismissal trigger. The Android launcher splash exit is a separate OS
+  transition and does not prove APK video-splash dismissal.
+- `NO_EVIDENCE`: TDM or GCloud as the first blocking dependency. Both fail at
+  name resolution while the client remains alive and the dialog persists.
+- `CONFIRMED`: Apex was force-stopped, guest network state restored exactly,
+  the AVD shut down, and no ADB endpoint or emulator process remains. A later
+  collection-only boot copied all eight public logs without launching Apex and
+  was likewise restored and shut down.
+- Phase15J gate is `D OFFICIAL_LOGS_READABLE_SDK_ONLY_NO_CLIENT_STAGE`. Do not
+  repeat broad official-log collection. The narrow future observation, only if
+  separately authorized, is a read-only Apex dialog hierarchy capture with the
+  unrelated SystemUI overlay absent.
+
 ## Evidence rules
 
 - Cite the source file and exact address for every technical conclusion.
@@ -527,5 +577,10 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
    UI to the first named Lua, ClientLaunch, Login, or server-list stage. Do not
    infer those stages from a splash, wait UI, SDK lifecycle callback, or TDM
    retry.
+10. Phase15J has exhausted the readable public SDK logs for this wait state.
+    Do not repeat broad SDK-log collection. If another bounded run is
+    authorized, target only the Apex dialog hierarchy after excluding the
+    unrelated preexisting SystemUI overlay; otherwise continue the static
+    native caller search for `AndroidThunkJava_DismissSplashScreen()`.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Lua/Login reachability, the exact UE4 post-resume function, mapping, load bias, gameplay frame, and wait-state cause remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Lua/Login reachability, the exact native splash-dismiss trigger, the dialog message, mapping, load bias, and gameplay frame remain unknown.

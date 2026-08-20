@@ -1,0 +1,29 @@
+{
+  "phase": "Phase15J",
+  "new_runtime_run_required": true,
+  "apex_launch_count": 1,
+  "network_isolated": true,
+  "validation_cache_reused": true,
+  "explicit_down_pob_0_marker_observed": false,
+  "cache_reuse_basis": "VALID_CACHE_STATE_4_RESULT_1_NO_FULL_VALIDATION",
+  "gameactivity_resumed": true,
+  "process_alive_through_seconds": 180,
+  "official_log_counts": {
+    "prelaunch": 5,
+    "plus_30": 8,
+    "plus_120": 8,
+    "end": 8
+  },
+  "target_tag_counts": {
+    "UE4": 2,
+    "GCloudCore": 189,
+    "GCloud": 27,
+    "TDM": 85,
+    "[MSDK]": 56,
+    "MSDK": 9,
+    "[CrashSightReport]": 2,
+    "PluginMSDK": 2
+  },
+  "new_official_messages": "YES_SDK_ONLY",
+  "raw_logcat_published": false
+}

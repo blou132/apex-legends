@@ -1,0 +1,20 @@
+{
+  "phase": "Phase15J",
+  "systemui_anr_present_before_apex": true,
+  "apex_window_count": {
+    "plus_5": 2,
+    "plus_15": 2,
+    "plus_30": 3,
+    "plus_60": 3,
+    "plus_120": 3,
+    "plus_180": 3
+  },
+  "dialog_present": true,
+  "owner": "APEX_GAMEACTIVITY_ANDROID_WINDOW",
+  "title": "UNKNOWN",
+  "message": "UNKNOWN",
+  "buttons": "OK_VISUAL_WITNESS_FROM_PHASE15H",
+  "role": "UNKNOWN",
+  "clicked": false,
+  "raw_ui_published": false
+}
