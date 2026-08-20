@@ -1,0 +1,19 @@
+{
+  "immediate_cause": "SERVICE_EXECUTION_TIMEOUT",
+  "blocking_mechanism": "SYSTEMUI_MAIN_RUNNABLE_BUT_CPU_STARVED_DURING_SYSTEMUISERVICE_STARTUP",
+  "resource_cause": "CPU_SCHEDULER_CONTENTION_DOMINATED_BY_KERNEL_WORK",
+  "largest_explicit_contributor": "SURFACEFLINGER_RENDERENGINE",
+  "deep_root_cause": "UNKNOWN",
+  "binder_dependency": false,
+  "lock_deadlock": false,
+  "direct_surfaceflinger_wait": false,
+  "memory_cause": false,
+  "general_system_image_environment_instability": "STRONGLY_SUPPORTED",
+  "matrix_failures": [
+    "HOST_READONLY",
+    "HOST_WRITABLE",
+    "AUTO_READONLY",
+    "AUTO_WRITABLE"
+  ],
+  "final_gate": "B SYSTEMUI_BLOCKING_STACK_RESOLVED_ROOT_CAUSE_UNKNOWN"
+}

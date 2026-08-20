@@ -1,0 +1,11 @@
+{
+  "high_cpu_confirmed": true,
+  "anr_window_process_cpu_percent": 94,
+  "anr_window_process_kernel_percent": 93,
+  "focused_window_process_cpu_percent": 93,
+  "busy_thread": "RenderEngine",
+  "busy_thread_cpu_percent": 78,
+  "busy_thread_kernel_percent": 77,
+  "systemui_direct_wait_on_surfaceflinger": false,
+  "classification": "CPU_PRESSURE_CONTRIBUTOR_WITHOUT_DIRECT_SYSTEMUI_DEPENDENCY"
+}

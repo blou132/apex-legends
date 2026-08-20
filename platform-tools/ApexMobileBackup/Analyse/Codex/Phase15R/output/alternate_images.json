@@ -1,0 +1,10 @@
+{
+  "installed_system_images": [
+    "system-images;android-36.1;google_apis_playstore;x86_64"
+  ],
+  "alternate_local_images": [],
+  "alternate_system_image_test_justified": true,
+  "download_performed": false,
+  "avd_created": false,
+  "decision_basis": "FOUR_MATRIX_QUADRANTS_FAIL_BEFORE_ANY_CLIENT_LAUNCH_WITH_CPU_STARVED_SYSTEMUI_STARTUP"
+}

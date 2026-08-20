@@ -1,0 +1,11 @@
+{
+  "process": "com.android.systemui",
+  "type": "SERVICE_EXECUTION_TIMEOUT",
+  "service": "com.android.systemui/.keyguard.KeyguardService",
+  "duration_ms": 20131,
+  "reason": "executing service com.android.systemui/.keyguard.KeyguardService, waited 20131ms",
+  "visible_window": "Application Not Responding: com.android.systemui",
+  "event_seconds_after_t0": 15.813,
+  "first_visible_checkpoint_seconds": 30.265,
+  "event_correlation": "EXACT_TIMESTAMP_PROCESS_AND_REASON"
+}

@@ -1,0 +1,29 @@
+{
+  "avd": "ApexGraphicsProbe",
+  "gpu_mode": "auto",
+  "writable": true,
+  "snapshot_load": false,
+  "snapshot_save": false,
+  "boot_completed": true,
+  "systemui_stable": false,
+  "checkpoints_seconds": [
+    {
+      "target": 0,
+      "actual": 1.25,
+      "systemui_anr_visible": false
+    },
+    {
+      "target": 15,
+      "actual": 15.44,
+      "systemui_anr_visible": false
+    },
+    {
+      "target": 30,
+      "actual": 30.265,
+      "systemui_anr_visible": true
+    }
+  ],
+  "anr_event_seconds_after_t0": 15.813,
+  "bugreport_attempts": 1,
+  "application_launch_commands": 0
+}

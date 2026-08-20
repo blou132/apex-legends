@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15Q completed)
+Updated: 2026-08-20 (Phase15R completed)
 
 ## Purpose
 
@@ -12,42 +12,43 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Q/REPORT_PHASE15Q.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15P/REPORT_PHASE15P.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15O/REPORT_PHASE15O.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15N/REPORT_PHASE15N.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-31. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-32. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-33. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-34. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-35. The relevant topic report and matching JSON from the newest phase
-36. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15R/REPORT_PHASE15R.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Q/REPORT_PHASE15Q.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15P/REPORT_PHASE15P.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15O/REPORT_PHASE15O.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15N/REPORT_PHASE15N.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+31. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+32. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+33. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+34. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+35. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+36. The relevant topic report and matching JSON from the newest phase
+37. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -745,6 +746,41 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   timeout is direct evidence, while the deeper source of CPU saturation remains
   unknown.
 
+## Phase15R authoritative SystemUI blocking-stack result
+
+- `CONFIRMED`: the missing `auto + writable` matrix quadrant booted on the
+  disposable `ApexGraphicsProbe` AVD and reproduced a visible SystemUI ANR at
+  the `+30.265 s` checkpoint. The exact ActivityManager event occurred at
+  `+15.813 s` and records `KeyguardService` waiting `20131 ms`.
+- `CONFIRMED`: exactly one valid local-only bugreport contains the exact matching
+  SystemUI ANR trace. The main thread is `Runnable` in Dagger provider
+  construction under `SystemUIService.onCreate`; no Binder, lock, condition, or
+  renderer wait exists on that stack.
+- `CONFIRMED`: the Keyguard callback had not been reached. Its bind was requested
+  but the binder/result remained absent because service lifecycle work was
+  queued behind prolonged SystemUIService startup on the same main thread.
+- `CONFIRMED`: SystemUI main accumulated about `2.780 s` runtime and `16.950 s`
+  scheduler wait. Total guest CPU reached `96-97%`, CPU PSI `some avg10` reached
+  `79.49`, and kernel CPU accounted for `82-83%`.
+- `CONFIRMED`: SurfaceFlinger reached `94%` CPU in the ANR interval and its
+  RenderEngine thread accounted for `78%` in a focused interval. It is an
+  explicit CPU-pressure contributor, but SystemUI has no direct wait edge to
+  SurfaceFlinger.
+- `CONFIRMED`: no Binder dependency, contested lock, deadlock, memory pressure,
+  swap pressure, OOM/LMK, or watchdog event explains the ANR. system_server
+  remained responsive while asynchronously tracking the incomplete service.
+- `STRONGLY SUPPORTED`: all four host/auto and readonly/writable quadrants now
+  fail before any Apex launch. The current Android 36.1 Google Play
+  image/environment is unsuitable as a stable runtime baseline.
+- `UNKNOWN`: the deep source of the kernel CPU behavior remains unresolved; it
+  is not assigned specifically to the image, emulator, renderer, host, or
+  hardware.
+- `CONFIRMED`: no alternate image is locally installed. A future test with a
+  different image in a new disposable AVD is technically justified, but
+  Phase15R downloaded and created nothing.
+- Phase15R gate is
+  `B SYSTEMUI_BLOCKING_STACK_RESOLVED_ROOT_CAUSE_UNKNOWN`.
+
 ## Evidence rules
 
 - Cite the source file and exact address for every technical conclusion.
@@ -756,11 +792,14 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Phase15H confirms the Phase15G validation cache is reused, with result `1`
-   returned in `0.957 s`. Do not repeat downloader/cache/CRC observations.
-2. Preserve the existing AVD and do not wipe it, patch artifacts, enable root,
-   or assume diagnostic access merely because `debuggerd` and `showmap` exist.
-3. Do not change BCD; WHPX works and the AVD boot is stable.
+1. Do not repeat the four-case renderer/userdata matrix on the current Android
+   36.1 image. If a future phase permits obtaining another system image, test it
+   only in a new disposable AVD and establish SystemUI stability before Apex.
+2. Preserve the existing AVDs and do not wipe them, patch artifacts, enable
+   root, or assume diagnostic access merely because `debuggerd` and `showmap`
+   exist.
+3. Do not change BCD; WHPX works. The unresolved blocker is guest SystemUI
+   startup CPU starvation, not acceleration availability.
 4. Do not repeat static ownership scans across the 17 exact APK libraries;
    Phase13 exhausted that scope without proving an owner.
 5. Do not repeat or escalate Phase15D diagnostics or attempt profiling on the
@@ -788,4 +827,4 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
     native splash-dismiss trigger, or a separately justified legitimately
     compatible graphics environment. Do not patch or bypass the gate.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K proves hierarchy capture but stops on a prelaunch SystemUI ANR. Phase15L captures the full compatibility dialog and identifies `MessageBox01` as the probable non-cancelable Java creator. Phase15M resolves the exact native ES31/ES2 branch and EGL/OpenGL success path, while correcting float RT to a diagnostic-only capability on this path. Lua/Login reachability, the protected MessageBox implementation, native dialog wait, native splash-dismiss trigger, mapping, load bias, and gameplay frame remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K proves hierarchy capture but stops on a prelaunch SystemUI ANR. Phase15L captures the full compatibility dialog and identifies `MessageBox01` as the probable non-cancelable Java creator. Phase15M resolves the exact native ES31/ES2 branch and EGL/OpenGL success path, while correcting float RT to a diagnostic-only capability on this path. Phase15R closes the four-quadrant SystemUI matrix and resolves the timeout mechanism to CPU-starved runnable SystemUI startup work, while leaving the deep image/emulator kernel-CPU cause unknown. Lua/Login reachability, the protected MessageBox implementation, native dialog wait, native splash-dismiss trigger, mapping, load bias, and gameplay frame remain unknown.

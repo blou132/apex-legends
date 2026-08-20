@@ -1,0 +1,15 @@
+{
+  "health": "RESPONSIVE_HIGH_CPU",
+  "anr_window_cpu_percent": 60,
+  "anr_window_kernel_percent": 50,
+  "waiting_for_systemui": "YES_ASYNC_SERVICE_COMPLETION_PENDING_NO_SYNC_BLOCK_PROVED",
+  "role": "TIMEOUT_DETECTOR_AND_SERVICE_LIFECYCLE_TRACKER",
+  "keyguard_service_state": {
+    "binder_received": false,
+    "bind_requested": true,
+    "has_bound": true,
+    "execute_nesting": 2,
+    "execution_pending_ms": 20132
+  },
+  "synchronous_binder_wait_proved": false
+}

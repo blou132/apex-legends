@@ -1,0 +1,19 @@
+{
+  "exact_anr_trace_present": true,
+  "main_thread_state": "RUNNABLE",
+  "main_top_frame": "com.android.systemui.communal.posturing.data.model.PositionState.<init>",
+  "main_blocking_chain": [
+    "com.android.systemui.SystemUIService.onCreate",
+    "com.android.systemui.application.impl.SystemUIApplicationImpl.startSystemUserServicesIfNeeded",
+    "com.android.systemui.application.impl.SystemUIApplicationImpl.startServicesIfNeeded",
+    "dagger.internal.DoubleCheck.get",
+    "com.android.systemui.communal.posturing.data.repository.NoOpPosturingRepository.<init>",
+    "com.android.systemui.communal.posturing.data.model.PositionState.<init>"
+  ],
+  "classification": "CPU_BOUND_UNDER_SCHEDULER_CONTENTION",
+  "thread_runtime_seconds": 2.779672,
+  "thread_scheduler_wait_seconds": 16.950107,
+  "binder_wait_on_main": false,
+  "lock_wait_on_main": false,
+  "renderer_wait_on_main": false
+}

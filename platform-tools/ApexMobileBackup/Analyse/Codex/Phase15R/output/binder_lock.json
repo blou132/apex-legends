@@ -1,0 +1,9 @@
+{
+  "systemui_waiting_on_binder": false,
+  "binder_target_component": "NONE_PROVED",
+  "lock_wait_present": false,
+  "lock_owner_thread": null,
+  "locked_component": null,
+  "deadlock_evidence": false,
+  "main_owned_monitors": "DAGGER_DOUBLECHECK_MONITORS_UNCONTESTED"
+}

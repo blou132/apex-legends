@@ -1,0 +1,43 @@
+{
+  "cpu_snapshots": [
+    {
+      "label": "ABOUT_PLUS_5S",
+      "total_percent": 65,
+      "kernel_percent": 56,
+      "surfaceflinger_percent": 90,
+      "system_server_percent": 56,
+      "systemui_percent": 11
+    },
+    {
+      "label": "ABOUT_PLUS_15S",
+      "total_percent": 96,
+      "kernel_percent": 82,
+      "surfaceflinger_percent": 70,
+      "system_server_percent": 65,
+      "systemui_percent": 21
+    },
+    {
+      "label": "ANR_INTERVAL",
+      "total_percent": 97,
+      "kernel_percent": 83,
+      "surfaceflinger_percent": 94,
+      "system_server_percent": 60,
+      "systemui_percent": 11
+    }
+  ],
+  "cpu_psi_some_avg10": 79.49,
+  "total_guest_cpu_saturation": true,
+  "kernel_cpu_dominant": true,
+  "top_kernel_consumer": "surfaceflinger/RenderEngine",
+  "memory_psi_some_avg10": 0.0,
+  "memory_available_kb": 1543400,
+  "swap_total_kb": 2282052,
+  "swap_free_kb": 2237780,
+  "systemui_swap_kb": 0,
+  "memory_pressure": false,
+  "swap_pressure": false,
+  "oom_or_lmk_related": false,
+  "watchdog_event": false,
+  "thermal_throttling": "NO_DIRECT_EVIDENCE",
+  "cpu_frequency_throttling": "NO_DIRECT_EVIDENCE"
+}

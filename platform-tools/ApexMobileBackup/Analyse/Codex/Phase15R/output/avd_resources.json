@@ -1,0 +1,15 @@
+{
+  "avd": "ApexGraphicsProbe",
+  "system_image": "system-images;android-36.1;google_apis_playstore;x86_64",
+  "guest_vcpus": 4,
+  "guest_ram_mb": 3072,
+  "vm_heap_mb": 512,
+  "display_width": 1080,
+  "display_height": 2400,
+  "display_density": 420,
+  "gpu_enabled": true,
+  "gpu_mode_default": "auto",
+  "host_logical_cpus": 8,
+  "host_ram_gib": 21.92,
+  "configuration_modified": false
+}
