@@ -1,0 +1,16 @@
+{
+  "phase": "Phase15K",
+  "initial_network_state": {
+    "airplane_mode_on": 0,
+    "wifi_on": 1,
+    "mobile_data": 1
+  },
+  "isolation_confirmed": true,
+  "no_active_default_network": true,
+  "no_default_route": true,
+  "network_restored": true,
+  "avd_shutdown_clean": true,
+  "no_adb_endpoint_remaining": true,
+  "no_emulator_process_remaining": true,
+  "final_gate": "F SYSTEMUI_OVERLAY_PRESENT_STOP"
+}

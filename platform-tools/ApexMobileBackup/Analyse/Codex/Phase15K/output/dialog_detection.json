@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15K",
+  "baseline_ui_dump_works": true,
+  "baseline_xml_well_formed": true,
+  "baseline_node_count": 4,
+  "gameactivity_resumed": false,
+  "apex_dialog_reproduced": "NO_NOT_LAUNCHED",
+  "apex_dialog_appear_time": "NOT_APPLICABLE",
+  "apex_dialog_visual_confirmed": "NO_NOT_LAUNCHED",
+  "runtime_polling_performed": false
+}

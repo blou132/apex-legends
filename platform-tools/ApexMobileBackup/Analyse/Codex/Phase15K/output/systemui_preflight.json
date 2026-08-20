@@ -1,0 +1,12 @@
+{
+  "phase": "Phase15K",
+  "physical_device_present": false,
+  "whpx_acceleration": "CONFIRMED",
+  "avd_boot_completed": true,
+  "initial_window_preflight_clear": true,
+  "systemui_anr_present_prelaunch": true,
+  "systemui_overlay_clear": false,
+  "passive_wait_seconds": 90,
+  "systemui_interaction_performed": false,
+  "apex_launched": false
+}

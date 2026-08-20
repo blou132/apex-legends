@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15H completed)
+Updated: 2026-08-20 (Phase15K completed)
 
 ## Purpose
 
@@ -12,33 +12,36 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-26. The relevant topic report and matching JSON from the newest phase
-27. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+29. The relevant topic report and matching JSON from the newest phase
+30. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -404,6 +407,11 @@ Use this order to avoid repeating conclusions that were later corrected:
   filtered tags, Apex Android dialog window boundary, splash-exit limits,
   client-stage non-observations, network timeline, restoration, and final gate.
   Raw official logs, logcat, UI/window dumps, and scripts remain ignored.
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/`: cleaned physical
+  device/WHPX/AVD preflight, baseline UI-capture capability, package/OBB/cache
+  validation, persistent prelaunch SystemUI ANR stop gate, restoration, and
+  shutdown. Apex was not launched; raw hierarchy and window dumps remain
+  ignored.
 
 ## Machine-readable evidence
 
@@ -468,6 +476,10 @@ Use this order to avoid repeating conclusions that were later corrected:
   offline network attempts, and shutdown evidence. No raw log, UI dump,
   process identifier, request body, query, token, account, or private path is
   published.
+- `Phase15K/output/*.json`: cleaned preflight, baseline hierarchy capability,
+  gated dialog non-observation, unresolved role/callgraph/splash status, network
+  restoration, and shutdown evidence. No XML, screenshot, logcat, window ID,
+  endpoint, process identifier, or private path is published.
 
 The full 467,079-function inventory and raw Ghidra execution logs remain local-only. Their relevant results are summarized in the reports and smaller JSON files committed here.
 
@@ -546,6 +558,26 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   separately authorized, is a read-only Apex dialog hierarchy capture with the
   unrelated SystemUI overlay absent.
 
+## Phase15K authoritative preflight result
+
+- `CONFIRMED`: no physical Android device was present. WHPX was usable and the
+  unchanged `ApexPhase9Lab` AVD booted without wipe, reinstall, root, or
+  snapshot load/save.
+- `CONFIRMED`: a compressed baseline UI hierarchy was written in the guest,
+  pulled read-only, and parsed as valid XML before Apex launch.
+- `CONFIRMED`: package version/code, both expected OBB names and sizes, and the
+  two-row validation cache matched. Cache reuse was not retested because Apex
+  was not launched.
+- `CONFIRMED`: the initial window preflight was clear, but a visible SystemUI
+  ANR appeared before Apex launch and remained after a passive 90-second wait.
+- `CONFIRMED`: no UI action was sent, SystemUI was not restarted or stopped,
+  and Apex was never launched. Phase15K therefore adds no dialog text,
+  callgraph, role, blocking-status, or splash-dismiss evidence.
+- `CONFIRMED`: network isolation had been established and was restored exactly;
+  the AVD then shut down with no ADB endpoint or emulator process remaining.
+- Phase15K gate is `F SYSTEMUI_OVERLAY_PRESENT_STOP`. A future dialog retry is
+  valid only after the SystemUI preflight remains clear.
+
 ## Evidence rules
 
 - Cite the source file and exact address for every technical conclusion.
@@ -582,5 +614,9 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
     authorized, target only the Apex dialog hierarchy after excluding the
     unrelated preexisting SystemUI overlay; otherwise continue the static
     native caller search for `AndroidThunkJava_DismissSplashScreen()`.
+11. Phase15K proved that baseline hierarchy capture works, but a persistent
+    prelaunch SystemUI ANR forced the run to stop before Apex. Do not launch the
+    client for this target unless a future preflight remains clear through the
+    required stability window.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Lua/Login reachability, the exact native splash-dismiss trigger, the dialog message, mapping, load bias, and gameplay frame remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K confirms that hierarchy capture is available but stops before launching Apex because a prelaunch SystemUI ANR remains visible. Lua/Login reachability, the exact native splash-dismiss trigger, the dialog message, mapping, load bias, and gameplay frame remain unknown.

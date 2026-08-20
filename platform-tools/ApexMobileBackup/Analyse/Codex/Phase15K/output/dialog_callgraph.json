@@ -1,0 +1,12 @@
+{
+  "phase": "Phase15K",
+  "static_scan_performed": false,
+  "static_scan_reason": "NO_TEXT_OR_CREATOR_SEED",
+  "dialog_text_resource": "UNKNOWN",
+  "dialog_text_dex_reference": "UNKNOWN",
+  "dialog_creator_class": "UNKNOWN",
+  "dialog_creator_method": "UNKNOWN",
+  "dialog_trigger_caller": "UNKNOWN",
+  "dialog_trigger_condition": "UNKNOWN",
+  "confidence": "UNKNOWN"
+}
