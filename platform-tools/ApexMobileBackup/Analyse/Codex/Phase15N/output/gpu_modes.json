@@ -1,0 +1,25 @@
+{
+  "emulator_version": "36.4.9.0",
+  "emulator_build": "14788078",
+  "whpx_acceleration": "WHPX(10.0.26200) installed and usable",
+  "accel_check_exit_code": 0,
+  "system_image": "system-images;android-36.1;google_apis_playstore;x86_64",
+  "system_image_local": true,
+  "supported_modes": [
+    "auto",
+    "host",
+    "software",
+    "lavapipe",
+    "swiftshader",
+    "swangle"
+  ],
+  "tested_modes": [
+    "auto",
+    "host",
+    "software",
+    "lavapipe",
+    "swiftshader",
+    "swangle"
+  ],
+  "swiftshader_indirect_supported": false
+}

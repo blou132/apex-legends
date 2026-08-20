@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-20 (Phase15M completed)
+Updated: 2026-08-20 (Phase15N completed)
 
 ## Purpose
 
@@ -12,38 +12,39 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 Use this order to avoid repeating conclusions that were later corrected:
 
-1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
-2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
-3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
-4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
-5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
-6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
-7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
-8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
-9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
-10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
-11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
-12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
-13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
-14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
-15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
-16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
-17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
-18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
-19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
-20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
-21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
-22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
-23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
-24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
-25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
-26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
-27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
-28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
-29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
-30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
-31. The relevant topic report and matching JSON from the newest phase
-32. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
+1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15N/REPORT_PHASE15N.md`
+2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15M/REPORT_PHASE15M.md`
+3. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15L/REPORT_PHASE15L.md`
+4. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15K/REPORT_PHASE15K.md`
+5. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15J/REPORT_PHASE15J.md`
+6. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15I/REPORT_PHASE15I.md`
+7. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15H/REPORT_PHASE15H.md`
+8. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15G/REPORT_PHASE15G.md`
+9. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15F/REPORT_PHASE15F.md`
+10. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15E/REPORT_PHASE15E.md`
+11. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15D/REPORT_PHASE15D.md`
+12. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15C/REPORT_PHASE15C.md`
+13. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15B/REPORT_PHASE15B.md`
+14. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15A/REPORT_PHASE15A.md`
+15. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase14/REPORT_PHASE14.md`
+16. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase13/REPORT_PHASE13.md`
+17. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase12/REPORT_PHASE12.md`
+18. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase11/REPORT_PHASE11.md`
+19. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase10/REPORT_PHASE10.md`
+20. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9D/REPORT_PHASE9D.md`
+21. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9C/REPORT_PHASE9C.md`
+22. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9B/REPORT_PHASE9B.md`
+23. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase9/REPORT_PHASE9.md`
+24. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase8/REPORT_PHASE8.md`
+25. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7C_resume/REPORT_PHASE7C_RESUME.md`
+26. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase7/REPORT_PHASE7.md`
+27. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase6/REPORT_PHASE6.md`
+28. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase5/REPORT_PHASE5.md`
+29. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase4/REPORT_PHASE4.md`
+30. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/REPORT_PHASE3C.md`
+31. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase3/Phase3C/00_address_model.md`
+32. The relevant topic report and matching JSON from the newest phase
+33. Phase2 and Phase3B only as historical evidence, with Phase3C and later phases taking precedence
 
 ## Authoritative conclusions
 
@@ -647,6 +648,30 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   splash dismissal.
 - Phase15M gate is `A EXACT_GRAPHICS_GATE_AND_SUCCESS_PATH_RESOLVED`. Raw
   disassembly and the exact binary remain local-only.
+
+## Phase15N authoritative clean-room graphics result
+
+- `CONFIRMED`: no physical Android device was present, WHPX was usable, and
+  the required Android 36.1 Google Play x86_64 image was already local.
+- `CONFIRMED`: `ApexGraphicsProbe` is a separate AVD. `ApexPhase9Lab` was not
+  booted or modified; its three tracked host-file hashes and timestamps match
+  preflight.
+- `CONFIRMED`: the original `local.graphicsprobe` application requests no
+  Internet permission and contains no Apex identifier or material. It was
+  built offline with the existing JDK, API 36.1 platform, and Build Tools.
+- `CONFIRMED`: all six GPU modes listed by emulator `36.4.9.0` were cold-booted
+  separately with snapshot load/save disabled.
+- `CONFIRMED`: `auto`, `software`, `lavapipe`, `swiftshader`, and `swangle`
+  resolve to Google SwiftShader OpenGL ES 3.0. They fail Phase15M's exact GLES
+  predicate but pass both float-extension and real `RGBA16F` FBO diagnostics.
+- `CONFIRMED`: `host` exposes OpenGL ES 3.1, both float extensions, a complete
+  `RGBA16F` FBO with no GL error, and remains stable for 30 seconds.
+- `CONFIRMED`: `host` is the sole legitimate graphics candidate in this
+  installed emulator matrix. `APEX_PHASE15M_GATE_COMPATIBLE=YES` is an
+  environment classification only; Apex was neither installed nor launched.
+- `CONFIRMED`: all emulator endpoints and processes were stopped after the
+  matrix. Phase15N gate is
+  `A LEGITIMATE_GLES31_AND_FLOAT_RT_MODE_FOUND`.
 
 ## Evidence rules
 

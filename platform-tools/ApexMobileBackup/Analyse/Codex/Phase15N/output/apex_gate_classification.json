@@ -1,0 +1,9 @@
+{
+  "phase15m_gles31_predicate": "major == 3 && minor >= 1",
+  "phase15m_float_rt_role": "diagnostic only in resolved rejection branch",
+  "passing_gles31_modes": ["host"],
+  "legitimate_graphics_mode_candidate": "host",
+  "apex_phase15m_gate_compatible": true,
+  "apex_float_rt_diagnostic": "PASS",
+  "final_gate": "A LEGITIMATE_GLES31_AND_FLOAT_RT_MODE_FOUND"
+}

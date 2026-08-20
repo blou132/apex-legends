@@ -1,0 +1,12 @@
+{
+  "results": [
+    {"mode": "auto", "renderer": "Google SwiftShader", "gles": "3.0", "gles31": "FAIL", "float_rt": "PASS", "fbo_complete": true, "stable_30s": false},
+    {"mode": "host", "renderer": "AMD Radeon host translation", "gles": "3.1", "gles31": "PASS", "float_rt": "PASS", "fbo_complete": true, "stable_30s": true},
+    {"mode": "software", "renderer": "Google SwiftShader", "gles": "3.0", "gles31": "FAIL", "float_rt": "PASS", "fbo_complete": true, "stable_30s": false},
+    {"mode": "lavapipe", "renderer": "Google SwiftShader", "gles": "3.0", "gles31": "FAIL", "float_rt": "PASS", "fbo_complete": true, "stable_30s": false},
+    {"mode": "swiftshader", "renderer": "Google SwiftShader", "gles": "3.0", "gles31": "FAIL", "float_rt": "PASS", "fbo_complete": true, "stable_30s": false},
+    {"mode": "swangle", "renderer": "Google SwiftShader", "gles": "3.0", "gles31": "FAIL", "float_rt": "PASS", "fbo_complete": true, "stable_30s": false}
+  ],
+  "passing_gles31_modes": ["host"],
+  "legitimate_graphics_mode_candidate": "host"
+}

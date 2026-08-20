@@ -1,0 +1,20 @@
+{
+  "GPU_MODE": "host",
+  "AVD_BOOTED": true,
+  "PROBE_RAN": true,
+  "PROBE_SUCCESS": true,
+  "GL_VENDOR": "Google (ATI Technologies Inc.)",
+  "GL_RENDERER": "Android Emulator OpenGL ES Translator (AMD Radeon(TM) RX Vega 10 Graphics)",
+  "GL_VERSION": "OpenGL ES 3.1 (4.5.14761 Core Profile Context 21.30.23.04 30.0.13023.4001)",
+  "GLES_MAJOR": 3,
+  "GLES_MINOR": 1,
+  "GLES31_GATE": "PASS",
+  "HALF_FLOAT_EXTENSION": true,
+  "FLOAT_EXTENSION": true,
+  "FLOAT_RT_DIAGNOSTIC_PREDICATE": "PASS",
+  "FLOAT_FBO_CREATED": true,
+  "FLOAT_FBO_COMPLETE": true,
+  "FBO_STATUS": "0x8CD5",
+  "GL_ERROR": "GL_NO_ERROR (0x0000)",
+  "MODE_STABLE_30S": true
+}

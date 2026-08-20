@@ -1,0 +1,13 @@
+{
+  "all_probe_avd_instances_stopped": true,
+  "adb_endpoint_count": 0,
+  "emulator_process_count": 0,
+  "physical_device_present": false,
+  "apex_phase9lab_booted": false,
+  "apex_phase9lab_unchanged": true,
+  "probe_avd_retained": true,
+  "probe_avd_name": "ApexGraphicsProbe",
+  "probe_package": "local.graphicsprobe",
+  "apex_installed_or_launched": false,
+  "raw_outputs_committed": false
+}
