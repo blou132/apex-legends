@@ -1,0 +1,10 @@
+{
+  "performed": false,
+  "trigger_observed": false,
+  "update_error_code_location": "UNKNOWN",
+  "update_ui_owner": "UNKNOWN",
+  "version_bootstrap_component": "UNKNOWN",
+  "version_request_function": "UNKNOWN",
+  "version_request_url_or_host": "UNKNOWN",
+  "reason": "NO_NEW_VERSION_UPDATE_UI_OR_EXACT_RUNTIME_CODE"
+}

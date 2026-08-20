@@ -1,0 +1,12 @@
+# Screen state
+
+The stop occurred before Apex launch and before the authorized post-resume
+screenshot schedule. No screenshot was captured or committed.
+
+```text
+SCREEN_STATE_5S = NOT_CAPTURED_POST_RESUME_NOT_REACHED
+SCREEN_STATE_15S = NOT_CAPTURED_POST_RESUME_NOT_REACHED
+SCREEN_STATE_30S = NOT_CAPTURED_POST_RESUME_NOT_REACHED
+SCREEN_STATE_60S = NOT_CAPTURED_POST_RESUME_NOT_REACHED
+SCREEN_STATE_120S = NOT_CAPTURED_POST_RESUME_NOT_REACHED
+```

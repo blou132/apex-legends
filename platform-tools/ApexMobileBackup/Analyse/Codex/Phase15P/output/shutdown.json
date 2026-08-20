@@ -1,0 +1,32 @@
+{
+  "apex_force_stop_required": false,
+  "network_changed": false,
+  "network_restored": "NOT_REQUIRED_NETWORK_UNCHANGED",
+  "emulator_console_shutdown_requested": true,
+  "avd_shutdown_clean": true,
+  "adb_endpoint_remaining": false,
+  "target_emulator_process_remaining": false,
+  "physical_device_present_final": false,
+  "persistent_files": [
+    {
+      "name": "ApexPhase9Lab.ini",
+      "sha256": "55095F2B7E9B24845E90D446D3F5C2B70B3FA83FE3359A50723FC36A459D5AC2",
+      "last_write_utc": "2026-08-13T13:54:16.6076728Z",
+      "unchanged": true
+    },
+    {
+      "name": "config.ini",
+      "sha256": "0E863E6AF73E9104E8D08A00DBDF943EF0573BF5462B81F562F0C43B69E4B6BE",
+      "last_write_utc": "2026-08-13T13:54:16.6116129Z",
+      "unchanged": true
+    },
+    {
+      "name": "hardware-qemu.ini",
+      "sha256": "E2E78955A6E2BAC9306C29655EF3FFBB584DFDB14F86205A358E43F4D2A72045",
+      "last_write_utc": "2026-08-20T14:43:38.2667672Z",
+      "unchanged": true
+    }
+  ],
+  "apex_phase9lab_persistent_config_unchanged": true,
+  "final_gate": "G REPEATED_HOST_MODE_SYSTEMUI_ANR_STOP"
+}

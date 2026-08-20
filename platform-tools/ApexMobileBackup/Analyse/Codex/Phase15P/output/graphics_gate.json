@@ -1,0 +1,10 @@
+{
+  "apex_launch_count": 0,
+  "gameactivity_resumed": false,
+  "gles_compatibility_dialog_present": "NOT_OBSERVED_CLIENT_NOT_LAUNCHED",
+  "graphics_gate_passed": "UNKNOWN_NOT_TESTED",
+  "opengl_runtime_stage": "NOT_REACHED",
+  "rhi_continuation_evidence": "NO_NEW_EVIDENCE",
+  "phase15n_host_environment_gate": "PASS",
+  "phase15p_client_gate": "NOT_TESTED"
+}

@@ -1,0 +1,15 @@
+{
+  "post_resume_t0_defined": false,
+  "events": [
+    {"order": 1, "stage": "HOST_MODE_ANDROID_BOOT", "status": "CONFIRMED"},
+    {"order": 2, "stage": "SYSTEMUI_0S_PREFLIGHT", "status": "CONFIRMED_CLEAR"},
+    {"order": 3, "stage": "SYSTEMUI_30S_PREFLIGHT", "status": "CONFIRMED_FAILED_ANR"},
+    {"order": 4, "stage": "PACKAGE_OBB_CACHE_CHECK", "status": "NOT_REACHED"},
+    {"order": 5, "stage": "NETWORK_ISOLATION", "status": "NOT_REACHED"},
+    {"order": 6, "stage": "GAMEACTIVITY_RESUME", "status": "NOT_REACHED"},
+    {"order": 7, "stage": "GRAPHICS_GATE_AND_EGL_SUCCESS", "status": "UNKNOWN"},
+    {"order": 8, "stage": "VERSION_UPDATE_UI", "status": "UNKNOWN"}
+  ],
+  "first_new_post_graphics_stage": "NOT_REACHED",
+  "first_unresolved_transition": "SYSTEMUI_PREFLIGHT_TO_APEX_LAUNCH_BLOCKED"
+}
