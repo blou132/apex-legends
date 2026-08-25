@@ -1,0 +1,13 @@
+{
+  "chain": [
+    {"function": "FUN_00501d0c", "role": "CPufferInitAction::run"},
+    {"function": "FUN_004ffd44", "role": "MakeSureGetUrlFromServer"},
+    {"function": "FUN_004fcaf4", "role": "construct_and_submit_failure_result"},
+    {"function": "FUN_004ee318", "role": "CPufferInitActionResult_constructor"},
+    {"function": "FUN_004ee1dc", "role": "CPufferInitActionResult::ProcessResult"},
+    {"function": "UNKNOWN_DYNAMIC_TARGET", "role": "manager_callback_vtable_slot_0x10"}
+  ],
+  "response_callback": "FUN_004fc7c0 / ResUpdateCallBack",
+  "resolved_to": "DYNAMIC_MANAGER_BOUNDARY",
+  "ui_edge": "UNKNOWN"
+}

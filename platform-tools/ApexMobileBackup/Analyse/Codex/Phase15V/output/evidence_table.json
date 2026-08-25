@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {"claim":"Puffer owner","binary":"libgcloud.so","ghidra":"0x0079aef0","elf":"0x0069aef0","function":"function-name data","evidence":"STRING_XREF","confidence":"CONFIRMED"},
+    {"claim":"MakeSureGetUrlFromServer implementation","binary":"libgcloud.so","ghidra":"0x004ffd44","elf":"0x003ffd44","function":"FUN_004ffd44","evidence":"STRING_XREF+DECOMPILATION","confidence":"CONFIRMED"},
+    {"claim":"Internal network failure mapping","binary":"libgcloud.so","ghidra":"0x004ffd44","elf":"0x003ffd44","function":"FUN_004ffd44","evidence":"CONTROL_FLOW+CONSTANT","confidence":"CONFIRMED"},
+    {"claim":"Failure result submission","binary":"libgcloud.so","ghidra":"0x00501f04","elf":"0x00401f04","function":"FUN_00501d0c","evidence":"DIRECT_CALL","confidence":"CONFIRMED"},
+    {"claim":"Result processor","binary":"libgcloud.so","ghidra":"0x004ee1dc","elf":"0x003ee1dc","function":"CPufferInitActionResult::ProcessResult","evidence":"TABLE_REFERENCE+VIRTUAL_CALL","confidence":"CONFIRMED"},
+    {"claim":"Visible code occurs during Puffer failure","binary":"runtime evidence","ghidra":null,"elf":null,"function":null,"evidence":"RUNTIME_CORRELATION_ONLY","confidence":"CONFIRMED_TIMING_NO_OWNERSHIP"},
+    {"claim":"Update UI owner","binary":"UNKNOWN","ghidra":null,"elf":null,"function":"dynamic manager callback","evidence":"VIRTUAL_CALL","confidence":"UNKNOWN"}
+  ],
+  "final_gate": "D PUFFER_FAILURE_CALLBACK_CHAIN_RESOLVED_UI_LINK_UNKNOWN"
+}

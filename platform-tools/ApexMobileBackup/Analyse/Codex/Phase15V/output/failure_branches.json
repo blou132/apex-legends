@@ -1,0 +1,16 @@
+{
+  "runner": "FUN_00501d0c",
+  "coordinator": "FUN_004ffd44",
+  "branches": [
+    {"condition": "NULL_CONFIG", "code": "0x0430000a", "function": "FUN_00501d0c"},
+    {"condition": "UNUSABLE_LOCAL_DIRECTORY", "code": "0x0430000c", "function": "FUN_00501d0c"},
+    {"condition": "RPC_INIT_CONNECT_FAILED", "code": "0x0430002e", "function": "FUN_004ffd44"},
+    {"condition": "CONNECT_TIMEOUT", "code": "0x0430002f", "function": "FUN_004ffd44"},
+    {"condition": "CONNECT_FAILED", "code": "0x04300030", "function": "FUN_004ffd44"},
+    {"condition": "SERVER_CALLBACK_FAILED", "code": "0x04300031", "function": "FUN_004ffd44"},
+    {"condition": "STOPPED_OR_CANCELLED", "code": "0x04300032", "function": "FUN_004ffd44"}
+  ],
+  "dns_named_branch": "UNKNOWN",
+  "network_not_reachable_direct_edge": "UNKNOWN",
+  "empty_or_invalid_url_branch": "UNKNOWN"
+}

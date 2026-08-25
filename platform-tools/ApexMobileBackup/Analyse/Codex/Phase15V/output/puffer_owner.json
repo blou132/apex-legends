@@ -1,0 +1,10 @@
+{
+  "owner_library": "libgcloud.so",
+  "symbol_location_ghidra": "0x0079aef0",
+  "symbol_location_elf": "0x0069aef0",
+  "function": "CPufferInitAction::MakeSureGetUrlFromServer",
+  "function_ghidra": "0x004ffd44",
+  "function_elf": "0x003ffd44",
+  "function_file_offset": "0x003ffd44",
+  "confidence": "CONFIRMED"
+}

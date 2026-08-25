@@ -1,0 +1,9 @@
+{
+  "config_builder": "GCloudPufferImp::Init / FUN_0050323c",
+  "request_coordinator": "CPufferInitAction::MakeSureGetUrlFromServer / FUN_004ffd44",
+  "transport_function": "FUN_004ed038 PufferUpdateService.GetUpdateInfo",
+  "transport_edge_from_coordinator": "DYNAMIC",
+  "callback_function": "ResUpdateCallBack / FUN_004fc7c0",
+  "host_source": "RUNTIME_CONFIG",
+  "credentials_published": false
+}

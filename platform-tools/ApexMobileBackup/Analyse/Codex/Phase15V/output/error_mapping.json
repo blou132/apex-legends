@@ -1,0 +1,7 @@
+{
+  "puffer_internal_mapping_function": "FUN_004ffd44",
+  "client_error_mapping_function": "UNKNOWN",
+  "client_error_mapping_table": "NOT_FOUND_IN_BOUNDED_CHAIN",
+  "network_failure_to_client_error_mapping": "UNKNOWN",
+  "internal_code_family": "0x043000xx"
+}

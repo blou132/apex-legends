@@ -1,0 +1,14 @@
+{
+  "current_runtime_code": "I54140714",
+  "historical_separate_code": "I54140715",
+  "i54140714_string_anchor": "NOT_FOUND",
+  "i54140715_string_anchor": "NOT_FOUND",
+  "i54140714_integer_32_anchor": "NOT_FOUND_IN_LIBGCLOUD_OR_LIBUE4",
+  "i54140714_integer_64_anchor": "NOT_FOUND_IN_LIBGCLOUD_OR_LIBUE4",
+  "i54140715_integer_32_anchor": "NOT_FOUND_IN_LIBGCLOUD_OR_LIBUE4",
+  "i54140715_integer_64_anchor": "NOT_FOUND_IN_LIBGCLOUD_OR_LIBUE4",
+  "construction_style": "DYNAMIC_UNKNOWN",
+  "construction_confirmed": false,
+  "puffer_direct_link": "NO_DIRECT_STATIC_EDGE",
+  "historical_variant_relation": "UNKNOWN"
+}

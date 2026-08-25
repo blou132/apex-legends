@@ -1,0 +1,7 @@
+{
+  "owner": "UNKNOWN",
+  "confidence": "LOW",
+  "puffer_to_ui_edge": "UNKNOWN",
+  "ui_text_key": "UNKNOWN",
+  "uiautomator_absence_interpretation": "CONSISTENT_WITH_ENGINE_RENDERING_BUT_NOT_OWNERSHIP_PROOF"
+}
