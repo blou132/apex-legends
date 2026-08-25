@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-25 (Phase15S completed)
+Updated: 2026-08-25 (Phase15T completed)
 
 ## Purpose
 
@@ -10,7 +10,9 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 
 ## Read first
 
-Use this order to avoid repeating conclusions that were later corrected:
+Start with
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15T/REPORT_PHASE15T.md`,
+then use this order to avoid repeating conclusions that were later corrected:
 
 1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15S/REPORT_PHASE15S.md`
 2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15R/REPORT_PHASE15R.md`
@@ -810,6 +812,28 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   booleans and not changed. Apex stayed stopped and made no request.
 - Phase15S gate is `B SAFE_FREE_SPACE_TARGET_NOT_REACHED`; the phone is not
   ready for a runtime phase until at least `2 GiB` can be freed safely.
+
+## Phase15T authoritative PRA-LX1 storage result
+
+- `CONFIRMED`: Phase15T inventoried 166 installed packages and removed exactly
+  eight individually proven nonessential updated consumer applications through
+  supported Package Manager operations. No raw filesystem deletion or global
+  cache clearing occurred.
+- `CONFIRMED`: `/data` free space rose from `442952 KiB` to a final recorded
+  `2121612 KiB`, a delta of `1678660 KiB` (about 1.601 GiB). Cleanup stopped
+  immediately after crossing the 2 GiB target.
+- `CONFIRMED`: ADB, SystemUI, window policy, Settings, the Huawei launcher, and
+  storage remained available after every removal. Final checks also preserved
+  Play Services, Play Store, Google Services Framework, Huawei framework
+  services, and the sole enabled keyboard.
+- `CONFIRMED`: Apex remained installed and stopped at version `1.3.672.546`,
+  code `64003140`; its data/cache were not cleared and both OBB names and exact
+  byte sizes remained unchanged.
+- `CONFIRMED`: no microSD was present and this build reported adoptable storage
+  unsupported. No storage device was formatted or modified.
+- Phase15T gate is `A FREE_SPACE_2GIB_REACHED`. A later bounded runtime phase is
+  storage-possible, but must recheck free space because the final margin above
+  2 GiB was only about 24 MiB.
 
 ## Evidence rules
 
