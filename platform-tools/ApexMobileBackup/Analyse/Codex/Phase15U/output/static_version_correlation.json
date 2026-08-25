@@ -1,0 +1,15 @@
+{
+  "performed": true,
+  "scope": "TARGETED_EXACT_STRING_ONLY",
+  "runtime_trigger": "UPDATE_PROGRESS_AND_UPDATE_ERROR_CONFIRMED",
+  "searched_exact_codes": ["I54140714", "I54140715"],
+  "searched_inputs": ["BASE_APK_RESOURCES", "DEX", "LIBUE4", "EXISTING_PAKS", "EXISTING_PAK_EXTRACTION"],
+  "i54140714_static_anchor": "NOT_FOUND",
+  "i54140715_static_anchor": "NOT_FOUND",
+  "update_error_code_location": "UNKNOWN",
+  "update_ui_owner": "UNKNOWN",
+  "version_bootstrap_component": "GCLOUD_PUFFER_UPDATE_CONFIRMED_AT_RUNTIME_EXACT_UI_LINK_UNKNOWN",
+  "version_request_function": "CPufferInitAction::MakeSureGetUrlFromServer",
+  "version_request_method": "UNKNOWN_RPC",
+  "version_request_host": "puffer.4.707369824.dmp.mgapex.com"
+}

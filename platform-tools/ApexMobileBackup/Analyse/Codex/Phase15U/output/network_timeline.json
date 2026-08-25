@@ -1,0 +1,15 @@
+{
+  "network_isolated": true,
+  "responses_sent": false,
+  "attempts": [
+    {"relative_seconds": 3, "component": "TDM", "method": "POST", "host": "tdm.mgapex.com", "failure": "CURL_CODE_6_NO_HTTP_RESPONSE", "classification": "TELEMETRY"},
+    {"relative_seconds": 3, "component": "GCloudCore", "method": "UNKNOWN", "host": "cloudctrl.mgapex.com", "failure": "UNKNOWN_HOST", "classification": "REMOTE_CONFIG"},
+    {"relative_seconds": 116, "component": "TGPA", "method": "UNKNOWN", "host": "tgpa.mgapex.com", "failure": "UNKNOWN_HOST_NETWORK_UNREACHABLE", "classification": "REMOTE_CONFIG"},
+    {"relative_seconds": 117, "component": "GCloud Puffer", "method": "UNKNOWN_RPC", "host": "puffer.4.707369824.dmp.mgapex.com", "failure": "DNS_FAILURE_NETWORK_NOT_REACHABLE_THEN_TIMEOUT", "classification": "VERSION_UPDATE"},
+    {"relative_seconds": 159, "component": "GCloud Puffer", "method": "UNKNOWN_RPC", "host": "puffer.4.707369824.dmp.mgapex.com", "failure": "GET_URL_FAILED_AND_RETRY", "classification": "VERSION_UPDATE"}
+  ],
+  "login_request_confirmed": false,
+  "server_list_request_confirmed": false,
+  "game_server_request_confirmed": false,
+  "update_modal_to_puffer_error_mapping": "UNKNOWN_NO_DIRECT_EDGE"
+}

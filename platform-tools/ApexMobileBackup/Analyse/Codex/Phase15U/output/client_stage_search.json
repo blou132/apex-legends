@@ -1,0 +1,16 @@
+{
+  "GameActivity": "CONFIRMED",
+  "DownloaderActivity": "CONFIRMED",
+  "UE4_native_runtime": "CONFIRMED",
+  "client_launch_level": "CONFIRMED",
+  "version_update_bootstrap": "CONFIRMED",
+  "Lua": "NO_NEW_EVIDENCE",
+  "ClientLaunch": "NO_NEW_EVIDENCE",
+  "EventSystem": "NO_NEW_EVIDENCE",
+  "Login": "NO_NEW_EVIDENCE",
+  "LoginMgr": "NO_NEW_EVIDENCE",
+  "RequestAvatarServerList": "NO_NEW_EVIDENCE",
+  "AvatarServerList": "NO_NEW_EVIDENCE",
+  "OpenServerList": "NO_NEW_EVIDENCE",
+  "event_0x138": "NO_NEW_EVIDENCE"
+}

@@ -835,6 +835,35 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   storage-possible, but must recheck free space because the final margin above
   2 GiB was only about 24 MiB.
 
+## Phase15U authoritative physical-runtime result
+
+- `CONFIRMED`: exactly one offline Apex launch was performed on the authorized
+  Huawei PRA-LX1. No UI input, account, response, redirection, backend,
+  debugger, profiler, reinstall, or data/cache clear was used.
+- `CONFIRMED`: `GameActivity` started and resumed, `DownloaderActivity` started
+  and finished by application request, native/UE4 execution continued, Mali
+  EGL surfaces succeeded, and the launch level rendered. The physical device
+  clears the earlier emulator graphics compatibility gate.
+- `CONFIRMED`: the `+120 s` screenshot shows update initialization at step
+  `2/17` and an offline update error with exact code `I54140714`. Historical
+  target `I54140715` has `NO_NEW_EVIDENCE`.
+- `CONFIRMED`: GCloud Puffer enters
+  `CPufferInitAction::MakeSureGetUrlFromServer` for a PAK update and fails DNS,
+  connectivity, and later timeout while offline. The direct mapping from this
+  component to the rendered error code remains `UNKNOWN`.
+- `CONFIRMED`: Lua, ClientLaunch, EventSystem, Login/LoginMgr, avatar/server-list
+  stages, and event `0x138` have `NO_NEW_EVIDENCE`. Missing public logs do not
+  prove those stages did not execute.
+- `CONFIRMED`: the targeted post-stop static search found neither exact
+  `I54140714` nor `I54140715` in preserved APK resources, DEX, `libUE4.so`, PAKs,
+  or existing PAK extraction. UI owner and error-code location remain unknown.
+- `CONFIRMED`: the client was force-stopped at the 180-second bound, network
+  state was restored, storage use was about 15.58 MiB, and package/OBB metadata
+  remained intact.
+- Phase15U gate is `A VERSION_BOOTSTRAP_AND_UPDATE_ERROR_CONFIRMED`. The current
+  unresolved transition is exact update UI/error ownership, followed by the
+  still-unproven Lua/Login/server-list path.
+
 ## Evidence rules
 
 - Cite the source file and exact address for every technical conclusion.
@@ -846,10 +875,9 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-1. Do not run Apex on the PRA-LX1 while free space remains below `2 GiB`.
-   Reaching that threshold requires a separately authorized package-by-package
-   decision about expendable preinstalled software or use of another device;
-   do not sacrifice Apex, its data/cache, or its OBBs.
+1. Do not repeat the Phase15U physical launch merely to seek historical code
+   `I54140715`; the current client produced a decisive `I54140714` update error.
+   Preserve Apex, its data/cache, and both OBBs.
 2. Do not repeat the four-case renderer/userdata matrix on the current Android
    36.1 image. If a future phase permits obtaining another system image, test it
    only in a new disposable AVD and establish SystemUI stability before Apex.
@@ -869,11 +897,10 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
    state.
 9. Do not assign a `libUE4.so` runtime base from the confirmed loader event. A
    legitimate readable mapping plus PT_LOAD correlation is still required.
-10. Treat the current runtime frontier as the transition from confirmed
-   process-scoped graphics initialization and rendered Lightspeed splash/wait
-   UI to the first named Lua, ClientLaunch, Login, or server-list stage. Do not
-   infer those stages from a splash, wait UI, SDK lifecycle callback, or TDM
-   retry.
+10. Treat the current runtime frontier as confirmed update initialization and
+    offline update failure, followed by the first named Lua, ClientLaunch,
+    Login, or server-list stage. Do not infer those later stages from Puffer,
+    TDM, remote-config, splash, or SDK lifecycle evidence.
 11. Phase15J has exhausted the readable public SDK logs for this wait state.
     Do not repeat broad SDK-log collection.
 12. Phase15M resolves the exact ES31/ES2 native compatibility branch and its
@@ -882,8 +909,8 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 13. Treat float RT as a separately reported capability, not a rejecting branch
     operand. A future clean-room diagnostic may test the exact two extensions
     and FBO completeness without using or launching Apex.
-14. Restrict follow-up to the still-protected MessageBox helper, the unknown
-    native splash-dismiss trigger, or a separately justified legitimately
-    compatible graphics environment. Do not patch or bypass the gate.
+14. Restrict follow-up to narrow existing static evidence around Puffer update
+    and error construction. Do not answer an endpoint, emulate a backend,
+    patch the client, or bypass the update failure.
 
-The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K proves hierarchy capture but stops on a prelaunch SystemUI ANR. Phase15L captures the full compatibility dialog and identifies `MessageBox01` as the probable non-cancelable Java creator. Phase15M resolves the exact native ES31/ES2 branch and EGL/OpenGL success path, while correcting float RT to a diagnostic-only capability on this path. Phase15R closes the four-quadrant SystemUI matrix and resolves the timeout mechanism to CPU-starved runnable SystemUI startup work, while leaving the deep image/emulator kernel-CPU cause unknown. Phase15S confirms that the existing PRA-LX1 has an intact matching client, OBBs, OpenGL ES 3.2, and both float render-target extensions, but blocks runtime work because only about 0.41-0.43 GiB remains free and no authorized safe cleanup can reach 2 GiB. Lua/Login reachability, the protected MessageBox implementation, native dialog wait, native splash-dismiss trigger, mapping, load bias, and gameplay frame remain unknown.
+The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K proves hierarchy capture but stops on a prelaunch SystemUI ANR. Phase15L captures the full compatibility dialog and identifies `MessageBox01` as the probable non-cancelable Java creator. Phase15M resolves the exact native ES31/ES2 branch and EGL/OpenGL success path, while correcting float RT to a diagnostic-only capability on this path. Phase15R closes the four-quadrant SystemUI matrix and resolves the timeout mechanism to CPU-starved runnable SystemUI startup work, while leaving the deep image/emulator kernel-CPU cause unknown. Phase15S confirms that the existing PRA-LX1 has an intact matching client, OBBs, OpenGL ES 3.2, and both float render-target extensions, but blocks runtime work because only about 0.41-0.43 GiB remains free and no authorized safe cleanup can reach 2 GiB. Phase15T raises free space above 2 GiB without altering Apex. Phase15U then confirms one physical offline run reaches update initialization `2/17` and exact error `I54140714`, with Puffer update networking active but the UI/error ownership still unknown. Lua/Login/server-list reachability, error-code construction, mapping, load bias, and gameplay frame remain unknown.

@@ -1,0 +1,12 @@
+{
+  "captures": [
+    {"relative_seconds": 5, "classification": "UNKNOWN_BLACK_FRAME"},
+    {"relative_seconds": 15, "classification": "UNKNOWN_BLACK_FRAME"},
+    {"relative_seconds": 30, "classification": "UNKNOWN_BLACK_FRAME"},
+    {"relative_seconds": 60, "classification": "UNKNOWN_BLACK_FRAME"},
+    {"relative_seconds": 120, "classification": "UPDATE_ERROR_WITH_UPDATE_PROGRESS_2_OF_17", "error_code": "I54140714"}
+  ],
+  "uiautomator_dump_count": 1,
+  "client_ui_not_exposed_as_android_view": true,
+  "ui_interaction_performed": false
+}

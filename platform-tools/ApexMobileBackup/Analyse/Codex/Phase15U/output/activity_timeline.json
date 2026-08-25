@@ -1,0 +1,19 @@
+{
+  "time_origin": "single GameActivity start",
+  "events": [
+    {"relative_seconds": 0.0, "event": "GAMEACTIVITY_STARTED"},
+    {"relative_seconds": 3.6, "event": "GAMEACTIVITY_ANDROID_RESUME_CALLBACK"},
+    {"relative_seconds": 3.9, "event": "DOWNLOADERACTIVITY_STARTED"},
+    {"relative_seconds": 4.1, "event": "DOWNLOADERACTIVITY_FINISHED_BY_APP"},
+    {"relative_seconds": 109.0, "event": "GAMEACTIVITY_RESUMED_AND_SURFACES_DRAWN"},
+    {"relative_seconds": 117.0, "event": "CLIENT_LAUNCH_LEVEL_AND_UPDATE_COMPONENT_INITIALIZED"},
+    {"relative_seconds": 120.0, "event": "UPDATE_ERROR_SCREEN_CAPTURED"},
+    {"relative_seconds": 180.0, "event": "BOUNDED_FORCE_STOP"}
+  ],
+  "gameactivity_started": true,
+  "downloaderactivity_started": true,
+  "gameactivity_resumed": true,
+  "obb_downloader_transition_passed": "CONFIRMED_OPERATIONALLY",
+  "has_all_files_exact_log": "NO_NEW_EVIDENCE",
+  "native_resume_main_init_exact_log": "NO_NEW_EVIDENCE"
+}
