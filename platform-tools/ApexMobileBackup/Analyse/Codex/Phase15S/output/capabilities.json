@@ -1,0 +1,17 @@
+{
+  "logcat_readable": true,
+  "uiautomator_available": true,
+  "screenshot_available": true,
+  "screenrecord_available": false,
+  "dumpsys_available": true,
+  "proc_maps_apex_accessible": "NO_CURRENT_PROCESS_PRIOR_SAME_DEVICE_SHELL_DENIAL",
+  "run_as_apex_allowed": false,
+  "private_data_apex_accessible": false,
+  "shell_uid": 2000,
+  "root_present": false,
+  "su_binary_present": false,
+  "adb_root_available": false,
+  "adb_root_attempted": false,
+  "bootloader_unlock_state": "LOCKED",
+  "verified_boot_state": "GREEN"
+}

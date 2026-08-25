@@ -1,0 +1,9 @@
+{
+  "airplane_mode_on": false,
+  "wifi_enabled": true,
+  "mobile_data_enabled": true,
+  "settings_changed": false,
+  "apex_process_running": false,
+  "apex_backend_requests_generated": false,
+  "network_identifiers_collected": false
+}

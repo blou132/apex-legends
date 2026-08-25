@@ -1,0 +1,57 @@
+{
+  "minimum_free_space_bytes": 2147483648,
+  "preferred_free_space_gib": "2.5-3.0",
+  "initial": {
+    "data_free_approx_mib": 246,
+    "shared_free_approx_mib": 226
+  },
+  "final": {
+    "data_free_kib": 443032,
+    "data_free_mib": 432.6,
+    "shared_free_kib": 422552,
+    "shared_free_mib": 412.6
+  },
+  "shared_categories_kib": {
+    "Download": 4,
+    "DCIM": 12,
+    "Pictures": 4,
+    "Movies": 4,
+    "Android_data": 13672,
+    "Android_obb": 3694664,
+    "Huawei": 11228
+  },
+  "third_party_packages": [
+    "com.ea.gp.apexlegendsmobilefps"
+  ],
+  "total_reported_app_cache_bytes": 3993600,
+  "largest_remaining_consumers": [
+    {
+      "package": "com.ea.gp.apexlegendsmobilefps",
+      "bytes": 4129636352,
+      "classification": "PROTECTED_APEX"
+    },
+    {
+      "package": "com.google.android.gms",
+      "bytes": 746622976,
+      "classification": "PREINSTALLED_SYSTEM_COMPONENT"
+    },
+    {
+      "package": "com.google.android.googlequicksearchbox",
+      "bytes": 687689728,
+      "classification": "PREINSTALLED_SYSTEM_COMPONENT"
+    },
+    {
+      "package": "com.google.android.apps.photos",
+      "bytes": 249532416,
+      "classification": "PREINSTALLED_SYSTEM_APPLICATION"
+    },
+    {
+      "package": "com.google.android.apps.maps",
+      "bytes": 210698240,
+      "classification": "PREINSTALLED_SYSTEM_APPLICATION"
+    }
+  ],
+  "phone_storage_ready": false,
+  "safe_free_space_target_not_reached": true,
+  "deletions_performed": []
+}

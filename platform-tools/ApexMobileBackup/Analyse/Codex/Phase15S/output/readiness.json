@@ -1,0 +1,17 @@
+{
+  "device_identity_confirmed": true,
+  "apex_package_intact": true,
+  "apex_obb_intact": true,
+  "adb_control_stable": true,
+  "graphics_capabilities_known": true,
+  "phone_storage_ready": false,
+  "phone_lab_ready_for_runtime": false,
+  "blocking_condition": "SAFE_FREE_SPACE_BELOW_2_GIB",
+  "apex_uninstalled": false,
+  "apex_data_cleared": false,
+  "apex_cache_cleared": false,
+  "factory_reset_performed": false,
+  "deletions_performed": false,
+  "sensitive_identifiers_redacted": true,
+  "final_gate": "B SAFE_FREE_SPACE_TARGET_NOT_REACHED"
+}

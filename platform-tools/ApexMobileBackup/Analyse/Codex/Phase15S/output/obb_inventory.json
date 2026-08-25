@@ -1,0 +1,22 @@
+{
+  "state": "INTACT_EXACT_NAME_AND_SIZE_MATCH",
+  "files": [
+    {
+      "filename": "main.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "phone_bytes": 1942013346,
+      "preserved_pc_bytes": 1942013346,
+      "device_local_timestamp": "2026-08-13 17:37",
+      "result": "MATCH"
+    },
+    {
+      "filename": "patch.64003140.com.ea.gp.apexlegendsmobilefps.obb",
+      "phone_bytes": 1837582506,
+      "preserved_pc_bytes": 1837582506,
+      "device_local_timestamp": "2026-08-13 17:38",
+      "result": "MATCH"
+    }
+  ],
+  "phone_hash_repeated": false,
+  "hash_skip_reason": "EXACT_NAMES_AND_SIZES_MATCH_NO_CONCRETE_MISMATCH",
+  "files_modified": false
+}

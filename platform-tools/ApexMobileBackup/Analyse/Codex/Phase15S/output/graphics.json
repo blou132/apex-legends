@@ -1,0 +1,16 @@
+{
+  "egl_implementation": "1.4 Midgard-r20p0-01rel0",
+  "gl_vendor": "ARM",
+  "gl_renderer": "Mali-T830",
+  "gl_version": "OpenGL ES 3.2 v1.r20p0-01rel0.9a7fca3f7dd712a473937294a8ae24b1",
+  "ro_opengles_version": 196610,
+  "gles31_available": true,
+  "extensions": {
+    "GL_EXT_color_buffer_half_float": true,
+    "GL_EXT_color_buffer_float": true
+  },
+  "float_rt_capability": "YES_BOTH_EXTENSIONS_PRESENT",
+  "source": "READ_ONLY_SURFACEFLINGER_STATE",
+  "probe_installed_or_launched": false,
+  "spoofing_used": false
+}
