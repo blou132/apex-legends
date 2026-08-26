@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15Z",
+  "function": "FUN_005be71c",
+  "ghidra_address": "0x005be71c",
+  "elf_address": "0x004be71c",
+  "owner": "cu::CActionMgr",
+  "input_code": "pending queue node raw uint32",
+  "stage_source": "action virtual slot +0x20",
+  "runtime_stage": 69,
+  "forward_callback_field_offset": "0x3b8",
+  "forward_callback_slot": "0x00",
+  "forward_callback_target": "UNKNOWN",
+  "translation_observed": false
+}

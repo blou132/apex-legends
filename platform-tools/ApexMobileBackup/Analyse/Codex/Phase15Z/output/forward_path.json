@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15Z",
+  "style": "RAW",
+  "chain": [
+    "FUN_00550ee4",
+    "FUN_00549800",
+    "FUN_005bf94c",
+    "FUN_005bf808",
+    "FUN_005befa0",
+    "FUN_005be71c",
+    "CActionMgr+0x3b8 slot +0x00 UNKNOWN"
+  ],
+  "dolphin_version_manager_class": "UNKNOWN",
+  "dolphin_version_manager_vtable": "UNKNOWN",
+  "dolphin_version_manager_error_callback": "UNKNOWN",
+  "qtcvfs_puffer_path_separate": true,
+  "puffer_and_dolphin_relation": "UNKNOWN"
+}

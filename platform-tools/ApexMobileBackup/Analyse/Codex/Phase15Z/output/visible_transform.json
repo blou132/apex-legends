@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15Z",
+  "remove_100m_transform": "NO",
+  "visible_error_prefix_source": "UNKNOWN",
+  "visible_error_formatter": "UNKNOWN",
+  "reporting_decimal_formatter": "FUN_005487ec",
+  "reporting_format": "%u",
+  "reporting_input": "0x0930002a unchanged",
+  "i54140714_construction_confirmed": "NO",
+  "i54140715_same_format_family": "UNKNOWN"
+}

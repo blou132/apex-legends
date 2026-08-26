@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15Z",
+  "event_name_source": "FUN_00504b18 action field; runtime value UpdateResult",
+  "event_owner_chain": [
+    "FUN_00549800",
+    "FUN_005bcce4",
+    "FUN_004d47cc"
+  ],
+  "role": "REPORTING_ONLY",
+  "fields": [
+    "errcode",
+    "errmsg"
+  ],
+  "gem_report_helper_static_owner": "UNKNOWN"
+}

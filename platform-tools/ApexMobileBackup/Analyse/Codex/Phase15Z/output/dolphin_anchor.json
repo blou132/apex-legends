@@ -1,0 +1,13 @@
+{
+  "phase": "Phase15Z",
+  "binary": "libgcloud.so",
+  "normal_connect_version_svr": {
+    "function": "FUN_00550ee4",
+    "ghidra_address": "0x00550ee4",
+    "elf_address": "0x00450ee4"
+  },
+  "action_class": "dolphin::gcloud_version_action_imp",
+  "action_vtable_ghidra": "0x009797d0",
+  "manager_class": "cu::CActionMgr",
+  "manager_vtable_ghidra": "0x0097b000"
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15Z",
+  "family_base": "0x09300000",
+  "domain_mask": "UNKNOWN",
+  "module_id": "UNKNOWN",
+  "reason_id": "0x2a",
+  "reason_evidence": "network-unreachable branch",
+  "semantic_split_proven": false
+}

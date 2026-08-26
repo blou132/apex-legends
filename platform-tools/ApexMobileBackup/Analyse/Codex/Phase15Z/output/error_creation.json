@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15Z",
+  "raw_error_decimal": 154140714,
+  "raw_error_hex": "0x0930002a",
+  "creator": "FUN_00550ee4",
+  "relay": "FUN_00549800",
+  "creation_style": "BITFIELD",
+  "ghidra_instruction_range": "0x005516e8-0x005516f4",
+  "elf_instruction_range": "0x004516e8-0x004516f4",
+  "instructions": [
+    "mov w1,#0x2a",
+    "movk w1,#0x930, LSL #16",
+    "bl 0x00549800"
+  ]
+}

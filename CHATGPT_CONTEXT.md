@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-26 (Phase15Y completed)
+Updated: 2026-08-26 (Phase15Z completed)
 
 ## Purpose
 
@@ -11,11 +11,12 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`,
-then read Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Z/REPORT_PHASE15Z.md`,
+then read Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15V/REPORT_PHASE15V.md`
@@ -63,6 +64,23 @@ corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase15Z maps `NormalConnectVersionSvr` to `FUN_00550ee4` in
+  `libgcloud.so`. Its offline branch constructs `0x0930002a` at Ghidra
+  `0x005516e8`-`0x005516f4` with `mov`/`movk` and calls `FUN_00549800`.
+- `CONFIRMED`: RTTI maps the action to
+  `dolphin::gcloud_version_action_imp`, vtable Ghidra `0x009797d0`, and the
+  manager to `cu::CActionMgr`, vtable Ghidra `0x0097b000`.
+- `CONFIRMED`: the raw error follows
+  `FUN_00549800 -> FUN_005bf94c OnActionError -> FUN_005bf808 ->
+  FUN_005be71c ProcessActionError`. The final client callback at
+  `cu::CActionMgr+0x3b8`, slot `+0x00`, remains unresolved.
+- `CONFIRMED`: the separate `UpdateResult` path is reporting-only. It converts
+  the unchanged code with `%u`, then `FUN_005bcce4 -> FUN_004d47cc` writes
+  `errcode` and `errmsg` and commits the event.
+- `NOT CONFIRMED`: no connected code subtracts `100000000`, extracts
+  `54140714`, prepends `I`, or renders a visible code. `I54140714` construction
+  and UI ownership remain unknown. Phase15Z gate is
+  `D DOLPHIN_ERROR_CREATION_AND_ACTION_CHAIN_RESOLVED`.
 - `CONFIRMED`: Phase15Y bounds the existing Phase15U log to `t0 +105 s`
   through `t0 +165 s` and resolves the actual Puffer failure as
   `CONNECT_SERVER_TIMEOUT`, decimal `70254639`, exactly `0x0430002f`.

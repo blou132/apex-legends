@@ -1,0 +1,11 @@
+{
+  "phase": "Phase15Z",
+  "libue4_dolphin_client_anchor": "NOT_SEARCHED_NO_CONCRETE_ANCHOR",
+  "libue4_dolphin_consumer": "UNKNOWN",
+  "update_ui_owner": "UNKNOWN",
+  "update_ui_dispatch_function": "UNKNOWN",
+  "update_stage_count": "NO_NEW_EVIDENCE",
+  "update_stage_index": "NO_NEW_EVIDENCE",
+  "update_stage_2_meaning": "NO_NEW_EVIDENCE",
+  "current_blocker": "UNRESOLVED_CACTIONMGR_EXTERNAL_CALLBACK_AND_NO_VISIBLE_FORMATTER"
+}

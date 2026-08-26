@@ -1,0 +1,56 @@
+{
+  "phase": "Phase15Z",
+  "final_gate": "D DOLPHIN_ERROR_CREATION_AND_ACTION_CHAIN_RESOLVED",
+  "evidence": [
+    {
+      "claim": "NormalConnectVersionSvr owner",
+      "binary": "libgcloud.so",
+      "function": "FUN_00550ee4",
+      "ghidra_address": "0x00550ee4",
+      "elf_address": "0x00450ee4",
+      "reference_site": "exact runtime/source strings",
+      "edge_type": "CONTROL_FLOW",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "0x0930002a creation",
+      "binary": "libgcloud.so",
+      "function": "FUN_00550ee4",
+      "ghidra_address": "0x005516e8",
+      "elf_address": "0x004516e8",
+      "reference_site": "mov/movk and call at 0x005516f4",
+      "edge_type": "CONSTANT",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Dolphin action error queue path",
+      "binary": "libgcloud.so",
+      "function": "FUN_005bf94c -> FUN_005bf808 -> FUN_005be71c",
+      "ghidra_address": "0x005bf94c",
+      "elf_address": "0x004bf94c",
+      "reference_site": "cu::CActionMgr vtable and direct calls",
+      "edge_type": "VTABLE_SLOT_RESOLVED",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "UpdateResult reporting role",
+      "binary": "libgcloud.so",
+      "function": "FUN_00549800 -> FUN_005bcce4 -> FUN_004d47cc",
+      "ghidra_address": "0x005bcce4",
+      "elf_address": "0x004bcce4",
+      "reference_site": "errcode/errmsg reporting fields",
+      "edge_type": "DIRECT_CALL",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "I54140714 construction",
+      "binary": "UNKNOWN",
+      "function": "UNKNOWN",
+      "ghidra_address": "UNKNOWN",
+      "elf_address": "UNKNOWN",
+      "reference_site": "timing and decimal suffix only",
+      "edge_type": "RUNTIME_CORRELATION_ONLY",
+      "confidence": "LOW"
+    }
+  ]
+}
