@@ -1,0 +1,18 @@
+{
+  "phase": "Phase15X",
+  "client_callback_argument_register": "x2",
+  "client_callback_value": "UNKNOWN",
+  "provenance": "UNKNOWN",
+  "source_function": "UNKNOWN",
+  "source_field": "UNKNOWN",
+  "destination_field": "GCloudPufferImp+0x18",
+  "provenance_categories_rejected_without_evidence": [
+    "STACK_OBJECT",
+    "HEAP_OBJECT",
+    "OWNER_FIELD",
+    "GLOBAL_SINGLETON",
+    "STATIC_OBJECT",
+    "FACTORY_RETURN",
+    "CONSTRUCTOR_LOCAL"
+  ]
+}

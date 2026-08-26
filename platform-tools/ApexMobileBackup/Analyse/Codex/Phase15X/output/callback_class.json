@@ -1,0 +1,10 @@
+{
+  "phase": "Phase15X",
+  "interface_name": "UNKNOWN",
+  "concrete_class": "UNKNOWN",
+  "constructor": "UNKNOWN",
+  "constructor_address": "UNKNOWN",
+  "vtable": "UNKNOWN",
+  "rtti_found": false,
+  "reason": "Init callback value is not reachable from the exact CreatePuffer return flow"
+}

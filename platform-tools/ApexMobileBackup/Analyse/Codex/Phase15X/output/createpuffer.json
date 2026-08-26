@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15X",
+  "library": "libUE4.so",
+  "wrapper": {
+    "function": "FUN_080d1ac8",
+    "address": "0x080d1ac8",
+    "create_puffer_call_site": "0x080d1b84",
+    "import_thunk": "0x0a4c1730",
+    "return_usage": "RETURNED_DIRECTLY_BY_TAIL_CALL"
+  },
+  "incoming_argument_usage": {
+    "x0": "Unreal object used for interface resolution before factory tail-call"
+  },
+  "direct_callers": []
+}

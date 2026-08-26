@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15X",
+  "facade_storage": "UNKNOWN_AFTER_INDIRECT_RETURN",
+  "facade_field_offset": "UNKNOWN",
+  "facade_owner_object": "UNKNOWN",
+  "first_owner_function": "UNKNOWN",
+  "wrapper_references": [
+    {
+      "address": "0x02aa1af0",
+      "type": "INDIRECTION",
+      "containing_function": null,
+      "xref_readers": 0
+    },
+    {
+      "address": "0x0347c4e8",
+      "type": "DATA",
+      "containing_function": null,
+      "xref_readers": 0
+    }
+  ],
+  "boundary": "UNRESOLVED_INDIRECT_DISPATCH"
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "Phase15X",
+  "requested_slot": "0x10",
+  "slot_0x10_target": "UNKNOWN",
+  "slot_0x10_address": "UNKNOWN",
+  "thunk": "UNKNOWN",
+  "implementation": "UNKNOWN",
+  "secondary_callback_field": "UNKNOWN",
+  "secondary_callback_target": "UNKNOWN"
+}

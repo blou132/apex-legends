@@ -1,0 +1,50 @@
+{
+  "phase": "Phase15X",
+  "edges": [
+    {
+      "source": "FUN_080d1ac8",
+      "source_address": "0x080d1ac8",
+      "site": "0x080d1b84",
+      "target": "CreatePuffer import thunk",
+      "target_address": "0x0a4c1730",
+      "edge_type": "DIRECT_CALL"
+    },
+    {
+      "source": "FUN_080d1ac8",
+      "source_address": "0x080d1ac8",
+      "site": "0x080d1b74-0x080d1b84",
+      "target": "unresolved indirect caller",
+      "target_address": null,
+      "edge_type": "RETURN_VALUE_DATAFLOW"
+    },
+    {
+      "source": "GCloudPufferImp primary vtable",
+      "source_address": "0x009784c0",
+      "site": "slot+0x10",
+      "target": "FUN_0050323c",
+      "target_address": "0x0050323c",
+      "edge_type": "VTABLE_SLOT_RESOLVED",
+      "scope": "libgcloud semantic only; no libUE4 invocation edge"
+    }
+  ],
+  "boundary_references": [
+    {
+      "from": "0x02aa1af0",
+      "to": "0x080d1ac8",
+      "ghidra_reference_type": "INDIRECTION",
+      "containing_function": null,
+      "promoted_edge": false
+    },
+    {
+      "from": "0x0347c4e8",
+      "to": "0x080d1ac8",
+      "ghidra_reference_type": "DATA",
+      "containing_function": null,
+      "promoted_edge": false
+    }
+  ],
+  "direct_caller_count": 0,
+  "static_puffer_client_boundary_exhausted": true,
+  "current_blocker": "CREATEPUFFER_RETURN_CONSUMER_HIDDEN_BEHIND_UNRESOLVED_INDIRECT_DISPATCH",
+  "final_gate": "G CREATEPUFFER_OBJECT_FLOW_OPAQUE"
+}

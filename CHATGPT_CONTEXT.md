@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-26 (Phase15W completed)
+Updated: 2026-08-26 (Phase15X completed)
 
 ## Purpose
 
@@ -11,10 +11,11 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`,
-then read Phase15V, Phase15U, and Phase15T before using the historical order
-below. This avoids repeating conclusions that were later corrected:
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`,
+then read Phase15W, Phase15V, Phase15U, and Phase15T before using the historical
+order below. This avoids repeating conclusions that were later corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15V/REPORT_PHASE15V.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15U/REPORT_PHASE15U.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15T/REPORT_PHASE15T.md`
@@ -60,6 +61,19 @@ below. This avoids repeating conclusions that were later corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase15X establishes that `FUN_080d1ac8` restores its frame and
+  tail-branches to imported `CreatePuffer` at `0x080d1b84`. The returned facade
+  pointer in `x0` is returned directly; the wrapper does not store it.
+- `CONFIRMED`: Ghidra resolves zero direct callers for `FUN_080d1ac8`. Its only
+  entry references are an `INDIRECTION` at `0x02aa1af0` and `DATA` at
+  `0x0347c4e8`; neither has a containing function or xref reader.
+- `UNKNOWN`: no static return-value edge ties the facade to a store, owner, or
+  same-pointer Init call. Although the known Init ABI uses `x2` for the
+  downstream client callback, the client value, class, vtable, and slot `+0x10`
+  remain unresolved.
+- `CONFIRMED`: Phase15X adds no update-manager, UE4 event, Lua, UI,
+  `I54140714`, or progress `2/17` edge. The static Puffer client object-flow
+  boundary is exhausted; gate is `G CREATEPUFFER_OBJECT_FLOW_OPAQUE`.
 - `CONFIRMED`: Phase15W resolves the callback passed as argument 2 to
   `cu::CPufferInitActionResult::ProcessResult`. It comes from
   `CPufferActionCallBackImp+0x08`, not from a result field.

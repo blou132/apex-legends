@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15X",
+  "puffer_to_ue4_event_edge": false,
+  "ue4_event_function": "UNKNOWN",
+  "ue4_event_name": "UNKNOWN",
+  "puffer_to_lua_direct_edge": "NO_NEW_EDGE",
+  "update_ui_owner": "UNKNOWN",
+  "update_ui_dispatch_function": "UNKNOWN"
+}

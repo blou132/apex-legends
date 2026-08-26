@@ -1,0 +1,15 @@
+{
+  "phase": "Phase15X",
+  "caller_function": "UNKNOWN",
+  "call_site": "UNKNOWN",
+  "vtable_slot": "0x10",
+  "target_semantic": "GCloudPufferImp::Init",
+  "target_function_libgcloud": "FUN_0050323c",
+  "same_pointer_dataflow_confirmed": false,
+  "abi": {
+    "x0": "facade this",
+    "x1": "init configuration",
+    "x2": "downstream client callback"
+  },
+  "client_callback_value": "UNKNOWN"
+}
