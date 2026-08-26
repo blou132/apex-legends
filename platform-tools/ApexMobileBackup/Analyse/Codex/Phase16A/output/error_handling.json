@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16A",
+  "handling": "FORWARDED",
+  "raw_input": "0x0930002a",
+  "forwarded_output": "0x0930002a",
+  "auxiliary_inspection": [
+    "(error >> 20) & 7",
+    "error & 0xfffff",
+    "reason checks 0x27, 0x70, 0x1c"
+  ],
+  "stage_69_meaning": "UNKNOWN",
+  "client_error_mapper": "NONE_IN_RESOLVED_CALLBACK",
+  "i54140714_construction_confirmed": false
+}

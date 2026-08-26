@@ -1,0 +1,36 @@
+{
+  "phase": "Phase16A",
+  "binary": "libgcloud.so",
+  "field": "cu::CActionMgr+0x3b8",
+  "exact_scalar_instruction_hits": 161,
+  "proven_writes": [
+    {
+      "function": "FUN_005bfb10",
+      "ghidra_site": "0x005bfdd0",
+      "elf_site": "0x004bfdd0",
+      "value": "NULL",
+      "role": "constructor initialization",
+      "edge_type": "CONSTRUCTOR_ASSIGNMENT",
+      "confidence": "HIGH"
+    },
+    {
+      "function": "FUN_005bc4bc",
+      "ghidra_site": "0x005bc4e4",
+      "elf_site": "0x004bc4e4",
+      "value": "NON_NULL_ARGUMENT",
+      "role": "callback assignment",
+      "edge_type": "FIELD_WRITE",
+      "confidence": "HIGH"
+    },
+    {
+      "function": "FUN_005bff30",
+      "ghidra_site": "0x005bff78",
+      "elf_site": "0x004bff78",
+      "value": "NULL",
+      "role": "destructor cleanup",
+      "edge_type": "FIELD_WRITE",
+      "confidence": "HIGH"
+    }
+  ],
+  "false_positive_policy": "Reject unrelated object layouts even when the literal offset is exact"
+}

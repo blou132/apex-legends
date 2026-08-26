@@ -1,0 +1,66 @@
+{
+  "phase": "Phase16A",
+  "final_gate": "C CACTIONMGR_CALLBACK_SLOT_00_IMPLEMENTATION_RESOLVED",
+  "evidence": [
+    {
+      "claim": "CActionMgr non-null callback assignment",
+      "function": "FUN_005bc4bc",
+      "ghidra_address": "0x005bc4e4",
+      "elf_address": "0x004bc4e4",
+      "instruction_or_call_site": "str x1,[x0,#0x3b8]",
+      "object_provenance": "CActionMgr this from CVersionStrategy+0x20",
+      "edge_type": "FIELD_WRITE",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "CVersionStrategy registers itself",
+      "function": "FUN_0050c4a8",
+      "ghidra_address": "0x0050c4f4",
+      "elf_address": "0x0040c4f4",
+      "instruction_or_call_site": "CActionMgr vtable slot +0xe0",
+      "object_provenance": "heap CVersionStrategy_Win32",
+      "edge_type": "INDIRECT_CALL_DATAFLOW_RESOLVED",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Version manager supplies callback object",
+      "function": "FUN_00576890",
+      "ghidra_address": "0x005769a8",
+      "elf_address": "0x004769a8",
+      "instruction_or_call_site": "CVersionStrategy vtable slot +0x48",
+      "object_provenance": "CVersionMgrImp+0x10",
+      "edge_type": "INDIRECT_CALL_DATAFLOW_RESOLVED",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Concrete callback class and slot 0",
+      "function": "FUN_0050cb38",
+      "ghidra_address": "0x009789b0",
+      "elf_address": "0x008789b0",
+      "instruction_or_call_site": "CVersionStrategy_Win32 vtable slot +0x00",
+      "object_provenance": "RTTI and constructor vptr",
+      "edge_type": "VTABLE_SLOT_RESOLVED",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Raw stage and error reach external client",
+      "function": "FUN_0050cb38",
+      "ghidra_address": "0x0050cc0c",
+      "elf_address": "0x0040cc0c",
+      "instruction_or_call_site": "external client vtable slot +0x28",
+      "object_provenance": "callback supplied to CVersionMgrImp::Init",
+      "edge_type": "INDIRECT_CALL_DATAFLOW_RESOLVED",
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "I54140714 construction",
+      "function": "UNKNOWN",
+      "ghidra_address": "UNKNOWN",
+      "elf_address": "UNKNOWN",
+      "instruction_or_call_site": "NONE",
+      "object_provenance": "no connected mapper or formatter",
+      "edge_type": "UNKNOWN",
+      "confidence": "LOW"
+    }
+  ]
+}

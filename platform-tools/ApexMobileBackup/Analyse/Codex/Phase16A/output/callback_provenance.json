@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16A",
+  "provenance": "HEAP_OBJECT",
+  "source_object": "cu::CVersionStrategy_Win32",
+  "source_field": "CVersionMgrImp+0x10",
+  "source_function_chain": [
+    "FUN_00576180",
+    "FUN_0050cf44",
+    "FUN_0050cedc"
+  ],
+  "manager_field": "CVersionStrategy+0x20",
+  "external_client_field": "CVersionStrategy+0x18",
+  "confidence": "HIGH"
+}

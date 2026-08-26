@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-26 (Phase15Z completed)
+Updated: 2026-08-26 (Phase16A completed)
 
 ## Purpose
 
@@ -11,11 +11,12 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Z/REPORT_PHASE15Z.md`,
-then read Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16A/REPORT_PHASE16A.md`,
+then read Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Z/REPORT_PHASE15Z.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`
@@ -64,6 +65,24 @@ corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase16A resolves the only proven non-null write to
+  `cu::CActionMgr+0x3b8` as `FUN_005bc4bc` at Ghidra `0x005bc4e4`. The method
+  is `CActionMgr` vtable slot `+0xe0` and receives a
+  `cu::CVersionStrategy_Win32` object.
+- `CONFIRMED`: `CVersionMgrImp::Init` creates the heap strategy object and
+  stores it at `CVersionMgrImp+0x10`. `CVersionMgrImp::CheckAppUpdate`
+  supplies it through strategy slot `+0x48`, resolved to `FUN_0050c4a8`.
+- `CONFIRMED`: the callback class implements `cu::IActionMgrCallback`; its
+  vtable is Ghidra `0x009789b0`, ELF `0x008789b0`, and slot `+0x00` resolves
+  directly to `FUN_0050cb38`.
+- `CONFIRMED`: `FUN_0050cb38` forwards the stage and original raw Dolphin
+  error unchanged to an externally supplied callback at
+  `CVersionStrategy+0x18`, slot `+0x28`. Internal bitfield checks do not alter
+  the forwarded value.
+- `UNKNOWN`: the external callback class and slot `+0x28` implementation, UE4
+  or Lua consumer, UI formatter, and construction of `I54140714` remain
+  unresolved. Phase16A gate is
+  `C CACTIONMGR_CALLBACK_SLOT_00_IMPLEMENTATION_RESOLVED`.
 - `CONFIRMED`: Phase15Z maps `NormalConnectVersionSvr` to `FUN_00550ee4` in
   `libgcloud.so`. Its offline branch constructs `0x0930002a` at Ghidra
   `0x005516e8`-`0x005516f4` with `mov`/`movk` and calls `FUN_00549800`.

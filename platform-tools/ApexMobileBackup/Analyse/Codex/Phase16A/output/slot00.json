@@ -1,0 +1,18 @@
+{
+  "phase": "Phase16A",
+  "slot": "0x00",
+  "target": "FUN_0050cb38",
+  "ghidra_address": "0x0050cb38",
+  "elf_address": "0x0040cb38",
+  "thunk": false,
+  "implementation": "FUN_0050cb38",
+  "stage_argument": "uint32, forwarded unchanged",
+  "error_argument": "uint32 raw error, forwarded unchanged",
+  "external_dispatch": {
+    "field": "CVersionStrategy+0x18",
+    "slot": "0x28",
+    "load_ghidra": "0x0050cc04",
+    "call_ghidra": "0x0050cc0c"
+  },
+  "confidence": "HIGH"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16A",
+  "class": "cu::CVersionStrategy_Win32",
+  "interface": "cu::IActionMgrCallback",
+  "vtable_ghidra": "0x009789b0",
+  "vtable_elf": "0x008789b0",
+  "rtti_ghidra": {
+    "interface": "0x00997380",
+    "base": "0x009973a0",
+    "derived": "0x009973b8"
+  },
+  "slot_0x48": "FUN_0050c4a8",
+  "confidence": "HIGH"
+}

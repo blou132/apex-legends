@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16A",
+  "version_manager_class": "CVersionMgrImp",
+  "class_evidence": "CVersionMgrImp::Init and CVersionMgrImp::CheckAppUpdate source/monitor strings",
+  "functions": [
+    "FUN_00576180",
+    "FUN_00576890"
+  ],
+  "boundary": "EXTERNAL_CLIENT",
+  "external_callback_field": "CVersionStrategy+0x18",
+  "external_callback_slot": "0x28",
+  "external_callback_implementation": "UNKNOWN",
+  "current_blocker": "UNRESOLVED_EXTERNAL_CLIENT_CALLBACK_AT_CVERSIONSTRATEGY_PLUS_0X18_SLOT_0X28"
+}

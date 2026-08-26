@@ -1,0 +1,9 @@
+{
+  "phase": "Phase16A",
+  "libue4_exact_callback_anchor": "NONE",
+  "libue4_callback_consumer": "UNKNOWN",
+  "dolphin_to_ue4_edge": "NO_NEW_EDGE",
+  "dolphin_to_lua_edge": "NO_NEW_EDGE",
+  "ui_formatter": "UNKNOWN",
+  "update_result_event_role": "REPORTING_ONLY"
+}
