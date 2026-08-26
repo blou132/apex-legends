@@ -1,0 +1,19 @@
+{
+  "phase": "Phase15Y",
+  "source_phase": "Phase15U",
+  "window_seconds": {"start": 105, "end": 165},
+  "events": [
+    {"relative_seconds": 109.1, "component": "Android activity", "event": "GameActivity resumed"},
+    {"relative_seconds": 116.6, "component": "Puffer", "event": "CPufferMgrImp and CPufferInitAction initialization"},
+    {"relative_seconds": 116.7, "component": "Puffer", "event": "DNS failure and connection wait"},
+    {"relative_seconds": 118.2, "component": "GCloud Dolphin", "event": "version_mgr_imp Init"},
+    {"relative_seconds": 118.3, "component": "GCloud Dolphin", "event": "NormalConnectVersionSvr offline failure"},
+    {"relative_seconds": 118.3, "component": "GPMSDK", "event": "ClientEvent UpdateResult", "code_decimal": 154140714, "code_hex": "0x0930002a", "result": -1},
+    {"relative_seconds": 118.4, "component": "GCloud action manager", "event": "ProcessActionError"},
+    {"relative_seconds": 120.0, "component": "Rendered UI", "event": "2/17 and I54140714 visible"},
+    {"relative_seconds": 137.7, "component": "Puffer", "event": "first connect server timeout"},
+    {"relative_seconds": 159.0, "component": "Puffer", "event": "final get-URL failure", "code_decimal": 70254639, "code_hex": "0x0430002f"},
+    {"relative_seconds": 159.0, "component": "Puffer manager", "event": "retry initialization on different thread"}
+  ],
+  "temporal_conclusion": "DOLPHIN_UPDATE_RESULT_THEN_UI_THEN_PUFFER_FINAL_RESULT"
+}

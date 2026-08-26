@@ -1,0 +1,25 @@
+{
+  "runtime_source_files": [
+    "puffer_init_action.cpp",
+    "version_mgr_imp.cpp",
+    "GcloudDolphinVersionAction.cpp",
+    "action_mgr.cpp"
+  ],
+  "runtime_classes_or_components": [
+    "CPufferInitAction",
+    "CPufferMgrImp",
+    "CPufferMgrImpInter",
+    "dolphin::gcloud_version_action_imp",
+    "GemReportHelper"
+  ],
+  "runtime_functions": [
+    "MakeSureGetUrlFromServer",
+    "NormalConnectVersionSvr",
+    "OnActionError",
+    "ProcessActionError"
+  ],
+  "runtime_update_manager_anchor": "GCLOUD_DOLPHIN_VERSION_MANAGER",
+  "runtime_event_anchor": "CLIENTEVENT/UPDATERESULT",
+  "runtime_client_callback_anchor": "NONE",
+  "i54140714_logcat_anchor": "NOT_FOUND"
+}

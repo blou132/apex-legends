@@ -1,0 +1,17 @@
+{
+  "puffer": {
+    "branch": "CONNECT_SERVER_TIMEOUT",
+    "exact_log_text": "connect server timeout",
+    "result_decimal": 70254639,
+    "result_hex": "0x0430002f",
+    "status": "CONFIRMED"
+  },
+  "dolphin": {
+    "event": "UpdateResult",
+    "result": -1,
+    "code_decimal": 154140714,
+    "code_hex": "0x0930002a",
+    "status": "CONFIRMED_SEPARATE_VERSION_PATH"
+  },
+  "codes_equated": false
+}

@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {"claim": "Puffer timeout branch", "evidence": "exact runtime text and decimal result", "result": "0x0430002f", "confidence": "CONFIRMED"},
+    {"claim": "Dolphin update failure", "evidence": "UpdateResult event", "result": "0x0930002a / -1", "confidence": "CONFIRMED"},
+    {"claim": "Named update manager", "evidence": "version_mgr_imp.cpp and dolphin::gcloud_version_action_imp", "result": "GCLOUD_DOLPHIN_VERSION_MANAGER", "confidence": "CONFIRMED"},
+    {"claim": "Static action-error owner", "evidence": "exact Ghidra string owner", "result": "libgcloud.so:0x005be71c", "confidence": "CONFIRMED"},
+    {"claim": "Static Puffer/QTCVFS callback", "evidence": "exact Ghidra UpdateResult label", "result": "libgcloud.so:0x005dfe58", "confidence": "CONFIRMED"},
+    {"claim": "External application callback identity", "evidence": "no runtime name or direct x2 edge", "result": "UNKNOWN", "confidence": "UNRESOLVED"},
+    {"claim": "I54140714 construction", "evidence": "timing and numeric suffix only", "result": "NOT_CONFIRMED", "confidence": "CORRELATION_ONLY"}
+  ],
+  "final_gate": "C NAMED_CLIENT_UPDATE_MANAGER_ANCHORED"
+}

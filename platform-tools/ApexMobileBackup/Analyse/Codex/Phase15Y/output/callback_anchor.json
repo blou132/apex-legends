@@ -1,0 +1,20 @@
+{
+  "phase15w_external_callback": {
+    "class": "UNKNOWN",
+    "constructor": "UNKNOWN",
+    "vtable": "UNKNOWN",
+    "slot_0x10_target": "UNKNOWN"
+  },
+  "runtime_callback_anchor": "NONE",
+  "static_qtcvfs_callback": {
+    "label": "VFS_Puffer_OnUpdateResult",
+    "binary": "libgcloud.so",
+    "ghidra_address": "0x005dfe58",
+    "function": "FUN_005dfe58",
+    "source_file": "puffer_callback_qtcvfs.cpp",
+    "set_init_return_function": "FUN_005e1494",
+    "external_slot_call": "+0x10 on callback stored at QTCVFS manager +0x20"
+  },
+  "same_as_gcloudpufferimp_x2_object": "NOT_PROVEN",
+  "thread_relation": "DIFFERENT_UNNAMED_THREADS_NO_CLIENT_CONSUMER_IDENTIFIED"
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "EXACT_READ_ONLY_GHIDRA_FOLLOWUP",
+  "analysis_disabled": true,
+  "searched_terms": [
+    "GemReportHelper",
+    "UpdateResult",
+    "version_mgr_imp.cpp",
+    "GcloudDolphinVersionAction.cpp",
+    "ProcessActionError",
+    "action_mgr.cpp"
+  ],
+  "libue4_hits": 0,
+  "libgcloud": {
+    "process_action_error": {"ghidra_address": "0x005be71c", "function": "FUN_005be71c"},
+    "vfs_puffer_on_update_result": {"ghidra_address": "0x005dfe58", "function": "FUN_005dfe58"},
+    "exact_source_anchors": ["version_mgr_imp.cpp", "GcloudDolphinVersionAction.cpp"]
+  },
+  "client_update_manager": "dolphin::gcloud_version_action_imp / GCloud Dolphin version manager",
+  "puffer_to_update_manager_direct_edge": false,
+  "i54140714_construction_confirmed": false
+}

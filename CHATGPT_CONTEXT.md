@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-26 (Phase15X completed)
+Updated: 2026-08-26 (Phase15Y completed)
 
 ## Purpose
 
@@ -11,10 +11,12 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`,
-then read Phase15W, Phase15V, Phase15U, and Phase15T before using the historical
-order below. This avoids repeating conclusions that were later corrected:
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`,
+then read Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
+historical order below. This avoids repeating conclusions that were later
+corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15V/REPORT_PHASE15V.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15U/REPORT_PHASE15U.md`
@@ -61,6 +63,26 @@ order below. This avoids repeating conclusions that were later corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase15Y bounds the existing Phase15U log to `t0 +105 s`
+  through `t0 +165 s` and resolves the actual Puffer failure as
+  `CONNECT_SERVER_TIMEOUT`, decimal `70254639`, exactly `0x0430002f`.
+- `CONFIRMED`: a separate earlier GCloud Dolphin version path starts through
+  `version_mgr_imp.cpp`, reports `UpdateResult` code `154140714`
+  (`0x0930002a`) with result `-1`, and reaches `ProcessActionError`. This event
+  precedes the `+120 s` screenshot; the final Puffer result follows it.
+- `CONFIRMED`: exact read-only Ghidra follow-up anchors `ProcessActionError` at
+  `libgcloud.so` `0x005be71c` and `VFS_Puffer_OnUpdateResult` at `0x005dfe58`.
+  `libUE4.so` has zero hits for the exact new runtime terms.
+- `UNKNOWN`: timing and the numeric suffix make the Dolphin result a stronger
+  candidate for rendered `I54140714`, but no formatter or direct UI edge is
+  present. `I54140714` remains absent from logcat and its construction is not
+  confirmed.
+- `UNKNOWN`: Phase15Y still does not identify the application callback stored
+  at `GCloudPufferImp+0x18` or its slot `+0x10` target. The QTCVFS callback
+  boundary is not proven to be the same object supplied to Init as `x2`.
+- `CONFIRMED`: Phase15Y gate is `C NAMED_CLIENT_UPDATE_MANAGER_ANCHORED`. The
+  existing runtime-log axis is exhausted for external callback identity; a
+  future distinct methodology would need a client callback registration trace.
 - `CONFIRMED`: Phase15X establishes that `FUN_080d1ac8` restores its frame and
   tail-branches to imported `CreatePuffer` at `0x080d1b84`. The returned facade
   pointer in `x0` is returned directly; the wrapper does not store it.
