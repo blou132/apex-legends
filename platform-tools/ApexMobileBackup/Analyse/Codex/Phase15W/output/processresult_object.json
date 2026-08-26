@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15W",
+  "library": "libgcloud.so",
+  "processresult": {
+    "name": "cu::CPufferInitActionResult::ProcessResult",
+    "function": "FUN_004ee1dc",
+    "ghidra_address": "0x004ee1dc",
+    "elf_address": "0x003ee1dc"
+  },
+  "callback_object": "cu::IPufferCallBack subobject of GCloud::GCloudPufferImp",
+  "callback_argument": 2,
+  "callback_field_offset": "CPufferActionCallBackImp+0x08",
+  "stored_in_result": false,
+  "virtual_slot": "0x10",
+  "result_layout": {
+    "0x00": "cu::CPufferInitActionResult vtable",
+    "0x08": "CPufferMgrImpInter pointer, distinct from callback",
+    "0x10": "success byte",
+    "0x14": "Puffer result code"
+  },
+  "source": "GCloudPufferImp this+0x08 -> config[0] -> CPufferActionCallBackImp+0x08"
+}

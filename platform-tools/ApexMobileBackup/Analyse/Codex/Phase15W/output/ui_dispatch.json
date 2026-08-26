@@ -1,0 +1,10 @@
+{
+  "phase": "Phase15W",
+  "update_manager_function": "UNKNOWN",
+  "update_manager_class": "UNKNOWN",
+  "update_ui_dispatch_function": "UNKNOWN",
+  "update_ui_owner": "UNKNOWN",
+  "puffer_to_lua_direct_edge": false,
+  "login_direct_edge_from_update": "NO_NEW_EDGE",
+  "server_list_direct_edge_from_update": "NO_NEW_EDGE"
+}

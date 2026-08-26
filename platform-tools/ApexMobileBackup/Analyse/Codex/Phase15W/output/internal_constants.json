@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15W",
+  "library": "libUE4.so",
+  "scan_scope": "exact instruction scalars and defined scalar data only",
+  "hits": {
+    "0x0430002e": 0,
+    "0x0430002f": 0,
+    "0x04300030": 0,
+    "0x04300031": 0,
+    "0x04300032": 0
+  },
+  "error_family_masking": "NO_IN_RESOLVED_FORWARDER",
+  "global_partial_scan_performed": false
+}

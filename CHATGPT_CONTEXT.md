@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-25 (Phase15T completed)
+Updated: 2026-08-26 (Phase15W completed)
 
 ## Purpose
 
@@ -11,8 +11,13 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15T/REPORT_PHASE15T.md`,
-then use this order to avoid repeating conclusions that were later corrected:
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase15W/REPORT_PHASE15W.md`,
+then read Phase15V, Phase15U, and Phase15T before using the historical order
+below. This avoids repeating conclusions that were later corrected:
+
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15V/REPORT_PHASE15V.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15U/REPORT_PHASE15U.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15T/REPORT_PHASE15T.md`
 
 1. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15S/REPORT_PHASE15S.md`
 2. `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15R/REPORT_PHASE15R.md`
@@ -55,6 +60,25 @@ then use this order to avoid repeating conclusions that were later corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase15W resolves the callback passed as argument 2 to
+  `cu::CPufferInitActionResult::ProcessResult`. It comes from
+  `CPufferActionCallBackImp+0x08`, not from a result field.
+- `CONFIRMED`: the callback object is the `cu::IPufferCallBack` secondary
+  subobject at `this+0x08` of `GCloud::GCloudPufferImp`, created by
+  `CreatePuffer`. Its vtable is Ghidra `0x009785f8`, ELF `0x008785f8`.
+- `CONFIRMED`: callback slot `+0x10` resolves to `FUN_00503050`, then
+  `FUN_00503024`. The latter forwards the success flag and Puffer code without
+  observed translation to an externally supplied client callback stored at
+  `GCloudPufferImp+0x18`.
+- `CONFIRMED`: the earlier result submission object is the distinct
+  `cu::CPufferActionCallBackImp`; its slot `+0x20` resolves to `FUN_004f3a14`.
+- `CONFIRMED`: exact `libUE4.so` scalar scans return zero hits for each of
+  `0x0430002e` through `0x04300032`. The exact `CreatePuffer` import reaches
+  only the facade factory; no exact `CreatePufferCallBack` registration anchor
+  or downstream callback constructor was found.
+- `UNKNOWN`: the concrete external client callback, client error mapper,
+  update manager, UI dispatch, and exact `I54140714` construction remain
+  unresolved. Phase15W gate is `D CONCRETE_DYNAMIC_CALLBACK_IMPLEMENTATION_RESOLVED`.
 - `CONFIRMED`: the Ghidra program uses image base `0x100000`.
 - `CONFIRMED`: convert an ELF virtual address with `GHIDRA_ADDRESS = ELF_VIRTUAL_ADDRESS + 0x100000`.
 - `INVALIDATED`: Phase3B conclusions that used Phase2 ELF virtual addresses directly as Ghidra addresses.

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase15W",
+  "first_concrete_consumer": {
+    "library": "libgcloud.so",
+    "class": "GCloud::GCloudPufferImp",
+    "function": "FUN_00503024",
+    "ghidra_address": "0x00503024",
+    "behavior": "RAW_PASS_THROUGH_TO_EXTERNAL_CALLBACK"
+  },
+  "client_puffer_consumer": "UNKNOWN_BEYOND_GCLOUDPUFFERIMP_FORWARDER",
+  "libue4_connected_consumer": false,
+  "login_direct_edge_from_update": "NO_NEW_EDGE",
+  "server_list_direct_edge_from_update": "NO_NEW_EDGE"
+}

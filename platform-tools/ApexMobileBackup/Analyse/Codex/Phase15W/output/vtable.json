@@ -1,0 +1,22 @@
+{
+  "phase": "Phase15W",
+  "callback": {
+    "interface": "cu::IPufferCallBack",
+    "concrete_class": "GCloud::GCloudPufferImp",
+    "ghidra_address": "0x009785f8",
+    "elf_address": "0x008785f8",
+    "entries": {
+      "0x00": "FUN_00502ff0",
+      "0x08": "FUN_00503234",
+      "0x10": "FUN_00503050 -> FUN_00503024",
+      "0x18": "FUN_00503080 -> FUN_00503058",
+      "0x20": "FUN_005030b4 -> FUN_00503088"
+    }
+  },
+  "submit_object": {
+    "class": "cu::CPufferActionCallBackImp",
+    "ghidra_vtable_address": "0x009781f0",
+    "slot_0x20_target": "FUN_004f3a14"
+  },
+  "same_manager_object": false
+}

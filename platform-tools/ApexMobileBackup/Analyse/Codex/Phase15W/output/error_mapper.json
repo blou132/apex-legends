@@ -1,0 +1,9 @@
+{
+  "phase": "Phase15W",
+  "client_error_mapping_function": "UNKNOWN",
+  "client_error_mapping_style": "UNKNOWN",
+  "boundary_forwarding_style": "RAW_PASS_THROUGH",
+  "i54140714_construction_confirmed": false,
+  "formatter_found": false,
+  "reason": "No connected client consumer or mapper was resolved"
+}

@@ -1,0 +1,98 @@
+{
+  "phase": "Phase15W",
+  "address_model": {
+    "library": "libgcloud.so",
+    "rule": "GHIDRA = ELF_VA + 0x100000"
+  },
+  "edges": [
+    {
+      "source_function": "CreatePuffer",
+      "source_address": "0x005045d0",
+      "site": "0x005045e4",
+      "target_function": "FUN_005045ac",
+      "target_address": "0x005045ac",
+      "edge_type": "DIRECT_CALL"
+    },
+    {
+      "source_function": "FUN_005045ac",
+      "source_address": "0x005045ac",
+      "site": "0x005045c8",
+      "target_function": "cu::IPufferCallBack secondary vtable",
+      "target_address": "0x009785f8",
+      "edge_type": "CONSTRUCTOR_ASSIGNMENT"
+    },
+    {
+      "source_function": "FUN_0050323c",
+      "source_address": "0x0050323c",
+      "site": "0x005037f8",
+      "target_function": "config[0] = GCloudPufferImp this+0x08",
+      "target_address": null,
+      "edge_type": "CONSTRUCTOR_ASSIGNMENT"
+    },
+    {
+      "source_function": "FUN_004f02dc",
+      "source_address": "0x004f02dc",
+      "site": "0x004f0658",
+      "target_function": "FUN_004f42d4",
+      "target_address": "0x004f42d4",
+      "edge_type": "DIRECT_CALL"
+    },
+    {
+      "source_function": "FUN_004f42d4",
+      "source_address": "0x004f42d4",
+      "site": "0x004f431c",
+      "target_function": "CPufferActionCallBackImp+0x08",
+      "target_address": null,
+      "edge_type": "CONSTRUCTOR_ASSIGNMENT"
+    },
+    {
+      "source_function": "FUN_004fcaf4",
+      "source_address": "0x004fcaf4",
+      "site": "0x004fcb3c",
+      "target_function": "FUN_004f3a14",
+      "target_address": "0x004f3a14",
+      "edge_type": "VTABLE_SLOT_RESOLVED"
+    },
+    {
+      "source_function": "FUN_004f4418",
+      "source_address": "0x004f4418",
+      "site": "0x004f45d8",
+      "target_function": "FUN_004ee1dc",
+      "target_address": "0x004ee1dc",
+      "edge_type": "VTABLE_SLOT_RESOLVED"
+    },
+    {
+      "source_function": "FUN_004ee1dc",
+      "source_address": "0x004ee1dc",
+      "site": "0x004ee308",
+      "target_function": "FUN_00503050",
+      "target_address": "0x00503050",
+      "edge_type": "VTABLE_SLOT_RESOLVED"
+    },
+    {
+      "source_function": "FUN_00503050",
+      "source_address": "0x00503050",
+      "site": "0x00503054",
+      "target_function": "FUN_00503024",
+      "target_address": "0x00503024",
+      "edge_type": "DIRECT_CALL"
+    },
+    {
+      "source_function": "FUN_00503024",
+      "source_address": "0x00503024",
+      "site": "0x00503040",
+      "target_function": "external client callback slot +0x10",
+      "target_address": null,
+      "edge_type": "VTABLE_SLOT_RESOLVED"
+    },
+    {
+      "source_function": "FUN_080d1ac8",
+      "source_address": "0x080d1ac8",
+      "site": "0x080d1b84",
+      "target_function": "CreatePuffer",
+      "target_address": "0x0a4c1730",
+      "edge_type": "IMPORT_REFERENCE"
+    }
+  ],
+  "final_gate": "D CONCRETE_DYNAMIC_CALLBACK_IMPLEMENTATION_RESOLVED"
+}

@@ -1,0 +1,29 @@
+{
+  "phase": "Phase15W",
+  "constructor": {
+    "factory": "CreatePuffer",
+    "factory_ghidra_address": "0x005045d0",
+    "function": "FUN_005045ac",
+    "ghidra_address": "0x005045ac"
+  },
+  "owner": "GCloud::GCloudPufferImp",
+  "interface": "cu::IPufferCallBack",
+  "assignments": [
+    {
+      "function": "FUN_0050323c",
+      "site": "0x005037f8",
+      "operation": "config[0] = GCloudPufferImp this+0x08"
+    },
+    {
+      "function": "FUN_004f42d4",
+      "site": "0x004f431c",
+      "operation": "CPufferActionCallBackImp+0x08 = config[0]"
+    }
+  ],
+  "downstream_client_callback": {
+    "source": "GCloudPufferImp::Init argument 3",
+    "field_offset": "0x18",
+    "assignment_site": "0x005032e0",
+    "concrete_type": "UNKNOWN"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "Phase15W",
+  "callback_registration_function": "FUN_0050323c -> FUN_004f02dc",
+  "callback_registration_interface": "cu::IPufferCallBack",
+  "processresult_callback_registered_externally": false,
+  "downstream_client_callback_registered_externally": true,
+  "libue4": {
+    "callback_registration_site": "UNKNOWN",
+    "callback_object_constructor": "UNKNOWN",
+    "create_puffer_callback_anchor_found": false,
+    "create_puffer_factory_site": {
+      "function": "FUN_080d1ac8",
+      "call_site": "0x080d1b84",
+      "classification": "FACADE_FACTORY_ONLY"
+    }
+  }
+}
