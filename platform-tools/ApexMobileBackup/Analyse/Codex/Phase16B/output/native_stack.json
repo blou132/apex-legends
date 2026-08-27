@@ -1,0 +1,10 @@
+{
+  "phase": "Phase16B",
+  "native_function_call_addresses": "NOT_SUPPORTED",
+  "indirect_branch_targets": "NOT_SUPPORTED",
+  "native_call_stacks": "NOT_SUPPORTED",
+  "register_arguments": "NOT_SUPPORTED",
+  "callback_object_vtable": "NOT_SUPPORTED",
+  "native_call_stack_available": false,
+  "reason": "No permitted native sampler or process dump for the unchanged package"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16B",
+  "device_model": "PRA-LX1",
+  "android_version": "8.0.0",
+  "api_level": 26,
+  "build_type": "user",
+  "ro_debuggable": false,
+  "ro_secure": true,
+  "root_available": false,
+  "selinux": "Enforcing",
+  "proc_hidepid": 2,
+  "perf_event_paranoid": 3,
+  "apex_process_during_audit": "STOPPED"
+}

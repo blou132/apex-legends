@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16B",
+  "root_required_for_useful_trace": true,
+  "root_required_scope": "CURRENT_DEVICE_AND_UNCHANGED_PRODUCTION_PACKAGE",
+  "noninvasive_runtime_trace_available": false,
+  "best_future_trace_method": "NO_NONINVASIVE_METHOD",
+  "future_phase16c_target": "NONE_UNDER_CURRENT_CONSTRAINTS",
+  "future_phase16c_expected_evidence": "NONE",
+  "current_blocker": "PRODUCTION_DEVICE_POLICY_PREVENTS_EXACT_EXTERNAL_CALLBACK_OBSERVATION",
+  "final_gate": "D NO_NONINVASIVE_RUNTIME_TRACE_AVAILABLE",
+  "apex_launched": false,
+  "apex_modified": false
+}

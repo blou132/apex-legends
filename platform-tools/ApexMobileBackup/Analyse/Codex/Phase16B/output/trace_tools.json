@@ -1,0 +1,18 @@
+{
+  "phase": "Phase16B",
+  "tools": {
+    "debuggerd": "PRESENT_BUT_PROCESS_DUMP_BLOCKED_BY_OS_POLICY",
+    "showmap": "ABSENT",
+    "simpleperf": "ABSENT",
+    "perf": "ABSENT",
+    "atrace": "PRESENT_EVENT_TRACE_ONLY",
+    "systrace": "ABSENT_ON_DEVICE",
+    "perfetto": "ABSENT",
+    "traced": "ABSENT",
+    "heapprofd": "ABSENT",
+    "jdwp": "NOT_SUPPORTED_BY_PACKAGE_POLICY",
+    "run_as": "NOT_SUPPORTED_BY_PACKAGE_POLICY",
+    "am_profile": "PRESENT_NOT_USEFUL_FOR_EXACT_NATIVE_CALLBACK",
+    "package_profile_commands": "PRESENT_ART_PROFILE_MANAGEMENT_ONLY"
+  }
+}

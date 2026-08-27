@@ -1,0 +1,9 @@
+{
+  "phase": "Phase16B",
+  "future_libgcloud_mapping_observable": false,
+  "future_libue4_mapping_observable": false,
+  "showmap": "ABSENT",
+  "debuggerd": "BLOCKED_BY_OS_POLICY",
+  "proc_policy": "hidepid=2 plus non-debuggable process ptrace access restrictions",
+  "runtime_base_available": false
+}

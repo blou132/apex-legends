@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-26 (Phase16A completed)
+Updated: 2026-08-27 (Phase16B completed)
 
 ## Purpose
 
@@ -11,11 +11,12 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16A/REPORT_PHASE16A.md`,
-then read Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16B/REPORT_PHASE16B.md`,
+then read Phase16A, Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16A/REPORT_PHASE16A.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Z/REPORT_PHASE15Z.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15X/REPORT_PHASE15X.md`
@@ -65,6 +66,20 @@ corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase16B revalidates the PRA-LX1 as Android 8/API 26 `user`,
+  `ro.debuggable=0`, `ro.secure=1`, non-root, SELinux enforcing, with
+  `/proc` `hidepid=2` and restrictive perf policy. Apex remained stopped.
+- `CONFIRMED`: the installed Apex package is neither debuggable nor
+  profileable by shell. `run-as`/JDWP are unavailable by package policy.
+- `CONFIRMED`: `debuggerd -b` remains blocked by the Phase14 OS policy result;
+  `showmap`, simpleperf, perf, Perfetto, traced, and heapprofd are absent.
+  `atrace` cannot expose native PCs, registers, vtables, or indirect branch
+  targets.
+- `CONFIRMED`: no supported non-invasive method on this device can identify
+  the external callback at `CVersionStrategy+0x18`, slot `+0x28`, or provide
+  the required runtime library bases. Phase16B gate is
+  `D NO_NONINVASIVE_RUNTIME_TRACE_AVAILABLE`; no Phase16C run should occur
+  under the current constraints.
 - `CONFIRMED`: Phase16A resolves the only proven non-null write to
   `cu::CActionMgr+0x3b8` as `FUN_005bc4bc` at Ghidra `0x005bc4e4`. The method
   is `CActionMgr` vtable slot `+0xe0` and receives a

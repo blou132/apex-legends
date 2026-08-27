@@ -1,0 +1,8 @@
+{
+  "phase": "Phase16B",
+  "static_dispatch": "CVersionStrategy external callback slot +0x28",
+  "indirect_call_target_trace_available": false,
+  "callback_object_vtable_trace_available": false,
+  "classification": "NO",
+  "reason": "atrace does not report user-space BLR targets and no native sampler/debugger is authorized"
+}

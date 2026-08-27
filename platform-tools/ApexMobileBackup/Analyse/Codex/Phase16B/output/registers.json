@@ -1,0 +1,10 @@
+{
+  "phase": "Phase16B",
+  "targets": [
+    "FUN_00576180",
+    "FUN_0050cb38"
+  ],
+  "register_argument_trace_available": false,
+  "classification": "NO",
+  "reason": "No root, debugger, ptrace, hook, patch, or equivalent supported register facility"
+}
