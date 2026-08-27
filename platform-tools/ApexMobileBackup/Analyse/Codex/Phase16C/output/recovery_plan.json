@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16C",
+  "bootloader_unlock_expected_to_wipe_userdata": true,
+  "apex_post_wipe_reinstall_ready": true,
+  "exact_stock_firmware_available": "PROBABLE_THIRD_PARTY_INDEXED_NOT_VERIFIED",
+  "stock_boot_or_ramdisk_available": "NO_LOCAL_COPY",
+  "stock_recovery_available": "NO_LOCAL_COPY",
+  "erecovery_available": "PARTITIONS_PRESENT_SERVICE_UNTESTED",
+  "magisk_patch_target": "RAMDISK.img",
+  "magisk_method_confidence": "MEDIUM",
+  "root_installed": false
+}

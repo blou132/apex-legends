@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16C",
+  "potatonv_soc_compatibility": "CONFIRMED",
+  "pra_lx1_supported_by_potatonv": "YES_UPSTREAM_TESTED_PRA",
+  "kirin655_supported_by_potatonv": "YES_UPSTREAM_DOCUMENTED",
+  "recommended_bootloader_profile": "KIRIN_65X_A",
+  "testpoint_required": true,
+  "phone_disassembly_required": true,
+  "testpoint_reference_confidence": "LOW",
+  "fblock_option_relevant": "YES_FOR_KIRIN65X_NOT_AUTHORIZED",
+  "exact_build_potatonv_evidence": "NONE_FOUND",
+  "same_model_emui8_evidence": "COMMUNITY_CONFIRMED_DIFFERENT_CUST",
+  "known_incompatibility": "NONE_FOUND_EXACT_BUILD_UNVALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "phase": "Phase16C",
+  "bootloader_locked": true,
+  "verified_boot_state": "GREEN",
+  "vbmeta_device_state": "locked",
+  "verity_mode": "enforcing",
+  "oem_unlock_supported": true,
+  "oem_unlock_toggle_available": "UNKNOWN",
+  "oem_unlock_toggle_enabled": "NO_BY_SYS_PROPERTY",
+  "frp_state": "UNKNOWN",
+  "fblock_state": "UNKNOWN_NO_FASTBOOT_SESSION",
+  "fastboot_available": "HOST_TOOL_PRESENT_DEVICE_FASTBOOT_NOT_ENTERED",
+  "bootloader_unlocked": false,
+  "device_wiped": false
+}

@@ -1005,6 +1005,46 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   `D PUFFER_FAILURE_CALLBACK_CHAIN_RESOLVED_UI_LINK_UNKNOWN`. No additional
   runtime launch is required for this result.
 
+## Phase16C authoritative PRA-LX1 root-preparation result
+
+- `CONFIRMED`: the only connected physical target was the authorized Huawei
+  `PRA-LX1`; no Samsung was visible or accessed. The running phone reports
+  `hi6250` for board, platform, and hardware and is identified as Kirin 655.
+- `CONFIRMED`: Android `8.0.0`, `EmotionUI_8.0.0`, exact build
+  `PRA-LX1 8.0.0.364(C33)`, CUST `altice/all`, and security patch
+  `2019-03-01` were collected without unique device identifiers.
+- `CONFIRMED`: normal-boot properties show a locked bootloader/vbmeta state,
+  verified boot `GREEN`, verity enforcing, and OEM unlock not currently allowed
+  by `sys.oem_unlock_allowed`. FRP and FBLOCK remain unknown because no
+  fastboot session was entered.
+- `CONFIRMED`: PotatoNV upstream supports Kirin 655 and lists the PRA family as
+  tested with profile `Kirin 65x (A)`. A community PRA-LX1 EMUI 8 success uses
+  a different C432 build; no exact `364(C33)` PotatoNV report was found.
+- `CONFIRMED`: PotatoNV requires physical testpoint access and disassembly.
+  Exact PRA-LX1 testpoint-reference confidence remains `LOW`, so no physical
+  operation is approved.
+- `CONFIRMED`: the device exposes separate `kernel`, `ramdisk`, and
+  `recovery_ramdisk` partitions. The Magisk candidate for EMUI 8 is
+  `RAMDISK.img`, with `MEDIUM` method confidence pending an exact stock image.
+- `PROBABLE`: third-party indexes list exact firmware package `05014GCW` for
+  PRA-LX1 `8.0.0.364(C33)`, but no official provenance, local package, hash,
+  extraction, stock ramdisk, or stock recovery is available. eRecovery
+  partitions exist, while restoration-service availability is untested.
+- `CONFIRMED`: the exact Apex APK and both OBBs remain present in ignored PC
+  storage with authoritative sizes/hashes and documented installation steps.
+  Public client reinstall is ready after a wipe; private app state is not
+  preserved.
+- `CONFIRMED`: Android bootloader state transitions are expected to wipe
+  userdata. Data-wipe, soft-brick, hard-brick, and physical-disassembly risks
+  are classified `HIGH`; recovery confidence is `LOW`.
+- `ASSESSMENT`: root would expose process mappings, but native stack and
+  callback observation would still require separately validated root-capable
+  tooling. Root alone is not a debugger workflow.
+- Phase16C gate is `D ROOT_PREPARATION_NO_GO`. The next step is PC-only exact
+  C33 firmware/recovery-image and exact testpoint-reference validation. No
+  unlock, root, flash, wipe, disassembly, Apex launch, or package modification
+  occurred.
+
 ## Evidence rules
 
 - Cite the source file and exact address for every technical conclusion.

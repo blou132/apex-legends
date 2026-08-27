@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16C",
+  "model": "PRA-LX1",
+  "device": "HWPRA-H",
+  "soc": "HiSilicon Kirin 655 / hi6250",
+  "soc_evidence": "ro.product.board, ro.board.platform, and ro.hardware all report hi6250; Prague device documentation identifies Kirin 655",
+  "android": "8.0.0",
+  "emui": "EmotionUI_8.0.0",
+  "full_build": "PRA-LX1 8.0.0.364(C33)",
+  "cust_region": "C33 / altice all",
+  "security_patch": "2019-03-01",
+  "battery_percent": 96,
+  "apex_launched": false
+}

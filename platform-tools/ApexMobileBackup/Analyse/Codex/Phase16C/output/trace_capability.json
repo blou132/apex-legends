@@ -1,0 +1,9 @@
+{
+  "phase": "Phase16C",
+  "root_would_enable_proc_maps": true,
+  "root_would_enable_native_stacks": "PROBABLE_WITH_ADDITIONAL_TOOLING",
+  "root_would_enable_callback_trace": "PROBABLE_WITH_ADDITIONAL_TOOLING",
+  "future_trace_boundary": "CVersionStrategy callback object at +0x18, vtable slot +0x28",
+  "future_method": "ROOT_CAPABLE_AARCH64_DEBUGGER_READ_ONLY_ATTACH_DESIGN",
+  "executed": false
+}
