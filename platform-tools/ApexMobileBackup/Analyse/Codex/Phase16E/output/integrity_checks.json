@@ -1,0 +1,43 @@
+{
+  "phase": "Phase16E",
+  "algorithm": "SHA256",
+  "artifacts": [
+    {
+      "name": "firmware_zip",
+      "size": 2540397881,
+      "sha256": "CC39E24033EEF61F8C477822A66C011ED731AE56C1CBBB822B1D1598150E4C10",
+      "phase16d_match": true
+    },
+    {
+      "name": "kernel_img",
+      "size": 25165824,
+      "sha256": "6993D273EFCD35D91AC3E0029C9FA4E0BC42999F6BE835B35A92C8F2C670006C",
+      "phase16d_match": true
+    },
+    {
+      "name": "ramdisk_img",
+      "size": 16777216,
+      "sha256": "ED91177CF438CCDB256D6507203A42D784FD1B22FC941A25D71B67C153C97D57",
+      "phase16d_match": true
+    },
+    {
+      "name": "recovery_ramdisk_img",
+      "size": 33554432,
+      "sha256": "9146C2BE6CC2C77BE08827F9839412C06DB6F85C979C9B5113D1CC3640D46D8A",
+      "phase16d_match": true
+    },
+    {
+      "name": "potatonv_release_archive",
+      "size": 6506263,
+      "sha256": "98344A77EEDDEE99F4CA145C586A6656B7F98DA0CC04BE1007DC102EC62AE416",
+      "phase16d_match": true
+    },
+    {
+      "name": "potatonv_executable",
+      "size": 117760,
+      "sha256": "2C1964BF2E4F8774E1688D01D140EF2BAD3CAF1077E17C6F7C27400F3C7707A7",
+      "phase16d_match": true,
+      "executed": false
+    }
+  ]
+}

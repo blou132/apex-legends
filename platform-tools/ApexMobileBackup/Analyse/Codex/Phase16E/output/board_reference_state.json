@@ -1,0 +1,16 @@
+{
+  "phase": "Phase16E",
+  "local_reference_count": 3,
+  "references_loaded": true,
+  "common_landmarks": [
+    "central_shield_lower_edge",
+    "large_circular_pad",
+    "adjacent_short_pad_row",
+    "nearby_screw",
+    "orange_flex_below_mainboard",
+    "HL2PRAM_RF_VER_D_family_silkscreen"
+  ],
+  "actual_phone_opened": false,
+  "actual_board_revision_observed": false,
+  "testpoint_board_match": "NOT_INSPECTED"
+}

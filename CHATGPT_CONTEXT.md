@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-28 (Phase16D completed)
+Updated: 2026-08-28 (Phase16E completed)
 
 ## Purpose
 
@@ -11,12 +11,13 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16D/REPORT_PHASE16D.md`,
-then read Phase16C, Phase16B, Phase16A, Phase15Z, Phase15Y, Phase15X,
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16E/REPORT_PHASE16E.md`,
+then read Phase16D, Phase16C, Phase16B, Phase16A, Phase15Z, Phase15Y, Phase15X,
 Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16D/REPORT_PHASE16D.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16C/REPORT_PHASE16C.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16B/REPORT_PHASE16B.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16A/REPORT_PHASE16A.md`
@@ -69,6 +70,30 @@ corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase16E completes the non-destructive PRA-LX1 physical/host
+  preflight. Three stable normal-ADB reads reported 97 percent battery, USB
+  charging, 25.0 C, and the expected locked/green/enforcing baseline. The
+  active Windows USB route uses a root hub without an external hub.
+- `CONFIRMED`: the exact PotatoNV-linked `Huawei drivers testpoint.rar` is
+  archived locally with SHA256
+  `A5C9A980228A3505792A97C9AD445A88582A8417578453D13F4E0115EA241BD3`.
+  Its MD5 matches Android File Host metadata. The x64 VCOM `2.0.7.1` INF and
+  SYS verify through a Microsoft WHCP-signed, timestamped catalog. The package
+  was not installed.
+- `CONFIRMED`: PotatoNV archive/executable and exact C33 firmware, kernel,
+  ramdisk, and recovery ramdisk hashes all match Phase16D. Recovery material
+  remains accessible offline with `MEDIUM` recovery confidence.
+- `CONFIRMED`: three local PRA board references were loaded into a landmark
+  checklist. The actual phone was not opened, so
+  `TESTPOINT_BOARD_MATCH = NOT_INSPECTED` and the Phase16E gate is
+  `B READY_PENDING_BOARD_VISUAL_CONFIRMATION`.
+- `CONFIRMED`: a future unlock is treated as a full userdata wipe. Apex public
+  reinstall material is preserved, but absence of unique personal data cannot
+  be proven non-invasively and requires final owner confirmation before any
+  destructive phase.
+- `CONFIRMED`: Phase16E performed no opening, testpoint contact, driver install,
+  PotatoNV execution, fastboot operation, unlock, flash, erase, wipe, root, or
+  Apex launch. Phase16F requires separate explicit authorization.
 - `CONFIRMED`: Phase16D archives the exact PRA-LX1
   `8.0.0.364(C33)` / Altice `all` / `05014GCW` service package locally. The
   immutable 2,540,397,881-byte archive SHA256 is
@@ -1085,6 +1110,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 - Prefer corrected Phase3C JSON over prose when checking exact values.
 
 ## Best next analysis targets
+
+Immediate Phase16E boundary: do not open the PRA-LX1, contact a testpoint,
+install/bind the VCOM driver, execute PotatoNV, enter a destructive unlock
+flow, or wipe the device without separate explicit Phase16F authorization.
+Phase16F must begin with actual-board visual confirmation and final owner
+backup/wipe confirmation, and must stop before any Magisk/root work.
 
 1. Do not repeat the Phase15U physical launch merely to seek historical code
    `I54140715`; the current client produced a decisive `I54140714` update error.
