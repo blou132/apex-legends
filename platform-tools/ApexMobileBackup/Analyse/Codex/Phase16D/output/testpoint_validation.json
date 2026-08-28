@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16D",
+  "reference_found": true,
+  "reference_confidence": "VERIFIED_ENOUGH_MEDIUM",
+  "visual_crosscheck_count": 3,
+  "functional_corroboration_count": 1,
+  "device_family_match": true,
+  "board_orientation_clear": true,
+  "contact_unambiguous": true,
+  "actual_device_board_revision_confirmed": false,
+  "phone_opened": false,
+  "testpoint_used": false
+}

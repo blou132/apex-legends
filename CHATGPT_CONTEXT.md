@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-27 (Phase16B completed)
+Updated: 2026-08-28 (Phase16D completed)
 
 ## Purpose
 
@@ -11,11 +11,14 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16B/REPORT_PHASE16B.md`,
-then read Phase16A, Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16D/REPORT_PHASE16D.md`,
+then read Phase16C, Phase16B, Phase16A, Phase15Z, Phase15Y, Phase15X,
+Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16C/REPORT_PHASE16C.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16B/REPORT_PHASE16B.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16A/REPORT_PHASE16A.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Z/REPORT_PHASE15Z.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase15Y/REPORT_PHASE15Y.md`
@@ -66,6 +69,33 @@ corrected:
 
 ## Authoritative conclusions
 
+- `CONFIRMED`: Phase16D archives the exact PRA-LX1
+  `8.0.0.364(C33)` / Altice `all` / `05014GCW` service package locally. The
+  immutable 2,540,397,881-byte archive SHA256 is
+  `CC39E24033EEF61F8C477822A66C011ED731AE56C1CBBB822B1D1598150E4C10`;
+  its MD5 exactly matches the Android File Host listing.
+- `CONFIRMED`: package identity confidence is `HIGH`, while source class stays
+  `REPUTABLE_ARCHIVE`, not official. Exact internal release documents,
+  `altice/all`, `Cust-033000`, and 43/43 valid `.APP` payload checksum records
+  establish model/build/CUST correlation.
+- `CONFIRMED`: exact stock `RAMDISK.img` SHA256 is
+  `ED91177CF438CCDB256D6507203A42D784FD1B22FC941A25D71B67C153C97D57`;
+  exact `RECOVERY_RAMDISK.img` SHA256 is
+  `9146C2BE6CC2C77BE08827F9839412C06DB6F85C979C9B5113D1CC3640D46D8A`.
+  Both remain local-only and unmodified. Magisk was not used.
+- `CONFIRMED`: current PotatoNV upstream documents Kirin 655 support and lists
+  PRA with `Kirin 65x (A)`. The official `2022.03` release archive was
+  hash-pinned locally but not executed.
+- `CONFIRMED`: three independent exact-family visual references agree on the
+  PRA mainboard testpoint, with exact-model USB COM functional corroboration.
+  Confidence is `VERIFIED_ENOUGH_MEDIUM`; the actual board revision remains
+  unconfirmed until separately authorized physical inspection.
+- `CONFIRMED`: the local Apex APK and both OBBs still match their known hashes
+  and installation documentation is present.
+- `CONFIRMED`: Phase16D moves `ROOT_PREPARATION_GATE` to `GO` for PC evidence
+  completeness only. Recovery confidence is `MEDIUM`; data-wipe, hard-brick,
+  and physical-disassembly risks remain `HIGH`. No phone opening, PotatoNV
+  execution, unlock, wipe, flash, root, or Apex launch occurred.
 - `CONFIRMED`: Phase16B revalidates the PRA-LX1 as Android 8/API 26 `user`,
   `ro.debuggable=0`, `ro.secure=1`, non-root, SELinux enforcing, with
   `/proc` `hidepid=2` and restrictive perf policy. Apex remained stopped.

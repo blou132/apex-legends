@@ -1,0 +1,18 @@
+{
+  "phase": "Phase16D",
+  "data_wipe_risk": "HIGH",
+  "soft_brick_risk": "MEDIUM",
+  "hard_brick_risk": "HIGH",
+  "physical_disassembly_risk": "HIGH",
+  "recovery_confidence": "MEDIUM",
+  "root_preparation_gate": "GO",
+  "gate_scope": "PC_EVIDENCE_COMPLETE_NOT_EXECUTION_AUTHORIZATION",
+  "next_step": "SEPARATE_EXPLICIT_AUTHORIZATION_FOR_PHYSICAL_PREFLIGHT_AND_CONTROLLED_UNLOCK_PHASE",
+  "final_gate": "A ROOT_PREPARATION_GO_PC_EVIDENCE_COMPLETE",
+  "phone_opened": false,
+  "potatonv_executed": false,
+  "bootloader_unlocked": false,
+  "root_installed": false,
+  "device_wiped": false,
+  "apex_launched": false
+}

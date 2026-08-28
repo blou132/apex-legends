@@ -1,0 +1,21 @@
+{
+  "phase": "Phase16D",
+  "exact_firmware_found": true,
+  "source_class": "REPUTABLE_ARCHIVE",
+  "source": "https://androidfilehost.com/?fid=8889791610682891130",
+  "official_source_found": false,
+  "local_filename": "PRA-LX1_8.0.0.364_C33_05014GCW_original.zip",
+  "size": 2540397881,
+  "package_identifier": "05014GCW",
+  "model": "PRA-LX1",
+  "build": "PRA-LX1 8.0.0.364(C33)",
+  "cust": "C33_ALTICE_ALL",
+  "exact_model_match": true,
+  "exact_build_match": true,
+  "exact_cust_match": true,
+  "identity_confidence": "HIGH",
+  "published_md5_match": true,
+  "internal_payload_records_checked": 43,
+  "internal_payload_records_valid": 43,
+  "trusted_huawei_payload_signature_chain_verified": false
+}

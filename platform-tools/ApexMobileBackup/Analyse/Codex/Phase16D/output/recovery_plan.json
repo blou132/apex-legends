@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16D",
+  "recovery_plan_ready": true,
+  "recovery_confidence": "MEDIUM",
+  "exact_dload_route": "DOCUMENTED_FOR_PLATFORM",
+  "hisuite_route": "DOCUMENTED_FOR_PLATFORM",
+  "erecovery_route": "DOCUMENTED_FOR_PLATFORM",
+  "stock_ramdisk_fastboot_restore": "PROBABLE",
+  "stock_recovery_fastboot_restore": "PROBABLE",
+  "stock_kernel_fastboot_restore": "PROBABLE",
+  "individual_fastboot_writes_confirmed_for_device": false,
+  "device_side_restore_tested": false
+}

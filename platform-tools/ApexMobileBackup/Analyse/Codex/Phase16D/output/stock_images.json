@@ -1,0 +1,37 @@
+{
+  "phase": "Phase16D",
+  "images": [
+    {
+      "partition": "KERNEL",
+      "size": 25165824,
+      "sha256": "6993D273EFCD35D91AC3E0029C9FA4E0BC42999F6BE835B35A92C8F2C670006C",
+      "payload_checksum_valid": true
+    },
+    {
+      "partition": "RAMDISK",
+      "size": 16777216,
+      "sha256": "ED91177CF438CCDB256D6507203A42D784FD1B22FC941A25D71B67C153C97D57",
+      "payload_checksum_valid": true
+    },
+    {
+      "partition": "RECOVERY_RAMDISK",
+      "size": 33554432,
+      "sha256": "9146C2BE6CC2C77BE08827F9839412C06DB6F85C979C9B5113D1CC3640D46D8A",
+      "payload_checksum_valid": true
+    },
+    {
+      "partition": "RECOVERY_VENDOR",
+      "size": 16777216,
+      "sha256": "B852D5C12FCAD03E227942E8702E9A59ED9BBD674B200C35387763E133728412",
+      "payload_checksum_valid": true
+    },
+    {
+      "partition": "RECOVERY_VBMETA",
+      "size": 7104,
+      "sha256": "64377CDEAB599DA6FB75009457DFC9A6618841A98CDB460B1715623D93A8B05F",
+      "payload_checksum_valid": true
+    }
+  ],
+  "magisk_exact_stock_input_ready": true,
+  "ramdisk_patched": false
+}

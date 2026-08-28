@@ -1,0 +1,17 @@
+{
+  "phase": "Phase16D",
+  "upstream": "https://github.com/kitsuned/PotatoNV",
+  "kirin655_support": "YES_UPSTREAM_DOCUMENTED",
+  "pra_support": "YES_UPSTREAM_TESTED",
+  "profile": "KIRIN_65X_A",
+  "testpoint_required": true,
+  "expected_usb_names": ["USB SER", "HUAWEI USB COM 1.0"],
+  "release": "2022.03",
+  "ui_version": "v2.2.1",
+  "release_tag_commit": "e958ef8273382a5af56f2c65ada21eaf59a4b262",
+  "release_archive_size": 6506263,
+  "release_archive_sha256": "98344A77EEDDEE99F4CA145C586A6656B7F98DA0CC04BE1007DC102EC62AE416",
+  "executable_sha256": "2C1964BF2E4F8774E1688D01D140EF2BAD3CAF1077E17C6F7C27400F3C7707A7",
+  "executable_authenticode": "NOT_SIGNED",
+  "executed": false
+}
