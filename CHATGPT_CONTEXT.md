@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-28 (Phase16E completed)
+Updated: 2026-08-29 (Phase16F-R completed)
 
 ## Purpose
 
@@ -11,12 +11,14 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16E/REPORT_PHASE16E.md`,
-then read Phase16D, Phase16C, Phase16B, Phase16A, Phase15Z, Phase15Y, Phase15X,
-Phase15W, Phase15V, Phase15U, and Phase15T before using the
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F-R/REPORT_PHASE16F_R.md`,
+then read Phase16F, Phase16E, Phase16D, Phase16C, Phase16B, Phase16A,
+Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F/REPORT_PHASE16F.md`
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16E/REPORT_PHASE16E.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16D/REPORT_PHASE16D.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16C/REPORT_PHASE16C.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16B/REPORT_PHASE16B.md`
@@ -1060,6 +1062,36 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   `D PUFFER_FAILURE_CALLBACK_CHAIN_RESOLVED_UI_LINK_UNKNOWN`. No additional
   runtime launch is required for this result.
 
+## Phase16F-R authoritative bootrom postmortem result
+
+- `CONFIRMED`: Phase16F reached `VID_12D1/PID_3609`; signed VCOM package
+  `oem14.inf` / `hw_usbvcom.sys` bound and started successfully.
+- `CONFIRMED`: PotatoNV uploaded the `Kirin 65x (A)` `hisi65x_a` RAM images in
+  `xloader -> fastboot` order. Windows then enumerated the source-expected
+  `VID_18D1/PID_D00D` temporary endpoint as `Fastboot2.0`.
+- `CONFIRMED`: D00D initially had no matching driver and problem code 28.
+  PotatoNV was waiting for that exact VID/PID through libusb and timed out
+  before connection, device information, NV writes, reboot, or code output.
+- `CONFIRMED`: the signed exact D00D package is now installed as `oem77.inf`
+  with `hw_goadb.inf` coverage and WinUSB. Driver-store readiness is confirmed;
+  a live D00D re-enumeration after installation is not.
+- `CONFIRMED`: the first successful physical sequence was documented as phone
+  off, USB disconnected, contact before USB, release after about three seconds,
+  no Power action in the documented sequence, and black screen. Later failures
+  added forced pre-contact Power holds and returned normal Huawei USB.
+- `UNKNOWN`: battery electrical state, exact contact quality, true cold-off
+  state, residual USB power, and a timestamped `PHONE Unlocked` screen role.
+- `INVALIDATED`: wrong testpoint location as the explanation for the first run.
+  `NO_EVIDENCE`: wrong PotatoNV profile as its timeout cause.
+- `ASSESSMENT`: one separately authorized exact retry is justified at medium
+  confidence because the host blocker is fixed and the successful sequence is
+  non-random and documented. It must stop after one failed bootrom entry and
+  must not introduce battery disconnection, alternate profiles, FBLOCK changes,
+  Magisk, or root work.
+- Phase16F-R gate is `A DRIVER_READY_SINGLE_CONTROLLED_RETRY_JUSTIFIED`. The
+  postmortem did not touch the phone, execute PotatoNV, change drivers, or
+  launch Apex.
+
 ## Phase16C authoritative PRA-LX1 root-preparation result
 
 - `CONFIRMED`: the only connected physical target was the authorized Huawei
@@ -1111,11 +1143,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-Immediate Phase16E boundary: do not open the PRA-LX1, contact a testpoint,
-install/bind the VCOM driver, execute PotatoNV, enter a destructive unlock
-flow, or wipe the device without separate explicit Phase16F authorization.
-Phase16F must begin with actual-board visual confirmation and final owner
-backup/wipe confirmation, and must stop before any Magisk/root work.
+Immediate Phase16F-R boundary: no further phone operation is authorized by the
+postmortem itself. A future run requires separate explicit authorization and is
+limited to one exact reproduction of the documented first-success sequence.
+If bootrom does not enumerate once, stop. Do not disconnect the battery, switch
+to another power sequence, change the `Kirin 65x (A)` profile, disable FBLOCK,
+or begin Magisk/root work.
 
 1. Do not repeat the Phase15U physical launch merely to seek historical code
    `I54140715`; the current client produced a decisive `I54140714` update error.
