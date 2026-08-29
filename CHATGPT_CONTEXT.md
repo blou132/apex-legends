@@ -1,6 +1,6 @@
 # ChatGPT context index
 
-Updated: 2026-08-29 (Phase16F-R completed)
+Updated: 2026-08-29 (Phase16F-2 completed)
 
 ## Purpose
 
@@ -11,12 +11,13 @@ The original game binaries, phone backups, raw logs, bulk function inventory, an
 ## Read first
 
 Start with
-`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F-R/REPORT_PHASE16F_R.md`,
-then read Phase16F, Phase16E, Phase16D, Phase16C, Phase16B, Phase16A,
+`platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F-2/REPORT_PHASE16F_2.md`,
+then read Phase16F-R, Phase16F, Phase16E, Phase16D, Phase16C, Phase16B, Phase16A,
 Phase15Z, Phase15Y, Phase15X, Phase15W, Phase15V, Phase15U, and Phase15T before using the
 historical order below. This avoids repeating conclusions that were later
 corrected:
 
+- `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F-R/REPORT_PHASE16F_R.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16F/REPORT_PHASE16F.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16E/REPORT_PHASE16E.md`
 - `platform-tools/ApexMobileBackup/Analyse/Codex/Phase16D/REPORT_PHASE16D.md`
@@ -1062,6 +1063,44 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
   `D PUFFER_FAILURE_CALLBACK_CHAIN_RESOLVED_UI_LINK_UNKNOWN`. No additional
   runtime launch is required for this result.
 
+## Phase16F-2 authoritative controlled-retry result
+
+- `CONFIRMED`: all pinned firmware, stock images, PotatoNV, driver, Apex APK,
+  and OBB hashes matched before the run. One healthy stock PRA-LX1/C33/hi6250
+  was the sole Android target at 100 percent battery and normal temperature.
+- `CONFIRMED`: the single authorized physical attempt reproduced bootrom
+  `VID_12D1/PID_3609`; signed `oem14.inf` bound live with status OK and problem
+  code zero. No second physical attempt occurred.
+- `CONFIRMED`: pinned PotatoNV used only `Kirin 65x (A)` with FBLOCK disabling
+  off. It uploaded `hisi65x_a`, crossed the prior D00D wait, connected through
+  the `oem77.inf` WinUSB/libusb path, read exact PRA-LX1/C33 information, and
+  completed its documented NV/code operation.
+- `CONFIRMED`: the generated code and raw PotatoNV log remain private and
+  gitignored. No code or unique device identifier is published.
+- `CONFIRMED`: stock fastboot was visible as exactly one endpoint and initially
+  reported `locked`. The first authorized unlock command was rejected because
+  OEM unlock/FRP permission was not enabled. No confirmation or wipe began, and
+  the phase stopped safely.
+- `CONFIRMED`: the owner then enabled the normal Developer-options OEM-unlock
+  control. Read-only ADB reported `sys.oem_unlock_allowed=1`. The owner gave a
+  separate explicit authorization for one new destructive fastboot command,
+  without another testpoint or PotatoNV operation.
+- `CONFIRMED`: the second command reached the stock on-device prompt, was
+  confirmed by the owner, announced a factory reset, returned `OKAY`, and
+  exited with code zero. The phone returned to initial Android setup with
+  working display, touch, and stable USB/MTP. No account or Apex restore was
+  used.
+- `CONFIRMED`: a post-wipe normal Fastboot/Rescue entry exposed exactly one
+  endpoint with no Samsung present. `fastboot oem get-bootinfo` returned
+  `unlocked`, `OKAY`, and exit code zero. Generic `getvar unlocked/secure`
+  queries are unsupported, so no specific post-unlock verified-boot color is
+  claimed.
+- `CONFIRMED`: the device is stock, wiped, healthy, unlocked, and unrooted.
+  Apex is not installed after the wipe and was not launched. No testpoint,
+  PotatoNV, unlock, root, or flash retry is needed in this phase.
+- Phase16F-2 gate is
+  `A BOOTLOADER_UNLOCKED_AND_STOCK_ANDROID_HEALTHY`.
+
 ## Phase16F-R authoritative bootrom postmortem result
 
 - `CONFIRMED`: Phase16F reached `VID_12D1/PID_3609`; signed VCOM package
@@ -1143,12 +1182,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-Immediate Phase16F-R boundary: no further phone operation is authorized by the
-postmortem itself. A future run requires separate explicit authorization and is
-limited to one exact reproduction of the documented first-success sequence.
-If bootrom does not enumerate once, stop. Do not disconnect the battery, switch
-to another power sequence, change the `Kirin 65x (A)` profile, disable FBLOCK,
-or begin Magisk/root work.
+Immediate Phase16F-2 boundary: the bootloader is permanently unlocked and the
+factory reset completed. Stock Android reached initial setup with working
+display, touch, and USB/MTP; the Huawei-specific post-wipe fastboot query
+confirmed `unlocked`. Do not repeat testpoint, PotatoNV, or the unlock command.
+Do not begin Magisk, root, patched-image, flash, Apex reinstall, or Apex launch
+work without a separately authorized Phase16G boundary.
 
 1. Do not repeat the Phase15U physical launch merely to seek historical code
    `I54140715`; the current client produced a decisive `I54140714` update error.
