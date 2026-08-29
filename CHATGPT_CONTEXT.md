@@ -1262,3 +1262,34 @@ authorized Phase16H/I boundary.
     patch the client, or bypass the update failure.
 
 The HTTP response reaches a confirmed native-to-Lua event bridge and generic virtual-file Lua loader. Phase8 identifies a probable Android asset/physical fallback and partial prefix/path normalization, but not the Lua package searcher, effective provider, final lookup key, mount, container, or entry. Phase10 proves that the early TDM and GCloud failures do not block its observed path through OBB validation and `nativeResumeMainInit`. Phase13 resolves the other 12 exported `JNI_OnLoad` roots but finds no exact export or target registration row in any of the 17 libraries, so owner/function remain unknown. Phase14 confirms that the production Huawei's permitted OS diagnostics cannot supply a mapping or backtrace. Phase15C confirms the isolated WHPX guest boots stably and exposes the expected ARM64 translation bridge. Phase15D confirms one offline translated Apex runtime and an explicit `libUE4.so` loader event. Phase15E adds direct Berberis timing and Android displayed-window boundaries while confirming the package is not shell-profileable. Phase15F resolves the exact downloader trigger and local OBB validator. Phase15G then observes that the unchanged validator completes after 87.926 seconds, returns result `1`, sets `HasAllFiles=true`, and resumes `GameActivity`; the downloader is no longer an unresolved blocker. Phase15H confirms the resulting cache fast path, stable `GameActivity` through `+300 s`, process-scoped EGL/Vulkan initialization, and a rendered Lightspeed splash/wait state that is not pixel-black. Phase15I separates the Android SystemUI wait action from the APK video splash and finds official public SDK logs. Phase15J reads those logs before and after one bounded offline run: they remain SDK-only, while the third Apex Android dialog window reappears with its text obscured. Phase15K proves hierarchy capture but stops on a prelaunch SystemUI ANR. Phase15L captures the full compatibility dialog and identifies `MessageBox01` as the probable non-cancelable Java creator. Phase15M resolves the exact native ES31/ES2 branch and EGL/OpenGL success path, while correcting float RT to a diagnostic-only capability on this path. Phase15R closes the four-quadrant SystemUI matrix and resolves the timeout mechanism to CPU-starved runnable SystemUI startup work, while leaving the deep image/emulator kernel-CPU cause unknown. Phase15S confirms that the existing PRA-LX1 has an intact matching client, OBBs, OpenGL ES 3.2, and both float render-target extensions, but blocks runtime work because only about 0.41-0.43 GiB remains free and no authorized safe cleanup can reach 2 GiB. Phase15T raises free space above 2 GiB without altering Apex. Phase15U then confirms one physical offline run reaches update initialization `2/17` and exact error `I54140714`, with Puffer update networking active. Phase15V identifies `libgcloud.so` and `FUN_004ffd44` as the Puffer request owner and resolves the internal failure path through `CPufferInitActionResult::ProcessResult`, where a dynamic manager callback ends the static chain. UI ownership, visible error-code construction/mapping, the meaning of `2/17`, Lua/Login/server-list reachability, load bias, and gameplay frame remain unknown.
+
+## Phase16H authoritative cleanup and trace-capability result
+
+- `CONFIRMED`: minimal cleanup removed only two exact Phase16G RAMDISK transfer
+  copies after their authoritative PC copies and hashes were revalidated. The
+  measured recovery was 33603584 bytes; no package, personal media, cache,
+  system component, Magisk data, or recovery material was removed.
+- `CONFIRMED`: immediate free space was 7236706304 bytes on `/data` and
+  7215734784 bytes on shared storage, above the five-GiB operational target.
+- `CONFIRMED`: official Frida 17.17.0 Android ARM64 came only from the upstream
+  `frida/frida` GitHub release. The archive matched published SHA256
+  `09D1FAD867B27D69562A79289F4C412E85867F5D38AB72877036ED35E4223021`;
+  the decompressed AArch64 binary hash was
+  `55EF78C3F3E7A55122CA7E0051E2A356D0FF1D9744D84C1660291F90400588E7`.
+- `CONFIRMED`: USB discovery and process enumeration succeeded. Root could
+  read the disposable loopback ping process's maps and identify its executable,
+  linker, and libc mapping.
+- `CONFIRMED`: Frida attach failed before script injection with a closed remote
+  server connection. No Frida module enumeration, module-base resolution,
+  memory read, interceptor attachment, native call observation, process
+  modification, or critical-process attach occurred.
+- `CONFIRMED`: no alternate Frida version, policy softener, SELinux change,
+  Magisk module, Zygisk, fallback framework, remote listener, or autostart was
+  attempted. The server, helper files, and disposable process were removed.
+- `CONFIRMED`: Android remained boot complete, ADB and uid-0 Magisk root worked,
+  SELinux remained `Enforcing`, and battery/temperature remained normal. Apex
+  stayed uninstalled and unlaunched; no Samsung or network access occurred.
+- `ASSESSMENT`: root native attach capability remains `PROBABLE`, callback trace
+  precondition is `UNKNOWN`, and `SELECTED_PHASE16I_METHOD = UNRESOLVED`.
+- Phase16H gate is `B CLEAN_DEVICE_FRIDA_ENUMERATION_ONLY`. A separate bounded
+  compatibility diagnostic is required before any Apex installation or trace.

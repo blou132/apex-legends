@@ -1,0 +1,67 @@
+{
+  "phase": "Phase16H",
+  "date": "2026-08-29",
+  "storage": {
+    "data_free_before_bytes": 7203102720,
+    "shared_free_before_bytes": 7182131200,
+    "data_used_before_bytes": 2643009536,
+    "user_storage_bytes_recovered": 33603584,
+    "local_tmp_bytes_recovered": 0,
+    "cache_bytes_recovered": 0,
+    "total_bytes_recovered": 33603584,
+    "data_free_after_bytes": 7236706304,
+    "shared_free_after_bytes": 7215734784,
+    "future_apex_5gib_headroom": true
+  },
+  "health": {
+    "post_clean_root_ok": true,
+    "post_clean_device_health_ok": true,
+    "selinux_still_enforcing": true,
+    "post_trace_device_health_ok": true,
+    "trace_tool_footprint_clean": true
+  },
+  "frida": {
+    "version": "17.17.0",
+    "server_source": "OFFICIAL_GITHUB",
+    "server_arch": "ANDROID_ARM64",
+    "server_archive_sha256": "09D1FAD867B27D69562A79289F4C412E85867F5D38AB72877036ED35E4223021",
+    "server_binary_sha256": "55EF78C3F3E7A55122CA7E0051E2A356D0FF1D9744D84C1660291F90400588E7",
+    "host_frida_version": "17.17.0",
+    "host_frida_tools_version": "14.10.4",
+    "server_deployed": "YES_REMOVED_AFTER_TEST",
+    "server_running_as_root": "NO_NOT_OBSERVED",
+    "usb_discovery": true,
+    "process_enumeration": true,
+    "attach_test_process": "NO_SERVER_CONNECTION_CLOSED",
+    "process_arch": "NOT_OBSERVED",
+    "module_enumeration": "NO_NOT_REACHED",
+    "libc_base_resolved": "NO_NOT_REACHED_BY_FRIDA",
+    "memory_read": "NO_NOT_REACHED",
+    "native_interceptor_attach": "NO_NOT_REACHED",
+    "native_call_observed": false,
+    "clean_detach": "NOT_APPLICABLE_NO_SESSION"
+  },
+  "test_process": {
+    "name": "ping",
+    "pid": "SANITIZED_EPHEMERAL",
+    "proc_maps_readable": true,
+    "libc_mapping_found": true,
+    "terminated": true
+  },
+  "classification": {
+    "root_native_attach_capability": "PROBABLE",
+    "root_callback_trace_precondition": "UNKNOWN",
+    "selected_phase16i_method": "UNRESOLVED",
+    "current_blocker": "FRIDA_ATTACH_CHANNEL_CLOSES_AFTER_USB_PROCESS_ENUMERATION",
+    "next_step": "SEPARATE_AUTHORIZED_TRACE_COMPATIBILITY_DIAGNOSTIC",
+    "final_gate": "B CLEAN_DEVICE_FRIDA_ENUMERATION_ONLY"
+  },
+  "boundary": {
+    "apex_installed": false,
+    "apex_launched": false,
+    "samsung_accessed": false,
+    "network_interception": false,
+    "selinux_permissive": false,
+    "system_partition_modified": false
+  }
+}
