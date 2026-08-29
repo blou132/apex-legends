@@ -1,0 +1,10 @@
+{
+  "first_patched_boot_result": "SUCCESS",
+  "android_boot_success": true,
+  "device_health_ok": true,
+  "bootloop_observed": false,
+  "verified_boot_state": "ORANGE",
+  "flash_locked": false,
+  "final_battery_percent": 100,
+  "final_temperature_c": 30.0
+}

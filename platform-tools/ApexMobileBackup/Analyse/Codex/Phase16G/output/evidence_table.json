@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16G",
+  "stock_input": "EXACT_HASH_MATCH",
+  "magisk_source": "OFFICIAL_GITHUB_RELEASE",
+  "patch": "SUCCESS_SAME_DEVICE",
+  "flash": "RAMDISK_ONLY_OKAY_EXIT_0",
+  "first_boot": "SUCCESS",
+  "root": "UID_0_CONFIRMED",
+  "selinux": "ENFORCING",
+  "persistence": "CONFIRMED_AFTER_ONE_REBOOT",
+  "apex_installed": false,
+  "apex_launched": false,
+  "final_gate": "A_MAGISK_ROOT_PERSISTENT_AND_DEVICE_HEALTHY"
+}

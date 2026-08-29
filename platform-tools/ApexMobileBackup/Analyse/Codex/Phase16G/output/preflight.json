@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16G",
+  "git_preflight_ok": true,
+  "target_identity_confirmed": true,
+  "model": "PRA-LX1",
+  "build": "PRA-LX1_8.0.0.364_C33",
+  "soc": "hi6250",
+  "adb_ready": true,
+  "bootloader_unlocked": true,
+  "battery_percent": 100,
+  "samsung_endpoint_count": 0
+}

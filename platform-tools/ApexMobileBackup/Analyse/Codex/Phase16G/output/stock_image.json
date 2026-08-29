@@ -1,0 +1,10 @@
+{
+  "partition": "ramdisk",
+  "stock_size": 16777216,
+  "stock_sha256": "ED91177CF438CCDB256D6507203A42D784FD1B22FC941A25D71B67C153C97D57",
+  "source_hash_match": true,
+  "phone_hash_match": true,
+  "roundtrip_hash_match": true,
+  "transfer_valid": true,
+  "recovery_material_ready": true
+}

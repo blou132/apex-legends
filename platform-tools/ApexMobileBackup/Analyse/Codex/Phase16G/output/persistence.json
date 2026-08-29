@@ -1,0 +1,8 @@
+{
+  "controlled_reboot_count": 1,
+  "android_healthy_after_reboot": true,
+  "magisk_detected_after_reboot": true,
+  "root_persists_after_reboot": true,
+  "selinux_after_reboot": "Enforcing",
+  "root_proc_access_after_reboot": true
+}

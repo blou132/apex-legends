@@ -1101,6 +1101,40 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 - Phase16F-2 gate is
   `A BOOTLOADER_UNLOCKED_AND_STOCK_ANDROID_HEALTHY`.
 
+## Phase16G authoritative PRA-LX1 root result
+
+- `CONFIRMED`: Git, target identity, battery, exact C33 stock image hashes,
+  rollback material, and Huawei `unlocked` state all passed before flash. One
+  PRA-LX1 was targeted and no Samsung endpoint was present.
+- `CONFIRMED`: official Magisk v28.1/28100 came only from the topjohnwu GitHub
+  release. The 11716982-byte APK has SHA256
+  `8BFD3346B3DA5814F82EFF6F1B1B5FEDD0AD585F39A25709B23EB54AAC45691D`,
+  package `com.topjohnwu.magisk`, and a valid John Wu APK signature.
+- `CONFIRMED`: the exact 16777216-byte C33 stock RAMDISK transferred to the
+  phone with matching source, phone, and ADB round-trip SHA256
+  `ED91177CF438CCDB256D6507203A42D784FD1B22FC941A25D71B67C153C97D57`.
+- `CONFIRMED`: Magisk patched that exact image on the same PRA-LX1 with
+  Recovery Mode off and reported `All done`. The pulled patched image remained
+  16777216 bytes, matched its phone-side hash, differed from stock, and has
+  SHA256 `21E15B385E6BED84F9A8128CB908556D53B7980E5DE645A53D8D7838B7C8EE77`.
+- `CONFIRMED`: one Fastboot command wrote only `ramdisk` and returned `OKAY`
+  with exit code zero. No vbmeta, recovery_ramdisk, kernel, system, or vendor
+  partition was modified.
+- `CONFIRMED`: patched Android booted healthy. Magisk reports
+  `28.1:MAGISK:R` / `28100`; `su -c id` returns uid 0; SELinux remains
+  `Enforcing`; and root can read `/proc/1/maps`.
+- `CONFIRMED`: root, Magisk, enforcing SELinux, and protected proc-map access
+  persisted after one controlled normal reboot. Final health was boot complete,
+  100 percent battery, and 30 C.
+- `CONFIRMED`: Apex remains uninstalled and unlaunched. No rollback, module,
+  Zygisk experiment, debugger attachment, ptrace, hook, network interception,
+  or Samsung access occurred. APK, stock/patched images, and raw logs remain
+  local-only and gitignored.
+- `ASSESSMENT`: root proc-map capability is `YES`; native trace and callback
+  trace preconditions are `PROBABLE`, not proven workflows. No process was
+  attached or traced.
+- Phase16G gate is `A MAGISK_ROOT_PERSISTENT_AND_DEVICE_HEALTHY`.
+
 ## Phase16F-R authoritative bootrom postmortem result
 
 - `CONFIRMED`: Phase16F reached `VID_12D1/PID_3609`; signed VCOM package
@@ -1182,12 +1216,12 @@ The full 467,079-function inventory and raw Ghidra execution logs remain local-o
 
 ## Best next analysis targets
 
-Immediate Phase16F-2 boundary: the bootloader is permanently unlocked and the
-factory reset completed. Stock Android reached initial setup with working
-display, touch, and USB/MTP; the Huawei-specific post-wipe fastboot query
-confirmed `unlocked`. Do not repeat testpoint, PotatoNV, or the unlock command.
-Do not begin Magisk, root, patched-image, flash, Apex reinstall, or Apex launch
-work without a separately authorized Phase16G boundary.
+Immediate Phase16G boundary: the PRA-LX1 has persistent Magisk v28.1 root on
+the exact patched C33 RAMDISK, remains healthy with SELinux enforcing, and can
+read protected proc maps. Do not repeat testpoint, PotatoNV, unlock, patch, or
+flash work. Do not install or launch Apex, deploy tracing tools, attach to a
+process, hook callbacks, or change network behavior without a separately
+authorized Phase16H/I boundary.
 
 1. Do not repeat the Phase15U physical launch merely to seek historical code
    `I54140715`; the current client produced a decisive `I54140714` update error.

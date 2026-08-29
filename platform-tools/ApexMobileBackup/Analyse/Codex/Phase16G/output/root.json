@@ -1,0 +1,11 @@
+{
+  "magisk_postboot_detected": true,
+  "magisk_version": "28.1",
+  "magisk_version_code": 28100,
+  "additional_setup_required": false,
+  "su_binary_available": true,
+  "adb_shell_root_granted": true,
+  "root_uid_confirmed": true,
+  "selinux_state": "Enforcing",
+  "root_proc_access": true
+}

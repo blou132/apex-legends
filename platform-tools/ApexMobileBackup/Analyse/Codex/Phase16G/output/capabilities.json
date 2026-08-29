@@ -1,0 +1,12 @@
+{
+  "root_proc_maps_capability": "YES",
+  "debuggerd_present": true,
+  "showmap_present": false,
+  "strace_present": false,
+  "gdbserver_present": false,
+  "yama_ptrace_scope_available": false,
+  "perf_event_paranoid": 3,
+  "root_native_trace_precondition": "PROBABLE",
+  "root_callback_trace_precondition": "PROBABLE",
+  "process_attachment_performed": false
+}

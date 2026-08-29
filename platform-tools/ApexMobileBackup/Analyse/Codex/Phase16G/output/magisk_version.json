@@ -1,0 +1,11 @@
+{
+  "version": "28.1",
+  "version_code": 28100,
+  "source": "OFFICIAL_GITHUB_RELEASE",
+  "asset_name": "Magisk-v28.1.apk",
+  "asset_size": 11716982,
+  "sha256": "8BFD3346B3DA5814F82EFF6F1B1B5FEDD0AD585F39A25709B23EB54AAC45691D",
+  "package": "com.topjohnwu.magisk",
+  "signature_valid": true,
+  "alternate_version_used": false
+}

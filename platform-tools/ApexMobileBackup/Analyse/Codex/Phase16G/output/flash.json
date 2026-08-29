@@ -1,0 +1,12 @@
+{
+  "flash_ready": true,
+  "target_partition": "ramdisk",
+  "flash_executed": true,
+  "flash_success": true,
+  "fastboot_exit_code": 0,
+  "vbmeta_modified": false,
+  "recovery_ramdisk_modified": false,
+  "kernel_modified": false,
+  "system_modified": false,
+  "vendor_modified": false
+}

@@ -1,0 +1,11 @@
+{
+  "same_device_patch": true,
+  "recovery_mode_enabled": false,
+  "patch_success": true,
+  "sanitized_filename": "magisk_patched-28100_<random>.img",
+  "patched_size": 16777216,
+  "patched_sha256": "21E15B385E6BED84F9A8128CB908556D53B7980E5DE645A53D8D7838B7C8EE77",
+  "phone_pc_hash_match": true,
+  "differs_from_stock": true,
+  "sanity": "PASS"
+}

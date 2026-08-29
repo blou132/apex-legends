@@ -1,0 +1,7 @@
+{
+  "rollback_material_ready": true,
+  "rollback_executed": false,
+  "stock_ramdisk_flash_success": "NOT_APPLICABLE",
+  "rollback_android_boot_success": "NOT_APPLICABLE",
+  "recovery_needed": false
+}
