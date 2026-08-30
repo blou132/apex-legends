@@ -1,0 +1,9 @@
+{
+  "ptrace_detach_result": "SUCCESS",
+  "signal_injected_on_detach": false,
+  "tracee_continued_after_detach": true,
+  "post_detach_function_result_correct": true,
+  "bounded_post_detach_health_observed": true,
+  "tracee_terminated_cleanly": true,
+  "tracer_terminated": true
+}

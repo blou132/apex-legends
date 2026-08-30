@@ -1,0 +1,10 @@
+{
+  "ptrace_attach_result": "SUCCESS",
+  "general_regset_length": 272,
+  "general_regset_valid": true,
+  "hardware_regset_length": 264,
+  "hardware_regset_valid": true,
+  "hardware_execution_slots": 6,
+  "initial_execution_controls_clear": true,
+  "programmed_slot": 0
+}

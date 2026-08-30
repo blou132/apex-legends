@@ -1,0 +1,14 @@
+{
+  "git_preflight_ok": true,
+  "single_intended_endpoint": true,
+  "target_identity_confirmed": true,
+  "android_version": "8.0.0",
+  "boot_completed": true,
+  "root_ready": true,
+  "selinux": "Enforcing",
+  "battery_percent": 100,
+  "battery_temperature_c": 28.0,
+  "apex_installed": false,
+  "apex_launched": false,
+  "test_environment_clean": true
+}

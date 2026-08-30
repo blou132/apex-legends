@@ -1,0 +1,7 @@
+{
+  "sigtrap_received": true,
+  "sigtrap_code": 4,
+  "classification": "TRAP_HWBKPT",
+  "trap_address_match": true,
+  "exact_function_entry": true
+}

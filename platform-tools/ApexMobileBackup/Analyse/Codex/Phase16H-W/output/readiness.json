@@ -1,0 +1,9 @@
+{
+  "root_ptrace_function_entry_capability": true,
+  "root_callback_trace_precondition": true,
+  "phase16i_ready": true,
+  "phase16i_authorized": false,
+  "current_blocker": "NONE_FOR_DISPOSABLE_FUNCTION_ENTRY_TRACE",
+  "next_step": "SEPARATE_AUTHORIZATION_FOR_BOUNDED_PHASE16I_APEX_CALLBACK_TRACE",
+  "final_gate": "A HW_BREAKPOINT_FUNCTION_ENTRY_ARGUMENT_CAPTURE_READY"
+}

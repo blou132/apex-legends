@@ -1,0 +1,13 @@
+{
+  "source_commit": "0d1dafe",
+  "source_unchanged": true,
+  "ndk": "r27d",
+  "warnings_as_errors": true,
+  "tracee_arch": "ELF64_AARCH64_PIE",
+  "tracer_arch": "ELF64_AARCH64_PIE",
+  "build_success": true,
+  "tracee_hash_match": true,
+  "tracer_hash_match": true,
+  "slot0_iov_length": 24,
+  "software_breakpoint_code": false
+}

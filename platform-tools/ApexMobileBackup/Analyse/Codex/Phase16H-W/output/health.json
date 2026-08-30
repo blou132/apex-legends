@@ -1,0 +1,15 @@
+{
+  "adb_healthy": true,
+  "usb_healthy": true,
+  "android_boot_completed": true,
+  "system_server_present": true,
+  "root_still_healthy": true,
+  "selinux": "Enforcing",
+  "battery_percent": 100,
+  "battery_temperature_c": 28.0,
+  "post_test_device_health_ok": true,
+  "persistent_test_process": false,
+  "persistent_test_artifact": false,
+  "apex_installed": false,
+  "apex_launched": false
+}

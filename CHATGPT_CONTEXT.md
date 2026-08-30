@@ -1467,3 +1467,37 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   `ATOMIC_ACTIVE_RUNTIME_RETRY_GATE = GO` permits requesting, but does not
   authorize, exactly one future Phase16H-W disposable-target attempt. Apex must
   remain absent and unlaunched.
+
+## Phase16H-W authoritative atomic hardware-breakpoint runtime result
+
+- `CONFIRMED`: the one authorized PRA-LX1 attempt was consumed exactly once.
+  The committed Phase16H-V tracee/tracer built as AArch64 PIE with NDK r27d,
+  passed static validation, and matched device hashes. Only the disposable
+  tracee was targeted.
+- `CONFIRMED`: root ptrace attach succeeded; GPR and hardware regsets were 272
+  and 264 bytes; six execution slots were reported and all intended initial
+  controls were clear.
+- `CONFIRMED`: one 24-byte slot-0 SET submitted the fresh runtime address plus
+  active control `0x000001e5`. SET succeeded, address readback matched, and the
+  expected Huawei cached control `0x000041e4` was returned.
+- `CONFIRMED`: after gate release, the tracee stopped with SIGTRAP code 4
+  (`TRAP_HWBKPT`) at the exact `trace_target` entry. PC matched and X0-X7 all
+  matched the eight committed deterministic arguments.
+- `CONFIRMED`: the separate control-zero disable SET succeeded. Diagnostic
+  GETREGSET retained cached fields and returned control `0x000041e5`, but the
+  resolved design did not treat that as failure. Continued execution completed
+  the trapped and next calls correctly and reached controlled SIGSTOP with no
+  retrap.
+- `CONFIRMED`: detach succeeded; a post-detach target call returned correctly;
+  the tracee remained healthy, then terminated normally. All temporary device
+  artifacts were removed and no test process remained.
+- `CONFIRMED`: ADB/USB, Android, uid-0 root, enforcing SELinux, battery health,
+  and system_server remained healthy. Apex stayed absent and unlaunched. No
+  software breakpoint, target-memory write, patch, injection, policy change,
+  network operation, Samsung access, or second attempt occurred.
+- Phase16H-W gate is
+  `A HW_BREAKPOINT_FUNCTION_ENTRY_ARGUMENT_CAPTURE_READY`.
+  `ROOT_PTRACE_FUNCTION_ENTRY_CAPABILITY = YES`,
+  `ROOT_CALLBACK_TRACE_PRECONDITION = YES`, and `PHASE16I_READY = YES`.
+  Phase16I requires separate explicit authorization and fresh Apex boundary
+  validation; it was not started here.

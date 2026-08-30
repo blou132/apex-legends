@@ -1,0 +1,11 @@
+{
+  "disable_setregset_result": "SUCCESS",
+  "disable_readback_diagnostic_only": true,
+  "disable_address_readback_required": false,
+  "diagnostic_cached_control": "0x000041e5",
+  "post_disable_function_execution_observed": true,
+  "post_disable_result_correct": true,
+  "post_disable_retrap": false,
+  "post_disable_handshake_reached": true,
+  "breakpoint_disabled_by_proven_path": true
+}

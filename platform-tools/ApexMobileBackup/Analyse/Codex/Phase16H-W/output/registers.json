@@ -1,0 +1,17 @@
+{
+  "general_regset_length": 272,
+  "pc_captured": true,
+  "sp_captured": true,
+  "lr_captured": true,
+  "pc_target_match": true,
+  "x0_match": true,
+  "x1_match": true,
+  "x2_match": true,
+  "x3_match": true,
+  "x4_match": true,
+  "x5_match": true,
+  "x6_match": true,
+  "x7_match": true,
+  "function_argument_capture": true,
+  "raw_register_values_committed": false
+}

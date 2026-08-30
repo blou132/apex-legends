@@ -1,0 +1,13 @@
+{
+  "active_programming_ready": true,
+  "runtime_attempt_count": 1,
+  "runtime_attempt_limit": 1,
+  "submission": "ATOMIC_SLOT0_ADDRESS_PLUS_ACTIVE_CONTROL",
+  "requested_control": "0x000001e5",
+  "setregset_iov_length": 24,
+  "setregset_result": "SUCCESS",
+  "address_readback_match": true,
+  "control_readback": "0x000041e4",
+  "control_normalization_match": true,
+  "breakpoint_armed_for_test": true
+}
