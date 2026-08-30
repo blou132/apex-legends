@@ -1,0 +1,14 @@
+{
+  "attempt_count": 1,
+  "selected_slot": 0,
+  "initial_control": "0x00000000",
+  "address_set_result": "SUCCESS",
+  "address_readback_match": false,
+  "observed_address_logged": false,
+  "requested_active_control": "0x000001e5",
+  "active_control_set_result": "NOT_REACHED",
+  "expected_normalized_control": "0x000041e4",
+  "normalized_control_readback": "NOT_REACHED",
+  "breakpoint_armed_for_test": false,
+  "ptrace_continue_issued": false
+}

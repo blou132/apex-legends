@@ -1,0 +1,8 @@
+{
+  "ptrace_detach_result": "NOT_PERFORMED_SAFETY_TERMINATED",
+  "tracee_continued_after_detach": false,
+  "tracee_function_result_still_correct": "NOT_EXECUTED",
+  "tracee_terminated_cleanly": false,
+  "tracee_terminated_for_safety": true,
+  "test_process_remaining": false
+}

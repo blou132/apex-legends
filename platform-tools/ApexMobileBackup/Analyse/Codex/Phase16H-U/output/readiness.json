@@ -1,0 +1,8 @@
+{
+  "root_ptrace_function_entry_capability": "NO_NOT_PROVEN",
+  "root_callback_trace_precondition": false,
+  "phase16i_ready": false,
+  "current_blocker": "DISABLED_ADDRESS_ONLY_SET_NOT_RETAINED",
+  "next_step": "PC_ONLY_ATOMIC_PROGRAMMING_REDESIGN_NO_RUNTIME",
+  "final_gate": "E PTRACE_OR_REGSET_RUNTIME_FAILURE"
+}

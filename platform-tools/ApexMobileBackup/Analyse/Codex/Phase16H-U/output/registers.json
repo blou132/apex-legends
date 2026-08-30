@@ -1,0 +1,10 @@
+{
+  "initial_register_set_length": 272,
+  "register_set_ready": true,
+  "trap_registers_captured": false,
+  "pc_captured": false,
+  "sp_captured": false,
+  "lr_captured": false,
+  "x0_x7_captured": false,
+  "raw_register_values_committed": false
+}

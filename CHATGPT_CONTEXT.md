@@ -1398,3 +1398,35 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   `A PC_ONLY_ABI_RESOLVED_SINGLE_RUNTIME_RETRY_JUSTIFIED`. Exactly one future
   bounded disposable-target hardware-breakpoint execution test is justified;
   it must use no software POKETEXT and no Apex.
+
+## Phase16H-U authoritative single runtime-attempt result
+
+- `CONFIRMED`: the one authorized PRA-LX1 runtime attempt was consumed. No
+  retry occurred. Apex stayed absent and unlaunched, and no Samsung, network,
+  software breakpoint, memory patch, SELinux, Magisk, Zygisk, kernel, system,
+  vendor, recovery, or vbmeta action occurred.
+- `CONFIRMED`: preflight passed with only the PRA-LX1 connected, root healthy,
+  SELinux enforcing, battery 100 percent, and clean synchronized Git state.
+- `CONFIRMED`: the exact committed tracee/tracer sources built as AArch64 PIE
+  with NDK r27d. The deployed hashes matched. `trace_target` and its RX runtime
+  mapping were correlated exactly; absolute addresses remain local-only.
+- `CONFIRMED`: root `PTRACE_ATTACH`, the 272-byte general register set, the
+  264-byte `NT_ARM_HW_BREAK` state, six execution slots, and clear initial
+  controls were observed again.
+- `CONFIRMED`: the tracer's disabled address-only slot-0 submission returned
+  success, but immediate address readback did not match. Active control
+  `0x1e5` was therefore never submitted, the start gate was never created,
+  `PTRACE_CONT` was never issued, and no target call, SIGTRAP, or register
+  capture occurred.
+- `CONFIRMED`: the stopped disposable tracee was terminated through the safety
+  path without detach. No test process or artifact remained. Root, enforcing
+  SELinux, Android, ADB/USB, and the launcher remained healthy.
+- `ASSESSMENT`: the tested disabled address-only pre-step differs from the
+  Phase16H-S atomic address-plus-active-control submission whose address did
+  read back. The exact returned Phase16H-U address was not logged, so the
+  strongest supportable blocker is `DISABLED_ADDRESS_ONLY_SET_NOT_RETAINED`.
+- Phase16H-U gate is `E PTRACE_OR_REGSET_RUNTIME_FAILURE`.
+  `ROOT_PTRACE_FUNCTION_ENTRY_CAPABILITY = NO_NOT_PROVEN`,
+  `ROOT_CALLBACK_TRACE_PRECONDITION = NO`, and `PHASE16I_READY = NO`.
+  The next step is PC-only atomic-programming redesign; no additional runtime
+  test is authorized by this phase.

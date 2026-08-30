@@ -1,0 +1,12 @@
+{
+  "tracee_arch": "AARCH64",
+  "tracee_type": "ELF64_PIE",
+  "trace_target_elf_value": "0x00001c58",
+  "trace_target_size": 104,
+  "first_instruction": "0xd10103ff",
+  "load_bias_correlated_with_pt_load": true,
+  "runtime_address_aligned": true,
+  "runtime_address_inside_tracee_rx": true,
+  "runtime_address_committed": false,
+  "trace_target_runtime_validated": true
+}

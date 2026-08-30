@@ -1,0 +1,10 @@
+{
+  "active_control_was_set": false,
+  "explicit_disable_set_result": "NOT_REQUIRED_ACTIVE_CONTROL_NEVER_SET",
+  "breakpoint_disabled_by_proven_path": "NOT_APPLICABLE_THREAD_EXIT_CLEANUP",
+  "detach_used_for_cleanup": false,
+  "tracee_safety_terminated": true,
+  "thread_exit_cleanup_boundary": true,
+  "post_disable_function_execution_observed": false,
+  "post_disable_retrap": "NOT_APPLICABLE_NOT_CONTINUED"
+}

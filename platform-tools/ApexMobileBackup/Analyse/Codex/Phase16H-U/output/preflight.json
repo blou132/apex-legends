@@ -1,0 +1,12 @@
+{
+  "phase16h_u_preflight": "PASS",
+  "git_initially_clean": true,
+  "main_synchronized": true,
+  "device": "PRA-LX1_ONLY",
+  "unrelated_android_endpoint": false,
+  "root": true,
+  "selinux": "Enforcing",
+  "battery_percent": 100,
+  "apex_installed": false,
+  "apex_launched": false
+}

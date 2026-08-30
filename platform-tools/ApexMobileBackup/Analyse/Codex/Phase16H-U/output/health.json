@@ -1,0 +1,12 @@
+{
+  "root_still_healthy": true,
+  "selinux_still_enforcing": true,
+  "android_boot_complete": true,
+  "android_ui_healthy": true,
+  "adb_healthy": true,
+  "usb_healthy": true,
+  "phase16h_u_artifacts_remaining": false,
+  "phase16h_u_processes_remaining": false,
+  "apex_installed": false,
+  "apex_launched": false
+}

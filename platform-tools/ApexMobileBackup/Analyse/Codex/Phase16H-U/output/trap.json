@@ -1,0 +1,7 @@
+{
+  "sigtrap_received": false,
+  "reason": "PTRACE_CONT_NOT_ISSUED_AFTER_ADDRESS_READBACK_MISMATCH",
+  "sigtrap_code": "NOT_CAPTURED",
+  "sigtrap_address_match": "NOT_REACHED",
+  "exact_function_entry_trap": false
+}
