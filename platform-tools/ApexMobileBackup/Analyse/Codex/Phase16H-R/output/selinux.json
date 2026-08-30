@@ -1,0 +1,11 @@
+{
+  "phase": "Phase16H-R",
+  "mode_before": "Enforcing",
+  "mode_after": "Enforcing",
+  "server_context": "u:r:magisk:s0",
+  "stable_helper_observed": false,
+  "helper_context": null,
+  "current_run_avc": false,
+  "causal_evidence": "no_current_run_avc",
+  "policy_modified": false
+}

@@ -1293,3 +1293,40 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   precondition is `UNKNOWN`, and `SELECTED_PHASE16I_METHOD = UNRESOLVED`.
 - Phase16H gate is `B CLEAN_DEVICE_FRIDA_ENUMERATION_ONLY`. A separate bounded
   compatibility diagnostic is required before any Apex installation or trace.
+
+## Phase16H-R authoritative native tracing diagnosis
+
+- `CONFIRMED`: official Frida 17.17.0 host core, server version, architecture,
+  and deployed hash matched. The root server started in `u:r:magisk:s0`, then
+  reproducibly exited with code 139 from a null-pointer SIGSEGV during
+  ART/helper initialization before enumeration or attach.
+- `CONFIRMED`: two new Frida tombstones and bounded fatal-signal logcat evidence
+  identify the server crash. The current-run audit contained no Frida/helper
+  AVC and no stable `re.frida.helper` process, so SELinux is not established as
+  the cause of this specific startup failure.
+- `CONFIRMED`: upstream issue 3707 was reviewed. Its fix commit
+  `23f288c5e5de333e36dcbbba2be80abe1f63b389` is an ancestor of the exact
+  Frida 17.17.0 core revision, so the fix is included. The PRA crash must not be
+  automatically equated with that issue.
+- `CONFIRMED`: the single evidence-gated official Frida 17.5.2 comparator ran
+  in a separate exact-match environment. Its server remained alive, but both
+  enumeration and exact-PID attach failed with `ptrace pokedata` EIO. No third
+  version, script, hook, module enumeration, or memory read was attempted.
+- `CONFIRMED`: built-in `debuggerd -b` obtained a bounded ARM64 stack from a
+  disposable ping process, which survived.
+- `CONFIRMED`: two clean C programs built with official Google NDK r27d proved
+  root `PTRACE_ATTACH`, stopped-state wait, `PTRACE_GETREGSET` (272 bytes), and
+  `PTRACE_DETACH` on a disposable ARM64 tracee. No target memory or register was
+  written, and the tracee continued normally after detach.
+- `ASSESSMENT`: `ROOT_NATIVE_ATTACH_CAPABILITY = YES`, while
+  `ROOT_CALLBACK_TRACE_PRECONDITION = PROBABLE_NOT_VALIDATED`. The selected
+  future method is `ROOT_PTRACE_NATIVE_DEBUG_PATH`, but Phase16I is not ready
+  until bounded function-entry/register observation succeeds on a disposable
+  target.
+- `CONFIRMED`: current-run Frida servers, scripts, DEX/OAT outputs, tracee, and
+  probe were removed. Three older pre-existing OAT pairs were preserved.
+  Android, ADB, uid-0 root, and enforcing SELinux remained healthy; Apex stayed
+  uninstalled and unlaunched. No Samsung, policy change, module, Zygisk,
+  network interception, or backend access occurred.
+- Phase16H-R gate is `C INDEPENDENT_PTRACE_READY_FRIDA_UNUSABLE`. The blocker is
+  `ROOT_PTRACE_FUNCTION_ENTRY_OBSERVATION_NOT_YET_VALIDATED`.

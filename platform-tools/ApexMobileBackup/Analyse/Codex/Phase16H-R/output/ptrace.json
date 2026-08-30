@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16H-R",
+  "target": "disposable_arm64_tracee",
+  "attach": "success",
+  "wait_stop": "success_stop_signal_19",
+  "getregset": "success_272_bytes",
+  "detach": "success",
+  "target_alive_after_detach": true,
+  "tracer_pid_after_detach": 0,
+  "memory_write": false,
+  "register_write": false,
+  "instruction_patch": false
+}

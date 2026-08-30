@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16H-R",
+  "version": "17.17.0",
+  "core_version_match": true,
+  "server_hash_match": true,
+  "server_uid": "root",
+  "server_selinux_context": "u:r:magisk:s0",
+  "initial_state": "running_then_sigsegv",
+  "exit_code": 139,
+  "enumeration_repeat_success": false,
+  "session_creation": "not_attempted_server_startup_crash"
+}

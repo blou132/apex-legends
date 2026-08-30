@@ -1,0 +1,11 @@
+{
+  "phase": "Phase16H-R",
+  "new_frida_tombstone": true,
+  "signal": "SIGSEGV",
+  "signal_code": 1,
+  "fault_address_class": "null",
+  "faulting_executable": "frida-server-17.17.0",
+  "failure_class": "sigsegv_null_dereference_during_art_helper_initialization",
+  "separate_helper_fatal": false,
+  "raw_tombstone_committed": false
+}

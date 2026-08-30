@@ -1,0 +1,9 @@
+{
+  "phase": "Phase16H-R",
+  "syntax": "debuggerd -b PID",
+  "target": "disposable_arm64_ping",
+  "supported": true,
+  "stack_obtained": true,
+  "target_survived": true,
+  "capability_boundary": "stack_observation_only"
+}

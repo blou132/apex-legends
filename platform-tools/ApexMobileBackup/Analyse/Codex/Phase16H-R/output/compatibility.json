@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16H-R",
+  "upstream_issue": 3707,
+  "upstream_fix_commit": "23f288c5e5de333e36dcbbba2be80abe1f63b389",
+  "frida_17_17_core_revision": "c812943c457376c906802f7bb79d13c67a6e4d22",
+  "fix_included_in_17_17": true,
+  "current_failure_identical_to_issue": "not_established",
+  "comparator_version": "17.5.2",
+  "comparator_authorized_by_evidence": true,
+  "comparator_enumeration": "failure_ptrace_pokedata_eio",
+  "comparator_attach": "failure_ptrace_pokedata_eio",
+  "third_version_tested": false
+}
