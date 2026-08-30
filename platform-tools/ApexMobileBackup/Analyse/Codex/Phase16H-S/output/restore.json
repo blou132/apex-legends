@@ -1,0 +1,10 @@
+{
+  "phase": "Phase16H-S",
+  "software_memory_write_occurred": false,
+  "software_restore": "not_applicable_write_failed",
+  "pc_correction": "not_reached",
+  "single_step": "not_reached",
+  "software_tracee_detach": "success",
+  "software_tracee_result_after_detach": "correct",
+  "hardware_uncertain_state_handling": "disposable_tracee_terminated"
+}

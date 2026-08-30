@@ -1,0 +1,13 @@
+{
+  "phase": "Phase16H-S",
+  "ptrace_attach": "success",
+  "register_set_length": 272,
+  "original_word_saved": true,
+  "original_instruction_match": true,
+  "breakpoint_write": "failure_errno_5_eio",
+  "target_memory_changed": false,
+  "software_breakpoint_supported": false,
+  "sigtrap_received": false,
+  "detach": "success",
+  "tracee_continued": true
+}

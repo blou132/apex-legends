@@ -1330,3 +1330,38 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   network interception, or backend access occurred.
 - Phase16H-R gate is `C INDEPENDENT_PTRACE_READY_FRIDA_UNUSABLE`. The blocker is
   `ROOT_PTRACE_FUNCTION_ENTRY_OBSERVATION_NOT_YET_VALIDATED`.
+
+## Phase16H-S authoritative function-entry breakpoint result
+
+- `CONFIRMED`: a clean ARM64 PIE tracee exposed visible non-inlined
+  `trace_target` with eight known integer arguments. The symbol, PT_LOAD
+  correlation, load bias, executable mapping, four-byte alignment, file bytes,
+  and first instruction were validated without committing ASLR addresses.
+- `CONFIRMED`: root ptrace attached, returned the expected 272-byte general
+  register set, read the exact target instruction, and saved the containing
+  word. The only software `PTRACE_POKETEXT` returned EIO before changing
+  memory. Detach succeeded and the tracee continued with correct results.
+- `CONFIRMED`: the ARM64 `NT_ARM_HW_BREAK` regset exists, is 264 bytes, and
+  reports six execution slots. Android common 4.4-o source was used as the
+  generic UAPI reference only; the phone runs a Huawei 4.4.23+ vendor kernel.
+- `CONFIRMED`: hardware `SETREGSET` returned success, but exact readback was
+  invalid. On the corrected bounded retry, the address matched while requested
+  control `0x000001e5` returned as `0x000041e4`. No `PTRACE_CONT`, SIGTRAP, or
+  function-entry register capture occurred.
+- `CONFIRMED`: hardware-state restoration could not be validated even with a
+  disable-first sequence. Each stopped disposable tracee was terminated rather
+  than resumed or detached with uncertain per-thread debug state. No system or
+  unrelated process was affected.
+- `ASSESSMENT`: software breakpoints are unavailable through this path and the
+  exact Huawei hardware-control ABI is unresolved. Therefore
+  `ROOT_PTRACE_FUNCTION_ENTRY_CAPABILITY = NO_NOT_PROVEN`,
+  `SELECTED_PHASE16I_BREAKPOINT_METHOD = UNRESOLVED`, and
+  `PHASE16I_READY = NO`.
+- `CONFIRMED`: all temporary files and processes were removed. Android, ADB,
+  Magisk root, and enforcing SELinux remained healthy. Apex stayed uninstalled
+  and unlaunched; no Samsung, policy, module, Zygisk, system, network, or
+  backend action occurred.
+- Phase16H-S gate is `C REGISTER_ATTACH_ONLY_BREAKPOINT_UNAVAILABLE`. The next
+  step is PC-only resolution of the exact Huawei 4.4 hardware-breakpoint
+  control and disable semantics; no additional device programming is justified
+  before that evidence exists.

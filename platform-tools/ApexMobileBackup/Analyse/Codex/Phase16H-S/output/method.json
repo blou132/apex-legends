@@ -1,0 +1,11 @@
+{
+  "phase": "Phase16H-S",
+  "software_breakpoint_ready": false,
+  "hardware_breakpoint_ready": false,
+  "root_ptrace_function_entry_capability": "not_proven",
+  "selected_phase16i_breakpoint_method": "unresolved",
+  "root_callback_trace_precondition": "not_satisfied",
+  "phase16i_ready": false,
+  "current_blocker": "software_poketext_eio_and_vendor_hw_break_control_abi_unresolved",
+  "final_gate": "C_REGISTER_ATTACH_ONLY_BREAKPOINT_UNAVAILABLE"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16H-S",
+  "result": "pass",
+  "git_clean_and_synchronized": true,
+  "single_authorized_device": true,
+  "boot_complete": true,
+  "root_uid_zero": true,
+  "selinux": "Enforcing",
+  "battery_percent": 100,
+  "data_free_kib": 6941824,
+  "apex_installed": false
+}

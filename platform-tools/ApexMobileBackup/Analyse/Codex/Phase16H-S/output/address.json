@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16H-S",
+  "rx_pt_load_offset": "0x8a0",
+  "rx_pt_load_vaddr": "0x18a0",
+  "rx_pt_load_alignment": "0x1000",
+  "target_file_offset": "0x9a0",
+  "target_first_instruction": "0xd10103ff",
+  "load_bias_resolved": true,
+  "runtime_in_executable_mapping": true,
+  "runtime_four_byte_aligned": true,
+  "absolute_runtime_address_committed": false
+}

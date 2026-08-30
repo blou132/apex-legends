@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16H-S",
+  "boot_complete": true,
+  "adb_healthy": true,
+  "root_healthy": true,
+  "selinux": "Enforcing",
+  "temporary_files_removed": true,
+  "temporary_processes_removed": true,
+  "persistent_debug_daemon": false,
+  "system_modified": false,
+  "apex_installed": false,
+  "apex_launched": false,
+  "post_test_device_health_ok": true
+}

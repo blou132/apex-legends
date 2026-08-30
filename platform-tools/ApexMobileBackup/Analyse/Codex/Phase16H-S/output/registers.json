@@ -1,0 +1,10 @@
+{
+  "phase": "Phase16H-S",
+  "initial_register_set_length": 272,
+  "function_entry_trap": false,
+  "pc_captured_at_function_entry": false,
+  "sp_captured_at_function_entry": false,
+  "lr_captured_at_function_entry": false,
+  "x0_x7_match": "not_reached",
+  "function_argument_capture": false
+}

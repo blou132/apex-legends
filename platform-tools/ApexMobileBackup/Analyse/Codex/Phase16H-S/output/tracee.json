@@ -1,0 +1,12 @@
+{
+  "phase": "Phase16H-S",
+  "architecture": "AArch64",
+  "elf_class": "ELF64",
+  "elf_type": "DYN_PIE",
+  "target_symbol": "trace_target",
+  "symbol_found": true,
+  "symbol_relative_value": "0x19a0",
+  "argument_count": 8,
+  "expected_result": "0x26664",
+  "runtime_result_verified_before_trace": true
+}
