@@ -1,0 +1,11 @@
+{
+  "atomic_active_runtime_retry_gate": "GO",
+  "future_runtime_attempt_limit": "ONE",
+  "runtime_authorized_by_this_phase": false,
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_installed": false,
+  "apex_launched": false,
+  "next_step": "SEPARATE_AUTHORIZATION_FOR_ONE_PHASE16H_W_RUNTIME_ATTEMPT",
+  "final_gate": "A PC_ONLY_ATOMIC_TRACER_READY_FOR_SEPARATE_SINGLE_RUNTIME_AUTHORIZATION"
+}

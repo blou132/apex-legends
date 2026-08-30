@@ -1,0 +1,16 @@
+{
+  "slot_set_order": "ADDRESS_THEN_CONTROL",
+  "disabled_path": {
+    "requested_control": "0x00000000",
+    "validation_skipped": true,
+    "architecture_state_materialized_for_new_address": false,
+    "h_u_explanation_confidence": "PROBABLE"
+  },
+  "active_path": {
+    "requested_control": "0x000001e5",
+    "full_validation_triggered": true,
+    "expected_cached_readback": "0x000041e4",
+    "h_s_readback_proven": true
+  },
+  "exact_h_u_returned_address": "UNKNOWN_NOT_LOGGED"
+}

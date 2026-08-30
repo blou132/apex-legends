@@ -1430,3 +1430,40 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   `ROOT_CALLBACK_TRACE_PRECONDITION = NO`, and `PHASE16I_READY = NO`.
   The next step is PC-only atomic-programming redesign; no additional runtime
   test is authorized by this phase.
+
+## Phase16H-V authoritative PC-only atomic tracer redesign
+
+- `CONFIRMED`: no phone, ADB, tracee, tracer, or Apex runtime action occurred.
+  This phase only audited existing evidence, redesigned source, and performed
+  PC-side NDK compilation/static inspection.
+- `CONFIRMED`: H-U's 24-byte SETREGSET was an atomic complete-slot submission
+  containing address plus disabled control zero. H-S was an atomic address plus
+  active `0x000001e5` submission. The two phases did not exercise the same
+  kernel path.
+- `CONFIRMED`: PRA source and exact C33 disassembly establish slot SET order as
+  address then control. Disabled control skips full breakpoint validation;
+  active control triggers validation, architecture-state rebuilding, Huawei
+  SSC normalization, and perf-event enablement.
+- `ASSESSMENT`: disabled-path validation bypass is the probable explanation for
+  H-U address non-retention. H-U did not log the exact returned address, so that
+  value remains unknown and the causal statement is not promoted to confirmed.
+- `CONFIRMED`: H-S already proved atomic active programming readback: exact
+  address match and expected Huawei cached control `0x000041e4` for requested
+  `0x000001e5`. H-S did not continue and did not prove SIGTRAP.
+- `CONFIRMED`: the Phase16H-V tracer removes the disabled pre-step and makes one
+  24-byte slot-0 address-plus-active-control SET. Compile-time assertions cover
+  the 264-byte state, all header/slot offsets, and slot-1 boundary. Exact request
+  and response address/control/length logging is present.
+- `CONFIRMED`: explicit disable is a separate same-address/control-zero SET.
+  Its success no longer depends on disabled-state address readback. Detach
+  requires a subsequent no-retrap SIGSTOP handshake; failures make at most one
+  disable attempt and terminate the disposable tracee instead of detaching from
+  uncertain state.
+- `CONFIRMED`: tracee and tracer build cleanly as AArch64 PIE with official NDK
+  r27d and warnings as errors. Static source and disassembly invariants passed;
+  compiled outputs remain ignored and were not executed.
+- Phase16H-V gate is
+  `A PC_ONLY_ATOMIC_TRACER_READY_FOR_SEPARATE_SINGLE_RUNTIME_AUTHORIZATION`.
+  `ATOMIC_ACTIVE_RUNTIME_RETRY_GATE = GO` permits requesting, but does not
+  authorize, exactly one future Phase16H-W disposable-target attempt. Apex must
+  remain absent and unlaunched.

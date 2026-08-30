@@ -1,0 +1,11 @@
+{
+  "h_u_submission_class": "ATOMIC_ADDRESS_PLUS_DISABLED_CONTROL",
+  "h_s_submission_class": "ATOMIC_ADDRESS_PLUS_ACTIVE_CONTROL",
+  "disabled_prestep_removed": true,
+  "requested_active_control": "0x000001e5",
+  "expected_cached_readback": "0x000041e4",
+  "setregset_iov_length": 24,
+  "exact_request_return_address_logging_added": true,
+  "software_breakpoint_used": false,
+  "target_memory_write_used": false
+}

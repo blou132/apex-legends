@@ -1,0 +1,10 @@
+{
+  "disable_submission": "SAME_ADDRESS_PLUS_CONTROL_ZERO",
+  "disable_address_readback_required": false,
+  "disable_readback_role": "INFORMATIONAL_ONLY",
+  "maximum_disable_attempts_per_run": 1,
+  "detach_requires_no_retrap_handshake": true,
+  "uncertain_state_action": "TERMINATE_DISPOSABLE_TRACEE",
+  "failure_exit_cleanup_ready": true,
+  "waits_bounded": true
+}

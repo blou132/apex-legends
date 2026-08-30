@@ -1,0 +1,18 @@
+{
+  "state_size": 264,
+  "header": {
+    "debug_info_offset": 0,
+    "pad_offset": 4,
+    "slot_array_offset": 8
+  },
+  "slot_size": 16,
+  "slot0": {
+    "address_offset": 8,
+    "control_offset": 16,
+    "pad_offset": 20
+  },
+  "slot1_offset": 24,
+  "setregset_iov_length": 24,
+  "slot0_only_write_proven": true,
+  "validation": "COMPILE_TIME_STATIC_ASSERTS_PASSED"
+}
