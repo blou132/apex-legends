@@ -1,0 +1,17 @@
+{
+  "phase": "Phase16I",
+  "phase16a_external_callback_boundary_resolved": "NO",
+  "external_callback_class": "UNKNOWN",
+  "external_callback_slot_28_function": "UNKNOWN",
+  "libue4_callback_anchor": "UNKNOWN",
+  "callback_next_edge": "RUNTIME_SLOT_28_TARGET_NOT_CAPTURED",
+  "current_blocker": "CVERSIONMGR_INIT_NOT_OBSERVED_ON_RESOLVED_THREAD_DURING_SINGLE_ACTIVE_WINDOW",
+  "next_step": "NEW_AUTHORIZATION_REQUIRED_FOR_NON_ACTIVE_TRIGGER_AND_THREAD_RESOLUTION",
+  "final_gate": "C APEX_TRACE_TARGET_MISSED_NO_RETRY",
+  "apex_installed": true,
+  "apex_launched_offline": true,
+  "no_external_backend_contact_by_design": true,
+  "apk_modified": false,
+  "obb_modified": false,
+  "commit": "Trace Apex CVersionMgr external callback Phase16I"
+}

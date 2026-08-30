@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16I",
+  "repository_branch": "main",
+  "starting_commit": "25f9489",
+  "repository_clean_at_start": true,
+  "target_device": "PRA-LX1_ONLY",
+  "android_version": "8.0.0",
+  "boot_complete": true,
+  "root_ready": true,
+  "selinux": "Enforcing",
+  "battery_percent": 100,
+  "apex_initial_package_state": "ABSENT",
+  "result": "PASS"
+}

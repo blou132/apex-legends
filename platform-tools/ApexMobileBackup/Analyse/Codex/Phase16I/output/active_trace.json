@@ -1,0 +1,22 @@
+{
+  "preactive_rejection": {
+    "reason": "ANDROID_SHELL_32_BIT_ADDRESS_ARITHMETIC",
+    "runtime_byte_read_passed": false,
+    "active_setregset_issued": false,
+    "attempt_consumed": false,
+    "detach_success": true
+  },
+  "active_trace_ready": true,
+  "attempt_count": 1,
+  "attempt_limit": 1,
+  "active_setregset_result": "SUCCESS",
+  "requested_slot": 0,
+  "requested_control": "0x000001e5",
+  "address_readback_match": true,
+  "control_readback": "0x000041e4",
+  "control_readback_match": true,
+  "wait_timeout_seconds": 90,
+  "sigtrap_received": false,
+  "wait_result": "TIMEOUT",
+  "retry_performed": false
+}

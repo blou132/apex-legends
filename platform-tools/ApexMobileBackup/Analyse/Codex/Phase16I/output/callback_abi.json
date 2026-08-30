@@ -1,0 +1,13 @@
+{
+  "function": "CVersionMgrImp::Init",
+  "this_register": "X0",
+  "callback_argument_register": "X1",
+  "callback_argument_semantic": "CALLBACK_OBJECT_EQUALS_DEREFERENCE_X1_ONCE",
+  "callback_store_site_elf_va": "0x004765cc",
+  "callback_store_semantic": "CVersionMgrImp+0x18",
+  "strategy_callback_field": "CVersionStrategy+0x18",
+  "dispatch_function": "FUN_0050cb38",
+  "external_virtual_slot": "0x28",
+  "argument_register_proven": true,
+  "slot_dispatch_revalidated": true
+}

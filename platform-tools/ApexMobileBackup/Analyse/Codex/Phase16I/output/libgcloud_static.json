@@ -1,0 +1,12 @@
+{
+  "binary_storage": "LOCAL_ONLY",
+  "format": "ELF64",
+  "machine": "AARCH64",
+  "ghidra_address_model": "GHIDRA_EQUALS_ELF_VA_PLUS_0x00100000",
+  "cversionmgr_init_ghidra": "0x00576180",
+  "cversionmgr_init_elf_va": "0x00476180",
+  "entry_signature_length": 16,
+  "entry_signature_validated": true,
+  "address_model_revalidated": true,
+  "local_identity_valid": true
+}

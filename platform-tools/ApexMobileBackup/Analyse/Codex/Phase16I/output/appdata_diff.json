@@ -1,0 +1,40 @@
+{
+  "raw_data_location": "LOCAL_ONLY_GITIGNORED",
+  "snapshot_0_prelaunch": {
+    "result": "SUCCESS",
+    "private_regular_files": 0
+  },
+  "snapshot_1_post_warmup": {
+    "result": "SUCCESS",
+    "private_regular_files": 49,
+    "external_regular_files": 9
+  },
+  "diff_0_to_1": {
+    "summary": "FIRST_RUN_PACKAGE_STRUCTURES_CREATED",
+    "obb_validation_cache_identified": "UNKNOWN"
+  },
+  "snapshot_2_post_trace": {
+    "result": "SUCCESS",
+    "private_regular_files": 49,
+    "external_regular_files": 12
+  },
+  "diff_1_to_2": {
+    "created": 5,
+    "modified": 8,
+    "deleted": 2,
+    "created_categories": [
+      "crash_log_placeholders",
+      "GCloudCore_log",
+      "GCloud_log_placeholder",
+      "MSDK_log"
+    ],
+    "modified_categories": [
+      "SDK_databases",
+      "measurement_database",
+      "SDK_mmap",
+      "package_preferences",
+      "GCloud_configuration"
+    ]
+  },
+  "raw_values_or_database_rows_published": false
+}

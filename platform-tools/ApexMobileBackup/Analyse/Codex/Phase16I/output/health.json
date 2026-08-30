@@ -1,0 +1,14 @@
+{
+  "adb_healthy": true,
+  "usb_healthy": true,
+  "android_boot_complete": true,
+  "launcher_responsive": true,
+  "root_healthy": true,
+  "selinux": "Enforcing",
+  "battery_healthy": true,
+  "network_isolation_still_active": true,
+  "apex_installed": true,
+  "apex_running": false,
+  "unexpected_persistent_modification": false,
+  "post_phase_device_health_ok": true
+}

@@ -1,0 +1,13 @@
+{
+  "strategy": "EXACT_THREAD_NAME_Thread-10_AFTER_LIBGCLOUD_MAP",
+  "resolved": true,
+  "selected_tid": "LOCAL_ONLY",
+  "evidence": [
+    "historical_CVersionMgr_Init_native_caller_role",
+    "current_warmup_GCloud_Puffer_caller_named_Thread-10",
+    "transport_workers_excluded"
+  ],
+  "confidence": "MEDIUM",
+  "breakpoints_sprayed_across_threads": false,
+  "post_trace_uncertainty": "TRIGGER_ABSENT_OR_EXECUTION_THREAD_CHANGED"
+}

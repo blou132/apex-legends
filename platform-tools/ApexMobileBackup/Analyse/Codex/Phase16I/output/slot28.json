@@ -1,0 +1,10 @@
+{
+  "static_dispatch_revalidated": true,
+  "runtime_vtable_captured": false,
+  "runtime_slot_28_target_captured": false,
+  "slot_28_target_executable_mapping_valid": "NOT_TESTED",
+  "target_module": "UNKNOWN",
+  "target_module_relative": "UNKNOWN",
+  "target_elf_correlated": false,
+  "runtime_bytes_match_local_elf": "NOT_TESTED"
+}

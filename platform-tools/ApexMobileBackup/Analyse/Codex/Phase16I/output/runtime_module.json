@@ -1,0 +1,14 @@
+{
+  "module": "libgcloud.so",
+  "runtime_load_observed": true,
+  "mapped_path_owner": "EXACT_APEX_INSTALLATION",
+  "executable_mapping_file_offset": "0x00000000",
+  "load_bias_resolved": true,
+  "absolute_load_bias": "LOCAL_ONLY",
+  "target_formula": "LOAD_BIAS_PLUS_0x00476180",
+  "absolute_runtime_target": "LOCAL_ONLY",
+  "target_aligned": true,
+  "target_in_executable_mapping": true,
+  "runtime_entry_bytes_match_local_elf": true,
+  "runtime_identity_valid": true
+}

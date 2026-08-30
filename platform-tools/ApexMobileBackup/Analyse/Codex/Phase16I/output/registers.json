@@ -1,0 +1,8 @@
+{
+  "cversionmgr_entry_trap": false,
+  "pc_captured": false,
+  "sp_captured": false,
+  "lr_captured": false,
+  "x0_x7_captured": false,
+  "register_values": "NOT_CAPTURED_NO_TRAP"
+}

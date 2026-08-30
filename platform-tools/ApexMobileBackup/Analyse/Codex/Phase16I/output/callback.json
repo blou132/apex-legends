@@ -1,0 +1,8 @@
+{
+  "static_callback_register": "X1",
+  "static_callback_interpretation": "DEREFERENCE_ONCE",
+  "runtime_callback_pointer_captured": false,
+  "callback_pointer_mapping_valid": "NOT_TESTED",
+  "cversionmgr_this_runtime_validated": "NOT_TESTED",
+  "reason": "NO_FUNCTION_ENTRY_TRAP"
+}

@@ -1,0 +1,12 @@
+{
+  "timeout_cleanup_started": true,
+  "explicit_breakpoint_disable_attempts": 1,
+  "explicit_breakpoint_disable_result": "SUCCESS",
+  "ptrace_detach_result": "SUCCESS",
+  "apex_force_stop_result": "SUCCESS",
+  "apex_process_remaining": false,
+  "tracer_process_remaining": false,
+  "watcher_process_remaining": false,
+  "device_helpers_removed": true,
+  "hardware_cleanup_boundary": "EXPLICIT_DISABLE_THEN_PROCESS_EXIT"
+}

@@ -1,0 +1,13 @@
+{
+  "airplane_mode": "ENABLED",
+  "wifi_disabled": true,
+  "mobile_data_disabled": true,
+  "ipv4_default_route_present": false,
+  "ipv6_default_route_present": false,
+  "android_active_default_network": "NONE",
+  "per_uid_barrier": "UNAVAILABLE_NOT_REQUIRED_WHOLE_DEVICE_OFFLINE",
+  "warmup_isolation_maintained": true,
+  "trace_isolation_maintained": true,
+  "postcheck_isolation_maintained": true,
+  "gate": "PASS"
+}
