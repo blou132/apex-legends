@@ -1,0 +1,24 @@
+{
+  "user_control_zero": {
+    "decoded_enabled": 0,
+    "attribute_disabled": 1,
+    "path": [
+      "ptrace_hbp_set_ctrl",
+      "ptrace_hbp_fill_attr_ctrl",
+      "modify_user_hw_breakpoint",
+      "perf_event_disable",
+      "event_sched_out_if_active",
+      "pmu_del_if_active",
+      "hw_breakpoint_del_if_active",
+      "arch_uninstall_hw_breakpoint_if_active",
+      "write_bcr_zero_if_installed"
+    ]
+  },
+  "inactive_context": "NO_BCR_INSTALLED_AND_DISABLED_STATE_PREVENTS_NEXT_INSTALL",
+  "hardware_bcr_clear_expected": true,
+  "getregset_full_zero_required": false,
+  "cached_readback_may_remain": "0x000041e4",
+  "exit_cleanup_confidence": "HIGH",
+  "detach_cleanup_confidence": "HIGH_NEGATIVE_DETACH_ALONE_DOES_NOT_FLUSH",
+  "required_future_cleanup": "DISABLE_SUCCESS_THEN_NO_RETRAP_HANDSHAKE_BEFORE_DETACH"
+}

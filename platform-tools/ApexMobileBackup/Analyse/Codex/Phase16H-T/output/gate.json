@@ -1,0 +1,18 @@
+{
+  "ssc_normalization_explained": true,
+  "cached_enable_bit_zero_explained": true,
+  "getregset_source_explained": true,
+  "hardware_enable_path_explained": true,
+  "disable_clear_semantics_explained": true,
+  "exit_cleanup_explained": true,
+  "detach_limitation_explained": true,
+  "pra_source_relevance_sufficient": true,
+  "exact_c33_source_match_confidence": "MEDIUM",
+  "phase16h_s_readback_reinterpretation": "SETREGSET_SUCCESS_READBACK_EXPECTED_NORMALIZATION",
+  "hardware_breakpoint_retry_gate": "GO",
+  "phone_touched": false,
+  "apex_installed": false,
+  "apex_launched": false,
+  "next_step": "ONE_BOUNDED_DISPOSABLE_HW_BREAKPOINT_EXECUTION_TEST_NO_APEX",
+  "final_gate": "A PC_ONLY_ABI_RESOLVED_SINGLE_RUNTIME_RETRY_JUSTIFIED"
+}

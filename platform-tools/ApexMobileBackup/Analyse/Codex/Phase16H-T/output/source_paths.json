@@ -1,0 +1,42 @@
+{
+  "ramame_prague": {
+    "url": "https://github.com/Ramame/android_kernel_huawei_prague.git",
+    "branch": "8.x",
+    "commit": "3d045997c5eb536b0e3f649274ec07bbe45a7241",
+    "kernel_version": "4.1.18",
+    "paths": [
+      "arch/arm64/include/asm/hw_breakpoint.h:21-96",
+      "arch/arm64/kernel/ptrace.c:114-130",
+      "arch/arm64/kernel/ptrace.c:184-365",
+      "arch/arm64/kernel/hw_breakpoint.c:227-300",
+      "arch/arm64/kernel/hw_breakpoint.c:390-500",
+      "kernel/events/hw_breakpoint.c:433-475",
+      "kernel/events/hw_breakpoint.c:580-600",
+      "kernel/events/core.c:1544-1574",
+      "kernel/events/core.c:1716-1819",
+      "kernel/exit.c:772",
+      "arch/arm64/kernel/process.c:308"
+    ]
+  },
+  "lineage_hi6250": {
+    "url": "https://github.com/LineageOS/android_kernel_huawei_hi6250.git",
+    "branch": "lineage-17.1",
+    "commit": "97a757c4464e687a83ccc2de122b5cd960aa0e3a",
+    "kernel_version": "4.9.148",
+    "paths": [
+      "arch/arm64/include/asm/hw_breakpoint.h:26-110",
+      "arch/arm64/kernel/ptrace.c:215-233",
+      "arch/arm64/kernel/ptrace.c:285-466",
+      "arch/arm64/kernel/hw_breakpoint.c:234-307",
+      "arch/arm64/kernel/hw_breakpoint.c:425-547",
+      "kernel/events/hw_breakpoint.c:431-459"
+    ]
+  },
+  "android_common": {
+    "url": "https://android.googlesource.com/kernel/common",
+    "branch": "deprecated/android-4.4-o",
+    "commit": "edd606b9fcdd6d1d81ebe04bd0738d85283767ce",
+    "kernel_version": "4.4.290",
+    "role": "GENERIC_ARM64_PERF_REFERENCE_NO_HUAWEI_SSC_EXTENSION"
+  }
+}

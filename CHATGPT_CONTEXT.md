@@ -1365,3 +1365,36 @@ The HTTP response reaches a confirmed native-to-Lua event bridge and generic vir
   step is PC-only resolution of the exact Huawei 4.4 hardware-breakpoint
   control and disable semantics; no additional device programming is justified
   before that evidence exists.
+
+## Phase16H-T authoritative PC-only hardware-breakpoint ABI result
+
+- `CONFIRMED`: no phone, ADB, Apex, or runtime target was touched. The exact
+  archived C33 `KERNEL.img` was analyzed non-destructively on the PC only.
+- `CONFIRMED`: requested control `0x000001e5` decodes as enabled EL0 execute,
+  length four, SSC zero, mask zero. Returned `0x000041e4` decodes as the same
+  breakpoint with cached enabled zero and SSC NON_SECURE.
+- `CONFIRMED`: PRA and Lineage source plus exact C33 disassembly prove Huawei
+  validation sets SSC to 1 (`0x4000`) and first-enable ordering caches the
+  enabled bit as zero before `perf_event_enable()`.
+- `CONFIRMED`: GETREGSET serializes cached `counter_arch_bp(bp)->ctrl`; it does
+  not read the hardware BCR. Phase16H-S readback is therefore expected Huawei
+  normalization, not rejected programming.
+- `CONFIRMED`: exact C33 install forces control bit 0 and is expected to write
+  BCR `0x000041e5` on schedule-in. This value is source-derived only; no runtime
+  BCR or SIGTRAP has yet been observed.
+- `CONFIRMED`: userspace control zero disables the perf event. If installed,
+  PMU delete reaches ARM64 uninstall and writes BCR zero; if inactive, disabled
+  state prevents later installation. GETREGSET may remain `0x000041e4`, so a
+  full-zero cached word is not required for safe disable.
+- `CONFIRMED`: thread exit/exec calls `flush_ptrace_hw_breakpoint` and
+  unregisters all slots. `PTRACE_DETACH` alone does not flush on exact C33;
+  `ptrace_disable` only disables single-step. Future cleanup must disable and
+  prove no retrap before detach, with tracee exit as the final safety boundary.
+- `ASSESSMENT`: PRA 8.x is semantically equivalent for the targeted ABI paths,
+  but exact source-tree match confidence is `MEDIUM` because PRA, exact C33,
+  and Lineage use different kernel versions and no byte-identical C33 source is
+  available.
+- Phase16H-T gate is
+  `A PC_ONLY_ABI_RESOLVED_SINGLE_RUNTIME_RETRY_JUSTIFIED`. Exactly one future
+  bounded disposable-target hardware-breakpoint execution test is justified;
+  it must use no software POKETEXT and no Apex.

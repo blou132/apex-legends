@@ -1,0 +1,39 @@
+{
+  "exact_c33": {
+    "input_size": 25165824,
+    "input_sha256": "6993D273EFCD35D91AC3E0029C9FA4E0BC42999F6BE835B35A92C8F2C670006C",
+    "payload_type": "HUAWEI_WRAPPER_WITH_GZIP_AT_0x1800",
+    "decompressed_size": 34625856,
+    "decompressed_sha256": "1D47D981A2651DE2AE4254EDD4751BE068AC830D8DC5B194803001E9328B9049",
+    "kernel_version": "4.4.23+",
+    "build_timestamp_raw": "Mon Mar 4 06:19:34 CST 2019",
+    "arm64_image_magic": true,
+    "ikconfig_present": true,
+    "kallsyms_symbol_count": 128968,
+    "config_have_hw_breakpoint": true,
+    "config_have_hw_breakpoint_addr_mask": true
+  },
+  "exact_c33_function_fingerprints": {
+    "ptrace_hbp_get_ctrl": {"size": 164, "sha256": "e1e36c96e20f8a1ec62c1585b217f81cc162c9e5b84ec167b5778b246c664905"},
+    "ptrace_hbp_set_ctrl": {"size": 388, "sha256": "90699db2b2bc612cc2d91aba5a4d1ad507eee408f854afa3e524f020b9356510"},
+    "ptrace_hbp_set_addr": {"size": 208, "sha256": "ff37c55b13784f66086f4293588c1163fd474e6f7050f9a47e04aa858e695c5d"},
+    "flush_ptrace_hw_breakpoint": {"size": 112, "sha256": "fdec664f8dfeeedb81fbb01e90209bea57bb3f260e7fdd2b942401e55d3bd233"},
+    "hw_breakpoint_control": {"size": 604, "sha256": "bc7124a89162bc184f25df3450c9a69f5488b424371d0de5f4bc6ce829d18168"},
+    "arch_install_hw_breakpoint": {"size": 24, "sha256": "8cebe2806f6571a0cbbbe19764c98ba7b7692a3cf7a546fda5d2b080e97ea6e2"},
+    "arch_uninstall_hw_breakpoint": {"size": 24, "sha256": "6dd85be7b709ed05625fa88b59a0d4c75556bf4e7215488b52fed1375658c029"},
+    "perf_event_enable": {"size": 60, "sha256": "fb11e194064e0fc14277e4962a079b2551699eedef8ce0196e0dbc26493d6b6a"},
+    "perf_event_disable": {"size": 60, "sha256": "74259b4645301205b1ae8ff2111feba048eee00a00d2060affea0ef773a82e4e"},
+    "modify_user_hw_breakpoint": {"size": 252, "sha256": "2f994b8976c0d8d7f1dcfda2c99a7586b3f4bd1115eb5a8ed1a9b938686bc5ca"}
+  },
+  "call_graph_confirmed": [
+    "ptrace_hbp_set_ctrl->modify_user_hw_breakpoint",
+    "ptrace_hbp_set_addr->modify_user_hw_breakpoint",
+    "arch_install_hw_breakpoint->hw_breakpoint_control",
+    "arch_uninstall_hw_breakpoint->hw_breakpoint_control",
+    "hw_breakpoint_del->arch_uninstall_hw_breakpoint",
+    "do_exit->flush_ptrace_hw_breakpoint",
+    "flush_thread->flush_ptrace_hw_breakpoint"
+  ],
+  "pra_8x_source_correlation": "SEMANTICALLY_EQUIVALENT_FOR_TARGETED_ABI_PATHS",
+  "exact_c33_source_match_confidence": "MEDIUM"
+}

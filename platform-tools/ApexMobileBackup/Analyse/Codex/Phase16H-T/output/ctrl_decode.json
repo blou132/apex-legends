@@ -1,0 +1,38 @@
+{
+  "encoding": {
+    "enabled_bits": "0",
+    "privilege_bits": "2:1",
+    "type_bits": "4:3",
+    "length_bits": "12:5",
+    "ssc_bits": "15:14",
+    "mask_bits": "28:24"
+  },
+  "requested": {
+    "value": "0x000001e5",
+    "enabled": 1,
+    "privilege": 2,
+    "privilege_name": "EL0",
+    "type": 0,
+    "type_name": "EXECUTE",
+    "length": 15,
+    "length_name": "LEN4",
+    "ssc": 0,
+    "mask": 0
+  },
+  "readback": {
+    "value": "0x000041e4",
+    "enabled": 0,
+    "privilege": 2,
+    "privilege_name": "EL0",
+    "type": 0,
+    "type_name": "EXECUTE",
+    "length": 15,
+    "length_name": "LEN4",
+    "ssc": 1,
+    "ssc_name": "NON_SECURE",
+    "mask": 0
+  },
+  "transformation": "(requested & ~0x1) | 0x00004000",
+  "expected_installed_bcr": "0x000041e5",
+  "expected_installed_bcr_evidence": "SOURCE_DERIVED_ONLY"
+}
