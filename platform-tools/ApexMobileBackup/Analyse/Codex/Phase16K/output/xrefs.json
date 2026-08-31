@@ -1,0 +1,26 @@
+{
+  "reference_count": 3,
+  "exact_code_callers": 1,
+  "proven_semantic_owners": 0,
+  "address_taken": false,
+  "references": [
+    {
+      "module": "libUE4.so",
+      "kind": "RELOCATION",
+      "site": "Ghidra 0x0b47e8c8 / ELF 0x0b37e8c8",
+      "classification": "CONFIRMED"
+    },
+    {
+      "module": "libUE4.so",
+      "kind": "COMPUTED_CALL",
+      "site": "Ghidra 0x0a4c18fc",
+      "classification": "CONFIRMED_PLT_DISPATCH"
+    },
+    {
+      "module": "libUE4.so",
+      "kind": "DIRECT_CALL",
+      "site": "Ghidra 0x05b314cc",
+      "classification": "INVALIDATED_AS_SEMANTIC_OWNER"
+    }
+  ]
+}

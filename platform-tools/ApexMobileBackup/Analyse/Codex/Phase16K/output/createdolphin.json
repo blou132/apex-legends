@@ -1,0 +1,14 @@
+{
+  "ghidra_address": "0x0054514c",
+  "elf_virtual_address": "0x0044514c",
+  "symbol": {
+    "type": "FUNC",
+    "binding": "GLOBAL",
+    "visibility": "DEFAULT",
+    "dynamic_export": true,
+    "size_bytes": 40
+  },
+  "constructs_gcloud_dolphin_imp": true,
+  "primary_vtable": "0x00979620",
+  "classification": "CONFIRMED"
+}

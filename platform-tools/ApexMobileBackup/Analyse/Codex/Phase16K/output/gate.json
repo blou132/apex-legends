@@ -1,0 +1,19 @@
+{
+  "future_active_trace_gate": "NO_GO",
+  "future_trace_trigger_strategy": "NONE_DETERMINISTIC",
+  "current_blocker": "CLIENT_DOLPHIN_INIT_DISPATCH_AND_SELECTOR_UNRESOLVED_AFTER_INVALIDATED_STATIC_IMPORT_CALL",
+  "next_step": "PC_ONLY_RESOLVE_LIBUE4_PLT_CALLSITE_REPRESENTATION_AND_CLIENT_DOLPHIN_DISPATCH",
+  "final_gate": "E STATIC_AXIS_EXHAUSTED_RUNTIME_OR_STATE_COMPARISON_REQUIRED",
+  "thread10_cversionmgr_executor": "CONFIRMED",
+  "cversionmgr_executing_thread_confidence": "HIGH",
+  "safety": {
+    "phone_touched": false,
+    "adb_used": false,
+    "apex_launched": false,
+    "appdata_touched": false,
+    "active_hardware_breakpoint_count": 0,
+    "memory_write_used": false,
+    "apk_modified": false,
+    "obb_modified": false
+  }
+}

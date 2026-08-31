@@ -1,0 +1,11 @@
+{
+  "immediate_gates": "UNKNOWN",
+  "value_source": "UNKNOWN",
+  "comparison": "UNKNOWN",
+  "true_means": "UNKNOWN",
+  "alternative_branch": "UNKNOWN",
+  "puffer_alternative_edge": "NOT_PROVEN",
+  "puffer_relationship": "UNKNOWN",
+  "predicate_class": "UNKNOWN",
+  "predicate_description": "Client Init dispatch and controlling value unresolved"
+}

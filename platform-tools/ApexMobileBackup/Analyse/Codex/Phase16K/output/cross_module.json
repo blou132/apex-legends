@@ -1,0 +1,10 @@
+{
+  "edge": "CreateDolphin import/export",
+  "from_module": "libUE4.so",
+  "to_module": "libgcloud.so",
+  "edge_type": "ELF_UNDEFINED_SYMBOL_AND_R_AARCH64_JUMP_SLOT",
+  "confidence": "HIGH",
+  "classification": "CONFIRMED",
+  "bootstrap_owner_module": "UNKNOWN",
+  "sole_import_candidate": "libUE4.so"
+}

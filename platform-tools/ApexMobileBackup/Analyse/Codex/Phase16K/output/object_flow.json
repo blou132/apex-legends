@@ -1,0 +1,9 @@
+{
+  "factory_returns_in": "x0",
+  "provider_retains_object": false,
+  "client_storage": "NOT_PROVEN",
+  "owner_object": "UNKNOWN",
+  "owner_field": "UNKNOWN",
+  "invalidated_callsite": "libUE4.so Ghidra 0x05b314cc",
+  "classification": "UNKNOWN"
+}

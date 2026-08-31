@@ -1,0 +1,10 @@
+{
+  "provider": "libgcloud.so",
+  "sole_import_module": "libUE4.so",
+  "symbol_index": 375,
+  "relocation_address": "0x0b37e8c8",
+  "relocation_type": "R_AARCH64_JUMP_SLOT",
+  "dynamic_lookup": "NO",
+  "other_exact_modules_importing": [],
+  "classification": "CONFIRMED"
+}

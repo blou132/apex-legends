@@ -1,0 +1,10 @@
+{
+  "interface_vtable": "0x00979620",
+  "init_slot_offset": "0x10",
+  "init_target": "FUN_005458a0",
+  "proven_client_dispatch_count": 0,
+  "caller": "UNKNOWN",
+  "caller_module": "UNKNOWN",
+  "call_site": "UNKNOWN",
+  "argument_provenance": "UNKNOWN"
+}
