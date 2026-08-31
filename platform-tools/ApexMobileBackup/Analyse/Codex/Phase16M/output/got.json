@@ -1,0 +1,11 @@
+{
+  "callsite_runtime_mapping_valid": true,
+  "plt_runtime_mapping_valid": true,
+  "got_runtime_mapping_valid": true,
+  "provider_runtime_mapping_valid": true,
+  "got_pointer_read": false,
+  "got_points_to_provider": "UNKNOWN",
+  "target_module": "UNKNOWN",
+  "target_module_relative": "UNKNOWN",
+  "runtime_model": "UNRESOLVED"
+}

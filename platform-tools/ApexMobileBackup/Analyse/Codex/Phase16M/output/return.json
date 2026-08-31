@@ -1,0 +1,8 @@
+{
+  "entry_break_disable": "NOT_ARMED",
+  "return_break_set": "NOT_EXECUTED",
+  "normal_return": "NOT_OBSERVED",
+  "x0_captured": false,
+  "pointer_non_null": "UNKNOWN",
+  "return_break_disable": "NOT_ARMED"
+}

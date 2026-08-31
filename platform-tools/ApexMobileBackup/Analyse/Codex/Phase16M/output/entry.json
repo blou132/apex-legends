@@ -1,0 +1,11 @@
+{
+  "tracer_build_valid": true,
+  "register_writes": false,
+  "process_memory_writes": false,
+  "ptrace_attach": "FAILURE_PREACTIVE_EPERM",
+  "active_ready": false,
+  "active_observation_executed": false,
+  "observation_count": 0,
+  "entry_break_set": "NOT_EXECUTED",
+  "entry_trap": "NOT_EXECUTED"
+}

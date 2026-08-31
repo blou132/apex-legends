@@ -1,0 +1,10 @@
+{
+  "single_step_used": false,
+  "step_count": 0,
+  "return_value_copied_to_x1": "UNKNOWN",
+  "return_value_remains_in_x1": "UNKNOWN",
+  "x0_overwritten_before_throw": "UNKNOWN",
+  "throw_helper_call_next": "UNKNOWN",
+  "consumer_class": "UNKNOWN",
+  "scope_stop": "PREACTIVE_STOP"
+}

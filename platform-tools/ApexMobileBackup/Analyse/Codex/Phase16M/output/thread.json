@@ -1,0 +1,9 @@
+{
+  "thread_name": "Thread-10",
+  "confidence": "MEDIUM",
+  "selection": "CURRENT_SAME_RUN_PUFFER_CALLER_PLUS_HISTORICAL_DOLPHIN_CORRELATION",
+  "numeric_tid": "LOCAL_ONLY",
+  "unique_tid_resolved": true,
+  "already_traced": true,
+  "existing_tracer": "GameProtector3"
+}

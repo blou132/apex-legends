@@ -1,0 +1,11 @@
+{
+  "apex_force_stop": "SUCCESS",
+  "apex_process_remaining": false,
+  "tracer_process_remaining": false,
+  "temporary_tracer_removed": true,
+  "breakpoint_state_armed_by_phase16m": false,
+  "root_healthy": true,
+  "selinux": "Enforcing",
+  "network_isolation_active": true,
+  "device_health": "PASS"
+}

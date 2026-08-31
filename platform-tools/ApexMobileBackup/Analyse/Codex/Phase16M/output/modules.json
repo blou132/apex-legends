@@ -1,0 +1,17 @@
+{
+  "libUE4": {
+    "mapped": true,
+    "load_bias_resolved": true,
+    "identity": "PROBABLE",
+    "runtime_bytes": "NOT_READ",
+    "absolute_values": "LOCAL_ONLY"
+  },
+  "libgcloud": {
+    "mapped": true,
+    "load_bias_resolved": true,
+    "identity": "PROBABLE",
+    "runtime_bytes": "NOT_READ",
+    "absolute_values": "LOCAL_ONLY"
+  },
+  "bias_method": "PT_LOAD_FILE_OFFSET_AND_VADDR"
+}

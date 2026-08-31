@@ -1,0 +1,11 @@
+{
+  "phase": "Phase16M",
+  "git_preflight": "PASS",
+  "target_device": "PRA_LX1_ONLY",
+  "root_ready": true,
+  "selinux": "Enforcing",
+  "network_isolation": "PASS",
+  "apex_installed": true,
+  "apex_initially_running": false,
+  "appdata_manually_modified": false
+}

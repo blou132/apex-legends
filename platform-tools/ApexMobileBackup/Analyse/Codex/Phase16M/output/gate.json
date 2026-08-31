@@ -1,0 +1,10 @@
+{
+  "final_gate": "G",
+  "classification": "PTRACE_TARGET_ALREADY_OWNED_PREACTIVE_STOP",
+  "current_blocker": "SELECTED_CREATEDOLPHIN_EXECUTOR_ALREADY_PTRACED_BY_GAMEPROTECTOR3",
+  "active_observation_executed": false,
+  "observation_count": 0,
+  "observation_limit": 1,
+  "runtime_retry_allowed_in_phase16m": false,
+  "next_step": "PC_ONLY_PRE_PROTECTOR_EXECUTOR_DISCRIMINATOR_AUDIT"
+}
