@@ -1,0 +1,16 @@
+{
+  "phase16n_preflight": "PASS",
+  "future_ptrace_trace_gate": "NO_GO",
+  "future_ptrace_trace_reason": "TARGET_OWNED_AT_FIRST_ACTIONABLE_CORRELATION_AND_CREATEDOLPHIN_EXECUTOR_NOT_DIRECTLY_PROVEN",
+  "next_evidence_axis": "PC_ONLY_CREATEDOLPHIN_CALLSITE_PRODUCER_STATE",
+  "current_blocker": "NO_PROVEN_PRE_PROTECTOR_NONINTERFERING_EXECUTOR_DISCRIMINATOR",
+  "next_step": "ANALYZE_STATIC_CREATEDOLPHIN_CALLSITE_PRODUCER_STATE",
+  "final_gate": "B TARGET_IDENTIFIABLE_EARLY_BUT_PTRACE_CONFLICT_REMAINS",
+  "active_hw_breakpoint_count": 0,
+  "ptrace_used": false,
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_launched": false,
+  "appdata_touched": false,
+  "gameprotector_interference": false
+}

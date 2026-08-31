@@ -1,0 +1,14 @@
+{
+  "cversionmgr_executor": {
+    "role": "THREAD10_HISTORICAL_DIRECT_WITNESS",
+    "confidence": "HIGH"
+  },
+  "puffer_executor": {
+    "role": "THREAD10_A_SAME_RUN_DIRECT_WITNESS",
+    "confidence": "HIGH"
+  },
+  "createdolphin_executor": {
+    "direct_runtime_witness": false,
+    "same_as_selected_thread": "POSSIBLE"
+  }
+}

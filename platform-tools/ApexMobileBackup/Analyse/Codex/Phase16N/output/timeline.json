@@ -1,0 +1,39 @@
+{
+  "t0_basis": "FIRST_RETAINED_APEX_PROCESS_LOG",
+  "events": [
+    {
+      "relative_seconds": 0.0,
+      "event": "FIRST_RETAINED_PROCESS_LOG"
+    },
+    {
+      "relative_seconds": 3.302,
+      "event": "SELECTED_INSTANCE_FIRST_GRAPHICS_EVENT"
+    },
+    {
+      "relative_seconds": 4.063,
+      "event": "SELECTED_INSTANCE_GCLOUDCORE_CREATEEVENT"
+    },
+    {
+      "relative_seconds": 9.55,
+      "event": "SELECTED_INSTANCE_PUFFER_CALLER"
+    },
+    {
+      "relative_seconds": 358.8,
+      "event": "DUPLICATE_THREAD_TASK_SNAPSHOT"
+    },
+    {
+      "relative_seconds": 359.7,
+      "event": "PREACTIVE_ATTACH_EPERM"
+    },
+    {
+      "relative_seconds": 447.7,
+      "event": "NONZERO_TRACER_STATE_RETAINED"
+    },
+    {
+      "relative_seconds": 478.0,
+      "event": "EXISTING_TRACER_IDENTIFIED_AS_GAMEPROTECTOR3"
+    }
+  ],
+  "module_map_time": "NOT_DEFENSIBLY_TIMESTAMPED",
+  "final_watcher_relation": "PUFFER_CORRELATION_AND_OWNERSHIP_SAME_ACTIONABLE_INTERVAL"
+}

@@ -1,0 +1,19 @@
+{
+  "selected_instance": "THREAD10_A",
+  "selection_same_run_correlation": "PUFFER_CALLER_TO_TASK_COMM",
+  "earliest_event": {
+    "relative_seconds": 3.302,
+    "tag": "mali_winsys",
+    "event": "NEW_WINDOW_SURFACE",
+    "component": "GRAPHICS_DRIVER",
+    "role_specific": false
+  },
+  "earliest_useful_role_event": {
+    "relative_seconds": 4.063,
+    "tag": "GCloudCore",
+    "event": "CREATEEVENT",
+    "component": "GCLOUDCORE_REPORT_SERVICE",
+    "role_specific": true
+  },
+  "puffer_witness_relative_seconds": 9.55
+}

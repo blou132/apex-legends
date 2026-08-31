@@ -1,0 +1,16 @@
+{
+  "early_event_module": "libgcloudcore.so",
+  "early_event_function": "GCloud::Plugin::GCloudCoreReportSerivce::CreateEvent",
+  "early_event_source_anchor": "GCloudCoreReportService.cpp:78",
+  "early_event_call_context": "INTERFACE_SERVICE_METHOD_ON_ARBITRARY_CALLER_THREAD",
+  "target_worker_creation_function": "UNKNOWN",
+  "target_worker_start_routine": "UNKNOWN",
+  "target_worker_creator_module": "UNKNOWN",
+  "target_thread_creator_role": "UNKNOWN",
+  "thread_name_assignment_site": "UNKNOWN",
+  "thread_name_assignment_timing": "UNKNOWN",
+  "thread10_name_is_role_specific": false,
+  "start_routine_resolved": false,
+  "start_routine_unique_to_target_role": "UNKNOWN",
+  "analysis_bounded_after_no_worker_path": true
+}

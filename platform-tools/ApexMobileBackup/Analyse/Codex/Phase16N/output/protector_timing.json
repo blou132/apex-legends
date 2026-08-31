@@ -1,0 +1,8 @@
+{
+  "protector_ownership_relative_order": "SAME_OBSERVATION_INTERVAL",
+  "early_event_tracer_sample_available": false,
+  "puffer_event_tracer_sample_available_in_first_run": false,
+  "ownership_present_at_final_actionable_correlation": true,
+  "protector_noninterference_compatible": false,
+  "phase16n_gameprotector_interference": false
+}

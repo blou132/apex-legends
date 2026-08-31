@@ -1,0 +1,15 @@
+{
+  "phase15u_runtime_evidence_available": true,
+  "phase16i_runtime_evidence_available": true,
+  "phase16j_static_evidence_available": true,
+  "phase16m_runtime_evidence_available": true,
+  "phase16m_thread_snapshots_available": true,
+  "phase16m_tracer_timeline_available": "PARTIAL",
+  "raw_evidence_committed": false,
+  "sanitization": {
+    "numeric_pid_tid_removed": true,
+    "absolute_timestamps_removed": true,
+    "runtime_addresses_removed": true,
+    "device_identifiers_removed": true
+  }
+}

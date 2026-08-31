@@ -1,0 +1,13 @@
+{
+  "early_log_discriminator": "GCLOUDCORE_CREATEEVENT",
+  "unique_in_retained_phase16m_run": true,
+  "proven_before_protector": "UNKNOWN",
+  "pre_protector_window_exists": "UNKNOWN",
+  "target_identifiable_without_ptrace": true,
+  "creation_ordinal": "FIRST_OBSERVED_NUMERIC_ORDER",
+  "creation_ordinal_unique": "YES_SINGLE_SNAPSHOT_ONLY",
+  "creation_ordinal_stable_evidence": false,
+  "cross_run_thread_role_stability": "MEDIUM",
+  "pre_protector_executor_discriminator": "NONE_PROVEN",
+  "pre_protector_executor_confidence": "MEDIUM_TIMING_GAP"
+}

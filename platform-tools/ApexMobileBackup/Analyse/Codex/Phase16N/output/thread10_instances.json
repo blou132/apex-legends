@@ -1,0 +1,52 @@
+{
+  "instance_count": 5,
+  "selected_instance": "THREAD10_A",
+  "instances": [
+    {
+      "label": "THREAD10_A",
+      "selected": true,
+      "observed_numeric_order": 1,
+      "first_tag": "mali_winsys",
+      "gcloud_evidence": true,
+      "puffer_evidence": true,
+      "wait_class": "TIMED_SLEEP"
+    },
+    {
+      "label": "THREAD10_B",
+      "selected": false,
+      "observed_numeric_order": 2,
+      "first_tag": "GPMSDK",
+      "gcloud_evidence": "INTERNAL_ONLY",
+      "puffer_evidence": false,
+      "wait_class": "FUTEX_WAIT"
+    },
+    {
+      "label": "THREAD10_C",
+      "selected": false,
+      "observed_numeric_order": 3,
+      "first_tag": null,
+      "gcloud_evidence": false,
+      "puffer_evidence": false,
+      "wait_class": "FUTEX_WAIT"
+    },
+    {
+      "label": "THREAD10_D",
+      "selected": false,
+      "observed_numeric_order": 4,
+      "first_tag": null,
+      "gcloud_evidence": false,
+      "puffer_evidence": false,
+      "wait_class": "FUTEX_WAIT"
+    },
+    {
+      "label": "THREAD10_E",
+      "selected": false,
+      "observed_numeric_order": 5,
+      "first_tag": null,
+      "gcloud_evidence": false,
+      "puffer_evidence": false,
+      "wait_class": "FUTEX_WAIT"
+    }
+  ],
+  "ordinal_stable_across_runs": false
+}
