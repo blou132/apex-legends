@@ -1,0 +1,19 @@
+{
+  "origin": "GameActivity start",
+  "events": [
+    {"relative_seconds": 0.0, "event": "GAME_ACTIVITY_START"},
+    {"relative_seconds": 3.6, "event": "ANDROID_RESUME"},
+    {"relative_seconds": 3.9, "event": "DOWNLOADER_START"},
+    {"relative_seconds": 4.1, "event": "DOWNLOADER_FINISH"},
+    {"relative_seconds": 109.1, "event": "GAME_ACTIVITY_RESUME"},
+    {"relative_seconds": 116.6, "event": "GCLOUD_PUFFER_INIT"},
+    {"relative_seconds": 116.7, "event": "PUFFER_OFFLINE_WAIT"},
+    {"relative_seconds": 118.175, "event": "CVERSIONMGR_INIT"},
+    {"relative_seconds": 118.278, "event": "DOLPHIN_NORMAL_CONNECT"},
+    {"relative_seconds": 118.347, "event": "UPDATE_RESULT"},
+    {"relative_seconds": 118.416, "event": "PROCESS_ACTION_ERROR"},
+    {"relative_seconds": 137.745, "event": "PUFFER_TIMEOUT_1"},
+    {"relative_seconds": 158.965, "event": "PUFFER_TIMEOUT_2_RETRY"}
+  ],
+  "puffer_before_versionmgr": true
+}

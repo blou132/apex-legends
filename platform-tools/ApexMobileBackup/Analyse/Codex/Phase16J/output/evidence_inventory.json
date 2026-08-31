@@ -1,0 +1,9 @@
+{
+  "phase15u_raw_runtime": "AVAILABLE",
+  "phase15u_appdata": "MISSING",
+  "phase16i_warmup_log": "AVAILABLE",
+  "phase16i_trace_log": "AVAILABLE",
+  "phase16i_thread_timing": "AVAILABLE",
+  "appdata_snapshots": ["PRELAUNCH", "POST_WARMUP", "POST_TRACE"],
+  "raw_location": "LOCAL_ONLY"
+}

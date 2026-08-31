@@ -1,0 +1,11 @@
+{
+  "events": {
+    "libgcloud": {"phase15u": "OBSERVED", "phase16i_warmup": "OBSERVED", "phase16i_trace": "OBSERVED"},
+    "gcloud_init": {"phase15u": "OBSERVED", "phase16i_warmup": "OBSERVED", "phase16i_trace": "UNKNOWN"},
+    "puffer_init": {"phase15u": "OBSERVED", "phase16i_warmup": "OBSERVED", "phase16i_trace": "NOT_OBSERVED"},
+    "versionmgr_init": {"phase15u": "OBSERVED", "phase16i_warmup": "NOT_OBSERVED", "phase16i_trace": "NOT_OBSERVED"},
+    "dolphin_action": {"phase15u": "OBSERVED", "phase16i_warmup": "NOT_OBSERVED", "phase16i_trace": "NOT_OBSERVED"},
+    "update_ui": {"phase15u": "OBSERVED", "phase16i_warmup": "NOT_OBSERVED", "phase16i_trace": "NOT_OBSERVED"}
+  },
+  "classification": "DIFFERENT_BOOTSTRAP_BRANCHES"
+}

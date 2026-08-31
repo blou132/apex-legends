@@ -1,0 +1,17 @@
+{
+  "warmup": {
+    "bounded_seconds": 150,
+    "puffer_init_relative_seconds": 34.1,
+    "puffer_retries": "OBSERVED",
+    "versionmgr": "NOT_OBSERVED",
+    "dolphin": "NOT_OBSERVED"
+  },
+  "trace_launch": {
+    "bounded_seconds": 90,
+    "libgcloud_load_relative_seconds": 0.4,
+    "breakpoint_install_window": "EARLY_PROCESS_AFTER_MODULE_MAP",
+    "installed_before_historical_window": true,
+    "versionmgr": "NOT_OBSERVED",
+    "dolphin": "NOT_OBSERVED"
+  }
+}

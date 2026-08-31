@@ -1,0 +1,13 @@
+{
+  "snapshot0_regular_files": 0,
+  "snapshot1_private_regular_files": 49,
+  "snapshot1_external_regular_files": 9,
+  "snapshot2_private_regular_files": 49,
+  "snapshot2_external_regular_files": 12,
+  "snapshot1_to_2": {
+    "created_categories": ["CRASHSIGHT_PLACEHOLDERS", "GCLOUD_LOGS", "MSDK_LOG"],
+    "deleted_categories": ["ROTATED_CRASHSIGHT_PLACEHOLDERS"],
+    "modified_categories": ["CRASH_DB", "MEASUREMENT_DB", "MSDK_MMAP", "SHARED_PREFERENCES", "GCLOUD_CONFIG"]
+  },
+  "raw_hashes_and_values": "LOCAL_ONLY"
+}

@@ -1,0 +1,12 @@
+{
+  "count": 5,
+  "candidates": [
+    {"category": "GCLOUD_CONFIG", "keys": ["GCloud.config"], "confidence": "MEDIUM_LEAD"},
+    {"category": "UNREAL_ACTIVITY", "keys": ["SPLASH_VIDEO_START"], "confidence": "EXCLUDED_AS_WARMUP_CAUSE"},
+    {"category": "MEASUREMENT_FIRST_OPEN", "keys": ["first_open_time", "has_been_opened"], "confidence": "LOW"},
+    {"category": "SINGULAR_INSTALL", "keys": ["wasOpenedAfterInstall"], "confidence": "LOW"},
+    {"category": "TRI_INITIALIZATION", "keys": ["tri_init", "create_time"], "confidence": "LOW"}
+  ],
+  "phase15u_comparison": "UNAVAILABLE",
+  "causation": "NOT_PROVEN"
+}

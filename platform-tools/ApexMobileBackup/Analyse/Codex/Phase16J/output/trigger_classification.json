@@ -1,0 +1,10 @@
+{
+  "trigger_class": "GCLIENT/GPM_SDK_INITIALIZATION",
+  "direct_trigger": "GCloudDolphinImp::Init",
+  "run_difference": "DIFFERENT_BOOTSTRAP_BRANCHES",
+  "appdata_dependence": "UNKNOWN",
+  "warmup_consumed_init": "NO",
+  "supported_hypotheses": ["H5"],
+  "unproven_hypotheses": ["H2"],
+  "unsupported_hypotheses": ["H1", "H3", "H4", "H6"]
+}

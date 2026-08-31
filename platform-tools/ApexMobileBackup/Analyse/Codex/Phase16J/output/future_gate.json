@@ -1,0 +1,7 @@
+{
+  "gate": "NO_GO",
+  "thread_confidence": "HIGH",
+  "trigger_reproducible_after_attach": false,
+  "strategy": "NONE_UNTIL_DOLPHIN_BOOTSTRAP_SELECTION_IS_RESOLVED",
+  "final_gate": "C THREAD_RESOLVED_TRIGGER_UNKNOWN"
+}

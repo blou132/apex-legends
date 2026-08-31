@@ -1,0 +1,13 @@
+{
+  "apex_installed": true,
+  "apex_running": false,
+  "root_healthy": true,
+  "selinux": "ENFORCING",
+  "network_isolation": "PASS",
+  "active_hw_breakpoint_count": 0,
+  "memory_write_used": false,
+  "appdata_manually_modified": false,
+  "apk_modified": false,
+  "obb_modified": false,
+  "post_phase_health": "OK"
+}

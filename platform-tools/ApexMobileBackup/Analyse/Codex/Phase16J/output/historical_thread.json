@@ -1,0 +1,7 @@
+{
+  "thread_name": "Thread-10",
+  "role": "NATIVE_ENGINE_GCLOUD_DOLPHIN_CALLER",
+  "confidence": "HIGH",
+  "basis": "DIRECT_SAME_RUN_TID_TO_THREAD_NAME_CORRELATION",
+  "numeric_tid": "LOCAL_ONLY"
+}
