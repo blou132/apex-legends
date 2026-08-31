@@ -1,0 +1,19 @@
+{
+  "factory": {
+    "callsite": "0x05a314cc",
+    "symbol": "CreateDolphin",
+    "return_register": "x0"
+  },
+  "post_factory_registers": {
+    "x0": "x29 - 0x38 destination-like pointer",
+    "x1": "CreateDolphin return value",
+    "x2": "sp + 0x40 temporary pointer"
+  },
+  "prepared_shape": "STRING_CONSTRUCTION_LIKE",
+  "actual_next_symbol": "std::__throw_length_error(char const*)",
+  "actual_callee_consumes": [
+    "x0"
+  ],
+  "return_x1_role": "UNUSED_BY_ACTUAL_CALLEE; ADJACENT_STRING_CONSTRUCTOR_SOURCE_SHAPE",
+  "factory_result_semantically_used": false
+}

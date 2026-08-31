@@ -1,0 +1,15 @@
+{
+  "callsite_path_class": "STATICALLY_UNREACHABLE",
+  "dead_or_decoy_class": "UNKNOWN",
+  "producer_reason": "UNREACHABLE_DEAD_CODE",
+  "factory_result_semantically_used": false,
+  "import_role": "UNREACHABLE_STATIC_REFERENCE",
+  "exact_callsite_runtime_observation_value": "NONE",
+  "origin_not_proven": [
+    "COMPILER_DEAD_CODE",
+    "OBFUSCATION_DECOY",
+    "UNUSED_ERROR_PATH",
+    "OTHER_PRODUCER_ARTIFACT"
+  ],
+  "anti_cheat_or_obfuscation_label_assigned": false
+}

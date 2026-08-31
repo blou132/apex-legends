@@ -1,0 +1,27 @@
+{
+  "target_callsite": "0x05a314cc",
+  "state_class": "POST_NORETURN_PATH",
+  "meaningful_state": [
+    "output buffer plus 0x100",
+    "UpdateInfoPath2 string-like slot",
+    "debug logging scratch at sp plus 0x40",
+    "output byte 0x1ff cleared",
+    "systematic preceding-PLT semantic mismatch"
+  ],
+  "immediate_predecessor_calls": [
+    "FUN_0417a4ac",
+    "FUN_0417a69c",
+    "std::__throw_length_error(char const*)",
+    "optional manager release BLR",
+    "FUN_0450f738",
+    "gettimeofday"
+  ],
+  "source_anchors": [
+    "UPDATEINFOPATH1",
+    "UPDATEINFOPATH2",
+    "CURAPKPATH",
+    "PAKS2",
+    "PAKS"
+  ],
+  "semantic_role": "POST_EXTRACTION_PATH_BUNDLE_CONSTRUCTION"
+}

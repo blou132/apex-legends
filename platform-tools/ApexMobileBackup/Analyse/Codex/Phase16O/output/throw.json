@@ -1,0 +1,21 @@
+{
+  "pre_target_throw": {
+    "callsite": "0x05a3144c",
+    "plt": "0x0a3c0330",
+    "symbol": "std::__throw_length_error(char const*)",
+    "noreturn": true
+  },
+  "post_factory_throw": {
+    "callsite": "0x05a314dc",
+    "opcode": "0x95263b95",
+    "manual_target": "0x0a3c0330",
+    "got": "0x0b37dde8",
+    "rela_plt_index": 181,
+    "dynsym_index": 184,
+    "symbol": "std::__throw_length_error(char const*)",
+    "noreturn": true
+  },
+  "post_throw_fallthrough_valid": false,
+  "lsda_present": false,
+  "exception_landing_pad_role": false
+}

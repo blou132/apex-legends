@@ -1,0 +1,29 @@
+{
+  "function": {
+    "elf_start": "0x05a311a8",
+    "elf_end_exclusive": "0x05a31ca8",
+    "ghidra_name": "FUN_05b311a8",
+    "instruction_count": 704
+  },
+  "method": "split at direct and indirect calls plus all control transfers",
+  "basic_block_count": 206,
+  "direct_edges": {
+    "raw": 283,
+    "noreturn_aware": 278
+  },
+  "indirect_edges": {
+    "blr_calls": 14,
+    "br_continuations": 0
+  },
+  "entry_reachable_blocks": {
+    "raw": 206,
+    "noreturn_aware": 54
+  },
+  "known_noreturn_calls": [
+    "0x05a3144c",
+    "0x05a314dc",
+    "0x05a31734",
+    "0x05a317ac",
+    "0x05a31910"
+  ]
+}

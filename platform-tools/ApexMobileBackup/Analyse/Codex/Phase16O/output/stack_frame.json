@@ -1,0 +1,24 @@
+{
+  "allocation": "0x1f0",
+  "frame_pointer": "x29 = sp + 0x190",
+  "locals": [
+    {
+      "expression": "x29 - 0x30",
+      "sp_offset": "0x160",
+      "role": "POINTER_SLOT_UNINITIALIZED_ON_ACTUAL_PATH",
+      "note": "prepared for first throw; later string-like reads are post-noreturn"
+    },
+    {
+      "expression": "x29 - 0x38",
+      "sp_offset": "0x158",
+      "role": "POINTER_SLOT_UNINITIALIZED_ON_ACTUAL_PATH",
+      "note": "prepared after CreateDolphin; actual next throw does not initialize it"
+    },
+    {
+      "expression": "sp + 0x40",
+      "sp_offset": "0x40",
+      "role": "TEMPORARY_SCRATCH",
+      "note": "reused scratch; optional logging stores a context pointer here"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "target": "FUN_05b311a8",
+  "direct_caller": {
+    "name": "FUN_080f6f04",
+    "callsite_elf": "0x07ff6fe4",
+    "arguments": {
+      "x8": "caller stack output buffer at sp plus 0x70",
+      "x0": "callback-owned state pointer"
+    }
+  },
+  "upper_callback": {
+    "name": "FUN_080f87d0",
+    "identifier": "DolphinCallback::OnDolphinFirstExtractSuccess",
+    "source_basename": "DolphinUpdaterCallback.cpp",
+    "owner_load": "x0 = [this + 0x08]",
+    "call_condition": "owner pointer non-null"
+  },
+  "relationship": "SUCCESS_CALLBACK_AND_OWNER_POINTER_NON_NULL",
+  "bootstrap_owner_proven": false
+}

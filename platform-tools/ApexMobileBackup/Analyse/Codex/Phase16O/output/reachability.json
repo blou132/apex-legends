@@ -1,0 +1,20 @@
+{
+  "entry": "0x05a311a8",
+  "target_callsite": "0x05a314cc",
+  "target_block": "0x05a314c8",
+  "raw_reachable": true,
+  "semantic_reachable": false,
+  "semantic_model": "known noreturn imports have no fallthrough",
+  "barrier": {
+    "site": "0x05a3144c",
+    "symbol": "std::__throw_length_error(char const*)",
+    "noreturn": true,
+    "fallthrough": "0x05a31450",
+    "fallthrough_valid": false
+  },
+  "direct_side_entry": false,
+  "indirect_side_entry": false,
+  "jump_table_side_entry": false,
+  "exception_landing_pad_side_entry": false,
+  "classification": "STATICALLY_UNREACHABLE"
+}

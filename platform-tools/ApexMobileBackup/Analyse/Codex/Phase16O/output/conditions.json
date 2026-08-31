@@ -1,0 +1,26 @@
+{
+  "selective_dominating_conditions": [],
+  "raw_region_conditions": [
+    {
+      "site": "0x05a31454",
+      "instruction": "cbz x23, 0x05a31474",
+      "role": "temporary release selection",
+      "both_edges_reconverge_before_target": true
+    },
+    {
+      "site": "0x05a31460",
+      "instruction": "cbz x0, 0x05a31ba4",
+      "role": "release manager initialization",
+      "both_edges_reconverge_before_target": true
+    },
+    {
+      "site": "0x05a3147c",
+      "instruction": "b.lo 0x05a314b8",
+      "role": "optional level-5 logging",
+      "both_edges_reconverge_before_target": true
+    }
+  ],
+  "actual_prerequisite": "IMPOSSIBLE_NORETURN_FALLTHROUGH_REQUIRED",
+  "selection_value_source": "NO_REGISTER_VALUE",
+  "selection_comparison": "NO_BRANCH_COMPARISON; REQUIRES_NORETURN_RETURN"
+}

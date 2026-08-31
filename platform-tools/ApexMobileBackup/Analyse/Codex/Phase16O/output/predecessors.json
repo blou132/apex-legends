@@ -1,0 +1,40 @@
+{
+  "target_block": {
+    "start": "0x05a314c8",
+    "end": "0x05a314cc",
+    "structural_predecessors": [
+      "0x05a314b8"
+    ],
+    "entry_reachable_predecessors": [],
+    "normal_return_successor": "0x05a314d0"
+  },
+  "semantic_reaching_path_count": 0,
+  "raw_post_noreturn_variants": [
+    {
+      "temporary_release": "x23_zero_no_release",
+      "debug_log": "skipped"
+    },
+    {
+      "temporary_release": "x23_zero_no_release",
+      "debug_log": "executed"
+    },
+    {
+      "temporary_release": "manager_ready_blr_release",
+      "debug_log": "skipped"
+    },
+    {
+      "temporary_release": "manager_ready_blr_release",
+      "debug_log": "executed"
+    },
+    {
+      "temporary_release": "manager_initialized_then_release",
+      "debug_log": "skipped"
+    },
+    {
+      "temporary_release": "manager_initialized_then_release",
+      "debug_log": "executed"
+    }
+  ],
+  "raw_variants_are_legitimate": false,
+  "required_impossible_event": "return from noreturn call at 0x05a3144c"
+}
