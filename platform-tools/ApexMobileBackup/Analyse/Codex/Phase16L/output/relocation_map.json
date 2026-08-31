@@ -1,0 +1,11 @@
+{
+  "symbol": "CreateDolphin",
+  "dynsym_index": 375,
+  "rela_plt_index": 529,
+  "rela_plt_file_offset": "0x34b0",
+  "got_cell": "0x0b37e8c8",
+  "relocation_type": "R_AARCH64_JUMP_SLOT",
+  "relocation_type_number": 1026,
+  "expected_plt_elf": "0x0a3c18f0",
+  "expected_plt_ghidra": "0x0a4c18f0"
+}

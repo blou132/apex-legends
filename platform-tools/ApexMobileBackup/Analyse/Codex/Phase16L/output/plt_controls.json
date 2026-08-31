@@ -1,0 +1,30 @@
+{
+  "mapping_consistent": true,
+  "attribution_shift": "NONE",
+  "target": {
+    "index": 529,
+    "symbol": "CreateDolphin",
+    "plt": "0x0a3c18f0",
+    "got": "0x0b37e8c8"
+  },
+  "controls": [
+    {
+      "index": 528,
+      "symbol": "IGCloud::GetInstance",
+      "plt": "0x0a3c18e0",
+      "got": "0x0b37e8c0"
+    },
+    {
+      "index": 530,
+      "symbol": "DolphinHelper::GetCurApkPath",
+      "plt": "0x0a3c1900",
+      "got": "0x0b37e8d0"
+    },
+    {
+      "index": 531,
+      "symbol": "ReleaseDolphin",
+      "plt": "0x0a3c1910",
+      "got": "0x0b37e8d8"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "libUE4": {
+    "size": 190192944,
+    "sha256": "0D45F92C5D0D2805DA35F223B8E3D352041943C9C2B2B5C914F0E1A1C1EC2977",
+    "elf_class": "ELF64",
+    "machine": "AArch64",
+    "valid": true
+  },
+  "libgcloud": {
+    "size": 9041528,
+    "sha256": "2EDF04E3A50BEEAE3E653BE99ECAFD0AB916AF665B72B653742D4B7CBF7D1C7E",
+    "elf_class": "ELF64",
+    "machine": "AArch64",
+    "valid": true
+  },
+  "libUE4_ghidra_bias": "0x100000",
+  "address_model_validated": true
+}

@@ -1,0 +1,23 @@
+{
+  "plt": {
+    "virtual_address": "0x0a3bf780",
+    "file_offset": "0x0a3be780",
+    "size": "0x2ca0",
+    "entry_size": 16,
+    "plt0_size": 32
+  },
+  "got": {
+    "virtual_address": "0x0b3776e8",
+    "file_offset": "0x0b3756e8",
+    "size": "0x6120"
+  },
+  "got_plt": {
+    "virtual_address": "0x0b37d808",
+    "file_offset": "0x0b37b808",
+    "size": "0x1658"
+  },
+  "rela_plt_entry_size": 24,
+  "rela_plt_count": 715,
+  "dummy_stub_count_before_target": 4,
+  "dummy_stub_range_inclusive": "0x0a3bf8e0...0x0a3bf910"
+}

@@ -1,0 +1,16 @@
+{
+  "exact_target": "0x0a3c18f0",
+  "scan_scope": "aligned AArch64 BL/B instructions in .text, exact target only",
+  "count": 1,
+  "thunk_present": false,
+  "veneer_present": false,
+  "callsites": [
+    {
+      "elf_address": "0x05a314cc",
+      "opcode": "0x95264109",
+      "containing_range": "0x05a311a8...0x05a31ca8",
+      "path": "DIRECT",
+      "classification": "ERROR_HELPER_PATH"
+    }
+  ]
+}

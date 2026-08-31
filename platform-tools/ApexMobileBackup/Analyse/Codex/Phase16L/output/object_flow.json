@@ -1,0 +1,14 @@
+{
+  "factory_callsite": "0x05a314cc",
+  "flow": [
+    "CreateDolphin returns pointer in x0",
+    "x0 copied to x1 at 0x05a314d0",
+    "x0 replaced with stack-local address",
+    "std::__throw_length_error called at 0x05a314dc",
+    "x1 is not retained by the imported helper ABI"
+  ],
+  "storage": "NONE_AT_PROVEN_CALLSITE",
+  "owner_field": "NONE",
+  "cross_function_propagation": false,
+  "classification": "OBJECT_FLOW_LOST"
+}

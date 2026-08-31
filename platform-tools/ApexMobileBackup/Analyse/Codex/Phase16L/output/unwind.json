@@ -1,0 +1,18 @@
+{
+  "ghidra_function_boundary_correct": true,
+  "callsite_function": {
+    "start": "0x05a311a8",
+    "end": "0x05a31ca8",
+    "fde_section_offset": "0x7b7138",
+    "cie_augmentation": "zR",
+    "lsda_present": false
+  },
+  "upper_caller": {
+    "start": "0x07ff6f04",
+    "end": "0x07ff760c"
+  },
+  "post_extract_callback": {
+    "start": "0x07ff87d0",
+    "end": "0x07ff883c"
+  }
+}

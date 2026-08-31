@@ -1,0 +1,21 @@
+{
+  "static_recovery_level": "C REAL_CREATEDOLPHIN_CALLSITE_RESOLVED_OBJECT_FLOW_LOST",
+  "phase16k_plt_anomaly_root_cause": "OTHER_PROVEN: NO_PLT_MISATTRIBUTION; REAL_CALL_RETURN_ENTERS_NORETURN_ERROR_PATH; PRODUCER_REASON_UNKNOWN",
+  "future_active_trace_gate": "NO_GO",
+  "future_trace_trigger_strategy": "NONE_DETERMINISTIC",
+  "current_blocker": "ONLY_REAL_CREATEDOLPHIN_CALLSITE_DISCARDS_RETURN_BEFORE_PERSISTENT_OWNERSHIP",
+  "next_step": "REQUEST_SEPARATE_EVIDENCE_FOR_RUNTIME_CREATEDOLPHIN_OWNER_OR_COMPARABLE_PRESERVED_STATE",
+  "final_gate": "C REAL_CREATEDOLPHIN_CALLSITE_RESOLVED_OBJECT_FLOW_LOST",
+  "thread10_cversionmgr_executor": "CONFIRMED",
+  "cversionmgr_executing_thread_confidence": "HIGH",
+  "safety": {
+    "phone_touched": false,
+    "adb_used": false,
+    "apex_launched": false,
+    "appdata_touched": false,
+    "active_hardware_breakpoint_count": 0,
+    "memory_write_used": false,
+    "apk_modified": false,
+    "obb_modified": false
+  }
+}

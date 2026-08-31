@@ -1,0 +1,14 @@
+{
+  "callsite_elf": "0x05a314cc",
+  "callsite_ghidra": "0x05b314cc",
+  "file_offset": "0x05a304cc",
+  "raw_bytes_little_endian": "09 41 26 95",
+  "opcode_word": "0x95264109",
+  "imm26": "0x01264109",
+  "signed_byte_offset": "0x04990424",
+  "manual_target_elf": "0x0a3c18f0",
+  "manual_target_ghidra": "0x0a4c18f0",
+  "real_imported_symbol": "CreateDolphin",
+  "phase16k_attribution": "CONFIRMED",
+  "argument_flow_consistent": true
+}
