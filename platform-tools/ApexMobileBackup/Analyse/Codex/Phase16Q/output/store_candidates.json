@@ -1,0 +1,19 @@
+{
+  "scope": [
+    "DolphinUpdater::Shutdown",
+    "DolphinUpdater::OnNoticeInstallApk",
+    "DolphinUpdater first-extract-success continuation",
+    "exact CheckUpdate FDE"
+  ],
+  "plus_0x1f0_candidate_count": 1,
+  "candidates": [
+    {
+      "site_ghidra": "0x04812ee0",
+      "site_elf": "0x04712ee0",
+      "instruction": "STR XZR,[X19] after ADD X19,owner,#0x1f0",
+      "classification": "PROVEN_CLEAR"
+    }
+  ],
+  "opaque_prelude_plus_0x1f0_store": "UNKNOWN",
+  "opaque_reason": "owner-register provenance does not survive into the opaque prefix"
+}

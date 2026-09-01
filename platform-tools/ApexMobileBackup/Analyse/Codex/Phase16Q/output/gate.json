@@ -1,0 +1,18 @@
+{
+  "real_dolphin_init_dispatch_proven": true,
+  "dolphin_init_call_site": "ELF_0x05a2f0ac",
+  "current_blocker": "NON_NULL_WRITER_FOR_DOLPHINUPDATER_PLUS_0X1F0_REMAINS_IN_STATICALLY_OPAQUE_OR_UNRESOLVED_PROVENANCE",
+  "next_evidence_axis": "STATIC_OWNER_FIELD_WRITE_AXIS_EXHAUSTED",
+  "next_step": "STOP_BOUNDED_STATIC_ANALYSIS; REQUIRE_SEPARATELY_AUTHORIZED_NON_PTRACE_RETAINED_RUNTIME_STATE_CORRELATION",
+  "final_gate": "D CHECKUPDATE_OPAQUE_PRELUDE_PARTIALLY_RECOVERED_NO_PROVEN_WRITER",
+  "future_ptrace_trace_gate": "NO_GO",
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_launched": false,
+  "ptrace_used": false,
+  "active_hw_breakpoint_count": 0,
+  "gameprotector_interference": false,
+  "appdata_touched": false,
+  "apk_modified": false,
+  "obb_modified": false
+}

@@ -1,0 +1,8 @@
+{
+  "proven_nonnull_writer_count": 0,
+  "nonnull_write_site": "NONE_PROVEN",
+  "source_register": "UNKNOWN",
+  "value_source": "UNKNOWN",
+  "null_guard_site": "NONE_IN_READABLE_CONTINUATION",
+  "nonnull_invariant_source": "ESTABLISHED_BEFORE_READABLE_FRONTIER"
+}

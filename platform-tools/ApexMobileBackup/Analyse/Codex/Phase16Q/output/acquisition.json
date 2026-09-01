@@ -1,0 +1,12 @@
+{
+  "call_type": "UNKNOWN",
+  "direct_target": "UNKNOWN",
+  "indirect_base": "UNKNOWN",
+  "indirect_slot": "UNKNOWN",
+  "indirect_target": "UNKNOWN",
+  "wrapper_chain": "NONE_PROVEN",
+  "global_source": "UNKNOWN",
+  "source_is_gcloud_dolphin": "UNKNOWN",
+  "acquisition_init_order": "UNKNOWN",
+  "lifetime_model": "UNKNOWN"
+}

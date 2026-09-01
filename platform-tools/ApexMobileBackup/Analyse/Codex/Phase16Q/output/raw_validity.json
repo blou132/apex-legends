@@ -1,0 +1,12 @@
+{
+  "classification": "MIXED",
+  "word_count": 1199,
+  "valid_aarch64_words": 879,
+  "undefined_encoding_words": 146,
+  "data_like_decodable_words": 174,
+  "opaque_prefix_start_elf": "0x05a2eb00",
+  "opaque_prefix_end_exclusive_elf": "0x05a2f000",
+  "opaque_prefix_size_bytes": 1280,
+  "first_readable_elf": "0x05a2f000",
+  "first_readable_ghidra": "0x05b2f000"
+}

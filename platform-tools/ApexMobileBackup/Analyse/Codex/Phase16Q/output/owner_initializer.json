@@ -1,0 +1,9 @@
+{
+  "dolphin_updater_initializer": "UNKNOWN",
+  "confidence": "NONE",
+  "callback_storage_kind": "UNKNOWN",
+  "callback_owner_offset": "UNKNOWN",
+  "callback_plus_0x08_source": "UNKNOWN",
+  "owner_is_enclosing_dolphin_updater": "UNKNOWN",
+  "reason": "the proven callback initializer has no exact direct code caller"
+}

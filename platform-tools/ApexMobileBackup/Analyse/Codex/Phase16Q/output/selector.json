@@ -1,0 +1,27 @@
+{
+  "w23_value_source": "0 when FUN_04a93d9c bit0 is clear; otherwise bit0 of FUN_04a94aac return",
+  "w23_semantic_role": "LOCAL_HELPER_STATUS_PREDICATE_UNKNOWN",
+  "owner_plus_0x45_role": "PERSISTENT_CHECKUPDATE_STATE_FLAG",
+  "owner_plus_0x45_initial_value": "UNKNOWN",
+  "owner_plus_0x45_write_sources": [
+    {
+      "site_ghidra": "0x080f6f40",
+      "site_elf": "0x07ff6f40",
+      "value": 0,
+      "path": "first-extract-success owner continuation"
+    },
+    {
+      "site_ghidra": "0x05b2f808",
+      "site_elf": "0x05a2f808",
+      "value": 1,
+      "path": "CheckUpdate"
+    },
+    {
+      "site_ghidra": "0x05b2fbd4",
+      "site_elf": "0x05a2fbd4",
+      "value": 1,
+      "path": "CheckUpdate; W26 set at 0x05a2fa3c"
+    }
+  ],
+  "phase15u_phase16i_selector_class": "UNKNOWN"
+}

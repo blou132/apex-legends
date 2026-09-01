@@ -1,0 +1,30 @@
+{
+  "reader_count": 3,
+  "readers": [
+    {
+      "site_ghidra": "0x04812cb4",
+      "site_elf": "0x04712cb4",
+      "use": "shutdown conditional state test"
+    },
+    {
+      "site_ghidra": "0x04812ee8",
+      "site_elf": "0x04712ee8",
+      "use": "shutdown slot +0x08 cleanup"
+    },
+    {
+      "site_ghidra": "0x05b2f094",
+      "site_elf": "0x05a2f094",
+      "use": "loaded into X5 for Init"
+    }
+  ],
+  "writer_count": 1,
+  "writers": [
+    {
+      "site_ghidra": "0x04812f00",
+      "site_elf": "0x04712f00",
+      "classification": "PROVEN_CLEAR"
+    }
+  ],
+  "role": "RELATED_INTERFACE",
+  "role_confidence": "PROBABLE"
+}

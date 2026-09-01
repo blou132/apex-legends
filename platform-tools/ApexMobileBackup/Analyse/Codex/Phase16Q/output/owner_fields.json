@@ -1,0 +1,12 @@
+{
+  "construction_layout": {
+    "callback": "placement unknown; callback+0x08 is an owner pointer",
+    "+0x45": "persistent state flag; initial value unknown",
+    "+0x1f0": "persistent Dolphin interface; initial value unknown",
+    "+0x1f8": "adjacent related-interface state probable; initial value unknown"
+  },
+  "plus_0x1f0_initial_write": "UNKNOWN",
+  "plus_0x1f0_initial_value": "UNKNOWN",
+  "plus_0x1f8_initial_write": "UNKNOWN",
+  "plus_0x1f8_initial_value": "UNKNOWN"
+}

@@ -1,0 +1,11 @@
+{
+  "region_start_elf": "0x05a2eb00",
+  "region_end_exclusive_elf": "0x05a2f000",
+  "region_size_bytes": 1280,
+  "classification": "MIXED_CODE_DATA",
+  "static_recoverability": "PARTIAL",
+  "owner_register_provenance_in_region": "UNKNOWN",
+  "anti_cheat_claimed": false,
+  "encryption_claimed": false,
+  "self_modification_claimed": false
+}

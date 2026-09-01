@@ -1,0 +1,10 @@
+{
+  "dispatch_elf": "0x05a2f0ac",
+  "x0": "[DolphinUpdater+0x1f0]",
+  "x1": "SP+0x680; construction is before the readable frontier",
+  "x2": "SP+0x280; construction is before the readable frontier",
+  "x3": "X21 carried from the opaque prefix",
+  "x4": "NULL",
+  "x5": "[DolphinUpdater+0x1f8]",
+  "semantic_match": "PARTIAL_ABI_COMPATIBLE_SOURCES_EXACT_SEMANTICS_OPAQUE"
+}

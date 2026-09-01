@@ -1,0 +1,10 @@
+{
+  "target_load_elf": "0x05a2f094",
+  "target_load_ghidra": "0x05b2f094",
+  "readable_basic_block_count": 206,
+  "reverse_reachable_block_count": 106,
+  "backward_frontier_elf": "0x05a2f000",
+  "backward_frontier_ghidra": "0x05b2f000",
+  "frontier_predecessor_count_in_readable_cfg": 0,
+  "frontier_reason": "OPAQUE_OR_DATA_LIKE_BYTES_BEFORE_READABLE_CONTINUATION"
+}

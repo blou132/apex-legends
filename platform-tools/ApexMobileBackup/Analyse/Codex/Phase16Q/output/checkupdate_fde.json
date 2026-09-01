@@ -1,0 +1,12 @@
+{
+  "target_init_dispatch_elf": "0x05a2f0ac",
+  "fde_start_elf": "0x05a2eb00",
+  "fde_end_exclusive_elf": "0x05a2fdbc",
+  "fde_start_ghidra": "0x05b2eb00",
+  "fde_end_exclusive_ghidra": "0x05b2fdbc",
+  "fde_size_bytes": 4796,
+  "fde_vaddr": "0x0337ef90",
+  "cie_vaddr": "0x02c58db0",
+  "cie_augmentation": "zR",
+  "function_range_valid": true
+}
