@@ -1,0 +1,31 @@
+{
+  "time_basis": "RELATIVE_TO_RUN_START",
+  "phase15u": [
+    {"relative_seconds": 0.0, "event": "GAME_ACTIVITY_START"},
+    {"relative_seconds": 116.6, "event": "GCLOUD_PUFFER_INIT"},
+    {"relative_seconds": 116.7, "event": "PUFFER_OFFLINE_WAIT"},
+    {"relative_seconds": 118.175, "event": "CVERSIONMGR_INIT"},
+    {"relative_seconds": 118.278, "event": "DOLPHIN_NORMAL_CONNECT"},
+    {"relative_seconds": 118.347, "event": "VERSION_RESULT"},
+    {"relative_seconds": 118.416, "event": "ACTION_ERROR"}
+  ],
+  "phase16i_warmup": [
+    {"relative_seconds": 0.0, "event": "PROCESS_START_APPROXIMATE"},
+    {"relative_seconds": 34.1, "event": "GCLOUD_PUFFER_INIT"},
+    {"relative_seconds": 55.3, "event": "PUFFER_RETRY_SEQUENCE_BEGINS"},
+    {"relative_seconds": 150.0, "event": "BOUND_END_NO_DOLPHIN_WITNESS"}
+  ],
+  "phase16i_trace": [
+    {"relative_seconds": 0.0, "event": "ACTIVITY_START"},
+    {"relative_seconds": 0.4, "event": "LIBGCLOUD_LOAD_APPROXIMATE"},
+    {"relative_seconds": 90.0, "event": "BOUND_END_NO_DOLPHIN_WITNESS"}
+  ],
+  "phase16m": [
+    {"relative_seconds": 0.0, "event": "GAME_ACTIVITY_START"},
+    {"relative_seconds": 0.6, "event": "LIBGCLOUD_LOAD_APPROXIMATE"},
+    {"relative_seconds": 2.5, "event": "DOWNLOADER_START_APPROXIMATE"},
+    {"relative_seconds": 3.0, "event": "DOWNLOADER_COMPLETE_APPROXIMATE"},
+    {"relative_seconds": 9.6, "event": "GCLOUD_PUFFER_INIT_APPROXIMATE"},
+    {"relative_seconds": null, "event": "NO_DOLPHIN_WITNESS_NO_ACTIVE_OBSERVATION"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "phase15u": {
+    "raw_logcat": "AVAILABLE",
+    "relative_timestamps": "AVAILABLE",
+    "thread_role": "AVAILABLE_SANITIZED",
+    "appdata": "UNAVAILABLE",
+    "runtime_summary": "AVAILABLE"
+  },
+  "phase16i_warmup": {
+    "raw_logcat": "AVAILABLE",
+    "relative_timestamps": "AVAILABLE",
+    "thread_role": "PARTIAL",
+    "runtime_summary": "AVAILABLE"
+  },
+  "phase16i_trace": {
+    "raw_logcat": "AVAILABLE",
+    "relative_timestamps": "AVAILABLE",
+    "thread_role": "AVAILABLE_SANITIZED",
+    "runtime_summary": "AVAILABLE"
+  },
+  "phase16i_appdata": [
+    "PRELAUNCH",
+    "POST_WARMUP",
+    "POST_TRACE"
+  ],
+  "phase16m": {
+    "raw_logcat": "AVAILABLE",
+    "relative_timestamps": "DERIVABLE",
+    "thread_role": "PUFFER_CALLER_ONLY",
+    "runtime_summary": "AVAILABLE_NO_ACTIVE_OBSERVATION"
+  }
+}

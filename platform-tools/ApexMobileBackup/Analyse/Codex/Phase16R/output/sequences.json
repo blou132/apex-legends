@@ -1,0 +1,15 @@
+{
+  "phase15u": [
+    {"stage": "PUFFER_INIT", "confidence": "CONFIRMED"},
+    {"stage": "PROVIDER_DOLPHIN_INIT", "confidence": "CONFIRMED_INDIRECT_FROM_VERSIONMGR"},
+    {"stage": "CVERSIONMGR_INIT", "confidence": "CONFIRMED"},
+    {"stage": "DOLPHIN_VERSION_ACTION", "confidence": "CONFIRMED"}
+  ],
+  "phase16i": [
+    {"stage": "LIBGCLOUD_LOAD", "confidence": "CONFIRMED"},
+    {"stage": "PUFFER_INIT", "confidence": "CONFIRMED"},
+    {"stage": "PUFFER_OFFLINE_RETRIES", "confidence": "CONFIRMED"},
+    {"stage": "DOLPHIN_INIT", "confidence": "NOT_OBSERVED"}
+  ],
+  "first_extract_relative_to_init": "AFTER_IN_FIRST_EXTRACT_WORKFLOW"
+}

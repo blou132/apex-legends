@@ -1,0 +1,7 @@
+{
+  "remote_input_branch_causation": "UNSUPPORTED",
+  "phase15u": "OFFLINE_PUFFER_FAILURE_AND_DOLPHIN_INIT_OBSERVED",
+  "phase16i": "OFFLINE_PUFFER_FAILURE_AND_DOLPHIN_INIT_NOT_OBSERVED",
+  "puffer_dolphin_runtime_order": "PUFFER_BEFORE_DOLPHIN_IN_PHASE15U_ONLY",
+  "universal_dependency": "NOT_ESTABLISHED"
+}

@@ -1,0 +1,37 @@
+{
+  "static_observable_marker_count": 5,
+  "markers": [
+    {
+      "name": "DolphinCallback::OnDolphinFirstExtractSuccess",
+      "relationship": "CALLBACK_ENTRY_BEFORE_OWNER_NULL_GUARD",
+      "state_change_relation": "BEFORE_FLAG45_CLEAR_CONTINUATION",
+      "conditional_logging": true
+    },
+    {
+      "name": "FirstExtract Need first extract, Check last extract paks",
+      "relationship": "FLAG45_SET_PATH_1",
+      "state_change_relation": "IMMEDIATELY_BEFORE_STORE",
+      "conditional_logging": true
+    },
+    {
+      "name": "UDolphinUpdater::FirstExtractPak, Missing first extract file: %s, Need first extract",
+      "relationship": "FLAG45_SET_PATH_2",
+      "state_change_relation": "IMMEDIATELY_BEFORE_STORE",
+      "conditional_logging": true
+    },
+    {
+      "name": "CheckUpdate, first extract pak",
+      "relationship": "FLAG45_NONZERO_ALTERNATE_INIT_ARGUMENT_PATH",
+      "state_change_relation": "BEFORE_SHARED_INIT_DISPATCH",
+      "conditional_logging": true
+    },
+    {
+      "name": "UDolphinUpdater::CheckUpdate, init Dolphin failed",
+      "relationship": "INIT_RETURN_BIT_FAILURE",
+      "state_change_relation": "AFTER_SHARED_INIT_DISPATCH",
+      "conditional_logging": true
+    }
+  ],
+  "w23_helper_markers": "NONE",
+  "init_success_marker": "NONE"
+}

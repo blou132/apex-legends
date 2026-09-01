@@ -1,0 +1,39 @@
+{
+  "clear": {
+    "site_elf": "0x07ff6f40",
+    "value": 0,
+    "context": "FIRST_EXTRACT_SUCCESS_OWNER_CONTINUATION",
+    "observable_marker": "NONE_PROVING_STORE",
+    "callback_entry_marker_relation": "PRE_OWNER_NULL_GUARD",
+    "confidence": "CONFIRMED"
+  },
+  "set1": {
+    "site_elf": "0x05a2f808",
+    "value": 1,
+    "trigger": "VALID_FIRST_EXTRACT_PATH_AND_W22_BIT0_SET",
+    "marker": "FirstExtract Need first extract, Check last extract paks"
+  },
+  "set2": {
+    "site_elf": "0x05a2fbd4",
+    "value": 1,
+    "trigger": "FIRST_EXTRACT_ENTRY_RESULT_BIT0_CLEAR_WITH_W26_EQ_1",
+    "marker": "UDolphinUpdater::FirstExtractPak, Missing first extract file: %s, Need first extract"
+  },
+  "runtime_clear": {
+    "phase15u": "EVIDENCE_INCOMPLETE",
+    "phase16i": "EVIDENCE_INCOMPLETE",
+    "phase16m": "EVIDENCE_INCOMPLETE"
+  },
+  "runtime_set_markers": {
+    "phase15u": {"set1": "NOT_OBSERVED", "set2": "NOT_OBSERVED"},
+    "phase16i_warmup": {"set1": "NOT_OBSERVED", "set2": "NOT_OBSERVED"},
+    "phase16i_trace": {"set1": "NOT_OBSERVED", "set2": "NOT_OBSERVED"},
+    "phase16m": {"set1": "NOT_OBSERVED", "set2": "NOT_OBSERVED"}
+  },
+  "model_correction": {
+    "prior_absolute_gate_model": "INVALIDATED",
+    "resolved_role": "FIRST_EXTRACT_INIT_ARGUMENT_MODE_SELECTOR",
+    "zero_path": "NULL_X4_TO_SHARED_INIT",
+    "nonzero_path": "FIRST_EXTRACT_X4_TO_SHARED_INIT"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "field": "DolphinUpdater+0x1f0",
+  "direct_static_uses": ["SLOT_0X10_INIT", "SLOT_0X18_CLEANUP", "SLOT_0X28_POST_INIT", "SLOT_0X40_SHUTDOWN"],
+  "observable_proxy": "DIRECT_IF_INIT_FAILURE_LOG_OBSERVED; VERSIONMGR_INIT_IS_INDIRECT_PROVIDER_PROXY",
+  "phase15u_present": "PROBABLE",
+  "phase16i_present": "NOT_OBSERVED",
+  "acquisition_writer_runtime_inference": "UNKNOWN"
+}

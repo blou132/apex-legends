@@ -1,0 +1,11 @@
+{
+  "earliest_observable_divergence": "INIT_EXECUTION",
+  "selector_class": "MULTIPLE_POSSIBLE",
+  "possible_upstream_classes": [
+    "INTERFACE_PRESENCE",
+    "LOCAL_STATUS_W23",
+    "OPAQUE_PRE_INIT_STATE"
+  ],
+  "owner_flag_absolute_gate": "INVALIDATED",
+  "owner_flag_resolved_role": "INIT_ARGUMENT_MODE_SELECTOR"
+}

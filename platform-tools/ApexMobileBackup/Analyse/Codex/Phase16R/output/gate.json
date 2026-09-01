@@ -1,0 +1,15 @@
+{
+  "preflight": "PASS",
+  "current_blocker": "NO_RETAINED_EVENT_EXPOSES_EXACT_INTERFACE_PRESENCE_OR_W23_VALUE_BEFORE_CLIENT_INIT",
+  "next_evidence_axis": "RETAINED_STATE_CORRELATION_EXHAUSTED",
+  "next_step": "PRESERVE_RESULT; REQUIRE_SEPARATE_PC_ONLY_STATIC_SCOPE_FOR_ANY_NEW_PRODUCER_ANALYSIS",
+  "final_gate": "C INIT_PATH_CONFIRMED_BUT_PRE_INIT_STATE_NOT_OBSERVABLE",
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_launched": false,
+  "ptrace_used": false,
+  "active_hardware_breakpoints": 0,
+  "gameprotector_interference": false,
+  "new_appdata_collection": false,
+  "appdata_modified": false
+}

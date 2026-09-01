@@ -1,0 +1,18 @@
+{
+  "helper1": {
+    "function": "FUN_04a93d9c",
+    "identity": "PROJECT_PACKAGING_SETTING_LOOKUP_FOR_B_USE_IFSFILE",
+    "return_bit_meaning": "SETTING_VALUE_RESOLVED",
+    "observable_marker": "NONE"
+  },
+  "helper2": {
+    "function": "FUN_04a94aac",
+    "identity": "ENGINE_BOOLEAN_STRING_PARSER",
+    "return_bit_meaning": "PARSED_B_USE_IFSFILE_BOOLEAN",
+    "observable_marker": "NONE"
+  },
+  "derivation": "ZERO_IF_SETTING_UNRESOLVED_ELSE_PARSED_B_USE_IFSFILE",
+  "control_role": "NORMAL_VERSUS_FIRST_EXTRACT_PREPARATION_SELECTOR",
+  "phase15u_gate": "UNKNOWN",
+  "phase16i_gate": "UNKNOWN"
+}

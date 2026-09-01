@@ -1,0 +1,11 @@
+{
+  "client_dispatch_proven": true,
+  "client_call_site_elf": "0x05a2f0ac",
+  "slot": "0x10",
+  "success_followup_slot": "0x28",
+  "success_marker": "NONE",
+  "failure_marker": "UDolphinUpdater::CheckUpdate, init Dolphin failed",
+  "phase15u_real_init": "PROBABLE",
+  "phase16i_real_init": "NOT_OBSERVED",
+  "versionmgr_init_implies_provider_dolphin_init": "YES"
+}

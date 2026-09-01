@@ -1,0 +1,13 @@
+{
+  "stages": [
+    {"stage": "INTERFACE_ACQUISITION", "confidence": "UNKNOWN"},
+    {"stage": "PHASE15U_INTERFACE_PRESENT", "confidence": "PROBABLE"},
+    {"stage": "W23_B_USE_IFSFILE_SELECTION", "confidence": "CONFIRMED_STATIC_VALUE_UNKNOWN_PER_RUN"},
+    {"stage": "FLAG45_INIT_ARGUMENT_MODE", "confidence": "CONFIRMED_STATIC_VALUE_UNKNOWN_PER_RUN"},
+    {"stage": "CLIENT_INIT_SLOT_0X10", "confidence": "CONFIRMED_STATIC_PHASE15U_PROBABLE"},
+    {"stage": "CVERSIONMGR_INIT_PHASE15U", "confidence": "CONFIRMED"},
+    {"stage": "FIRST_EXTRACT_SUCCESS_CLEAR", "confidence": "CONFIRMED_STATIC_RUNTIME_UNKNOWN"}
+  ],
+  "init_gate_log_observability": "PARTIAL",
+  "future_ptrace_trace_gate": "NO_GO"
+}

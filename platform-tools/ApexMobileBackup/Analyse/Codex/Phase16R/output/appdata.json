@@ -1,0 +1,17 @@
+{
+  "snapshots": ["PRELAUNCH", "POST_WARMUP", "POST_TRACE"],
+  "prelaunch_regular_files": 0,
+  "post_warmup_private_regular_files": 49,
+  "post_warmup_external_regular_files": 9,
+  "post_trace_private_regular_files": 49,
+  "post_trace_external_regular_files": 12,
+  "post_warmup_to_post_trace": {
+    "created": 5,
+    "modified": 8,
+    "deleted": 2
+  },
+  "dolphin_related_artifact_count": 1,
+  "version_state_artifact_count": 3,
+  "causation": "UNSUPPORTED",
+  "raw_values_published": false
+}
