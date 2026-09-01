@@ -1,0 +1,38 @@
+{
+  "symbol_record_count": 29,
+  "canonical_entry_count": 19,
+  "ue4_import_record_count": 4,
+  "gcloud_export_record_count": 25,
+  "gcloud_canonical_address_count": 15,
+  "ue4_imports": [
+    {"name": "CreateDolphin", "provider": "libgcloud.so", "relocation_type": "R_AARCH64_JUMP_SLOT", "got_elf": "0x0b37e8c8", "reachable_exact_callers": 0, "dead_exact_callsites": 1},
+    {"name": "ReleaseDolphin", "provider": "libgcloud.so", "relocation_type": "R_AARCH64_JUMP_SLOT", "got_elf": "0x0b37e8d8", "reachable_exact_callers": 0},
+    {"name": "GCloud::DolphinHelper::GetCurApkPath", "provider": "libgcloud.so", "relocation_type": "R_AARCH64_JUMP_SLOT", "got_elf": "0x0b37e8d0", "bounded_known_callers": 1},
+    {"name": "GCloud::DolphinHelper::InstallAPK", "provider": "libgcloud.so", "relocation": "NOT_RECONSTRUCTED_IN_NAMED_SYMBOL_PASS", "reachable_exact_callers": "NOT_RECOUNTED"}
+  ],
+  "gcloud_export_address_space": "Ghidra",
+  "gcloud_exports": [
+    {"address": "0x005450a4", "name": "ReleaseDolphin"},
+    {"address": "0x005450dc", "name": "ReleaseDolphinUtility"},
+    {"address": "0x0054514c", "name": "CreateDolphin"},
+    {"address": "0x00545190", "name": "CreateDolphinUtility"},
+    {"address": "0x0055436c", "name": "GCloud::DolphinHelper::GetCurApkPath"},
+    {"address": "0x00554700", "name": "GCloud::DolphinHelper::InstallAPK"},
+    {"address": "0x00554a00", "name": "GCloud::DolphinHelper::GetSDCardPath"},
+    {"address": "0x00554dac", "name": "GCloud::DolphinHelper::CopyResFileFromApp"},
+    {"address": "0x0064311c", "name": "DynamicAdjustDolphinSystemParameter"},
+    {"address": "0x007a7250", "name": "GCloud::GCloudDolphinInterface::typeinfo-name"},
+    {"address": "0x007a7280", "name": "GCloud::GCloudDolphinUtility::typeinfo-name"},
+    {"address": "0x00998550", "name": "GCloud::GCloudDolphinInterface::typeinfo"},
+    {"address": "0x00998560", "name": "GCloud::GCloudDolphinUtility::typeinfo"},
+    {"address": "0x00998630", "name": "GCloud::GCloudDolphinInterface::vtable"},
+    {"address": "0x009986a0", "name": "GCloud::GCloudDolphinUtility::vtable"}
+  ],
+  "acquisition_candidates": "NONE_AFTER_REACHABILITY_FILTER",
+  "owner_convergence": "NONE",
+  "notes": [
+    "Ghidra aliases account for 25 export records at 15 provider addresses",
+    "known UE4 CreateDolphin caller remains dead/unreachable and was not reopened",
+    "path/install helpers and release functions were rejected as acquisition routes"
+  ]
+}

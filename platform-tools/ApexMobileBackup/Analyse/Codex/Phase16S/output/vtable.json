@@ -1,0 +1,9 @@
+{
+  "dolphinupdater_vtable": "UNKNOWN",
+  "classification": "UNKNOWN",
+  "confidence": "NONE",
+  "known_virtual_slots": "SHUTDOWN_SINGLE_CELL_ONLY; SLOT_OFFSET_UNKNOWN",
+  "neighbor_methods": "GENERIC_STUBS_ONLY; NO_DOLPHIN_LIFECYCLE_IDENTITY",
+  "vptr_write_count": "0_PROVEN",
+  "reason": "no multi-method table, table start, RTTI, or exact vptr-write anchor"
+}

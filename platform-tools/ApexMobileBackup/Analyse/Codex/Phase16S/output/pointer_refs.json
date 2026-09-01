@@ -1,0 +1,14 @@
+{
+  "input_sha256": "0D45F92C5D0D2805DA35F223B8E3D352041943C9C2B2B5C914F0E1A1C1EC2977",
+  "scanned_sections": [".data.rel.ro", ".rodata", ".data"],
+  "methods": [
+    {"name": "OnNoticeInstallApk", "ghidra": "0x080f68e8", "elf": "0x07ff68e8", "raw_pointer_hits": 0, "ghidra_reference_count": 0},
+    {"name": "first-extract owner continuation", "ghidra": "0x080f6f04", "elf": "0x07ff6f04", "raw_pointer_hits": 0, "ghidra_reference_count": 0},
+    {"name": "Shutdown", "ghidra": "0x04812c6c", "elf": "0x04712c6c", "raw_pointer_hits": 1, "ghidra_reference_count": 0},
+    {"name": "CheckUpdate region entry", "ghidra": "0x05b2eb00", "elf": "0x05a2eb00", "raw_pointer_hits": 0, "ghidra_reference_count": 0}
+  ],
+  "exact_hits": [
+    {"method": "Shutdown", "section": ".data.rel.ro", "cell_ghidra": "0x0af56888", "cell_elf": "0x0ae56888", "value": "0x04812c6c"}
+  ],
+  "scope": "bounded exact 64-bit pointer values only"
+}

@@ -1,0 +1,6 @@
+{
+  "proven_callsite_count": 0,
+  "caller": "UNKNOWN",
+  "owner_source": "UNKNOWN",
+  "constraint": "owner-table provenance required; generic BLR scan forbidden"
+}

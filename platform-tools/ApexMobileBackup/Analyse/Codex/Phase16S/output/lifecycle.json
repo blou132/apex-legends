@@ -1,0 +1,7 @@
+{
+  "pre_checkupdate_owner_method": "UNKNOWN",
+  "initializer_candidates": [],
+  "precheckupdate_plus_0x1f0_access_count": "0_PROVEN",
+  "acquisition_stage": "UNKNOWN",
+  "boundary": "NO_PROVEN_CHECKUPDATE_CALLER_OR_OWNER_LIFECYCLE_FUNCTION"
+}

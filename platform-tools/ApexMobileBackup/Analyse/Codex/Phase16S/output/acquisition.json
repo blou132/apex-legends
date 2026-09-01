@@ -1,0 +1,13 @@
+{
+  "non_null_write_site": "UNKNOWN",
+  "non_null_write_reachable": "UNKNOWN",
+  "source_register": "UNKNOWN",
+  "value_source": "UNKNOWN",
+  "direct_target": "UNKNOWN",
+  "indirect_object": "UNKNOWN",
+  "indirect_slot": "UNKNOWN",
+  "indirect_target": "UNKNOWN",
+  "wrapper_chain": "UNKNOWN",
+  "known_shutdown_clear_preserved": true,
+  "dead_create_dolphin_callsite_reopened": false
+}

@@ -1,0 +1,17 @@
+{
+  "cluster_rule": "at least two known method pointers within 0x200 bytes",
+  "candidate_count": 0,
+  "candidates": [],
+  "singleton_review": {
+    "method": "Shutdown",
+    "cell_ghidra": "0x0af56888",
+    "bounded_window_ghidra": "0x0af56708..0x0af568ff",
+    "observations": [
+      "dense executable-pointer material",
+      "negative 0x28 value at 0x0af568a0",
+      "zero value at 0x0af568a8",
+      "new executable-pointer sequence at 0x0af568b0"
+    ],
+    "class_attribution": "UNKNOWN"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "known_callback_table": "0x0af55170",
+  "embedded_in_owner": "UNKNOWN",
+  "owner_object_offset": "UNKNOWN",
+  "owner_backpointer_proven": false,
+  "owner_backpointer_site": "UNKNOWN",
+  "prior_owner_relation": "PROBABLE_NOT_UPGRADED"
+}

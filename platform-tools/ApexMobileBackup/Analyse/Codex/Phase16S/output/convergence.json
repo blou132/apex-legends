@@ -1,0 +1,10 @@
+{
+  "dolphinupdater_class_identity": "PROBABLE",
+  "dolphin_interface_field_plus_0x1f0": "CONFIRMED",
+  "dolphin_interface_implementation": "PROBABLE_GCLOUDDOLPHINIMP",
+  "dolphin_interface_acquisition_stage": "UNKNOWN",
+  "dolphin_symbol_owner_convergence": "NONE",
+  "phase15u_phase16i_acquisition_relevance": "UNKNOWN",
+  "real_dolphin_init_dispatch_proven": true,
+  "dolphin_init_call_site": "ELF_0x05a2f0ac"
+}

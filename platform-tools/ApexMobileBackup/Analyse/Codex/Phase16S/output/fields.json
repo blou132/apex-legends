@@ -1,0 +1,9 @@
+{
+  "initializer_plus_0x45": "UNKNOWN",
+  "initializer_plus_0x1f0": "UNKNOWN",
+  "initializer_plus_0x1f8": "UNKNOWN",
+  "plus_0x1f8_construction_source": "UNKNOWN",
+  "plus_0x1f0_and_0x1f8_initialized_together": "UNKNOWN",
+  "owner_plus_0x45_initial_value": "UNKNOWN",
+  "b_use_ifs_file_owner_initialization_relation": "NO_PROVEN_PRECHECKUPDATE_OWNER_INITIALIZER_RELATION"
+}

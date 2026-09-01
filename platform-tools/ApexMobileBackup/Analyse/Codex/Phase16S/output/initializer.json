@@ -1,0 +1,7 @@
+{
+  "initializer": "UNKNOWN",
+  "classification": "UNKNOWN",
+  "confidence": "NONE",
+  "proven_caller_count": 0,
+  "search_status": "NOT_SEARCHABLE_WITHOUT_PROVEN_VTABLE_START"
+}
