@@ -1,0 +1,10 @@
+{
+  "init_call_site_ghidra": "0x05b2f0ac",
+  "immediate_gate": [
+    "W23_EQ_0",
+    "OWNER_PLUS_0x45_EQ_0"
+  ],
+  "interface_null_gate": "NOT_IMMEDIATE_OPAQUE_PRELUDE_ESTABLISHES_INVARIANT",
+  "return_gate": "BIT0_SET_SELECTS_SUCCESS_FOLLOWUP_SLOT_0x28",
+  "phase15u_phase16i_difference_explained": "PARTIAL"
+}

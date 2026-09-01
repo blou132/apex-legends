@@ -1,0 +1,29 @@
+{
+  "callback_owner": "DolphinUpdater",
+  "callback_owner_status": "PROBABLE",
+  "lifecycle_field_owner": "DolphinUpdater",
+  "lifecycle_field_owner_status": "PROBABLE",
+  "relation": "SAME_OBJECT_PROBABLE",
+  "minimal_layout": [
+    {
+      "object": "DolphinCallback",
+      "offset": "0x00",
+      "role": "CALLBACK_TABLE"
+    },
+    {
+      "object": "DolphinCallback",
+      "offset": "0x08",
+      "role": "DOLPHINUPDATER_OWNER"
+    },
+    {
+      "object": "DolphinUpdater",
+      "offset": "0x1f0",
+      "role": "DOLPHIN_INTERFACE"
+    },
+    {
+      "object": "DolphinUpdater",
+      "offset": "0x1f8",
+      "role": "ADJACENT_INTERFACE_OR_CONFIG_IDENTITY_UNKNOWN"
+    }
+  ]
+}

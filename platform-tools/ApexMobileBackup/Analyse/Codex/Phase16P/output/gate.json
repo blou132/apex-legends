@@ -1,0 +1,19 @@
+{
+  "phase": "Phase16P",
+  "preflight": "PASS",
+  "final_gate": "C RELEASEDOLPHIN_OWNER_FIELD_RESOLVED_ACQUISITION_UNKNOWN",
+  "current_blocker": "NON_NULL_WRITER_FOR_DOLPHINUPDATER_PLUS_0X1F0_IS_PROTECTED_OR_STATICALLY_OPAQUE",
+  "next_evidence_axis": "PC_ONLY_OWNER_CONSTRUCTION_AND_FIELD_WRITE_PROVENANCE",
+  "future_ptrace_trace_gate": "NO_GO",
+  "safety": {
+    "phone_touched": false,
+    "adb_used": false,
+    "apex_launched": false,
+    "ptrace_used": false,
+    "active_hw_breakpoint_count": 0,
+    "gameprotector_interference": false,
+    "appdata_touched": false,
+    "apk_modified": false,
+    "obb_modified": false
+  }
+}

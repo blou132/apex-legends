@@ -1,0 +1,12 @@
+{
+  "source": "UNKNOWN_PROTECTED_OR_STATICALLY_OPAQUE_PRELUDE",
+  "source_status": "UNKNOWN",
+  "reachability": "UNKNOWN",
+  "mechanism": "UNKNOWN",
+  "wrapper_chain": [],
+  "indirect_object": "UNKNOWN",
+  "indirect_slot": "UNKNOWN",
+  "indirect_target": "UNKNOWN",
+  "acquired_interface_is_gcloud_dolphin": "PROBABLE",
+  "dead_createdolphin_used_as_source": false
+}

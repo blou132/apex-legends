@@ -1,0 +1,36 @@
+{
+  "owner_field_offset": "0x1f0",
+  "exact_reader_count": 4,
+  "readers": [
+    {
+      "site_ghidra": "0x04812c88",
+      "site_elf": "0x04712c88",
+      "function": "DolphinUpdater::Shutdown",
+      "use": "NULL_TEST_AND_SLOT_0x40"
+    },
+    {
+      "site_ghidra": "0x04812ec4",
+      "site_elf": "0x04712ec4",
+      "function": "DolphinUpdater::Shutdown",
+      "use": "SLOT_0x18_CLEANUP_AND_CLEAR"
+    },
+    {
+      "site_ghidra": "0x05b2f094",
+      "site_elf": "0x05a2f094",
+      "function": "DolphinUpdater::CheckUpdate",
+      "use": "SLOT_0x10_INIT"
+    },
+    {
+      "site_ghidra": "0x05b2f0b4",
+      "site_elf": "0x05a2f0b4",
+      "function": "DolphinUpdater::CheckUpdate",
+      "use": "SLOT_0x28_POST_INIT_SUCCESS"
+    }
+  ],
+  "virtual_slots_used": [
+    "0x10",
+    "0x18",
+    "0x28",
+    "0x40"
+  ]
+}

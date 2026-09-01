@@ -1,0 +1,16 @@
+{
+  "status": "CONFIRMED_IMPORT_IDENTITY",
+  "dynsym_index": 376,
+  "rela_plt_index": 531,
+  "rela_plt_file_offset": "0x34e0",
+  "relocation_type": 1026,
+  "relocation_name": "R_AARCH64_JUMP_SLOT",
+  "plt_elf": "0x0a3c1910",
+  "got_elf": "0x0b37e8d8",
+  "plt_words": [
+    "0xb0007df0",
+    "0xf9446e11",
+    "0x91236210",
+    "0xd61f0220"
+  ]
+}

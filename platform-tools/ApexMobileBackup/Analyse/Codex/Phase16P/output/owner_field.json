@@ -1,0 +1,15 @@
+{
+  "owner": {
+    "value": "DolphinUpdater",
+    "status": "PROBABLE"
+  },
+  "field_offset": "0x1f0",
+  "field_role": "PERSISTENT_DOLPHIN_INTERFACE",
+  "field_role_status": "CONFIRMED",
+  "proven_write_count": 1,
+  "proven_non_null_writer_count": 0,
+  "clear_site_ghidra": "0x04812ee0",
+  "clear_site_elf": "0x04712ee0",
+  "cleared_after_lifecycle_cleanup": true,
+  "exact_release_dolphin_call_precedes_clear": false
+}

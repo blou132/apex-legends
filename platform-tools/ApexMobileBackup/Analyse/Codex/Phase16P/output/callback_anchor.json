@@ -1,0 +1,8 @@
+{
+  "status": "CONFIRMED",
+  "function_ghidra": "0x080f87d0",
+  "identifier": "DolphinCallback::OnDolphinFirstExtractSuccess",
+  "source_basename": "DolphinUpdaterCallback.cpp",
+  "owner_field_offset": "0x08",
+  "owner_load_confirmed": true
+}

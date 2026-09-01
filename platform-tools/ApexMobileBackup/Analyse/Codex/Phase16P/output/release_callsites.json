@@ -1,0 +1,14 @@
+{
+  "target_plt_elf": "0x0a3c1910",
+  "scan": "EXACT_ALIGNED_AARCH64_B_BL_TARGET",
+  "direct_callsite_count": 0,
+  "reachable_callsite_count": 0,
+  "argument_sources": [],
+  "adjacent_shutdown_call": {
+    "site_ghidra": "0x04812edc",
+    "site_elf": "0x04712edc",
+    "physical_target_elf": "0x0a3c1900",
+    "physical_symbol": "DolphinHelper::GetCurApkPath",
+    "is_release_dolphin": false
+  }
+}

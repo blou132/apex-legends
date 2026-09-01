@@ -1,0 +1,18 @@
+{
+  "callback_table_ghidra": "0x0af55170",
+  "callback_table_elf": "0x0ae55170",
+  "table_confidence": "HIGH",
+  "initializer_ghidra": "0x0a2a403c",
+  "constructor": "UNKNOWN",
+  "minimum_object_size": "0x10",
+  "owner_field_offset": "0x08",
+  "owner_initial_value": "NULL",
+  "proven_write_count": 1,
+  "proven_non_null_writer_count": 0,
+  "owner_module": "libUE4.so",
+  "owner_class": {
+    "value": "DolphinUpdater",
+    "status": "PROBABLE"
+  },
+  "owner_vtable": "UNKNOWN"
+}

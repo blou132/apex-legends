@@ -1,0 +1,19 @@
+{
+  "proven": true,
+  "caller": "DolphinUpdater::CheckUpdate / protected FUN_05b2eb00 region",
+  "field_load_site_ghidra": "0x05b2f094",
+  "field_load_site_elf": "0x05a2f094",
+  "call_site_ghidra": "0x05b2f0ac",
+  "call_site_elf": "0x05a2f0ac",
+  "slot_offset": "0x10",
+  "known_abi_target": "GCloudDolphinImp::Init / FUN_005458a0",
+  "dynamic_target_status": "PROBABLE",
+  "arguments": {
+    "x0": "DolphinUpdater+0x1f0",
+    "x1": "SP+0x680",
+    "x2": "SP+0x280",
+    "x3": "X21_OPAQUE",
+    "x4": "NULL",
+    "x5": "DolphinUpdater+0x1f8"
+  }
+}
