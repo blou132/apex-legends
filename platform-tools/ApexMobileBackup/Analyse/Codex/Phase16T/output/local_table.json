@@ -1,0 +1,20 @@
+{
+  "window_start_elf": "0x0ae56600",
+  "window_end_elf": "0x0ae56b00",
+  "cell_size": 8,
+  "cell_count": 160,
+  "local_relocation_count": 145,
+  "full_raw_map": "LOCAL_ONLY",
+  "decisive_runs": [
+    {
+      "start_elf": "0x0ae56608",
+      "end_elf": "0x0ae56898",
+      "classification": "EXECUTABLE_POINTER_RUN"
+    },
+    {
+      "start_elf": "0x0ae568b0",
+      "end_elf": "0x0ae56900",
+      "classification": "EXECUTABLE_POINTER_RUN"
+    }
+  ]
+}

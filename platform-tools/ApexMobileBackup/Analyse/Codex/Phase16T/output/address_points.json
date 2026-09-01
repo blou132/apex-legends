@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "elf": "0x0ae56608",
+    "ghidra": "0x0af56608",
+    "confidence": "PROBABLE"
+  },
+  "secondary": [
+    {
+      "elf": "0x0ae568b0",
+      "ghidra": "0x0af568b0",
+      "confidence": "CONFIRMED",
+      "offset_to_top": "-0x28"
+    }
+  ],
+  "exact_code_reference_count": 0,
+  "elf_reference_checks": ["ADR", "ADRP_ADD"],
+  "ghidra_reference_manager_count": 0
+}

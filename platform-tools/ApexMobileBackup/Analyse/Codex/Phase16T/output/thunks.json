@@ -1,0 +1,20 @@
+{
+  "group_thunk_count": 2,
+  "final_target_count": 2,
+  "adjustor_thunks": [
+    {
+      "entry_target_elf": "0x04712c64",
+      "this_adjustment": "-0x28",
+      "instructions": ["sub x0,x0,#0x28", "b 0x04712c6c"],
+      "final_target_elf": "0x04712c6c",
+      "final_target_identity": "DolphinUpdater::Shutdown"
+    }
+  ],
+  "plt_thunks": [
+    {
+      "group": "PRIMARY",
+      "entry_index_one_based": 75,
+      "final_target": "EXTERNAL_UNRESOLVED"
+    }
+  ]
+}

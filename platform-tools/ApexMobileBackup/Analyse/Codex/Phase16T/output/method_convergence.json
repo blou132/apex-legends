@@ -1,0 +1,11 @@
+{
+  "thunk_to_onnotice": false,
+  "thunk_to_firstextract_owner": false,
+  "thunk_to_shutdown": true,
+  "thunk_to_checkupdate": false,
+  "new_owner_method_anchors": [],
+  "known_shutdown_anchor_reobserved": true,
+  "group_evidence_count": 2,
+  "group_ownership": "PROBABLE",
+  "class_identity": "PROBABLE"
+}

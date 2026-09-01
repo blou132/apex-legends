@@ -1,0 +1,10 @@
+{
+  "local_control_valid": true,
+  "control_header_elf": "0x0ae56908",
+  "control_offset_to_top": "0",
+  "control_typeinfo": "0",
+  "control_address_point_elf": "0x0ae56918",
+  "control_entry_count_before_next_boundary": 3,
+  "zero_typeinfo_common_locally": true,
+  "phase16s_direct_pointer_failure_reason": "ONLY_SHUTDOWN_IS_VIRTUAL"
+}

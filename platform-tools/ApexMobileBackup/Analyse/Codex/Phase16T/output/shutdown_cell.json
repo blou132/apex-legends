@@ -1,0 +1,14 @@
+{
+  "cell_elf": "0x0ae56888",
+  "cell_ghidra": "0x0af56888",
+  "section": ".data.rel.ro",
+  "raw_cell_bytes": "0000000000000000",
+  "relocation_section": ".rela.dyn",
+  "relocation_type": 1027,
+  "relocation_name": "R_AARCH64_RELATIVE",
+  "symbol_index": 0,
+  "addend_elf": "0x04712c6c",
+  "applied_target_ghidra": "0x04812c6c",
+  "method": "DolphinUpdater::Shutdown",
+  "valid": true
+}

@@ -1,0 +1,8 @@
+{
+  "virtual_pointer_store_count": 0,
+  "store_site": "UNKNOWN",
+  "object_base_register": "UNKNOWN",
+  "object_offset": "UNKNOWN",
+  "secondary_offset_matches_offset_to_top": "UNKNOWN",
+  "reason": "NO_EXACT_ADDRESS_POINT_CODE_REFERENCE"
+}

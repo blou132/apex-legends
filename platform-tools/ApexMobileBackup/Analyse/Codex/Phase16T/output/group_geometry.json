@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "group_start": "UNKNOWN_BEFORE_AUTHORIZED_WINDOW",
+    "address_point_elf": "0x0ae56608",
+    "confidence": "PROBABLE",
+    "entry_count": 83,
+    "shutdown_entry_index_one_based": 81,
+    "shutdown_slot_relative_offset": "+0x280"
+  },
+  "secondary": {
+    "header_elf": "0x0ae568a0",
+    "offset_to_top": "-0x28",
+    "address_point_elf": "0x0ae568b0",
+    "confidence": "CONFIRMED",
+    "entry_count": 11,
+    "next_boundary_elf": "0x0ae56908"
+  }
+}

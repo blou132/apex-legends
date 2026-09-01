@@ -1,0 +1,14 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {"header_elf": "0x0ae568a0", "offset_to_top": "-0x28", "typeinfo": "0", "address_point_elf": "0x0ae568b0"},
+    {"header_elf": "0x0ae56908", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae56918"},
+    {"header_elf": "0x0ae56930", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae56940"},
+    {"header_elf": "0x0ae56958", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae56968"},
+    {"header_elf": "0x0ae56988", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae56998"},
+    {"header_elf": "0x0ae569b0", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae569c0"},
+    {"header_elf": "0x0ae569d8", "offset_to_top": "0", "typeinfo": "0", "address_point_elf": "0x0ae569e8"}
+  ],
+  "negative_0x28_compatible": true,
+  "zero_typeinfo_position_compatible": true
+}

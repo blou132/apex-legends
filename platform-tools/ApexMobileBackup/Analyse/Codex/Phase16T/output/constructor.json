@@ -1,0 +1,8 @@
+{
+  "construction_function": "UNKNOWN",
+  "construction_class": "UNKNOWN",
+  "owner_vptr_write_set": [],
+  "construction_caller_count": "0_PROVEN",
+  "allocation_model": "UNKNOWN",
+  "construction_establishes_dolphin_interface": "UNKNOWN"
+}

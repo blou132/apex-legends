@@ -1,0 +1,9 @@
+{
+  "constructor_plus_0x45_value": "UNKNOWN",
+  "constructor_plus_0x1f0_value": "UNKNOWN",
+  "constructor_plus_0x1f8_value": "UNKNOWN",
+  "callback_table_written_during_owner_construction": "UNKNOWN",
+  "callback_subobject_offset": "UNKNOWN",
+  "callback_owner_backpointer_proven": false,
+  "new_plus1f0_provenance_route": false
+}

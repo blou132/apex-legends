@@ -1,0 +1,16 @@
+{
+  "scope": "RECOVERED_PRIMARY_AND_SECONDARY_GROUPS_ONLY",
+  "total": 94,
+  "classification_counts": {
+    "NORMAL_FUNCTION": 24,
+    "GENERIC_UNKNOWN": 68,
+    "ADJUSTOR_THUNK": 1,
+    "PLT_THUNK": 1,
+    "TAIL_THUNK": 0,
+    "PURE_VIRTUAL_STUB": 0,
+    "DESTRUCTOR_LIKE": 0
+  },
+  "primary_count": 83,
+  "secondary_count": 11,
+  "raw_entry_map": "LOCAL_ONLY"
+}
