@@ -1,0 +1,12 @@
+{
+  "consumer_function": "FUN_080bf050",
+  "consumer_identity": "SkipAppUpdate",
+  "selected_entry_source": "VALUE_PLUS_0X08_FROM_SELECTED_24_BYTE_COLLECTION_ELEMENT_AT_[ARG0_PLUS_0X168]_PLUS_0XE8_PLUS_0X10",
+  "owner_field_offset": "0x38",
+  "owner_load_elf": "0x07fbf118",
+  "write_count": 0,
+  "write_classes": [],
+  "assignment_site": "UNKNOWN",
+  "assignment_function": "UNKNOWN",
+  "value_source": "UNKNOWN"
+}

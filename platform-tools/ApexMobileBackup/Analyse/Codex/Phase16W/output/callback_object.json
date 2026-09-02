@@ -1,0 +1,10 @@
+{
+  "base_source": "[DolphinUpdater+0x1f8]",
+  "storage_model": "OWNER_FIELD_POINTER",
+  "known_table_ghidra": "0x0af55170",
+  "known_table_elf": "0x0ae55170",
+  "concrete_table_installation_proven": false,
+  "table_installation_site": "CLASS_INITIALIZER_ONLY_ELF_0x0a1a403c_NOT_CONNECTED_TO_CONCRETE_INSTANCE",
+  "is_dolphin_callback": "PROBABLE",
+  "provider_abi_match": "CONFIRMED"
+}

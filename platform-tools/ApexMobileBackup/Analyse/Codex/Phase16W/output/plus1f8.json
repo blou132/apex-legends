@@ -1,0 +1,11 @@
+{
+  "relation": "CALLBACK_POINTER_CONFIRMED",
+  "readers": [
+    {"site_elf": "0x04712cb4", "use": "shutdown conditional read"},
+    {"site_elf": "0x04712ee8", "use": "virtual cleanup slot +0x08"},
+    {"site_elf": "0x05a2f094", "use": "Init callback argument X5"}
+  ],
+  "clear_site_elf": "0x04712f00",
+  "nonnull_writer": "UNKNOWN_OPAQUE_PRELUDE",
+  "value_source": "UNKNOWN"
+}

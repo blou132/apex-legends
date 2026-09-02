@@ -1,0 +1,14 @@
+{
+  "callsite_elf": "0x05a2f0ac",
+  "slot": "+0x10",
+  "valid": true,
+  "register_sources": {
+    "x0": "[DolphinUpdater+0x1f0]",
+    "x1": "SP+0x680",
+    "x2": "SP+0x280",
+    "x3": "X21_FROM_OPAQUE_PREFIX",
+    "x4": "MODE_DEPENDENT_NULL_ON_OBSERVED_PATH",
+    "x5": "[DolphinUpdater+0x1f8]"
+  },
+  "callback_source": "OWNER_PLUS_0X1F8"
+}

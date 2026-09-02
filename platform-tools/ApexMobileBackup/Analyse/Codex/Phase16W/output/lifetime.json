@@ -1,0 +1,11 @@
+{
+  "order": [
+    "OWNER_EXISTS",
+    "CALLBACK_POINTER_PLUS_0X1F8_NON_NULL_BEFORE_INIT",
+    "DOLPHIN_INTERFACE_PLUS_0X1F0_NON_NULL_BEFORE_INIT",
+    "PROVIDER_PERSISTS_CALLBACK",
+    "CHECKUPDATE_CONTINUES"
+  ],
+  "assignment_order": "OPAQUE",
+  "new_plus_0x1f0_route": false
+}

@@ -1,0 +1,8 @@
+{
+  "provider_register": "X5",
+  "confidence": "CONFIRMED",
+  "null_test_ghidra": "0x00545904",
+  "persistent_store_ghidra": "0x00545980",
+  "provider_storage": "+0x10",
+  "persisted_or_dispatched": true
+}

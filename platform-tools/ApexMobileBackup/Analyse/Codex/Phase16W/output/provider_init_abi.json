@@ -1,0 +1,21 @@
+{
+  "function": "FUN_005458a0",
+  "range_ghidra_inclusive": "0x005458a0..0x00547c4f",
+  "vtable": "0x00979620",
+  "init_slot": "+0x10",
+  "init_cell": "0x00979630",
+  "slot_valid": true,
+  "argument_use_map": {
+    "x0": "provider this; preserved; bases +0x10 and +0x18",
+    "x1": "configuration; copied to x26 and null-tested",
+    "x2": "path/input; copied to x19 and null-tested",
+    "x3": "auxiliary input preserved in d8",
+    "x4": "optional input preserved in x27",
+    "x5": "callback; null-tested and stored at provider+0x10",
+    "x6": "unused before overwrite",
+    "x7": "unused before overwrite"
+  },
+  "config_argument": "X1",
+  "path_argument": "X2",
+  "update_type_source": "X1_CONFIG_PLUS_0x04"
+}

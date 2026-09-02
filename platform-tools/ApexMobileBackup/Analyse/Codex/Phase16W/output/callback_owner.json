@@ -1,0 +1,8 @@
+{
+  "nonnull_write_site": "UNKNOWN",
+  "nonnull_write_function": "UNKNOWN",
+  "nonnull_write_reachable": false,
+  "assigned_value_source": "UNKNOWN",
+  "equals_dolphinupdater_this": "UNKNOWN",
+  "current_blocker": "NON_NULL_ASSIGNMENT_BEFORE_READABLE_FRONTIER"
+}

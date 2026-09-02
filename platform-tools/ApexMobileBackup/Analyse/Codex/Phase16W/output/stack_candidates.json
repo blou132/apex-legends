@@ -1,0 +1,16 @@
+{
+  "selected_callback_register": "X5",
+  "sp_plus_0x680": {
+    "selected": false,
+    "construction": "NOT_SELECTED",
+    "table": "NOT_APPLICABLE",
+    "plus_0x08": "NOT_APPLICABLE"
+  },
+  "sp_plus_0x280": {
+    "selected": false,
+    "construction": "NOT_SELECTED",
+    "table": "NOT_APPLICABLE",
+    "plus_0x08": "NOT_APPLICABLE"
+  },
+  "static_frontier": "OPAQUE_PRELUDE"
+}
