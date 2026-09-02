@@ -1,0 +1,20 @@
+{
+  "target_page_elf": "0x0ae56000",
+  "group_range_start_elf": "0x0ae565f8",
+  "group_range_end_elf_exclusive": "0x0ae56908",
+  "group_page_adrp_count": 8,
+  "bounded_instruction_limit": 12,
+  "rejected_effective_addresses_elf": [
+    "0x0ae560b8",
+    "0x0ae569e8",
+    "0x0ae56c90",
+    "0x0ae56ca8",
+    "0x0ae56f68",
+    "0x0ae56fd0"
+  ],
+  "group_range_construction_count": 0,
+  "indirect_primary_ap_construction_count": 0,
+  "indirect_secondary_ap_construction_count": 0,
+  "group_relative_vptr_store_count": 0,
+  "raw_sites": "LOCAL_ONLY"
+}

@@ -1,0 +1,13 @@
+{
+  "window_start_elf": "0x0ae565c0",
+  "window_end_elf": "0x0ae56620",
+  "offset_to_top_cell_elf": "0x0ae565f8",
+  "offset_to_top_value": 0,
+  "typeinfo_cell_elf": "0x0ae56600",
+  "typeinfo_value": 0,
+  "address_point_elf": "0x0ae56608",
+  "first_entry_target_elf": "0x0800e2b8",
+  "first_entry_relocation": "R_AARCH64_RELATIVE",
+  "confidence": "CONFIRMED",
+  "elf_ghidra_agree": true
+}

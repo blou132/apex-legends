@@ -1,0 +1,7 @@
+{
+  "callback_table_ghidra": "0x0af55170",
+  "callback_table_written": "UNKNOWN",
+  "callback_subobject_offset": "UNKNOWN",
+  "callback_owner_backpointer_proven": false,
+  "reason": "NO_PROVEN_CONSTRUCTION_FUNCTION"
+}

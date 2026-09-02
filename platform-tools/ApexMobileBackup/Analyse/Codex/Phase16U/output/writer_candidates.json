@@ -1,0 +1,11 @@
+{
+  "alias_route_count": 0,
+  "group_relative_route_count": 0,
+  "literal_route_count": 0,
+  "got_data_route_count": 0,
+  "merged_vptr_writer_candidate_count": 0,
+  "secondary_vptr_store_offset": "UNKNOWN",
+  "secondary_vptr_offset_matches_abi": "UNKNOWN",
+  "primary_secondary_same_function": "UNKNOWN",
+  "writer_functions": []
+}

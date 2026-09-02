@@ -1,0 +1,7 @@
+{
+  "alias_count": 0,
+  "cluster_count": 0,
+  "inspection_window_before": "0x80",
+  "inspection_window_after": "0x100",
+  "clusters": []
+}

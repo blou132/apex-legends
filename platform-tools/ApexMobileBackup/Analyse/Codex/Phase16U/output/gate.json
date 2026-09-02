@@ -1,0 +1,19 @@
+{
+  "preflight": "PASS",
+  "libue4_exact_input_valid": true,
+  "ghidra_read_only": true,
+  "primary_address_point_confidence": "CONFIRMED",
+  "current_blocker": "NO_ALIAS_VTT_GROUP_RELATIVE_OR_LITERAL_PROVENANCE_FOR_DOLPHINUPDATER_ADDRESS_POINTS",
+  "next_evidence_axis": "ADDRESS_POINT_WRITER_STATIC_AXIS_EXHAUSTED",
+  "next_step": "PRESERVE_RESULT; REQUIRE_SEPARATELY_AUTHORIZED_NEW_EXACT_STATIC_ANCHOR_OR_DISTINCT_METHODOLOGY",
+  "final_gate": "E ADDRESS_POINT_WRITER_STATIC_AXIS_EXHAUSTED",
+  "future_ptrace_trace_gate": "NO_GO",
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_launched": false,
+  "ptrace_used": false,
+  "active_hardware_breakpoint_count": 0,
+  "gameprotector_interference": false,
+  "appdata_touched": false,
+  "network_used": false
+}

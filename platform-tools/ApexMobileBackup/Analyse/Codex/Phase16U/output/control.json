@@ -1,0 +1,9 @@
+{
+  "control_address_point_elf": "0x0ae56918",
+  "relocation_alias_count": 0,
+  "raw_pointer_hit_count": 0,
+  "target_page_construction_count": 0,
+  "direct_adr_count": 0,
+  "method_control_valid": true,
+  "classification": "VALID_NEGATIVE_CONTROL"
+}

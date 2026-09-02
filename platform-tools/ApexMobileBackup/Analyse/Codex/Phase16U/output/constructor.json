@@ -1,0 +1,10 @@
+{
+  "construction_function": "UNKNOWN",
+  "construction_class": "UNKNOWN",
+  "construction_confidence": "NONE",
+  "class_identity": "PROBABLE",
+  "vtt_parameter": "NONE_PROVEN",
+  "vtt_entry_usage": "NONE_PROVEN",
+  "constructor_caller_count": "0_PROVEN",
+  "allocation_model": "UNKNOWN"
+}

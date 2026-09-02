@@ -1,0 +1,8 @@
+{
+  "alias_code_reference_count": 0,
+  "alias_load_flow_candidates": [],
+  "alias_derived_vptr_store_count": 0,
+  "ap_ldr_literal_count": 0,
+  "ap_got_or_data_indirection_count": 0,
+  "reason": "NO_ALIAS_OR_LITERAL_SOURCE"
+}

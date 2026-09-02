@@ -1,0 +1,10 @@
+{
+  "target_range_start_elf": "0x0ae565f8",
+  "target_range_end_elf_exclusive": "0x0ae56908",
+  "group_target_relocation_count": 0,
+  "primary_ap_alias_count": 0,
+  "secondary_ap_alias_count": 0,
+  "group_internal_alias_count": 0,
+  "ghidra_cross_check_count": 0,
+  "raw_map": "LOCAL_ONLY"
+}
