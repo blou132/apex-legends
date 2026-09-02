@@ -1,0 +1,18 @@
+{
+  "kind": "UCLASS_POINTER_IN_LAZY_GLOBAL_CELL",
+  "identity": "/Script/PureClient.GameUpdateMgr",
+  "package": "/Script/PureClient",
+  "class_name": "GameUpdateMgr",
+  "class_size": "0x60",
+  "class_alignment": "0x08",
+  "confidence": "CONFIRMED",
+  "reference_count_unique_functions": 25,
+  "materialization_sequence_count": 74,
+  "reference_classes": {
+    "lookup": 24,
+    "insert": 0,
+    "remove": 0,
+    "update": 0,
+    "unknown_class_accessor": 1
+  }
+}

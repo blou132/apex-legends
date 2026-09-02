@@ -1,0 +1,12 @@
+{
+  "order": [
+    "CLASS_METADATA_AVAILABLE_BEFORE_LOOKUP",
+    "ENTRY_REGISTRATION_UNKNOWN",
+    "OWNER_ASSIGNMENT_UNKNOWN",
+    "ENTRY_LOOKUP_AND_CLASS_VALIDATION",
+    "OWNER_LOAD_AND_VALIDATION",
+    "CHECKUPDATE_CALL"
+  ],
+  "selected_entry_teardown": "UNKNOWN",
+  "selected_entry_owner_clear": "UNKNOWN"
+}

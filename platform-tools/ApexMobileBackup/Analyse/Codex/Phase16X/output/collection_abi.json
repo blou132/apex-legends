@@ -1,0 +1,8 @@
+{
+  "lookup_helper": "FUN_04214458",
+  "collection_input": "POINTER_TO_SOURCE_REGISTRY",
+  "key_input": "POINTER_TO_UCLASS_POINTER",
+  "return_semantics": "SIGNED_INDEX_IN_0X18_BYTE_ELEMENT_STORAGE",
+  "not_found_value": -1,
+  "bounded_analysis": true
+}

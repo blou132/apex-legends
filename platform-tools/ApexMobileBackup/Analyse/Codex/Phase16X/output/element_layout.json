@@ -1,0 +1,21 @@
+{
+  "element_size": "0x18",
+  "fields": [
+    {
+      "offset": "0x00",
+      "width": 8,
+      "use": "UCLASS_KEY"
+    },
+    {
+      "offset": "0x08",
+      "width": 8,
+      "use": "SELECTED_UOBJECT_POINTER"
+    },
+    {
+      "offset": "0x10",
+      "width": 4,
+      "use": "INTEGER_CHAIN_FIELD_READ_BY_LOOKUP_HELPER"
+    }
+  ],
+  "confidence": "CONFIRMED"
+}

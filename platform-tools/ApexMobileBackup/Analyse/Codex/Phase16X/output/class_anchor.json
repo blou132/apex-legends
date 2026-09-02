@@ -1,0 +1,10 @@
+{
+  "anchor": "UCLASS_/Script/PureClient.GameUpdateMgr",
+  "reference_count_unique_functions": 25,
+  "classifications": {
+    "type_check_or_lookup": 24,
+    "registration_accessor": 1,
+    "construction_proven": 0
+  },
+  "class_accessor": "FUN_081b1348"
+}

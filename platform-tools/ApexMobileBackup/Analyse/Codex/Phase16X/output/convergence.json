@@ -1,0 +1,9 @@
+{
+  "entry_owner_callback_owner_relation": "UNKNOWN",
+  "owner_plus_0x1f8_callback_relation": "CALLBACK_POINTER_CONFIRMED",
+  "registration_function_plus_0x1f8_access": "UNKNOWN",
+  "registration_function_plus_0x1f0_access": "UNKNOWN",
+  "dolphinupdater_class_identity": "PROBABLE",
+  "new_plus_0x1f0_provenance_route": false,
+  "new_plus_0x1f8_provenance_route": false
+}

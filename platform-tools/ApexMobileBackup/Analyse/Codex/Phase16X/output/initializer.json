@@ -1,0 +1,7 @@
+{
+  "selected_entry_initializer": "UNKNOWN",
+  "confidence": "NONE",
+  "class_metadata_callbacks_reached": true,
+  "instance_initializer_proven": false,
+  "boundary": "NON_DISASSEMBLED_DATA_OR_GENERIC_STUBS; PROTECTOR_AXIS_FORBIDDEN"
+}

@@ -1,0 +1,10 @@
+{
+  "assigned_value_source": "UNKNOWN",
+  "udolphinupdater_convergence": "COMPATIBLE_ONLY",
+  "checkupdate_layout_consistent": "YES",
+  "validated_fields": [
+    "0x1f0",
+    "0x44"
+  ],
+  "checkupdate_called": true
+}

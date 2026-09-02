@@ -1,0 +1,11 @@
+{
+  "consumer": "SkipAppUpdate",
+  "consumer_function": "FUN_080bf050",
+  "callsite_ghidra": "0x080bf0b4",
+  "callsite_elf": "0x07fbf0b4",
+  "collection_source": "[[ARG0_PLUS_0X168]_PLUS_0XE8]_PLUS_0X10",
+  "key_source": "LAZY_UCLASS_CELL_FOR_/Script/PureClient.GameUpdateMgr",
+  "helper": "FUN_04214458",
+  "return_semantics": "SIGNED_ELEMENT_INDEX",
+  "not_found": -1
+}

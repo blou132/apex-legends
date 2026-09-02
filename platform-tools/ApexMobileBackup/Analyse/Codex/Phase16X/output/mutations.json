@@ -1,0 +1,10 @@
+{
+  "compatible_source_registry_candidates": 0,
+  "same_collection_mutations": 0,
+  "derived_cache_candidate": {
+    "function": "FUN_04214768",
+    "classification": "REJECTED",
+    "reason": "DIFFERENT_COLLECTION_AND_0X20_BYTE_CACHE_ELEMENT",
+    "source_registry_mutated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase16X",
+  "preflight": "PASS",
+  "exact_input_valid": true,
+  "input_format": "ELF64_LITTLE_ENDIAN",
+  "input_architecture": "AARCH64",
+  "ghidra_read_only": true,
+  "future_ptrace_trace_gate": "NO_GO",
+  "current_blocker": "EXACT_GAMEUPDATEMGR_CLASS_REFERENCES_EXPOSE_LOOKUPS_ONLY; SOURCE_REGISTRY_INSERTION_AND_INSTANCE_INITIALIZER_REMAIN_UNREACHABLE",
+  "next_evidence_axis": "GAMEUPDATEMGR_REGISTRATION_STATIC_AXIS_EXHAUSTED",
+  "next_step": "STOP_BOUNDED_STATIC_ANALYSIS; REQUIRE_A_NEW_INDEPENDENT_REGISTRATION_PRODUCER_ANCHOR",
+  "final_gate": "E GAMEUPDATEMGR_REGISTRATION_STATIC_AXIS_EXHAUSTED",
+  "commit": "Resolve GameUpdateMgr owner registration Phase16X"
+}

@@ -1,0 +1,10 @@
+{
+  "value_field_offset": "0x08",
+  "value_write_site": "UNKNOWN",
+  "value_source_register": "UNKNOWN",
+  "value_source": "UNKNOWN",
+  "class": "/Script/PureClient.GameUpdateMgr_OR_DERIVED",
+  "class_confidence": "CONFIRMED",
+  "class_check_kind": "UNREAL_INHERITANCE_DEPTH_AND_SUPERCLASS_TABLE_CHECK",
+  "semantic_role": "MANAGER_WRAPPER"
+}

@@ -1,0 +1,10 @@
+{
+  "field_offset": "0x38",
+  "consumer_load_ghidra": "0x080bf118",
+  "consumer_load_elf": "0x07fbf118",
+  "write_count_in_proven_paths": 0,
+  "write_classes": [],
+  "non_null_write_site": "UNKNOWN",
+  "non_null_write_function": "UNKNOWN",
+  "non_null_write_reachable": false
+}
