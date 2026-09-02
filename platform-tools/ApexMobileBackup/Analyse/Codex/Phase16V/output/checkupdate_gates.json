@@ -1,0 +1,31 @@
+{
+  "invocation_model": "EVENT_DRIVEN",
+  "runtime_relevance": "LOW",
+  "retained_phase15u_phase16i_exact_marker_match": false,
+  "callers": [
+    {
+      "identity": "UDolphinUpdater::StartUpdate",
+      "callsite_elf": "0x05a87b78",
+      "gates": ["NON_NULL_UPDATE_INPUT_AT_ENTRY", "OWNER_ARGUMENT_EXISTS"],
+      "state_before_call": ["OWNER_PLUS_0x40=1", "OWNER_PLUS_0x44=0"]
+    },
+    {
+      "identity": "UDolphinUpdater::OnSrcUpdateFinished",
+      "callsite_elf": "0x05a897ec",
+      "gates": ["RESULT_PATH", "STRING_COMPARISON_AND_HELPER_ROUTING"],
+      "state_before_call": ["OWNER_PLUS_0x42=0"]
+    },
+    {
+      "identity": "UDolphinUpdater::OnUpdateSuccess",
+      "callsite_elf": "0x05c38300",
+      "gates": ["OWNER_PLUS_0x44_NONZERO"],
+      "state_before_call": ["OWNER_PLUS_0x40=1", "OWNER_PLUS_0x44=0"]
+    },
+    {
+      "identity": "SkipAppUpdate",
+      "callsite_elf": "0x07fbf14c",
+      "gates": ["SELECTED_ENTRY_EXISTS", "OWNER_EXISTS", "OWNER_PLUS_0x1f0_NON_NULL", "OWNER_PLUS_0x44_NONZERO"],
+      "state_before_call": ["OWNER_PLUS_0x40=1", "OWNER_PLUS_0x44=0"]
+    }
+  ]
+}

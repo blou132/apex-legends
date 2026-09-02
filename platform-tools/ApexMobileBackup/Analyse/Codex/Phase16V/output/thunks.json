@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "thunks": [
+    {
+      "entry_elf": "0x04712c64",
+      "target_elf": "0x04712c6c",
+      "method": "DolphinUpdater::Shutdown",
+      "instructions": ["sub x0,x0,#0x28", "b 0x04712c6c"],
+      "this_adjustment": "-0x28",
+      "normalization": "SECONDARY_THIS_TO_TOP_DOLPHINUPDATER"
+    }
+  ],
+  "top_object_normalization_valid": true
+}

@@ -1,0 +1,12 @@
+{
+  "reachable_caller_count": 7,
+  "callers": [
+    {"method": "Shutdown", "ghidra_function": "FUN_04812c64", "entry_elf": "0x04712c64", "identity": "CONFIRMED_ADJUSTOR_THUNK"},
+    {"method": "OnNoticeInstallApk", "ghidra_function": "FUN_080f8754", "entry_elf": "0x07ff8754", "identity": "DolphinCallback::OnDolphinNoticeInstallApk"},
+    {"method": "FirstExtractContinuation", "ghidra_function": "FUN_080f87d0", "entry_elf": "0x07ff87d0", "identity": "DolphinCallback::OnDolphinFirstExtractSuccess"},
+    {"method": "CheckUpdate", "ghidra_function": "FUN_05b85d18", "entry_elf": "0x05a85d18", "identity": "UDolphinUpdater::StartUpdate, AppUpdate"},
+    {"method": "CheckUpdate", "ghidra_function": "FUN_05b89618", "entry_elf": "0x05a89618", "identity": "UDolphinUpdater::OnSrcUpdateFinished"},
+    {"method": "CheckUpdate", "ghidra_function": "FUN_05d38254", "entry_elf": "0x05c38254", "identity": "UDolphinUpdater::OnUpdateSuccess / OnAppUpdateFinished"},
+    {"method": "CheckUpdate", "ghidra_function": "FUN_080bf050", "entry_elf": "0x07fbf050", "identity": "SkipAppUpdate / LuaClientHelper.cpp"}
+  ]
+}

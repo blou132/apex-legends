@@ -1,0 +1,15 @@
+{
+  "normalized_origin_count": 5,
+  "field_backed_origin_count": 2,
+  "origins": [
+    "STARTUPDATE_ARGUMENT_0",
+    "ONSRCUPDATEFINISHED_ARGUMENT_0",
+    "ONUPDATESUCCESS_ARGUMENT_0",
+    "SELECTED_GAMEUPDATEMGR_ENTRY_PLUS_0x38",
+    "DOLPHIN_CALLBACK_PLUS_0x08"
+  ],
+  "checkupdate_shutdown": "UNKNOWN",
+  "onnotice": "SAME_EXACT_STORAGE",
+  "firstextract": "SAME_EXACT_STORAGE",
+  "exact_converged_storage": "DOLPHIN_CALLBACK_PLUS_0x08"
+}

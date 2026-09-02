@@ -1,0 +1,12 @@
+{
+  "object_preexists_checkupdate": "YES",
+  "object_creation_vs_interface_acquisition": "UNKNOWN",
+  "new_plus1f0_provenance_route": "NO",
+  "skipappupdate_read_gate": {
+    "owner_source": "SELECTED_GAMEUPDATEMGR_ENTRY_PLUS_0x38",
+    "field_tested": "+0x1f0",
+    "classification": "READER_GATE_NOT_ACQUISITION_WRITER"
+  },
+  "real_dolphin_init_dispatch_proven": "YES",
+  "dolphin_init_call_site_elf": "0x05a2f0ac"
+}

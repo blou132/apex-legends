@@ -1,0 +1,20 @@
+{
+  "fde_start_elf": "0x05a2eb00",
+  "fde_end_exclusive_elf": "0x05a2fdbc",
+  "target_elf": "0x05a2eb00",
+  "target_class": "OPAQUE_PREFIX",
+  "target_alignment_valid": true,
+  "target_fde_member": true,
+  "target_ghidra_function": "FUN_05b2eb00",
+  "raw_first_16_bytes_hex": "a4fb390a1dd7df64ad66628a3c999609",
+  "raw_decoding": "PROTECTED_OPAQUE_PREFIX",
+  "external_calls": [
+    {"source_elf": "0x05a87b78", "caller_elf": "0x05a85d18", "kind": "BL"},
+    {"source_elf": "0x05a897ec", "caller_elf": "0x05a89618", "kind": "BL"},
+    {"source_elf": "0x05c38300", "caller_elf": "0x05c38254", "kind": "BL"},
+    {"source_elf": "0x07fbf14c", "caller_elf": "0x07fbf050", "kind": "BL"}
+  ],
+  "external_direct_branch_count": 4,
+  "valid_external_callsite_count": 4,
+  "validation": "ALIGNED_EXACT_FDE_START_PROTECTED_ENTRY"
+}

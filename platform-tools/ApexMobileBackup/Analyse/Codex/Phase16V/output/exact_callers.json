@@ -1,0 +1,31 @@
+{
+  "shutdown": [
+    {
+      "source_elf": "0x04712c68",
+      "target_elf": "0x04712c6c",
+      "kind": "B",
+      "caller_ghidra": "FUN_04812c64",
+      "classification": "KNOWN_ADJUSTOR_THUNK"
+    }
+  ],
+  "onnotice": [
+    {
+      "source_elf": "0x07ff87c8",
+      "target_elf": "0x07ff68e8",
+      "kind": "BL",
+      "caller_ghidra": "FUN_080f8754"
+    }
+  ],
+  "firstextract": [
+    {
+      "source_elf": "0x07ff8834",
+      "target_elf": "0x07ff6f04",
+      "kind": "BL",
+      "caller_ghidra": "FUN_080f87d0"
+    }
+  ],
+  "shutdown_direct_branch_count": 1,
+  "shutdown_thunk_branch_count": 0,
+  "onnotice_direct_branch_count": 1,
+  "firstextract_owner_direct_branch_count": 1
+}

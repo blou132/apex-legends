@@ -1,0 +1,7 @@
+{
+  "assignment_site": "UNKNOWN",
+  "assignment_function": "UNKNOWN",
+  "source_register": "UNKNOWN",
+  "pointer_source": "UNKNOWN",
+  "reason": "NO_PROVEN_NON_NULL_WRITE_TO_DOLPHIN_CALLBACK_PLUS_0x08"
+}

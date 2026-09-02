@@ -1,0 +1,9 @@
+{
+  "persistent_storage": "DOLPHIN_CALLBACK_SUBOBJECT_PLUS_0x08",
+  "storage_confidence": "CONFIRMED",
+  "parent_object": "DOLPHIN_CALLBACK_SUBOBJECT",
+  "parent_field": "+0x08",
+  "global_storage": null,
+  "stored_class_semantics": "DolphinUpdater",
+  "stored_class_confidence": "PROBABLE"
+}

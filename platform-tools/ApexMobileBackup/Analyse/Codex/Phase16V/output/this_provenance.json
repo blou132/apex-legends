@@ -1,0 +1,15 @@
+{
+  "shutdown": {
+    "source": "SECONDARY_FUNCTION_ARGUMENT_X0",
+    "normalization": "X0_MINUS_0x28",
+    "external_source": "UNKNOWN"
+  },
+  "checkupdate": [
+    {"callsite_elf": "0x05a87b78", "source": "FUN_05b85d18_ARGUMENT_0_VIA_X19"},
+    {"callsite_elf": "0x05a897ec", "source": "FUN_05b89618_ARGUMENT_0_VIA_X19"},
+    {"callsite_elf": "0x05c38300", "source": "FUN_05d38254_ARGUMENT_0_VIA_STACK"},
+    {"callsite_elf": "0x07fbf14c", "source": "SELECTED_GAMEUPDATEMGR_ENTRY_PLUS_0x38"}
+  ],
+  "onnotice": "DOLPHIN_CALLBACK_PLUS_0x08",
+  "firstextract": "DOLPHIN_CALLBACK_PLUS_0x08"
+}
