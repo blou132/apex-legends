@@ -1,0 +1,156 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "helper": {
+    "ghidra": "0x04763790",
+    "elf": "0x04663790"
+  },
+  "game_callsite": {
+    "ghidra": "0x081b13e8",
+    "elf": "0x080b13e8"
+  },
+  "model": "DIRECT_CLASS_REGISTRATION_ARGUMENTS; SOURCE_VERSION_NOT_ESTABLISHED",
+  "semantic_role_labels": "STRUCTURAL_INTERPRETATION; EXACT_MACHINE_ARGUMENT_VALUES_CONFIRMED",
+  "arguments": [
+    {
+      "location": "x0",
+      "role": "package",
+      "value": "/Script/PureClient",
+      "address": {
+        "ghidra": "0x026b2832",
+        "elf": "0x025b2832"
+      }
+    },
+    {
+      "location": "x1",
+      "role": "class_name",
+      "value": "GameUpdateMgr",
+      "address": {
+        "ghidra": "0x027f2976",
+        "elf": "0x026f2976"
+      }
+    },
+    {
+      "location": "x2",
+      "role": "lazy_uclass_cell",
+      "address": {
+        "ghidra": "0x0b7bec20",
+        "elf": "0x0b6bec20"
+      }
+    },
+    {
+      "location": "x3",
+      "role": "native_registration_callback",
+      "address": {
+        "ghidra": "0x0a2aed54",
+        "elf": "0x0a1aed54"
+      },
+      "classification": "NON_DISASSEMBLED_OR_OPAQUE"
+    },
+    {
+      "location": "w4",
+      "role": "class_size",
+      "value": 96
+    },
+    {
+      "location": "w5",
+      "role": "class_alignment",
+      "value": 8
+    },
+    {
+      "location": "w6",
+      "role": "class_flags",
+      "value": "0x10000000"
+    },
+    {
+      "location": "x7",
+      "role": "cast_flags",
+      "value": 0
+    },
+    {
+      "location": "sp+0x00",
+      "role": "config_like_argument",
+      "address": {
+        "ghidra": "0x025c681e",
+        "elf": "0x024c681e"
+      },
+      "value": "UNKNOWN"
+    },
+    {
+      "location": "sp+0x08",
+      "role": "class_constructor",
+      "address": {
+        "ghidra": "0x081abe34",
+        "elf": "0x080abe34"
+      },
+      "classification": "NON_DISASSEMBLED_OR_OPAQUE"
+    },
+    {
+      "location": "sp+0x10",
+      "role": "vtable_helper",
+      "address": {
+        "ghidra": "0x0a2aed58",
+        "elf": "0x0a1aed58"
+      },
+      "classification": "NON_DISASSEMBLED_OR_OPAQUE"
+    },
+    {
+      "location": "sp+0x18",
+      "role": "add_referenced_objects",
+      "loaded_from": {
+        "ghidra": "0x0b47ce90",
+        "elf": "0x0b37ce90"
+      },
+      "address": {
+        "ghidra": "0x083e660c",
+        "elf": "0x082e660c"
+      },
+      "classification": "GENERIC_ENGINE_STUB"
+    },
+    {
+      "location": "sp+0x20",
+      "role": "superclass_accessor",
+      "address": {
+        "ghidra": "0x07a43ac8",
+        "elf": "0x07943ac8"
+      },
+      "classification": "NORMAL_EXECUTABLE_FUNCTION"
+    },
+    {
+      "location": "sp+0x28",
+      "role": "within_class_accessor",
+      "address": {
+        "ghidra": "0x0647eb28",
+        "elf": "0x0637eb28"
+      },
+      "classification": "NON_DISASSEMBLED_OR_OPAQUE"
+    },
+    {
+      "location": "byte_sp+0x30",
+      "role": "trailing_flag",
+      "value": 0
+    }
+  ],
+  "native_registration_role_proves_table": false,
+  "constructor_safe_to_analyze": false,
+  "constructor_plus38_initial_value": null,
+  "evidence": [
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "FUNCTION_BEGIN GAME_ACCESSOR"
+    },
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "ADDRESS callback classification records"
+    }
+  ],
+  "reports": [
+    "../03_class_registration_abi.md",
+    "../22_generated_callbacks.md",
+    "../23_class_constructor_callback.md"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "class_identity": "/Script/PureClient.GameUpdateMgr",
+  "status": "UNKNOWN",
+  "array": null,
+  "property_count": null,
+  "recovered_entries": [],
+  "recovered_entry_count": 0,
+  "count_semantics": "ZERO_RECOVERED_ENTRIES_IS_NOT_ZERO_PROPERTIES",
+  "property_offset_model_valid": "UNKNOWN",
+  "neighbor_controls_performed": 0,
+  "report": "../07_property_metadata.md"
+}

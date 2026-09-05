@@ -1,0 +1,27 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "standalone_dolphinupdater_uclass": "CONFIRMED",
+  "object_stored_at_game_plus38": "PROBABLE",
+  "evidence_combination": {
+    "propertyclass_equals_dolphin_uclass": "UNKNOWN",
+    "native_registration_to_known_methods": "UNKNOWN",
+    "class_size_covers_known_fields": true,
+    "existing_callback_relation": "CALLBACK_POINTER_CONFIRMED"
+  },
+  "callback_owner_class_interpretation": "PROBABLE_DOLPHINUPDATER",
+  "reflection_checkupdate_model_consistent": "UNKNOWN",
+  "known_field_size_compatible": true,
+  "real_dolphin_init_dispatch_proven": true,
+  "dolphin_init_call_site_elf": "0x05a2f0ac",
+  "prior_reports": [
+    "../../Phase16W/12_owner_plus1f8_relation.md",
+    "../../Phase16X/22_class_identity.md"
+  ],
+  "reports": [
+    "../20_class_identity.md",
+    "../26_model_consistency.md"
+  ]
+}

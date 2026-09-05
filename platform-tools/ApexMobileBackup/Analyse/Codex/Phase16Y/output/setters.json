@@ -1,0 +1,20 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "setter": null,
+  "setter_confidence": "UNKNOWN",
+  "setter_argument_type": null,
+  "setter_property_type_match": "UNKNOWN",
+  "proven_caller_count": 0,
+  "total_caller_count": null,
+  "registered_name_candidates": [],
+  "proven_plus38_writes": [],
+  "limitation": "NO_EXACT_REFLECTED_METHOD_NAME_PROVEN; NO_CANDIDATE_IMPLEMENTATION_ANALYSIS_AUTHORIZED",
+  "reports": [
+    "../16_owner_assignment_function_candidates.md",
+    "../17_reflected_plus38_writes.md",
+    "../24_reflected_setter.md"
+  ]
+}

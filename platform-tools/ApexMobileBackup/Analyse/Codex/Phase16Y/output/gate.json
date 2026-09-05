@@ -1,0 +1,55 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "preflight": "PASS",
+  "starting_head": "e84d08cb1ee23743ad2873b4c900bb3d91feafce",
+  "starting_branch": "main",
+  "starting_worktree_clean": true,
+  "starting_head_equals_origin_main": true,
+  "exact_input_valid": true,
+  "input": {
+    "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase15I/native/libUE4.so",
+    "sha256": "0d45f92c5d0d2805da35f223b8e3d352041943c9c2b2b5c914f0e1a1c1ec2977",
+    "format": "ELF64_LITTLE_ENDIAN",
+    "architecture": "AARCH64"
+  },
+  "ghidra_program_read_only": true,
+  "ghidra_autoanalysis_enabled": false,
+  "local_export_hashes": {
+    "metadata_probe.txt": "a0ea6b1807db05fbe261ceeb9cf68002c9b3eac065da5cb24a25f3c8fcbc29aa",
+    "exact_anchors.txt": "355e84330e4d38cfba9f2724dcb6763d29d1afb8070be80c86af6136220fb0f0"
+  },
+  "raw_outputs_published": false,
+  "execution_scope_compliant": false,
+  "scope_deviations": [
+    "SHARED_PACKAGE_REFERENCES_CAUSED_SURPLUS_FUNCTION_EXPORTS",
+    "SHARED_REGISTRATION_HELPER_REFERENCES_AND_DECOMPILATION_EXPORTED",
+    "OPAQUE_GENERATED_CALLBACKS_SUBMITTED_TO_DECOMPILER"
+  ],
+  "surplus_output_accepted_as_evidence": false,
+  "further_static_expansion_after_review": false,
+  "phone_touched": false,
+  "adb_used": false,
+  "apex_launched": false,
+  "ptrace_used": false,
+  "active_hw_breakpoint_count": 0,
+  "gameprotector_interference": false,
+  "target_appdata_touched": false,
+  "host_ghidra_preference_log_io": true,
+  "analysis_network_used": false,
+  "future_ptrace_trace_gate": "NO_GO",
+  "current_blocker": "NO_RECOVERED_CLASS_PROPERTY_ARRAY_OR_NATIVE_FUNCTION_TABLE; OPAQUE_CALLBACKS; PLUS38_PROPERTYCLASS_SETTER_AND_ASSIGNMENT_PRODUCER_UNKNOWN",
+  "next_evidence_axis": "UNREAL_REFLECTION_OWNER_AXIS_EXHAUSTED",
+  "next_step": "STOP; REQUIRE_NEW_INDEPENDENT_NON_OPAQUE_PROPERTY_OR_ASSIGNMENT_ANCHOR",
+  "final_gate": "E UNREAL_REFLECTION_OWNER_AXIS_EXHAUSTED",
+  "gate_interpretation": "USABLE_OWNER_EVIDENCE_STOP_POINT; NOT_A_SCOPE_COMPLIANCE_CERTIFICATION",
+  "commit_message": "Resolve GameUpdateMgr reflection owner type Phase16Y",
+  "git_status_snapshot": "PRE_COMMIT; ONLY_PHASE16Y_UNTRACKED",
+  "publication": {
+    "authorized": "NORMAL_PUSH_MAIN",
+    "result": "PENDING_AT_REPORT_SNAPSHOT"
+  },
+  "report": "../REPORT_PHASE16Y.md"
+}

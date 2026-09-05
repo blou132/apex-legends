@@ -1,0 +1,62 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "class_identity": "/Script/PureClient.DolphinUpdater",
+  "registration_callback": {
+    "ghidra": "0x0a2aecd0",
+    "elf": "0x0a1aecd0"
+  },
+  "classification": "NON_DISASSEMBLED_OR_OPAQUE",
+  "function_table": null,
+  "native_function_count": null,
+  "recovered_functions": [],
+  "reflection_to_known_method_convergence": "UNKNOWN; NO_NAME_FUNCTION_PAIRS",
+  "known_native_anchors": [
+    {
+      "name": "StartUpdate",
+      "elf": "0x05a85d18"
+    },
+    {
+      "name": "OnSrcUpdateFinished",
+      "elf": "0x05a89618"
+    },
+    {
+      "name": "OnUpdateSuccess",
+      "elf": "0x05c38254"
+    },
+    {
+      "name": "Shutdown",
+      "elf": "0x04712c6c"
+    },
+    {
+      "name": "OnNoticeInstallApk",
+      "elf": "0x07ff68e8"
+    },
+    {
+      "name": "CheckUpdate",
+      "elf_start": "0x05a2eb00",
+      "elf_end_exclusive": "0x05a2fdbc"
+    }
+  ],
+  "known_anchors_status": "INHERITED; NOT_RECOVERED_FROM_REFLECTION",
+  "known_anchor_reports": [
+    "../../Phase16V/REPORT_PHASE16V.md",
+    "../../Phase16W/REPORT_PHASE16W.md",
+    "../../Phase16X/REPORT_PHASE16X.md"
+  ],
+  "opaque_decompilation_attempted": true,
+  "opaque_pseudocode_accepted_as_evidence": false,
+  "evidence": [
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "ADDRESS DOLPHIN_NATIVE_REGISTRATION"
+    }
+  ],
+  "reports": [
+    "../18_dolphinupdater_native_functions.md",
+    "../19_known_method_convergence.md"
+  ]
+}

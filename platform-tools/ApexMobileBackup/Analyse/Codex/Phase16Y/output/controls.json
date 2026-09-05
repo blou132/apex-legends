@@ -1,0 +1,60 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "property_metadata_control_valid": false,
+  "property_control_reason": "NOT_RUN_NO_RECOVERED_SAME_CLASS_PROPERTIES",
+  "neighbor_property_count": 0,
+  "class_registration_control_valid": true,
+  "control_class": "/Script/PureClient.DolphinUpdater",
+  "compiled_in_records": [
+    {
+      "class_name": "DolphinUpdater",
+      "accessor_pointer_slot": {
+        "ghidra": "0x0af686e0",
+        "elf": "0x0ae686e0"
+      },
+      "accessor": {
+        "ghidra": "0x081b12a0",
+        "elf": "0x080b12a0"
+      },
+      "package_getter": {
+        "ghidra": "0x0a2af1e8",
+        "elf": "0x0a1af1e8"
+      }
+    },
+    {
+      "class_name": "GameUpdateMgr",
+      "accessor_pointer_slot": {
+        "ghidra": "0x0af68700",
+        "elf": "0x0ae68700"
+      },
+      "accessor": {
+        "ghidra": "0x081b1348",
+        "elf": "0x080b1348"
+      },
+      "package_getter": {
+        "ghidra": "0x0a2af1f4",
+        "elf": "0x0a1af1f4"
+      }
+    }
+  ],
+  "direct_accessor_arguments_agree": true,
+  "table_contents_prove_property_list": false,
+  "raw_pointers_and_rela_addends_counted_as_same_edge": true,
+  "reference_model_limitations": "FORMAL_REFERENCE_GRAPH_IS_INCOMPLETE; EXACT_ADDRESS_MATERIALIZATIONS_CHECKED_IN_ACCEPTED_ACCESSOR_BODIES",
+  "evidence": [
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "POINTER_HIT / POINTER_WINDOW records for the two target classes"
+    },
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/exact_anchors.txt",
+      "selector": "FUNCTION_BEGIN FUN_0a2af1e8 / FUN_0a2af1f4"
+    }
+  ],
+  "report": "../27_controls.md"
+}

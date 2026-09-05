@@ -1,0 +1,32 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "class_identity": "/Script/PureClient.GameUpdateMgr",
+  "registration_callback": {
+    "ghidra": "0x0a2aed54",
+    "elf": "0x0a1aed54"
+  },
+  "classification": "NON_DISASSEMBLED_OR_OPAQUE",
+  "function_table": null,
+  "native_function_count": null,
+  "recovered_functions": [],
+  "registered_names_known": false,
+  "owner_assignment_candidates": [],
+  "candidate_plus38_access_count": 0,
+  "count_semantics": "PROVEN_CANDIDATES_ONLY; TOTAL_NATIVE_FUNCTION_COUNT_UNKNOWN",
+  "opaque_decompilation_attempted": true,
+  "opaque_pseudocode_accepted_as_evidence": false,
+  "evidence": [
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "ADDRESS GAME_NATIVE_REGISTRATION"
+    }
+  ],
+  "reports": [
+    "../15_gameupdatemgr_native_functions.md",
+    "../16_owner_assignment_function_candidates.md"
+  ]
+}

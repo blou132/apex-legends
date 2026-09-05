@@ -1,0 +1,94 @@
+{
+  "phase": "Phase16Y",
+  "schema_version": 1,
+  "address_model": "GHIDRA = ELF_VIRTUAL_ADDRESS + 0x100000",
+  "scope_review": "../30_boundary.md",
+  "standalone_uclass_identity": "/Script/PureClient.DolphinUpdater",
+  "standalone_uclass_confidence": "CONFIRMED",
+  "full_contiguous_script_literal_found": false,
+  "raw_exact_term_occurrences": {
+    "ascii": 2,
+    "utf16le": 73,
+    "semantics": "SUBSTRING_OCCURRENCES_NOT_UNREAL_CLASS_COUNT"
+  },
+  "unique_registration_literal_count": 1,
+  "accessor_materialization_count": 2,
+  "storage_literal": "UDolphinUpdater",
+  "registration_name": "DolphinUpdater",
+  "package": "/Script/PureClient",
+  "class_argument_literal": {
+    "ghidra": "0x027348a4",
+    "elf": "0x026348a4"
+  },
+  "primary_accessor": {
+    "ghidra": "0x081b12a0",
+    "elf": "0x080b12a0"
+  },
+  "alias_accessor": {
+    "ghidra": "0x05748b40",
+    "elf": "0x05648b40"
+  },
+  "primary_callsite": {
+    "ghidra": "0x081b133c",
+    "elf": "0x080b133c"
+  },
+  "alias_callsite": {
+    "ghidra": "0x05748bdc",
+    "elf": "0x05648bdc"
+  },
+  "uclass_cell": {
+    "ghidra": "0x0b7bebe0",
+    "elf": "0x0b6bebe0"
+  },
+  "class_size_bytes": 1072,
+  "class_size_hex": "0x430",
+  "alignment_bytes": 8,
+  "class_flags": "0x10000004",
+  "native_registration_callback": {
+    "ghidra": "0x0a2aecd0",
+    "elf": "0x0a1aecd0"
+  },
+  "constructor_callback": {
+    "ghidra": "0x081ab928",
+    "elf": "0x080ab928"
+  },
+  "vtable_helper": {
+    "ghidra": "0x0a2aed4c",
+    "elf": "0x0a1aed4c"
+  },
+  "superclass": {
+    "accessor": {
+      "ghidra": "0x06303f78",
+      "elf": "0x06203f78"
+    },
+    "exact_identity": null,
+    "confidence": "UNKNOWN",
+    "reason": "LITERAL_NOT_READABLE; NO_DECODING_ATTEMPT"
+  },
+  "highest_known_field_offset": "0x1f8",
+  "known_pointer_field_end_exclusive": "0x200",
+  "layout_size_compatible": true,
+  "specific_owner_at_game_plus38_identity": "PROBABLE",
+  "evidence": [
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "UTF16 DOLPHIN_CLASS"
+    },
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "FUNCTION_BEGIN DOLPHIN_ACCESSOR_PRIMARY"
+    },
+    {
+      "visibility": "LOCAL_ONLY",
+      "path": "platform-tools/ApexMobileBackup/Analyse/LocalInputs/Phase16Y/metadata_probe.txt",
+      "selector": "FUNCTION_BEGIN DOLPHIN_ACCESSOR_ALIAS"
+    }
+  ],
+  "reports": [
+    "../11_dolphinupdater_class_literal.md",
+    "../12_dolphinupdater_accessor.md",
+    "../13_dolphinupdater_class_metadata.md"
+  ]
+}
